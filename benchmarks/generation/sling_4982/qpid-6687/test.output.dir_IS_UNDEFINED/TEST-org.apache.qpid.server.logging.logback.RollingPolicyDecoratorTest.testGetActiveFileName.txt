@@ -1,0 +1,4 @@
+2016-01-19 15:20:54,374 INFO  [main] o.a.q.t.u.QpidTestCase ========== start RollingPolicyDecoratorTest.testGetActiveFileName ==========
+2016-01-19 15:20:54,375 INFO  [main] o.a.q.t.u.QpidTestCase ========== run RollingPolicyDecoratorTest.testGetActiveFileName ==========
+2016-01-19 15:20:54,375 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown RollingPolicyDecoratorTest.testGetActiveFileName ==========
+2016-01-19 15:20:54,375 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

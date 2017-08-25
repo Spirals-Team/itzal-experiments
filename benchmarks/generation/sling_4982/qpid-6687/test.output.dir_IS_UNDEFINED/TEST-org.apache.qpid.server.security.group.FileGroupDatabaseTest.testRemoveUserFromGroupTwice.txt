@@ -1,0 +1,4 @@
+2016-01-19 15:12:58,474 INFO  [main] o.a.q.t.u.QpidTestCase ========== start FileGroupDatabaseTest.testRemoveUserFromGroupTwice ==========
+2016-01-19 15:12:58,475 INFO  [main] o.a.q.t.u.QpidTestCase ========== run FileGroupDatabaseTest.testRemoveUserFromGroupTwice ==========
+2016-01-19 15:12:58,478 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown FileGroupDatabaseTest.testRemoveUserFromGroupTwice ==========
+2016-01-19 15:12:58,479 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

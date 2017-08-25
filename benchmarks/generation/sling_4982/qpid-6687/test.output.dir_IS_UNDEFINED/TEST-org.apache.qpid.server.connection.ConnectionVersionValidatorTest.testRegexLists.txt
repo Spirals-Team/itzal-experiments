@@ -1,0 +1,4 @@
+2016-01-19 15:20:51,294 INFO  [main] o.a.q.t.u.QpidTestCase ========== start ConnectionVersionValidatorTest.testRegexLists ==========
+2016-01-19 15:20:51,295 INFO  [main] o.a.q.t.u.QpidTestCase ========== run ConnectionVersionValidatorTest.testRegexLists ==========
+2016-01-19 15:20:51,297 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown ConnectionVersionValidatorTest.testRegexLists ==========
+2016-01-19 15:20:51,297 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

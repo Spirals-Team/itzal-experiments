@@ -1,0 +1,11 @@
+2016-01-19 15:36:53,267 INFO  [main] o.a.q.t.u.QpidTestCase ========== start TaskExecutorTest.testSubmitAndWaitInNotAuthorizedContext ==========
+2016-01-19 15:36:53,268 INFO  [main] o.a.q.t.u.QpidTestCase ========== run TaskExecutorTest.testSubmitAndWaitInNotAuthorizedContext ==========
+2016-01-19 15:36:53,269 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Starting task executor Broker-Config
+2016-01-19 15:36:53,269 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Task executor is started
+2016-01-19 15:36:53,269 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Submitting task org.apache.qpid.server.configuration.updater.TaskExecutorTest$SubjectRetriever@68e965f5 to executor Broker-Config
+2016-01-19 15:36:53,272 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Performing task org.apache.qpid.server.configuration.updater.TaskExecutorTest$SubjectRetriever@68e965f5
+2016-01-19 15:36:53,272 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Task org.apache.qpid.server.configuration.updater.TaskExecutorTest$SubjectRetriever@68e965f5 is performed successfully with result: null
+2016-01-19 15:36:53,272 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Stopping task executor Broker-Config immediately
+2016-01-19 15:36:53,272 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Task executor was stopped immediately. Number of unfinished tasks: 0
+2016-01-19 15:36:53,272 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown TaskExecutorTest.testSubmitAndWaitInNotAuthorizedContext ==========
+2016-01-19 15:36:53,273 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

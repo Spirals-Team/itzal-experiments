@@ -1,0 +1,4 @@
+2016-01-19 15:20:30,829 INFO  [main] o.a.q.t.u.QpidTestCase ========== start UnitTestMessageLoggerTest.testRawMessageWithThrowable ==========
+2016-01-19 15:20:30,831 INFO  [main] o.a.q.t.u.QpidTestCase ========== run UnitTestMessageLoggerTest.testRawMessageWithThrowable ==========
+2016-01-19 15:20:30,831 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown UnitTestMessageLoggerTest.testRawMessageWithThrowable ==========
+2016-01-19 15:20:30,831 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

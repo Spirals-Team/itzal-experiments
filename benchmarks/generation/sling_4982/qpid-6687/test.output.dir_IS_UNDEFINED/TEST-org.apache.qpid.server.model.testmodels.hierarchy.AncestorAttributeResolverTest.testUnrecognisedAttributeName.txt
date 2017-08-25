@@ -1,0 +1,4 @@
+2016-01-19 15:20:54,349 INFO  [main] o.a.q.t.u.QpidTestCase ========== start AncestorAttributeResolverTest.testUnrecognisedAttributeName ==========
+2016-01-19 15:20:54,350 INFO  [main] o.a.q.t.u.QpidTestCase ========== run AncestorAttributeResolverTest.testUnrecognisedAttributeName ==========
+2016-01-19 15:20:54,350 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown AncestorAttributeResolverTest.testUnrecognisedAttributeName ==========
+2016-01-19 15:20:54,350 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

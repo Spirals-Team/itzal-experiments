@@ -1,0 +1,11 @@
+2016-01-19 15:34:29,914 INFO  [main] o.a.q.t.u.QpidTestCase ========== start VirtualHostTest.testDeleteVirtualHost_ClosesConnections ==========
+2016-01-19 15:34:29,916 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:34:29,917 INFO  [main] o.a.q.t.u.QpidTestCase ========== run VirtualHostTest.testDeleteVirtualHost_ClosesConnections ==========
+2016-01-19 15:34:29,955 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 2 implementations of interface org.apache.qpid.server.plugin.SystemNodeCreator
+2016-01-19 15:34:29,956 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 1 implementations of interface org.apache.qpid.server.plugin.ConnectionValidator
+2016-01-19 15:34:30,003 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing TestMemoryVirtualHost : testDeleteVirtualHost_ClosesConnections
+2016-01-19 15:34:30,003 DEBUG [main] o.a.q.s.v.AbstractVirtualHost Closing connection registry :1 connections.
+2016-01-19 15:34:30,004 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing TestMemoryVirtualHost : testDeleteVirtualHost_ClosesConnections
+2016-01-19 15:34:30,005 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed TestMemoryVirtualHost : testDeleteVirtualHost_ClosesConnections
+2016-01-19 15:34:30,005 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown VirtualHostTest.testDeleteVirtualHost_ClosesConnections ==========
+2016-01-19 15:34:30,005 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

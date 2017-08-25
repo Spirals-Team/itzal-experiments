@@ -1,0 +1,3 @@
+2016-01-19 15:20:56,762 INFO  [main] o.a.q.t.u.QpidTestCase ========== run ConsumerListTest.testRemoveWithNullMarkedNode ==========
+2016-01-19 15:20:56,765 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown ConsumerListTest.testRemoveWithNullMarkedNode ==========
+2016-01-19 15:20:56,765 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

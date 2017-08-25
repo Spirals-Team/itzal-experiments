@@ -1,0 +1,38 @@
+2016-01-19 15:19:25,909 INFO  [main] o.a.q.t.u.QpidTestCase ========== start HeadersExchangeTest.testWithSelectors ==========
+2016-01-19 15:19:25,930 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:19:25,934 INFO  [main] o.a.q.t.u.QpidTestCase ========== run HeadersExchangeTest.testWithSelectors ==========
+2016-01-19 15:19:25,965 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: Binding null with binding key 'q1' and args: {F=null}
+2016-01-19 15:19:26,005 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: Binding null with binding key 'q1select' and args: {F=null, x-filter-jms-selector=F='1'}
+2016-01-19 15:19:26,006 WARN  [main] o.a.q.s.e.HeadersBinding Ignoring special header: x-filter-jms-selector
+2016-01-19 15:19:26,012 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: Binding null with binding key 'q2' and args: {F=1}
+2016-01-19 15:19:26,013 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: routing message with headers Mock for AMQMessageHeader, hashCode: 769530879
+2016-01-19 15:19:26,015 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: delivering message with headers Mock for AMQMessageHeader, hashCode: 769530879 to null
+2016-01-19 15:19:26,017 DEBUG [main] o.a.q.s.f.JMSSelectorFilter org.apache.qpid.server.filter.Filterable$Factory$1 [messageNumber=0] match(false) selector(364639279):F='1'
+2016-01-19 15:19:26,020 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: routing message with headers Mock for AMQMessageHeader, hashCode: 1427040229
+2016-01-19 15:19:26,021 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: delivering message with headers Mock for AMQMessageHeader, hashCode: 1427040229 to null
+2016-01-19 15:19:26,021 DEBUG [main] o.a.q.s.f.JMSSelectorFilter org.apache.qpid.server.filter.Filterable$Factory$1 [messageNumber=0] match(true) selector(364639279):F='1'
+2016-01-19 15:19:26,021 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: delivering message with headers Mock for AMQMessageHeader, hashCode: 1427040229 to null
+2016-01-19 15:19:26,022 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: delivering message with headers Mock for AMQMessageHeader, hashCode: 1427040229 to null
+2016-01-19 15:19:26,029 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: Binding null with binding key 'q3select' and args: {F=null, x-filter-jms-selector=F='1'}
+2016-01-19 15:19:26,029 WARN  [main] o.a.q.s.e.HeadersBinding Ignoring special header: x-filter-jms-selector
+2016-01-19 15:19:26,030 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: routing message with headers Mock for AMQMessageHeader, hashCode: 38262958
+2016-01-19 15:19:26,031 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: delivering message with headers Mock for AMQMessageHeader, hashCode: 38262958 to null
+2016-01-19 15:19:26,031 DEBUG [main] o.a.q.s.f.JMSSelectorFilter org.apache.qpid.server.filter.Filterable$Factory$1 [messageNumber=0] match(true) selector(364639279):F='1'
+2016-01-19 15:19:26,032 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: delivering message with headers Mock for AMQMessageHeader, hashCode: 38262958 to null
+2016-01-19 15:19:26,033 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: delivering message with headers Mock for AMQMessageHeader, hashCode: 38262958 to null
+2016-01-19 15:19:26,034 DEBUG [main] o.a.q.s.f.JMSSelectorFilter org.apache.qpid.server.filter.Filterable$Factory$1 [messageNumber=0] match(true) selector(364639279):F='1'
+2016-01-19 15:19:26,035 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: delivering message with headers Mock for AMQMessageHeader, hashCode: 38262958 to null
+2016-01-19 15:19:26,035 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: routing message with headers Mock for AMQMessageHeader, hashCode: 1217875525
+2016-01-19 15:19:26,036 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: delivering message with headers Mock for AMQMessageHeader, hashCode: 1217875525 to null
+2016-01-19 15:19:26,036 DEBUG [main] o.a.q.s.f.JMSSelectorFilter org.apache.qpid.server.filter.Filterable$Factory$1 [messageNumber=0] match(false) selector(364639279):F='1'
+2016-01-19 15:19:26,037 DEBUG [main] o.a.q.s.f.JMSSelectorFilter org.apache.qpid.server.filter.Filterable$Factory$1 [messageNumber=0] match(false) selector(364639279):F='1'
+2016-01-19 15:19:26,047 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: Binding null with binding key 'q3select2' and args: {F=null, x-filter-jms-selector=F='2'}
+2016-01-19 15:19:26,049 WARN  [main] o.a.q.s.e.HeadersBinding Ignoring special header: x-filter-jms-selector
+2016-01-19 15:19:26,050 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: routing message with headers Mock for AMQMessageHeader, hashCode: 1787079037
+2016-01-19 15:19:26,053 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: delivering message with headers Mock for AMQMessageHeader, hashCode: 1787079037 to null
+2016-01-19 15:19:26,054 DEBUG [main] o.a.q.s.f.JMSSelectorFilter org.apache.qpid.server.filter.Filterable$Factory$1 [messageNumber=0] match(false) selector(364639279):F='1'
+2016-01-19 15:19:26,056 DEBUG [main] o.a.q.s.f.JMSSelectorFilter org.apache.qpid.server.filter.Filterable$Factory$1 [messageNumber=0] match(false) selector(364639279):F='1'
+2016-01-19 15:19:26,060 DEBUG [main] o.a.q.s.f.JMSSelectorFilter org.apache.qpid.server.filter.Filterable$Factory$1 [messageNumber=0] match(true) selector(1813187653):F='2'
+2016-01-19 15:19:26,060 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: delivering message with headers Mock for AMQMessageHeader, hashCode: 1787079037 to null
+2016-01-19 15:19:26,061 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown HeadersExchangeTest.testWithSelectors ==========
+2016-01-19 15:19:26,061 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

@@ -1,0 +1,45 @@
+2016-01-19 15:20:51,369 INFO  [main] o.a.q.t.u.QpidTestCase ========== start VirtualHostStoreUpgraderAndRecovererTest.testRecordUpdatedInOneUpgraderAndRemovedInAnotherUpgraderIsNotRecovered ==========
+2016-01-19 15:20:51,370 INFO  [main] o.a.q.t.u.QpidTestCase ========== run VirtualHostStoreUpgraderAndRecovererTest.testRecordUpdatedInOneUpgraderAndRemovedInAnotherUpgraderIsNotRecovered ==========
+2016-01-19 15:20:51,371 INFO  [main] o.a.q.s.s.GenericStoreUpgrader VirtualHost store has model version 0.0. Number of record(s) 5
+2016-01-19 15:20:51,371 DEBUG [main] o.a.q.s.s.GenericStoreUpgrader Adding VirtualHost store upgrader from model version: 0.0
+2016-01-19 15:20:51,371 DEBUG [main] o.a.q.s.s.GenericStoreUpgrader Adding VirtualHost store upgrader from model version: 0.1
+2016-01-19 15:20:51,371 DEBUG [main] o.a.q.s.s.GenericStoreUpgrader Adding VirtualHost store upgrader from model version: 0.2
+2016-01-19 15:20:51,371 DEBUG [main] o.a.q.s.s.GenericStoreUpgrader Adding VirtualHost store upgrader from model version: 0.3
+2016-01-19 15:20:51,371 DEBUG [main] o.a.q.s.s.GenericStoreUpgrader Adding VirtualHost store upgrader from model version: 0.4
+2016-01-19 15:20:51,371 DEBUG [main] o.a.q.s.s.GenericStoreUpgrader Adding VirtualHost store upgrader from model version: 2.0
+2016-01-19 15:20:51,371 DEBUG [main] o.a.q.s.s.GenericStoreUpgrader Adding VirtualHost store upgrader from model version: 3.0
+2016-01-19 15:20:51,372 DEBUG [main] o.a.q.s.s.GenericStoreUpgrader VirtualHost store upgrade is about to complete. 5 total record(s). Records to update 8 Records to delete 1
+2016-01-19 15:20:51,372 DEBUG [main] o.a.q.s.s.GenericRecoverer Recovering the children of TestVirtualHostNode[id=d1fe295f-2983-4241-9de1-c3a1ecf642d4, name=test, state=UNINITIALIZED]
+2016-01-19 15:20:51,385 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 2 implementations of interface org.apache.qpid.server.plugin.SystemNodeCreator
+2016-01-19 15:20:51,385 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 1 implementations of interface org.apache.qpid.server.plugin.ConnectionValidator
+2016-01-19 15:20:51,392 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing TestMemoryVirtualHost : test
+2016-01-19 15:20:51,392 DEBUG [main] o.a.q.s.v.AbstractVirtualHost Closing connection registry :0 connections.
+2016-01-19 15:20:51,392 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing DirectExchange : test-direct
+2016-01-19 15:20:51,392 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing BindingImpl : test-binding
+2016-01-19 15:20:51,392 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed BindingImpl : test-binding
+2016-01-19 15:20:51,392 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed BindingImpl : test-binding
+2016-01-19 15:20:51,392 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed DirectExchange : test-direct
+2016-01-19 15:20:51,392 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed DirectExchange : test-direct
+2016-01-19 15:20:51,392 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing FanoutExchange : amq.fanout
+2016-01-19 15:20:51,392 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed FanoutExchange : amq.fanout
+2016-01-19 15:20:51,392 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed FanoutExchange : amq.fanout
+2016-01-19 15:20:51,392 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing HeadersExchange : amq.match
+2016-01-19 15:20:51,392 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed HeadersExchange : amq.match
+2016-01-19 15:20:51,392 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed HeadersExchange : amq.match
+2016-01-19 15:20:51,392 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing DirectExchange : amq.direct
+2016-01-19 15:20:51,392 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed DirectExchange : amq.direct
+2016-01-19 15:20:51,392 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed DirectExchange : amq.direct
+2016-01-19 15:20:51,392 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing TopicExchange : amq.topic
+2016-01-19 15:20:51,392 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed TopicExchange : amq.topic
+2016-01-19 15:20:51,392 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed TopicExchange : amq.topic
+2016-01-19 15:20:51,392 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing StandardQueueImpl : test-queue
+2016-01-19 15:20:51,392 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing BindingImpl : test-binding
+2016-01-19 15:20:51,392 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed BindingImpl : test-binding
+2016-01-19 15:20:51,392 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed StandardQueueImpl : test-queue
+2016-01-19 15:20:51,392 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed StandardQueueImpl : test-queue
+2016-01-19 15:20:51,392 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed TestMemoryVirtualHost : test
+2016-01-19 15:20:51,393 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed TestMemoryVirtualHost : test
+2016-01-19 15:20:51,393 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing TestVirtualHostNode : test
+2016-01-19 15:20:51,393 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed TestVirtualHostNode : test
+2016-01-19 15:20:51,393 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown VirtualHostStoreUpgraderAndRecovererTest.testRecordUpdatedInOneUpgraderAndRemovedInAnotherUpgraderIsNotRecovered ==========
+2016-01-19 15:20:51,393 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

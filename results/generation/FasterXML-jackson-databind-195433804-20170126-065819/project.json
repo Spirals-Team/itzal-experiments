@@ -1,0 +1,8 @@
+{
+   "name": "FasterXML-jackson-databind 195433804-20170126-065819",
+   "benchmark": "Bear",
+   "oracle": "Test based",
+   "type": "NPE",
+   "application": "library",
+   "loc": 86263
+}

@@ -1,0 +1,2 @@
+org.mayocat.internal.DefaultSlugifier
+org.mayocat.jersey.JERSEY920WorkaroundServletFilter

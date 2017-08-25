@@ -1,0 +1,6 @@
+2016-01-19 15:19:28,662 INFO  [main] o.a.q.t.u.QpidTestCase ========== start BrokerOptionsTest.testDefaultWorkDirWithQpidWork ==========
+2016-01-19 15:19:28,664 INFO  [main] o.a.q.t.u.QpidTestCase ========== run BrokerOptionsTest.testDefaultWorkDirWithQpidWork ==========
+2016-01-19 15:19:28,664 INFO  [main] o.a.q.t.u.QpidTestCase Set system property "QPID_WORK" to: "/test/value"
+2016-01-19 15:19:28,664 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown BrokerOptionsTest.testDefaultWorkDirWithQpidWork ==========
+2016-01-19 15:19:28,664 DEBUG [main] o.a.q.t.u.QpidTestCase reverting 1 test properties
+2016-01-19 15:19:28,664 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

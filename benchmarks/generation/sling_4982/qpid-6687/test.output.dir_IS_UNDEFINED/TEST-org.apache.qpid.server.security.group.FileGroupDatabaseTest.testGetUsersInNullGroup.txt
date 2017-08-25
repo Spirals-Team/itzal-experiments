@@ -1,0 +1,5 @@
+2016-01-19 15:12:58,435 INFO  [main] o.a.q.t.u.QpidTestCase ========== start FileGroupDatabaseTest.testGetUsersInNullGroup ==========
+2016-01-19 15:12:58,436 INFO  [main] o.a.q.t.u.QpidTestCase ========== run FileGroupDatabaseTest.testGetUsersInNullGroup ==========
+2016-01-19 15:12:58,436 WARN  [main] o.a.q.s.s.g.FileGroupDatabase Requested user set for null group. Returning empty set.
+2016-01-19 15:12:58,436 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown FileGroupDatabaseTest.testGetUsersInNullGroup ==========
+2016-01-19 15:12:58,436 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.commons.math3.geometry.euclidean.twod.SubLineTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.022 sec <<< FAILURE!
+testIntersectionParallel(org.apache.commons.math3.geometry.euclidean.twod.SubLineTest)  Time elapsed: 0.009 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.math3.geometry.euclidean.twod.Line.toSubSpace(Line.java:182)
+	at org.apache.commons.math3.geometry.euclidean.twod.SubLine.intersection(SubLine.java:120)
+	at org.apache.commons.math3.geometry.euclidean.twod.SubLineTest.testIntersectionParallel(SubLineTest.java:151)
+

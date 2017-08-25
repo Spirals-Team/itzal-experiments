@@ -1,0 +1,8 @@
+{
+   "name": "Lang 20",
+   "benchmark": "Defects4j",
+   "oracle": "Test based",
+   "type": "NPE",
+   "application": "library",
+   "loc": 49637
+}

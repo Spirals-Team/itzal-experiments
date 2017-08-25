@@ -1,0 +1,4 @@
+2016-01-19 15:20:18,324 INFO  [main] o.a.q.t.u.QpidTestCase ========== start ChannelMessagesTest.testChannelCloseForced ==========
+2016-01-19 15:20:18,325 INFO  [main] o.a.q.t.u.QpidTestCase ========== run ChannelMessagesTest.testChannelCloseForced ==========
+2016-01-19 15:20:18,325 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown ChannelMessagesTest.testChannelCloseForced ==========
+2016-01-19 15:20:18,326 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

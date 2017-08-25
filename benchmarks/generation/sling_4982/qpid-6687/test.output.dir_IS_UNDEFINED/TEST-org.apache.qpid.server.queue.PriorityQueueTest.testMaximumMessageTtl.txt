@@ -1,0 +1,73 @@
+2016-01-19 15:20:07,505 INFO  [main] o.a.q.t.u.QpidTestCase ========== start PriorityQueueTest.testMaximumMessageTtl ==========
+2016-01-19 15:20:07,507 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:20:07,513 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 2 implementations of interface org.apache.qpid.server.plugin.SystemNodeCreator
+2016-01-19 15:20:07,513 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 1 implementations of interface org.apache.qpid.server.plugin.ConnectionValidator
+2016-01-19 15:20:07,533 DEBUG [main] o.a.q.s.q.AbstractQueue Queue 'qname' target size : 1048576
+2016-01-19 15:20:07,533 INFO  [main] o.a.q.t.u.QpidTestCase ========== run PriorityQueueTest.testMaximumMessageTtl ==========
+2016-01-19 15:20:07,538 DEBUG [main] o.a.q.s.q.AbstractQueue Queue 'qname' target size : 524288
+2016-01-19 15:20:07,538 DEBUG [main] o.a.q.s.q.AbstractQueue Queue 'testTtlOverrideMaximumTTl' target size : 524288
+2016-01-19 15:20:07,540 DEBUG [main] o.a.q.s.t.LocalTransaction Beginning 1 post transaction actions
+2016-01-19 15:20:07,540 DEBUG [main] o.a.q.s.t.LocalTransaction Completed post transaction actions
+2016-01-19 15:20:07,540 DEBUG [main] o.a.q.s.t.LocalTransaction Beginning 1 post transaction actions
+2016-01-19 15:20:07,540 DEBUG [main] o.a.q.s.t.LocalTransaction Completed post transaction actions
+2016-01-19 15:20:07,541 DEBUG [main] o.a.q.s.t.LocalTransaction Beginning 1 post transaction actions
+2016-01-19 15:20:07,541 DEBUG [main] o.a.q.s.t.LocalTransaction Completed post transaction actions
+2016-01-19 15:20:07,541 DEBUG [main] o.a.q.s.t.LocalTransaction Beginning 1 post transaction actions
+2016-01-19 15:20:07,541 DEBUG [main] o.a.q.s.t.LocalTransaction Completed post transaction actions
+2016-01-19 15:20:07,542 DEBUG [main] o.a.q.s.t.LocalTransaction Beginning 1 post transaction actions
+2016-01-19 15:20:07,542 DEBUG [main] o.a.q.s.t.LocalTransaction Completed post transaction actions
+2016-01-19 15:20:07,548 DEBUG [main] o.a.q.s.q.AbstractQueue Queue 'qname' target size : 349525
+2016-01-19 15:20:07,548 DEBUG [main] o.a.q.s.q.AbstractQueue Queue 'testTtlOverrideMaximumTTl' target size : 349525
+2016-01-19 15:20:07,548 DEBUG [main] o.a.q.s.q.AbstractQueue Queue 'testTtlOverrideMinimumTTl' target size : 349525
+2016-01-19 15:20:07,549 DEBUG [main] o.a.q.s.t.LocalTransaction Beginning 1 post transaction actions
+2016-01-19 15:20:07,549 DEBUG [main] o.a.q.s.t.LocalTransaction Completed post transaction actions
+2016-01-19 15:20:07,549 DEBUG [main] o.a.q.s.t.LocalTransaction Beginning 1 post transaction actions
+2016-01-19 15:20:07,549 DEBUG [main] o.a.q.s.t.LocalTransaction Completed post transaction actions
+2016-01-19 15:20:07,550 DEBUG [main] o.a.q.s.t.LocalTransaction Beginning 1 post transaction actions
+2016-01-19 15:20:07,550 DEBUG [main] o.a.q.s.t.LocalTransaction Completed post transaction actions
+2016-01-19 15:20:07,550 DEBUG [main] o.a.q.s.t.LocalTransaction Beginning 1 post transaction actions
+2016-01-19 15:20:07,550 DEBUG [main] o.a.q.s.t.LocalTransaction Completed post transaction actions
+2016-01-19 15:20:07,550 DEBUG [main] o.a.q.s.t.LocalTransaction Beginning 1 post transaction actions
+2016-01-19 15:20:07,551 DEBUG [main] o.a.q.s.t.LocalTransaction Completed post transaction actions
+2016-01-19 15:20:07,556 DEBUG [main] o.a.q.s.q.AbstractQueue Queue 'qname' target size : 262144
+2016-01-19 15:20:07,556 DEBUG [main] o.a.q.s.q.AbstractQueue Queue 'testTtlOverrideMaximumTTl' target size : 262144
+2016-01-19 15:20:07,557 DEBUG [main] o.a.q.s.q.AbstractQueue Queue 'testTtlOverrideMinimumTTl' target size : 262144
+2016-01-19 15:20:07,557 DEBUG [main] o.a.q.s.q.AbstractQueue Queue 'testTtlOverrideBothTTl' target size : 262144
+2016-01-19 15:20:07,557 DEBUG [main] o.a.q.s.t.LocalTransaction Beginning 1 post transaction actions
+2016-01-19 15:20:07,557 DEBUG [main] o.a.q.s.t.LocalTransaction Completed post transaction actions
+2016-01-19 15:20:07,558 DEBUG [main] o.a.q.s.t.LocalTransaction Beginning 1 post transaction actions
+2016-01-19 15:20:07,558 DEBUG [main] o.a.q.s.t.LocalTransaction Completed post transaction actions
+2016-01-19 15:20:07,558 DEBUG [main] o.a.q.s.t.LocalTransaction Beginning 1 post transaction actions
+2016-01-19 15:20:07,558 DEBUG [main] o.a.q.s.t.LocalTransaction Completed post transaction actions
+2016-01-19 15:20:07,558 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing PriorityQueueImpl : qname
+2016-01-19 15:20:07,558 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed PriorityQueueImpl : qname
+2016-01-19 15:20:07,558 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed PriorityQueueImpl : qname
+2016-01-19 15:20:07,558 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing TestMemoryVirtualHost : org.apache.qpid.server.queue.PriorityQueueTest
+2016-01-19 15:20:07,558 DEBUG [main] o.a.q.s.v.AbstractVirtualHost Closing connection registry :0 connections.
+2016-01-19 15:20:07,558 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing DirectExchange : amq.direct
+2016-01-19 15:20:07,558 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed DirectExchange : amq.direct
+2016-01-19 15:20:07,558 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed DirectExchange : amq.direct
+2016-01-19 15:20:07,558 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing TopicExchange : amq.topic
+2016-01-19 15:20:07,558 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed TopicExchange : amq.topic
+2016-01-19 15:20:07,558 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed TopicExchange : amq.topic
+2016-01-19 15:20:07,558 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing HeadersExchange : amq.match
+2016-01-19 15:20:07,558 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed HeadersExchange : amq.match
+2016-01-19 15:20:07,558 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed HeadersExchange : amq.match
+2016-01-19 15:20:07,558 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing FanoutExchange : amq.fanout
+2016-01-19 15:20:07,559 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed FanoutExchange : amq.fanout
+2016-01-19 15:20:07,559 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed FanoutExchange : amq.fanout
+2016-01-19 15:20:07,559 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing PriorityQueueImpl : testTtlOverrideMaximumTTl
+2016-01-19 15:20:07,559 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed PriorityQueueImpl : testTtlOverrideMaximumTTl
+2016-01-19 15:20:07,559 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed PriorityQueueImpl : testTtlOverrideMaximumTTl
+2016-01-19 15:20:07,559 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing PriorityQueueImpl : testTtlOverrideMinimumTTl
+2016-01-19 15:20:07,559 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed PriorityQueueImpl : testTtlOverrideMinimumTTl
+2016-01-19 15:20:07,559 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed PriorityQueueImpl : testTtlOverrideMinimumTTl
+2016-01-19 15:20:07,559 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing PriorityQueueImpl : testTtlOverrideBothTTl
+2016-01-19 15:20:07,559 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed PriorityQueueImpl : testTtlOverrideBothTTl
+2016-01-19 15:20:07,559 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed PriorityQueueImpl : testTtlOverrideBothTTl
+2016-01-19 15:20:07,559 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed TestMemoryVirtualHost : org.apache.qpid.server.queue.PriorityQueueTest
+2016-01-19 15:20:07,559 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed TestMemoryVirtualHost : org.apache.qpid.server.queue.PriorityQueueTest
+2016-01-19 15:20:07,559 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown PriorityQueueTest.testMaximumMessageTtl ==========
+2016-01-19 15:20:07,559 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing TestMemoryVirtualHost : org.apache.qpid.server.queue.PriorityQueueTest
+2016-01-19 15:20:07,559 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed TestMemoryVirtualHost : org.apache.qpid.server.queue.PriorityQueueTest
+2016-01-19 15:20:07,559 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

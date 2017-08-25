@@ -1,0 +1,6 @@
+2016-01-19 15:19:28,985 INFO  [main] o.a.q.t.u.QpidTestCase ========== start JsonFileConfigStoreTest.testChangeTypeOfObject ==========
+2016-01-19 15:19:28,989 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:19:28,990 INFO  [main] o.a.q.t.u.QpidTestCase ========== run JsonFileConfigStoreTest.testChangeTypeOfObject ==========
+2016-01-19 15:19:29,012 ERROR [main] o.a.q.s.u.ServerScopedRuntimeException Cannot change the type of record ad1af6e7-588a-4f9b-94f1-f2c25e4fae05 from type Queue to type Exchange
+2016-01-19 15:19:29,012 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown JsonFileConfigStoreTest.testChangeTypeOfObject ==========
+2016-01-19 15:19:29,013 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

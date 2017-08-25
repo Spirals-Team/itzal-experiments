@@ -1,0 +1,38 @@
+\begin{table*}
+  \centering
+  \caption{Patch Generation Results}
+  \label{tab:generation}
+  \begin{tabular}{|r|l|l|l|l|l|r||r|r|}
+    \hline
+    \# & Bug id & Benchmark  & Oracle Type  & \rotatebox{90}{Bug Type}  & \rotatebox{90}{ \tabincell{c}{Application \\ Type}} & LOC & \rotatebox{90}{\tabincell{c}{\# NPEFix \\ Patch}}  & \rotatebox{90}{ \tabincell{c}{\# Failure \\ Oblivious Patch}} \\
+    \hline
+    1 & Collection 360 & NPEFix & Test based & NPE & library & 21650 & 16 &  64 \\
+    2 & DataflowJavaSDK c06125d & Genesis & Test based & NPE & library & 50655 & 2 &  0 \\
+    3 & Felix 4960 & NPEFix & Test based & NPE & library & 33057 & 4 &  0 \\
+    4 & Javapoet 70b38e5 & Genesis & Test based & NPE & library & 3884 & 12 &  12 \\
+    5 & Jongo f46f658 & Genesis & Test based & NPE & library & 7384 & 0 &  2 \\
+    6 & Lang 20 & Defects4j & Test based & NPE & library & 49637 & 78 &  0 \\
+    7 & Lang 304 & NPEFix & Test based & NPE & library & 17277 & 65 &  32 \\
+    8 & Lang 33 & Defects4j & Test based & NPE & library & 45444 & 1 &  0 \\
+    9 & Lang 39 & Defects4j & Test based & NPE & library & 45143 & 4 &  0 \\
+    10 & Lang 587 & NPEFix & Test based & NPE & library & 17319 & 28 &  3 \\
+    11 & Lang 703 & NPEFix & Test based & NPE & library & 19047 & 7 &  0 \\
+    12 & Math 1115 & NPEFix & Test based & NPE & library & 90782 & 5 &  4 \\
+    13 & Math 290 & NPEFix & Test based & NPE & library & 38728 & 4 &  4 \\
+    14 & Math 305 & NPEFix & Test based & NPE & library & 38893 & 3 &  14 \\
+    15 & Math 369 & NPEFix & Test based & NPE & library & 41082 & 23 &  4000 \\
+    16 & Math 4 & Defects4j & Test based & NPE & library & 164667 & 185 &  0  \\
+    17 & Math 70 & Defects4j & Test based & NPE & library & 83720 & 1 &  0 \\
+    18 & Math 79 & Defects4j & Test based & NPE & library & 89611 & 0 &  0 \\
+    19 & Math 988A & NPEFix & Test based & NPE & library & 82442 & 168 &  1 \\
+    20 & Math 988B & NPEFix & Test based & NPE & library & 82443 & 17 &  0  \\
+    21 & PDFBox 2812 & NPEFix & Test based & NPE & library & 67294 & 4 &  2 \\
+    22 & PDFBox 2965 & NPEFix & Test based & NPE & library & 64375 & 3 &  1 \\
+    23 & PDFBox 2995 & NPEFix & Test based & NPE & library & 64821 & 1 &  1 \\
+    24 & Sling 4982 & NPEFix & Test based & NPE & library & 583 & 11 &  6 \\
+    25 & Webmagic ff2f588 & Genesis & Test based & NPE & library & 9239 & 2 &  0 \\
+    \hline
+    & 25 bugs & 3 benchmarks & 1 & 1 & 1 & 1229177 & 0 & 0 \\
+    \hline
+  \end{tabular}
+\end{table*}

@@ -1,0 +1,27 @@
+2016-01-19 15:34:30,092 INFO  [main] o.a.q.t.u.QpidTestCase ========== start VirtualHostTest.testCreateDurableQueue ==========
+2016-01-19 15:34:30,096 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:34:30,098 INFO  [main] o.a.q.t.u.QpidTestCase ========== run VirtualHostTest.testCreateDurableQueue ==========
+2016-01-19 15:34:30,108 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 2 implementations of interface org.apache.qpid.server.plugin.SystemNodeCreator
+2016-01-19 15:34:30,109 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 1 implementations of interface org.apache.qpid.server.plugin.ConnectionValidator
+2016-01-19 15:34:30,139 DEBUG [main] o.a.q.s.q.AbstractQueue Queue 'myQueue' target size : 1048576
+2016-01-19 15:34:30,140 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing TestMemoryVirtualHost : testCreateDurableQueue
+2016-01-19 15:34:30,140 DEBUG [main] o.a.q.s.v.AbstractVirtualHost Closing connection registry :0 connections.
+2016-01-19 15:34:30,140 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing DirectExchange : amq.direct
+2016-01-19 15:34:30,140 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed DirectExchange : amq.direct
+2016-01-19 15:34:30,140 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed DirectExchange : amq.direct
+2016-01-19 15:34:30,140 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing TopicExchange : amq.topic
+2016-01-19 15:34:30,140 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed TopicExchange : amq.topic
+2016-01-19 15:34:30,140 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed TopicExchange : amq.topic
+2016-01-19 15:34:30,141 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing HeadersExchange : amq.match
+2016-01-19 15:34:30,141 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed HeadersExchange : amq.match
+2016-01-19 15:34:30,141 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed HeadersExchange : amq.match
+2016-01-19 15:34:30,141 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing FanoutExchange : amq.fanout
+2016-01-19 15:34:30,141 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed FanoutExchange : amq.fanout
+2016-01-19 15:34:30,141 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed FanoutExchange : amq.fanout
+2016-01-19 15:34:30,141 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing StandardQueueImpl : myQueue
+2016-01-19 15:34:30,141 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed StandardQueueImpl : myQueue
+2016-01-19 15:34:30,141 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed StandardQueueImpl : myQueue
+2016-01-19 15:34:30,142 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed TestMemoryVirtualHost : testCreateDurableQueue
+2016-01-19 15:34:30,143 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed TestMemoryVirtualHost : testCreateDurableQueue
+2016-01-19 15:34:30,143 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown VirtualHostTest.testCreateDurableQueue ==========
+2016-01-19 15:34:30,143 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

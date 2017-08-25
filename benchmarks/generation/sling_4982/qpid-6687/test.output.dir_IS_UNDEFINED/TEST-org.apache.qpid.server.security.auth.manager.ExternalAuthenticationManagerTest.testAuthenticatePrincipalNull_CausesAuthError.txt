@@ -1,0 +1,8 @@
+2016-01-19 15:20:55,409 INFO  [main] o.a.q.t.u.QpidTestCase ========== start ExternalAuthenticationManagerTest.testAuthenticatePrincipalNull_CausesAuthError ==========
+2016-01-19 15:20:55,413 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:20:55,422 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:20:55,429 INFO  [main] o.a.q.t.u.QpidTestCase ========== run ExternalAuthenticationManagerTest.testAuthenticatePrincipalNull_CausesAuthError ==========
+2016-01-19 15:20:55,430 DEBUG [main] o.a.q.s.s.a.s.e.ExternalSaslServer Using external Principal: null
+2016-01-19 15:20:55,431 DEBUG [main] o.a.q.s.s.a.s.e.ExternalSaslServer Using external Principal: null
+2016-01-19 15:20:55,431 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown ExternalAuthenticationManagerTest.testAuthenticatePrincipalNull_CausesAuthError ==========
+2016-01-19 15:20:55,431 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

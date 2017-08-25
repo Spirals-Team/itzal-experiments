@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.pdfbox.pdmodel.interactive.form.PDAcroFormTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.095 sec <<< FAILURE! - in org.apache.pdfbox.pdmodel.interactive.form.PDAcroFormTest
+testFieldsEntry(org.apache.pdfbox.pdmodel.interactive.form.PDAcroFormTest)  Time elapsed: 0.054 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm.getField(PDAcroForm.java:251)
+	at org.apache.pdfbox.pdmodel.interactive.form.PDAcroFormTest.testFieldsEntry(PDAcroFormTest.java:68)
+

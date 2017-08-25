@@ -1,0 +1,4 @@
+2016-01-19 15:20:54,293 INFO  [main] o.a.q.t.u.QpidTestCase ========== start AuthenticationResultTest.testConstructWithPrincipal ==========
+2016-01-19 15:20:54,293 INFO  [main] o.a.q.t.u.QpidTestCase ========== run AuthenticationResultTest.testConstructWithPrincipal ==========
+2016-01-19 15:20:54,293 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown AuthenticationResultTest.testConstructWithPrincipal ==========
+2016-01-19 15:20:54,293 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

@@ -1,0 +1,4 @@
+2016-01-19 15:20:51,304 INFO  [main] o.a.q.t.u.QpidTestCase ========== start ConnectionVersionValidatorTest.testClientLogged ==========
+2016-01-19 15:20:51,305 INFO  [main] o.a.q.t.u.QpidTestCase ========== run ConnectionVersionValidatorTest.testClientLogged ==========
+2016-01-19 15:20:51,311 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown ConnectionVersionValidatorTest.testClientLogged ==========
+2016-01-19 15:20:51,311 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

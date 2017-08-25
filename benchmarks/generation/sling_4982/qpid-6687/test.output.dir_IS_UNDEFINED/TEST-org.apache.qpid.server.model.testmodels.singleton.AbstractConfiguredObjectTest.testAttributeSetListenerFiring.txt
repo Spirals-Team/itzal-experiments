@@ -1,0 +1,4 @@
+2017-07-20 09:13:08,010 INFO  [main] o.a.q.t.u.QpidTestCase ========== start AbstractConfiguredObjectTest.testAttributeSetListenerFiring ==========
+2017-07-20 09:13:08,013 INFO  [main] o.a.q.t.u.QpidTestCase ========== run AbstractConfiguredObjectTest.testAttributeSetListenerFiring ==========
+2017-07-20 09:13:08,018 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown AbstractConfiguredObjectTest.testAttributeSetListenerFiring ==========
+2017-07-20 09:13:08,019 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

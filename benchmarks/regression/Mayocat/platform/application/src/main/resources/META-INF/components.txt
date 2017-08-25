@@ -1,0 +1,5 @@
+org.mayocat.multitenancy.DefaultTenantResolver
+org.mayocat.multitenancy.TenantResolverProvider
+org.mayocat.multitenancy.DefaultTenantResolverServletEventListener
+org.mayocat.context.RequestContextInitializer
+org.mayocat.localization.RequestLocalizationFilter

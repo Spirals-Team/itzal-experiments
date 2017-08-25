@@ -1,0 +1,4 @@
+2016-01-19 15:12:58,481 INFO  [main] o.a.q.t.u.QpidTestCase ========== start FileGroupDatabaseTest.testRemoveUserPersistedToFile ==========
+2016-01-19 15:12:58,482 INFO  [main] o.a.q.t.u.QpidTestCase ========== run FileGroupDatabaseTest.testRemoveUserPersistedToFile ==========
+2016-01-19 15:12:58,484 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown FileGroupDatabaseTest.testRemoveUserPersistedToFile ==========
+2016-01-19 15:12:58,484 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

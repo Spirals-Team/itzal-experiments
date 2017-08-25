@@ -1,0 +1,4 @@
+2016-01-19 15:20:53,658 INFO  [main] o.a.q.t.u.QpidTestCase ========== start GroupPrincipalTest.testInequalityNonGroupPrincipal ==========
+2016-01-19 15:20:53,658 INFO  [main] o.a.q.t.u.QpidTestCase ========== run GroupPrincipalTest.testInequalityNonGroupPrincipal ==========
+2016-01-19 15:20:53,658 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown GroupPrincipalTest.testInequalityNonGroupPrincipal ==========
+2016-01-19 15:20:53,658 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

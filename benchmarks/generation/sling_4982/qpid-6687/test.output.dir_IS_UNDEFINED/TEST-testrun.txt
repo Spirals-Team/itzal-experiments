@@ -1,0 +1,1 @@
+2017-07-20 09:13:07,902 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 64 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory

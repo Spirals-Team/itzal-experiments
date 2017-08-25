@@ -1,0 +1,4 @@
+2016-01-19 15:20:54,435 INFO  [main] o.a.q.t.u.QpidTestCase ========== start StoreConfigurationChangeListenerTest.testChildAddedWhereParentManagesChildStorage ==========
+2016-01-19 15:20:54,435 INFO  [main] o.a.q.t.u.QpidTestCase ========== run StoreConfigurationChangeListenerTest.testChildAddedWhereParentManagesChildStorage ==========
+2016-01-19 15:20:54,436 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown StoreConfigurationChangeListenerTest.testChildAddedWhereParentManagesChildStorage ==========
+2016-01-19 15:20:54,436 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

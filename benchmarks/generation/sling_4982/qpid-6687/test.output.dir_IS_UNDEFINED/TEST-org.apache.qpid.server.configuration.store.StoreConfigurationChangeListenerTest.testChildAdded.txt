@@ -1,0 +1,4 @@
+2016-01-19 15:20:54,433 INFO  [main] o.a.q.t.u.QpidTestCase ========== start StoreConfigurationChangeListenerTest.testChildAdded ==========
+2016-01-19 15:20:54,434 INFO  [main] o.a.q.t.u.QpidTestCase ========== run StoreConfigurationChangeListenerTest.testChildAdded ==========
+2016-01-19 15:20:54,435 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown StoreConfigurationChangeListenerTest.testChildAdded ==========
+2016-01-19 15:20:54,435 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

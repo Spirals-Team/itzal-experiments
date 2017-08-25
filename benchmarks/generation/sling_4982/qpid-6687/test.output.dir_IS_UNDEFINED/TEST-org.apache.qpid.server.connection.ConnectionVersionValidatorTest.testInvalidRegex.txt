@@ -1,0 +1,5 @@
+2016-01-19 15:20:51,312 INFO  [main] o.a.q.t.u.QpidTestCase ========== start ConnectionVersionValidatorTest.testInvalidRegex ==========
+2016-01-19 15:20:51,313 INFO  [main] o.a.q.t.u.QpidTestCase ========== run ConnectionVersionValidatorTest.testInvalidRegex ==========
+2016-01-19 15:20:51,316 WARN  [main] o.a.q.s.c.ConnectionVersionValidator Invalid regex in context variable virtualhost.rejectedConnectionVersion: ${}
+2016-01-19 15:20:51,316 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown ConnectionVersionValidatorTest.testInvalidRegex ==========
+2016-01-19 15:20:51,316 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

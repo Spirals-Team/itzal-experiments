@@ -1,0 +1,4 @@
+2016-01-19 15:20:18,343 INFO  [main] o.a.q.t.u.QpidTestCase ========== start AESKeyFileEncrypterTest.testEncryptionOfEmptyString ==========
+2016-01-19 15:20:18,344 INFO  [main] o.a.q.t.u.QpidTestCase ========== run AESKeyFileEncrypterTest.testEncryptionOfEmptyString ==========
+2016-01-19 15:20:18,345 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown AESKeyFileEncrypterTest.testEncryptionOfEmptyString ==========
+2016-01-19 15:20:18,345 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

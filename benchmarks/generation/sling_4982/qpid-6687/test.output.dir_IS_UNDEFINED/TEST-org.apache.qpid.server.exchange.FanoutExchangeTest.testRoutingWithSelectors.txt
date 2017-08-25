@@ -1,0 +1,16 @@
+2016-01-19 15:20:54,455 INFO  [main] o.a.q.t.u.QpidTestCase ========== run FanoutExchangeTest.testRoutingWithSelectors ==========
+2016-01-19 15:20:54,457 DEBUG [main] o.a.q.s.e.FanoutExchange Binding queue Mock for AMQQueue, hashCode: 1464177809 with routing key key to exchange FanoutExchange[test]
+2016-01-19 15:20:54,461 DEBUG [main] o.a.q.s.e.FanoutExchange Binding queue Mock for AMQQueue, hashCode: 1057507014 with routing key key to exchange FanoutExchange[test]
+2016-01-19 15:20:54,461 DEBUG [main] o.a.q.s.e.FanoutExchange Publishing message to queue [Mock for AMQQueue, hashCode: 1464177809, Mock for AMQQueue, hashCode: 1057507014]
+2016-01-19 15:20:54,464 DEBUG [main] o.a.q.s.e.FanoutExchange Binding queue Mock for AMQQueue, hashCode: 1057507014 with routing key key2 to exchange FanoutExchange[test]
+2016-01-19 15:20:54,465 DEBUG [main] o.a.q.s.e.FanoutExchange Publishing message to queue [Mock for AMQQueue, hashCode: 1464177809, Mock for AMQQueue, hashCode: 1057507014]
+2016-01-19 15:20:54,466 DEBUG [main] o.a.q.s.f.JMSSelectorFilter org.apache.qpid.server.filter.Filterable$Factory$1 [messageNumber=0] match(true) selector(2029780820):select = True
+2016-01-19 15:20:54,466 DEBUG [main] o.a.q.s.e.FanoutExchange Publishing message to queue [Mock for AMQQueue, hashCode: 1464177809, Mock for AMQQueue, hashCode: 1057507014]
+2016-01-19 15:20:54,466 DEBUG [main] o.a.q.s.f.JMSSelectorFilter org.apache.qpid.server.filter.Filterable$Factory$1 [messageNumber=0] match(false) selector(2029780820):select = True
+2016-01-19 15:20:54,466 DEBUG [main] o.a.q.s.e.FanoutExchange Publishing message to queue [Mock for AMQQueue, hashCode: 1464177809]
+2016-01-19 15:20:54,487 DEBUG [main] o.a.q.s.e.FanoutExchange Binding queue Mock for AMQQueue, hashCode: 1057507014 with routing key key to exchange FanoutExchange[test]
+2016-01-19 15:20:54,488 DEBUG [main] o.a.q.s.f.JMSSelectorFilter org.apache.qpid.server.filter.Filterable$Factory$1 [messageNumber=0] match(false) selector(2029780820):select = True
+2016-01-19 15:20:54,488 DEBUG [main] o.a.q.s.f.JMSSelectorFilter org.apache.qpid.server.filter.Filterable$Factory$1 [messageNumber=0] match(true) selector(2116179210):select = False
+2016-01-19 15:20:54,488 DEBUG [main] o.a.q.s.e.FanoutExchange Publishing message to queue [Mock for AMQQueue, hashCode: 1464177809, Mock for AMQQueue, hashCode: 1057507014]
+2016-01-19 15:20:54,488 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown FanoutExchangeTest.testRoutingWithSelectors ==========
+2016-01-19 15:20:54,488 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

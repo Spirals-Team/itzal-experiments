@@ -1,0 +1,5 @@
+2016-01-19 15:34:30,649 INFO  [main] o.a.q.t.u.QpidTestCase ========== start SimpleAuthenticationManagerTest.testGetMechanisms ==========
+2016-01-19 15:34:30,653 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:34:30,655 INFO  [main] o.a.q.t.u.QpidTestCase ========== run SimpleAuthenticationManagerTest.testGetMechanisms ==========
+2016-01-19 15:34:30,656 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown SimpleAuthenticationManagerTest.testGetMechanisms ==========
+2016-01-19 15:34:30,656 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

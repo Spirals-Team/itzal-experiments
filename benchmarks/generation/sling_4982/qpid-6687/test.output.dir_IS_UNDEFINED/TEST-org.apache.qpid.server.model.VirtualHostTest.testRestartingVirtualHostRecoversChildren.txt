@@ -1,0 +1,55 @@
+2016-01-19 15:34:30,269 INFO  [main] o.a.q.t.u.QpidTestCase ========== start VirtualHostTest.testRestartingVirtualHostRecoversChildren ==========
+2016-01-19 15:34:30,273 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:34:30,276 INFO  [main] o.a.q.t.u.QpidTestCase ========== run VirtualHostTest.testRestartingVirtualHostRecoversChildren ==========
+2016-01-19 15:34:30,294 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 2 implementations of interface org.apache.qpid.server.plugin.SystemNodeCreator
+2016-01-19 15:34:30,295 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 1 implementations of interface org.apache.qpid.server.plugin.ConnectionValidator
+2016-01-19 15:34:30,325 DEBUG [main] o.a.q.s.q.AbstractQueue Queue 'myQueue' target size : 1048576
+2016-01-19 15:34:30,333 DEBUG [main] o.a.q.s.v.AbstractVirtualHost Closing connection registry :0 connections.
+2016-01-19 15:34:30,333 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing DirectExchange : amq.direct
+2016-01-19 15:34:30,333 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed DirectExchange : amq.direct
+2016-01-19 15:34:30,333 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed DirectExchange : amq.direct
+2016-01-19 15:34:30,334 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing TopicExchange : amq.topic
+2016-01-19 15:34:30,334 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed TopicExchange : amq.topic
+2016-01-19 15:34:30,334 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed TopicExchange : amq.topic
+2016-01-19 15:34:30,334 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing HeadersExchange : amq.match
+2016-01-19 15:34:30,334 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed HeadersExchange : amq.match
+2016-01-19 15:34:30,334 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed HeadersExchange : amq.match
+2016-01-19 15:34:30,334 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing FanoutExchange : amq.fanout
+2016-01-19 15:34:30,334 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed FanoutExchange : amq.fanout
+2016-01-19 15:34:30,334 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed FanoutExchange : amq.fanout
+2016-01-19 15:34:30,334 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing DirectExchange : myExchange
+2016-01-19 15:34:30,334 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed DirectExchange : myExchange
+2016-01-19 15:34:30,334 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed DirectExchange : myExchange
+2016-01-19 15:34:30,334 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing StandardQueueImpl : myQueue
+2016-01-19 15:34:30,334 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed StandardQueueImpl : myQueue
+2016-01-19 15:34:30,334 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed StandardQueueImpl : myQueue
+2016-01-19 15:34:30,334 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed TestMemoryVirtualHost : testRestartingVirtualHostRecoversChildren
+2016-01-19 15:34:30,336 INFO  [main] o.a.q.s.s.StatisticsCounter Resetting statistics for counter: messages-delivered-testRestartingVirtualHostRecoversChildren-33
+2016-01-19 15:34:30,336 INFO  [main] o.a.q.s.s.StatisticsCounter Resetting statistics for counter: bytes-delivered-testRestartingVirtualHostRecoversChildren-34
+2016-01-19 15:34:30,336 INFO  [main] o.a.q.s.s.StatisticsCounter Resetting statistics for counter: messages-received-testRestartingVirtualHostRecoversChildren-35
+2016-01-19 15:34:30,336 INFO  [main] o.a.q.s.s.StatisticsCounter Resetting statistics for counter: bytes-received-testRestartingVirtualHostRecoversChildren-36
+2016-01-19 15:34:30,337 DEBUG [main] o.a.q.s.s.GenericRecoverer Recovering the children of TestMemoryVirtualHost [id=4cbfbc0a-4750-4dbc-b7d5-cc3ef637c55f, name=testRestartingVirtualHostRecoversChildren]
+2016-01-19 15:34:30,360 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing TestMemoryVirtualHost : testRestartingVirtualHostRecoversChildren
+2016-01-19 15:34:30,360 DEBUG [main] o.a.q.s.v.AbstractVirtualHost Closing connection registry :0 connections.
+2016-01-19 15:34:30,360 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing DirectExchange : myExchange
+2016-01-19 15:34:30,361 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed DirectExchange : myExchange
+2016-01-19 15:34:30,361 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed DirectExchange : myExchange
+2016-01-19 15:34:30,361 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing DirectExchange : amq.direct
+2016-01-19 15:34:30,361 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed DirectExchange : amq.direct
+2016-01-19 15:34:30,361 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed DirectExchange : amq.direct
+2016-01-19 15:34:30,361 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing TopicExchange : amq.topic
+2016-01-19 15:34:30,361 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed TopicExchange : amq.topic
+2016-01-19 15:34:30,361 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed TopicExchange : amq.topic
+2016-01-19 15:34:30,361 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing HeadersExchange : amq.match
+2016-01-19 15:34:30,361 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed HeadersExchange : amq.match
+2016-01-19 15:34:30,361 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed HeadersExchange : amq.match
+2016-01-19 15:34:30,361 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing FanoutExchange : amq.fanout
+2016-01-19 15:34:30,361 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed FanoutExchange : amq.fanout
+2016-01-19 15:34:30,361 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed FanoutExchange : amq.fanout
+2016-01-19 15:34:30,361 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing StandardQueueImpl : myQueue
+2016-01-19 15:34:30,361 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed StandardQueueImpl : myQueue
+2016-01-19 15:34:30,361 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed StandardQueueImpl : myQueue
+2016-01-19 15:34:30,362 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed TestMemoryVirtualHost : testRestartingVirtualHostRecoversChildren
+2016-01-19 15:34:30,365 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed TestMemoryVirtualHost : testRestartingVirtualHostRecoversChildren
+2016-01-19 15:34:30,366 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown VirtualHostTest.testRestartingVirtualHostRecoversChildren ==========
+2016-01-19 15:34:30,366 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

@@ -1,0 +1,14 @@
+2016-01-19 15:20:56,509 INFO  [main] o.a.q.t.u.QpidTestCase ========== start ManagementModeStoreHandlerTest.testHttpPortEntryIsQuiesced ==========
+2016-01-19 15:20:56,511 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Management mode quiescing entry Mock for ConfiguredObjectRecord, hashCode: 842331982
+2016-01-19 15:20:56,511 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Management mode quiescing entry Mock for ConfiguredObjectRecord, hashCode: 842331982
+2016-01-19 15:20:56,512 INFO  [main] o.a.q.t.u.QpidTestCase ========== run ManagementModeStoreHandlerTest.testHttpPortEntryIsQuiesced ==========
+2016-01-19 15:20:56,512 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing JsonSystemConfigImpl : System
+2016-01-19 15:20:56,512 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed JsonSystemConfigImpl : System
+2016-01-19 15:20:56,513 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Management mode quiescing entry Mock for ConfiguredObjectRecord, hashCode: 842331982
+2016-01-19 15:20:56,513 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Management mode quiescing entry Mock for ConfiguredObjectRecord, hashCode: 842331982
+2016-01-19 15:20:56,513 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Add management mode port configuration ConfiguredObjectRecord [id=0f846224-6799-42c6-80b3-6367b07db8e1, type=Port, attributes={authenticationProvider=MANAGEMENT_MODE_AUTHENTICATION, port=9090, name=MANAGEMENT-MODE-PORT-HTTP, protocols=[HTTP]}, parents={Broker=913f8811-34a0-44ce-bc94-cf6164794be0}] for port 9090 and protocol HTTP
+2016-01-19 15:20:56,513 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing  : System
+2016-01-19 15:20:56,514 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed  : System
+2016-01-19 15:20:56,514 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed  : System
+2016-01-19 15:20:56,514 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown ManagementModeStoreHandlerTest.testHttpPortEntryIsQuiesced ==========
+2016-01-19 15:20:56,514 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

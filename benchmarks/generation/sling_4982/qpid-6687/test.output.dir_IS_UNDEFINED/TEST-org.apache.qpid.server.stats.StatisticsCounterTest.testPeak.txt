@@ -1,0 +1,4 @@
+2016-01-19 15:19:48,585 INFO  [main] o.a.q.t.u.QpidTestCase ========== start StatisticsCounterTest.testPeak ==========
+2016-01-19 15:19:48,586 INFO  [main] o.a.q.t.u.QpidTestCase ========== run StatisticsCounterTest.testPeak ==========
+2016-01-19 15:19:52,086 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown StatisticsCounterTest.testPeak ==========
+2016-01-19 15:19:52,086 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

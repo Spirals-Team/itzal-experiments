@@ -1,0 +1,8 @@
+2016-01-19 15:20:51,566 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:20:51,568 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:20:51,569 INFO  [main] o.a.q.t.u.QpidTestCase ========== run PortFactoryTest.testCreateNonAmqpPortWithPartiallySetAttributes ==========
+2016-01-19 15:20:53,323 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing RmiPortImpl : testCreateNonAmqpPortWithPartiallySetAttributes
+2016-01-19 15:20:53,323 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed RmiPortImpl : testCreateNonAmqpPortWithPartiallySetAttributes
+2016-01-19 15:20:53,323 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed RmiPortImpl : testCreateNonAmqpPortWithPartiallySetAttributes
+2016-01-19 15:20:53,323 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown PortFactoryTest.testCreateNonAmqpPortWithPartiallySetAttributes ==========
+2016-01-19 15:20:53,323 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

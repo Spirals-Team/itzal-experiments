@@ -1,0 +1,4 @@
+2016-01-19 15:20:50,218 INFO  [main] o.a.q.t.u.QpidTestCase ========== start ConnectionMessagesTest.testConnectionClose ==========
+2016-01-19 15:20:50,219 INFO  [main] o.a.q.t.u.QpidTestCase ========== run ConnectionMessagesTest.testConnectionClose ==========
+2016-01-19 15:20:50,220 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown ConnectionMessagesTest.testConnectionClose ==========
+2016-01-19 15:20:50,220 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

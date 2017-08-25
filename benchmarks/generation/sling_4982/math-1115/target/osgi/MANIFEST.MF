@@ -1,0 +1,75 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1502903132520
+Build-Jdk: 1.7.0_95
+Built-By: thomas
+Bundle-Description: The Apache Commons Math project is a library of ligh
+ tweight, self-contained mathematics and statistics components addressin
+ g the most common practical problems not immediately available in the J
+ ava programming language or commons-lang.
+Bundle-DocURL: http://commons.apache.org/proper/commons-math/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Commons Math
+Bundle-SymbolicName: org.apache.commons.math3
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 1115.0.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.commons.math3;version=1115,org.apache.commons
+ .math3.analysis;version=1115,org.apache.commons.math3.analysis.differen
+ tiation;version=1115,org.apache.commons.math3.analysis.function;version
+ =1115,org.apache.commons.math3.analysis.integration;version=1115,org.ap
+ ache.commons.math3.analysis.integration.gauss;version=1115,org.apache.c
+ ommons.math3.analysis.interpolation;version=1115,org.apache.commons.mat
+ h3.analysis.polynomials;version=1115,org.apache.commons.math3.analysis.
+ solvers;version=1115,org.apache.commons.math3.complex;version=1115,org.
+ apache.commons.math3.dfp;version=1115,org.apache.commons.math3.distribu
+ tion;version=1115,org.apache.commons.math3.distribution.fitting;version
+ =1115,org.apache.commons.math3.exception;version=1115,org.apache.common
+ s.math3.exception.util;version=1115,org.apache.commons.math3.filter;ver
+ sion=1115,org.apache.commons.math3.fitting;version=1115,org.apache.comm
+ ons.math3.fitting.leastsquares;version=1115,org.apache.commons.math3.fr
+ action;version=1115,org.apache.commons.math3.genetics;version=1115,org.
+ apache.commons.math3.geometry;version=1115,org.apache.commons.math3.geo
+ metry.enclosing;version=1115,org.apache.commons.math3.geometry.euclidea
+ n.oned;version=1115,org.apache.commons.math3.geometry.euclidean.threed;
+ version=1115,org.apache.commons.math3.geometry.euclidean.twod;version=1
+ 115,org.apache.commons.math3.geometry.euclidean.twod.hull;version=1115,
+ org.apache.commons.math3.geometry.hull;version=1115,org.apache.commons.
+ math3.geometry.partitioning;version=1115,org.apache.commons.math3.geome
+ try.partitioning.utilities;version=1115,org.apache.commons.math3.geomet
+ ry.spherical.oned;version=1115,org.apache.commons.math3.geometry.spheri
+ cal.twod;version=1115,org.apache.commons.math3.linear;version=1115,org.
+ apache.commons.math3.ml.clustering;version=1115,org.apache.commons.math
+ 3.ml.clustering.evaluation;version=1115,org.apache.commons.math3.ml.dis
+ tance;version=1115,org.apache.commons.math3.ml.neuralnet;version=1115,o
+ rg.apache.commons.math3.ml.neuralnet.oned;version=1115,org.apache.commo
+ ns.math3.ml.neuralnet.sofm;version=1115,org.apache.commons.math3.ml.neu
+ ralnet.sofm.util;version=1115,org.apache.commons.math3.ml.neuralnet.two
+ d;version=1115,org.apache.commons.math3.ode;version=1115,org.apache.com
+ mons.math3.ode.events;version=1115,org.apache.commons.math3.ode.nonstif
+ f;version=1115,org.apache.commons.math3.ode.sampling;version=1115,org.a
+ pache.commons.math3.optim;version=1115,org.apache.commons.math3.optim.l
+ inear;version=1115,org.apache.commons.math3.optim.nonlinear.scalar;vers
+ ion=1115,org.apache.commons.math3.optim.nonlinear.scalar.gradient;versi
+ on=1115,org.apache.commons.math3.optim.nonlinear.scalar.noderiv;version
+ =1115,org.apache.commons.math3.optim.nonlinear.vector;version=1115,org.
+ apache.commons.math3.optim.nonlinear.vector.jacobian;version=1115,org.a
+ pache.commons.math3.optim.univariate;version=1115,org.apache.commons.ma
+ th3.optimization;version=1115,org.apache.commons.math3.optimization.dir
+ ect;version=1115,org.apache.commons.math3.optimization.fitting;version=
+ 1115,org.apache.commons.math3.optimization.general;version=1115,org.apa
+ che.commons.math3.optimization.linear;version=1115,org.apache.commons.m
+ ath3.optimization.univariate;version=1115,org.apache.commons.math3.prim
+ es;version=1115,org.apache.commons.math3.random;version=1115,org.apache
+ .commons.math3.special;version=1115,org.apache.commons.math3.stat;versi
+ on=1115,org.apache.commons.math3.stat.clustering;version=1115,org.apach
+ e.commons.math3.stat.correlation;version=1115,org.apache.commons.math3.
+ stat.descriptive;version=1115,org.apache.commons.math3.stat.descriptive
+ .moment;version=1115,org.apache.commons.math3.stat.descriptive.rank;ver
+ sion=1115,org.apache.commons.math3.stat.descriptive.summary;version=111
+ 5,org.apache.commons.math3.stat.inference;version=1115,org.apache.commo
+ ns.math3.stat.interval;version=1115,org.apache.commons.math3.stat.ranki
+ ng;version=1115,org.apache.commons.math3.stat.regression;version=1115,o
+ rg.apache.commons.math3.transform;version=1115,org.apache.commons.math3
+ .util;version=1115
+Tool: Bnd-2.1.0.20130426-122213

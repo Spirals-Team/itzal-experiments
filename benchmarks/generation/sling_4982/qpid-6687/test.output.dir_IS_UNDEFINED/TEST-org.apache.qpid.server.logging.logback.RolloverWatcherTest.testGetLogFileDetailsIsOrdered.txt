@@ -1,0 +1,4 @@
+2016-01-19 15:12:12,316 INFO  [main] o.a.q.t.u.QpidTestCase ========== start RolloverWatcherTest.testGetLogFileDetailsIsOrdered ==========
+2016-01-19 15:12:12,317 INFO  [main] o.a.q.t.u.QpidTestCase ========== run RolloverWatcherTest.testGetLogFileDetailsIsOrdered ==========
+2016-01-19 15:12:12,330 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown RolloverWatcherTest.testGetLogFileDetailsIsOrdered ==========
+2016-01-19 15:12:12,333 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

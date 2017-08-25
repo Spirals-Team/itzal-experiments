@@ -1,0 +1,19 @@
+package org.apache.commons.math3.geometry.euclidean.threed;
+
+import fr.inria.spirals.npefix.resi.context.ConstructorContext;
+import org.apache.commons.math3.exception.MathIllegalArgumentException;
+import org.apache.commons.math3.exception.util.Localizable;
+
+public class NotARotationMatrixException extends MathIllegalArgumentException {
+    private static final long serialVersionUID = 5647178478658937642L;
+
+    public NotARotationMatrixException(Localizable specifier, Object... parts) {
+        super(specifier, parts);
+        ConstructorContext _bcornu_methode_context41 = new ConstructorContext(NotARotationMatrixException.class, 44, 1396, 1758);
+        try {
+        } finally {
+            _bcornu_methode_context41.methodEnd();
+        }
+    }
+}
+

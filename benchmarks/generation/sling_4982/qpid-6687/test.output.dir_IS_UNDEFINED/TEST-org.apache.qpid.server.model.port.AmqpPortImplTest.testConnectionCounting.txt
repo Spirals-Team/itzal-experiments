@@ -1,0 +1,23 @@
+2016-01-19 15:19:26,603 INFO  [main] o.a.q.t.u.QpidTestCase ========== start AmqpPortImplTest.testConnectionCounting ==========
+2016-01-19 15:19:26,605 INFO  [main] o.a.q.t.u.QpidTestCase ========== run AmqpPortImplTest.testConnectionCounting ==========
+2016-01-19 15:19:26,657 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 0 implementations of interface org.apache.qpid.server.plugin.ProtocolEngineCreator
+2016-01-19 15:19:26,657 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 0 implementations of interface org.apache.qpid.server.plugin.ProtocolEngineCreator
+2016-01-19 15:19:26,658 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 1 implementations of interface org.apache.qpid.server.plugin.TransportProviderFactory
+2016-01-19 15:19:26,668 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 1 implementations of interface org.apache.qpid.server.plugin.TransportProviderFactory
+2016-01-19 15:19:26,669 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 1 implementations of interface org.apache.qpid.server.plugin.TransportProviderFactory
+2016-01-19 15:19:26,685 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 1 implementations of interface org.apache.qpid.server.plugin.TransportProviderFactory
+2016-01-19 15:19:26,689 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 0 implementations of interface org.apache.qpid.server.plugin.ProtocolEngineCreator
+2016-01-19 15:19:26,786 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing AmqpPortImpl : AmqpPortImplTest.testConnectionCounting
+2016-01-19 15:19:26,791 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing VirtualHostNameAliasImpl : nameAlias
+2016-01-19 15:19:26,792 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed VirtualHostNameAliasImpl : nameAlias
+2016-01-19 15:19:26,793 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed VirtualHostNameAliasImpl : nameAlias
+2016-01-19 15:19:26,794 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing DefaultVirtualHostAliasImpl : defaultAlias
+2016-01-19 15:19:26,794 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed DefaultVirtualHostAliasImpl : defaultAlias
+2016-01-19 15:19:26,794 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed DefaultVirtualHostAliasImpl : defaultAlias
+2016-01-19 15:19:26,794 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing HostNameAliasImpl : hostnameAlias
+2016-01-19 15:19:26,794 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed HostNameAliasImpl : hostnameAlias
+2016-01-19 15:19:26,794 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed HostNameAliasImpl : hostnameAlias
+2016-01-19 15:19:26,800 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed AmqpPortImpl : AmqpPortImplTest.testConnectionCounting
+2016-01-19 15:19:26,811 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed AmqpPortImpl : AmqpPortImplTest.testConnectionCounting
+2016-01-19 15:19:26,811 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown AmqpPortImplTest.testConnectionCounting ==========
+2016-01-19 15:19:26,812 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

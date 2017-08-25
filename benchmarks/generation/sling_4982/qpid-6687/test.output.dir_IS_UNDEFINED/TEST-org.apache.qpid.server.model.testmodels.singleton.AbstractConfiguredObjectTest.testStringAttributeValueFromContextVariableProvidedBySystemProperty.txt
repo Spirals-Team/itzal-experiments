@@ -1,0 +1,4 @@
+2017-07-20 09:13:08,136 INFO  [main] o.a.q.t.u.QpidTestCase ========== start AbstractConfiguredObjectTest.testStringAttributeValueFromContextVariableProvidedBySystemProperty ==========
+2017-07-20 09:13:08,138 INFO  [main] o.a.q.t.u.QpidTestCase ========== run AbstractConfiguredObjectTest.testStringAttributeValueFromContextVariableProvidedBySystemProperty ==========
+2017-07-20 09:13:08,141 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown AbstractConfiguredObjectTest.testStringAttributeValueFromContextVariableProvidedBySystemProperty ==========
+2017-07-20 09:13:08,142 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

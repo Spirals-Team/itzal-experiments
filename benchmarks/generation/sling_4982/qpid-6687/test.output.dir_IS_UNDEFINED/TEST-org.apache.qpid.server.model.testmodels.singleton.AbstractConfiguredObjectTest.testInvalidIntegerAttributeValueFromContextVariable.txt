@@ -1,0 +1,4 @@
+2017-07-20 09:13:08,126 INFO  [main] o.a.q.t.u.QpidTestCase ========== start AbstractConfiguredObjectTest.testInvalidIntegerAttributeValueFromContextVariable ==========
+2017-07-20 09:13:08,128 INFO  [main] o.a.q.t.u.QpidTestCase ========== run AbstractConfiguredObjectTest.testInvalidIntegerAttributeValueFromContextVariable ==========
+2017-07-20 09:13:08,129 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown AbstractConfiguredObjectTest.testInvalidIntegerAttributeValueFromContextVariable ==========
+2017-07-20 09:13:08,129 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

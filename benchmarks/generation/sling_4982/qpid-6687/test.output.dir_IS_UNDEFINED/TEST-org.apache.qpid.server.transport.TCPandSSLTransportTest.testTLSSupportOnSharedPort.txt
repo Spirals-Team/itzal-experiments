@@ -1,0 +1,4 @@
+2016-01-19 15:12:12,500 INFO  [main] o.a.q.t.u.QpidTestCase ========== start TCPandSSLTransportTest.testTLSSupportOnSharedPort ==========
+2016-01-19 15:12:12,501 INFO  [main] o.a.q.t.u.QpidTestCase ========== run TCPandSSLTransportTest.testTLSSupportOnSharedPort ==========
+2016-01-19 15:12:12,516 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 0 implementations of interface org.apache.qpid.server.plugin.ProtocolEngineCreator
+2016-01-19 15:12:12,529 DEBUG [IO-/127.0.0.1:54148] o.a.q.s.t.NonBlockingConnection Read 6 byte(s)

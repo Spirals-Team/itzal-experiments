@@ -1,0 +1,225 @@
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.Bootstrap createClassLoader
+FINE: Expanded ${catalina.base}/lib to /mnt/secondary/npe-dataset/tomcat-49883/output/build/lib
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.Bootstrap createClassLoader
+FINE: Expanded ${catalina.base}/lib/*.jar to /mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/*.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.Bootstrap createClassLoader
+FINE: Expanded ${catalina.home}/lib to /mnt/secondary/npe-dataset/tomcat-49883/output/build/lib
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.Bootstrap createClassLoader
+FINE: Expanded ${catalina.home}/lib/*.jar to /mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/*.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE: Creating new class loader
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:   Including directory file:/mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:   Including directory glob /mnt/secondary/npe-dataset/tomcat-49883/output/build/lib
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:     Including glob jar file /mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/tomcat-i18n-es.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:     Including glob jar file /mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/tomcat-i18n-fr.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:     Including glob jar file /mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/tomcat-i18n-ja.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:     Including glob jar file /mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/catalina-ant.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:     Including glob jar file /mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/tomcat-api.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:     Including glob jar file /mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/tomcat-util.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:     Including glob jar file /mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/jasper.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:     Including glob jar file /mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/catalina.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:     Including glob jar file /mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/ecj-3.6.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:     Including glob jar file /mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/annotations-api.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:     Including glob jar file /mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/jsp-api.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:     Including glob jar file /mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/catalina-tribes.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:     Including glob jar file /mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/tomcat-coyote.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:     Including glob jar file /mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/jasper-el.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:     Including glob jar file /mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/servlet-api.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:     Including glob jar file /mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/el-api.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:     Including glob jar file /mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/catalina-ha.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:   Including directory file:/mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:   Including directory glob /mnt/secondary/npe-dataset/tomcat-49883/output/build/lib
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:     Including glob jar file /mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/tomcat-i18n-es.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:     Including glob jar file /mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/tomcat-i18n-fr.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:     Including glob jar file /mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/tomcat-i18n-ja.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:     Including glob jar file /mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/catalina-ant.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:     Including glob jar file /mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/tomcat-api.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:     Including glob jar file /mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/tomcat-util.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:     Including glob jar file /mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/jasper.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:     Including glob jar file /mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/catalina.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:     Including glob jar file /mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/ecj-3.6.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:     Including glob jar file /mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/annotations-api.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:     Including glob jar file /mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/jsp-api.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:     Including glob jar file /mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/catalina-tribes.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:     Including glob jar file /mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/tomcat-coyote.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:     Including glob jar file /mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/jasper-el.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:     Including glob jar file /mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/servlet-api.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:     Including glob jar file /mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/el-api.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:     Including glob jar file /mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/catalina-ha.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:   location 0 is file:/mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:   location 1 is file:/mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/tomcat-i18n-es.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:   location 2 is file:/mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/tomcat-i18n-fr.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:   location 3 is file:/mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/tomcat-i18n-ja.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:   location 4 is file:/mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/catalina-ant.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:   location 5 is file:/mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/tomcat-api.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:   location 6 is file:/mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/tomcat-util.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:   location 7 is file:/mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/jasper.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:   location 8 is file:/mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/catalina.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:   location 9 is file:/mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/ecj-3.6.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:   location 10 is file:/mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/annotations-api.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:   location 11 is file:/mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/jsp-api.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:   location 12 is file:/mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/catalina-tribes.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:   location 13 is file:/mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/tomcat-coyote.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:   location 14 is file:/mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/jasper-el.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:   location 15 is file:/mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/servlet-api.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:   location 16 is file:/mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/el-api.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClassLoaderFactory createClassLoader
+FINE:   location 17 is file:/mnt/secondary/npe-dataset/tomcat-49883/output/build/lib/catalina-ha.jar
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.Bootstrap init
+FINE: Loading startup class
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.Bootstrap init
+FINE: Setting startup class properties
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.Bootstrap load
+FINE: Calling startup class public void org.apache.catalina.startup.Catalina.load(java.lang.String[])
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.Catalina initNaming
+FINE: Setting naming prefix=org.apache.naming
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClusterRuleSetFactory getClusterRuleSet
+FINE: Unable to load ClusterRuleSet (org.apache.catalina.cluster.ClusterRuleSet), falling back on context classloader
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClusterRuleSetFactory getClusterRuleSet
+FINE: Unable to load ClusterRuleSet (org.apache.catalina.cluster.ClusterRuleSet), will try to load the HA cluster
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClusterRuleSetFactory getClusterRuleSet
+FINE: Unable to load ClusterRuleSet (org.apache.catalina.cluster.ClusterRuleSet), falling back on context classloader
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.ClusterRuleSetFactory getClusterRuleSet
+FINE: Unable to load ClusterRuleSet (org.apache.catalina.cluster.ClusterRuleSet), will try to load the HA cluster
+Jul 24, 2017 1:58:29 PM org.apache.catalina.startup.Catalina createStartDigester
+FINE: Digester for server.xml created 27
+Jul 24, 2017 1:58:30 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Jul 24, 2017 1:58:30 PM org.apache.catalina.core.ContainerBase addChildInternal
+FINE: Add child StandardHost[localhost] StandardEngine[Catalina]
+Jul 24, 2017 1:58:30 PM org.apache.catalina.util.LifecycleBase setState
+FINE: Setting state for [StandardServer[8005]] to [INITIALIZING]
+Jul 24, 2017 1:58:30 PM org.apache.catalina.util.LifecycleBase setState
+FINE: Setting state for [StandardService[Catalina]] to [INITIALIZING]
+Jul 24, 2017 1:58:30 PM org.apache.catalina.util.LifecycleBase setState
+FINE: Setting state for [StandardEngine[Catalina]] to [INITIALIZING]
+Jul 24, 2017 1:58:30 PM org.apache.catalina.util.LifecycleBase setState
+FINE: Setting state for [StandardEngine[Catalina]] to [INITIALIZED]
+Jul 24, 2017 1:58:30 PM org.apache.catalina.util.LifecycleBase setState
+FINE: Setting state for [Connector[HTTP/1.1-8080]] to [INITIALIZING]
+Jul 24, 2017 1:58:30 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+Jul 24, 2017 1:58:30 PM org.apache.catalina.util.LifecycleBase setState
+FINE: Setting state for [Connector[HTTP/1.1-8080]] to [INITIALIZED]
+Jul 24, 2017 1:58:30 PM org.apache.catalina.util.LifecycleBase setState
+FINE: Setting state for [Connector[AJP/1.3-8009]] to [INITIALIZING]
+Jul 24, 2017 1:58:30 PM org.apache.coyote.ajp.AjpProtocol init
+INFO: Initializing Coyote AJP/1.3 on ajp-8009
+Jul 24, 2017 1:58:30 PM org.apache.catalina.util.LifecycleBase setState
+FINE: Setting state for [Connector[AJP/1.3-8009]] to [INITIALIZED]
+Jul 24, 2017 1:58:30 PM org.apache.catalina.util.LifecycleBase setState
+FINE: Setting state for [StandardService[Catalina]] to [INITIALIZED]
+Jul 24, 2017 1:58:30 PM org.apache.catalina.util.LifecycleBase setState
+FINE: Setting state for [StandardServer[8005]] to [INITIALIZED]
+Jul 24, 2017 1:58:30 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 518 ms
+Jul 24, 2017 1:58:30 PM org.apache.catalina.util.LifecycleBase setState
+FINE: Setting state for [StandardServer[8005]] to [STARTING_PREP]
+Jul 24, 2017 1:58:30 PM org.apache.catalina.core.NamingContextListener lifecycleEvent
+FINE: Bound StandardServer[8005]
+Jul 24, 2017 1:58:30 PM org.apache.catalina.core.NamingContextListener createNamingContext
+FINE: Creating JNDI naming context
+Jul 24, 2017 1:58:30 PM org.apache.catalina.core.NamingContextListener addResource
+FINE:   Adding resource ref UserDatabase  ResourceRef[className=org.apache.catalina.UserDatabase,factoryClassLocation=null,factoryClassName=org.apache.naming.factory.ResourceFactory,{type=description,content=User database that can be updated and saved},{type=scope,content=Shareable},{type=auth,content=Container},{type=pathname,content=conf/tomcat-users.xml},{type=factory,content=org.apache.catalina.users.MemoryUserDatabaseFactory}]
+Jul 24, 2017 1:58:30 PM org.apache.catalina.util.LifecycleBase setState
+FINE: Setting state for [StandardServer[8005]] to [STARTING]
+Jul 24, 2017 1:58:30 PM org.apache.catalina.mbeans.GlobalResourcesLifecycleListener createMBeans
+FINE: Creating MBeans for Global JNDI Resources in Context ''
+Jul 24, 2017 1:58:30 PM org.apache.catalina.mbeans.GlobalResourcesLifecycleListener createMBeans
+FINE: Checking resource UserDatabase
+Jul 24, 2017 1:58:30 PM org.apache.catalina.mbeans.GlobalResourcesLifecycleListener createMBeans
+FINE: Creating UserDatabase MBeans for resource UserDatabase
+Jul 24, 2017 1:58:30 PM org.apache.catalina.mbeans.GlobalResourcesLifecycleListener createMBeans
+FINE: Database=MemoryUserDatabase[id=UserDatabase,pathname=conf/tomcat-users.xml,groupCount=0,roleCount=0,userCount=0]
+Jul 24, 2017 1:58:30 PM org.apache.catalina.util.LifecycleBase setState
+FINE: Setting state for [StandardService[Catalina]] to [STARTING_PREP]
+Jul 24, 2017 1:58:30 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 24, 2017 1:58:30 PM org.apache.catalina.util.LifecycleBase setState
+FINE: Setting state for [StandardService[Catalina]] to [STARTING]
+Jul 24, 2017 1:58:30 PM org.apache.catalina.util.LifecycleBase setState
+FINE: Setting state for [StandardEngine[Catalina]] to [STARTING_PREP]
+Jul 24, 2017 1:58:30 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.3-dev
+Jul 24, 2017 1:58:30 PM org.apache.catalina.realm.CombinedRealm getName
+SEVERE: An unexpected call was made to a method on the combined realm
+java.lang.UnsupportedOperationException: The getName() method should never be called
+	at org.apache.catalina.realm.CombinedRealm.getName(CombinedRealm.java:268)
+	at org.apache.catalina.realm.RealmBase.toString(RealmBase.java:1015)
+	at java.text.MessageFormat.subformat(MessageFormat.java:1271)
+	at java.text.MessageFormat.format(MessageFormat.java:819)
+	at org.apache.tomcat.util.res.StringManager.getString(StringManager.java:152)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:320)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:305)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:98)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:131)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:1020)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:276)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:140)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:429)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:140)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:649)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:140)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:584)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:416)
+

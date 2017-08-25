@@ -1,0 +1,4 @@
+2016-01-19 15:20:56,559 INFO  [main] o.a.q.t.u.QpidTestCase ========== start MapJsonSerializerTest.testSerializeDeserialize ==========
+2016-01-19 15:20:56,564 INFO  [main] o.a.q.t.u.QpidTestCase ========== run MapJsonSerializerTest.testSerializeDeserialize ==========
+2016-01-19 15:20:56,566 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown MapJsonSerializerTest.testSerializeDeserialize ==========
+2016-01-19 15:20:56,567 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

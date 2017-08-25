@@ -1,0 +1,2150 @@
+Aug 24, 2017 11:45:24 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Aug 24, 2017 11:45:24 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Aug 24, 2017 11:45:24 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@2ca98faa')
+Aug 24, 2017 11:45:35 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.runtime.JspApplicationContextImpl', 'org.apache.jasper.runtime.JspApplicationContextImpl@3e85fec6')
+Aug 24, 2017 11:45:35 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.ELInterpreter', 'org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@68d34925')
+Aug 24, 2017 11:45:37 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('B3C668D587D5CCD2290969F33F80E9A5')
+Aug 24, 2017 11:45:37 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('9BE349172064B1F6575D5CF29C6C3A03')
+Aug 24, 2017 11:45:37 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+fr.inria.spirals.npefix.resi.exception.NoMoreDecision
+	at fr.inria.spirals.npefix.resi.selector.ExplorerSelector.select(ExplorerSelector.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:323)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$84(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Aug 24, 2017 11:45:37 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('7A92CA4A235CAF853C92EB2A5A7A6B73')
+Aug 24, 2017 11:45:37 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+fr.inria.spirals.npefix.resi.exception.NoMoreDecision
+	at fr.inria.spirals.npefix.resi.selector.ExplorerSelector.select(ExplorerSelector.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:323)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$84(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Aug 24, 2017 11:45:37 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('0EF36D7DF7D4F2322B9977195999F007')
+Aug 24, 2017 11:45:37 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+fr.inria.spirals.npefix.resi.exception.NoMoreDecision
+	at fr.inria.spirals.npefix.resi.selector.ExplorerSelector.select(ExplorerSelector.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:323)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$84(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Aug 24, 2017 11:45:37 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('FDD046B343C0C978CF8AB0407708A985')
+Aug 24, 2017 11:45:37 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+fr.inria.spirals.npefix.resi.exception.NoMoreDecision
+	at fr.inria.spirals.npefix.resi.selector.ExplorerSelector.select(ExplorerSelector.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:323)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$84(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Aug 24, 2017 11:45:37 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('49845888284C012232EE1D257D926E5B')
+Aug 24, 2017 11:45:37 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+fr.inria.spirals.npefix.resi.exception.NoMoreDecision
+	at fr.inria.spirals.npefix.resi.selector.ExplorerSelector.select(ExplorerSelector.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:323)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$84(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Aug 24, 2017 11:45:38 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('B890451DA28F85AE44D27752B5A1FFB3')
+Aug 24, 2017 11:45:38 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+fr.inria.spirals.npefix.resi.exception.NoMoreDecision
+	at fr.inria.spirals.npefix.resi.selector.ExplorerSelector.select(ExplorerSelector.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:323)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$84(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Aug 24, 2017 11:45:38 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('1E4A662E352C520F425E9C370CC8284E')
+Aug 24, 2017 11:45:38 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+fr.inria.spirals.npefix.resi.exception.NoMoreDecision
+	at fr.inria.spirals.npefix.resi.selector.ExplorerSelector.select(ExplorerSelector.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:323)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$84(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Aug 24, 2017 11:45:38 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('01A3BBAE93C7AF2AF2C2F71DDE33924F')
+Aug 24, 2017 11:45:38 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+fr.inria.spirals.npefix.resi.exception.NoMoreDecision
+	at fr.inria.spirals.npefix.resi.selector.ExplorerSelector.select(ExplorerSelector.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:323)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$84(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Aug 24, 2017 11:45:38 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('EED91C64AD0653859905A49D39A12026')
+Aug 24, 2017 11:45:38 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+fr.inria.spirals.npefix.resi.exception.NoMoreDecision
+	at fr.inria.spirals.npefix.resi.selector.ExplorerSelector.select(ExplorerSelector.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:323)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$84(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Aug 24, 2017 11:45:38 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('408E56B832DFF8F1730882A1C3998AF0')
+Aug 24, 2017 11:45:38 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+fr.inria.spirals.npefix.resi.exception.NoMoreDecision
+	at fr.inria.spirals.npefix.resi.selector.ExplorerSelector.select(ExplorerSelector.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:323)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$84(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Aug 24, 2017 11:45:38 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('936795E881C8BD99A1E7D4585F29B103')
+Aug 24, 2017 11:45:38 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+fr.inria.spirals.npefix.resi.exception.NoMoreDecision
+	at fr.inria.spirals.npefix.resi.selector.ExplorerSelector.select(ExplorerSelector.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:323)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$84(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Aug 24, 2017 11:45:38 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('BCA33EA874B998412668E625E834E006')
+Aug 24, 2017 11:45:38 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+fr.inria.spirals.npefix.resi.exception.NoMoreDecision
+	at fr.inria.spirals.npefix.resi.selector.ExplorerSelector.select(ExplorerSelector.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:323)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$84(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Aug 24, 2017 11:45:38 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('8030275C2EF8EF6C40EB9DF7629652C1')
+Aug 24, 2017 11:45:38 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+fr.inria.spirals.npefix.resi.exception.NoMoreDecision
+	at fr.inria.spirals.npefix.resi.selector.ExplorerSelector.select(ExplorerSelector.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:323)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$84(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Aug 24, 2017 11:45:38 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('00D5759605599DB9207F84E52F530983')
+Aug 24, 2017 11:45:38 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+fr.inria.spirals.npefix.resi.exception.NoMoreDecision
+	at fr.inria.spirals.npefix.resi.selector.ExplorerSelector.select(ExplorerSelector.java:108)
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:323)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$84(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Aug 24, 2017 11:45:38 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('D84FD7031F3B5EFDF1C44329C9207DFF')
+Aug 24, 2017 11:45:39 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+fr.inria.spirals.npefix.resi.exception.NoMoreDecision
+	at fr.inria.spirals.npefix.resi.selector.ExplorerSelector.select(ExplorerSelector.java:108)
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:323)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$84(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Aug 24, 2017 11:45:39 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('8DCC71A964EB736B1075C00C8440843F')
+Aug 24, 2017 11:45:39 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+fr.inria.spirals.npefix.resi.exception.NoMoreDecision
+	at fr.inria.spirals.npefix.resi.selector.ExplorerSelector.select(ExplorerSelector.java:108)
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:323)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$84(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Aug 24, 2017 11:45:39 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('6E8C4B6260BAAB621915BDB41C8EFDE4')
+Aug 24, 2017 11:45:39 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+fr.inria.spirals.npefix.resi.exception.NoMoreDecision
+	at fr.inria.spirals.npefix.resi.selector.ExplorerSelector.select(ExplorerSelector.java:108)
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:323)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$84(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Aug 24, 2017 11:45:39 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('2574E9681D6F627F59D2D25827CBF565')
+Aug 24, 2017 11:45:39 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+fr.inria.spirals.npefix.resi.exception.NoMoreDecision
+	at fr.inria.spirals.npefix.resi.selector.ExplorerSelector.select(ExplorerSelector.java:108)
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:323)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$84(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Aug 24, 2017 11:45:39 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('4D203C1B8762D5E27273A1CB1D046E29')
+Aug 24, 2017 11:45:39 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+fr.inria.spirals.npefix.resi.exception.NoMoreDecision
+	at fr.inria.spirals.npefix.resi.selector.ExplorerSelector.select(ExplorerSelector.java:108)
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:323)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$84(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Aug 24, 2017 11:46:14 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('917F0D6AE5B4ED327F3B70F39C190FDF')
+Aug 24, 2017 11:46:14 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+java.lang.NullPointerException
+	at org.apache.tomcat.util.http.parser.HttpParser.parseMediaType(HttpParser.java:231)
+	at org.apache.tomcat.util.http.parser.MediaTypeCache.parse(MediaTypeCache.java:42)
+	at org.apache.catalina.connector.Response.setContentType(Response.java:711)
+	at org.apache.catalina.connector.ResponseFacade.setContentType(ResponseFacade.java:258)
+	at org.apache.jsp.bug54703_jsp._jspService(bug54703_jsp.java:72)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:83)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:224)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:107)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:75)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:933)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:90)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:493)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:986)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1584)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1543)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Aug 24, 2017 11:46:14 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('D75254B47B85A2D6E4D52B2F0E172912')
+Aug 24, 2017 11:46:14 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+java.lang.NullPointerException
+	at org.apache.tomcat.util.http.parser.HttpParser.parseMediaType(HttpParser.java:231)
+	at org.apache.tomcat.util.http.parser.MediaTypeCache.parse(MediaTypeCache.java:42)
+	at org.apache.catalina.connector.Response.setContentType(Response.java:711)
+	at org.apache.catalina.connector.ResponseFacade.setContentType(ResponseFacade.java:258)
+	at org.apache.jsp.bug54703_jsp._jspService(bug54703_jsp.java:72)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:83)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:224)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:107)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:75)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:933)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:90)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:493)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:986)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1584)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1543)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Aug 24, 2017 11:46:14 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('8817C018FA2167DBAFE7F089955DB3A4')
+Aug 24, 2017 11:46:14 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+java.lang.NullPointerException
+	at org.apache.tomcat.util.http.parser.HttpParser.parseMediaType(HttpParser.java:231)
+	at org.apache.tomcat.util.http.parser.MediaTypeCache.parse(MediaTypeCache.java:42)
+	at org.apache.catalina.connector.Response.setContentType(Response.java:711)
+	at org.apache.catalina.connector.ResponseFacade.setContentType(ResponseFacade.java:258)
+	at org.apache.jsp.bug54703_jsp._jspService(bug54703_jsp.java:72)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:83)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:224)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:107)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:75)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:933)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:90)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:493)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:986)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1584)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1543)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Aug 24, 2017 11:46:14 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('EFBA859F3427E09F2351F5A4592111F0')
+Aug 24, 2017 11:46:14 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+java.lang.NullPointerException
+	at org.apache.tomcat.util.http.parser.HttpParser.parseMediaType(HttpParser.java:231)
+	at org.apache.tomcat.util.http.parser.MediaTypeCache.parse(MediaTypeCache.java:42)
+	at org.apache.catalina.connector.Response.setContentType(Response.java:711)
+	at org.apache.catalina.connector.ResponseFacade.setContentType(ResponseFacade.java:258)
+	at org.apache.jsp.bug54703_jsp._jspService(bug54703_jsp.java:72)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:83)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:224)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:107)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:75)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:933)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:90)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:493)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:986)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1584)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1543)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Aug 24, 2017 11:46:14 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('E8C7ED957B06F448D11601C8D359B512')
+Aug 24, 2017 11:46:14 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+java.lang.NullPointerException
+	at org.apache.tomcat.util.http.parser.HttpParser.parseMediaType(HttpParser.java:231)
+	at org.apache.tomcat.util.http.parser.MediaTypeCache.parse(MediaTypeCache.java:42)
+	at org.apache.catalina.connector.Response.setContentType(Response.java:711)
+	at org.apache.catalina.connector.ResponseFacade.setContentType(ResponseFacade.java:258)
+	at org.apache.jsp.bug54703_jsp._jspService(bug54703_jsp.java:72)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:83)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:224)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:107)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:75)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:933)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:90)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:493)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:986)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1584)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1543)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Aug 24, 2017 11:46:14 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('BBADFA5EFAC6484EE46BDE6024500C46')
+Aug 24, 2017 11:46:14 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+java.lang.NullPointerException
+	at org.apache.tomcat.util.http.parser.HttpParser.parseMediaType(HttpParser.java:231)
+	at org.apache.tomcat.util.http.parser.MediaTypeCache.parse(MediaTypeCache.java:42)
+	at org.apache.catalina.connector.Response.setContentType(Response.java:711)
+	at org.apache.catalina.connector.ResponseFacade.setContentType(ResponseFacade.java:258)
+	at org.apache.jsp.bug54703_jsp._jspService(bug54703_jsp.java:72)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:83)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:224)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:107)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:75)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:933)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:90)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:493)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:986)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1584)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1543)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Aug 24, 2017 11:46:14 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('61B3263E09856945CF57120ABECD82FA')
+Aug 24, 2017 11:46:14 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+java.lang.NullPointerException
+	at org.apache.tomcat.util.http.parser.HttpParser.parseMediaType(HttpParser.java:231)
+	at org.apache.tomcat.util.http.parser.MediaTypeCache.parse(MediaTypeCache.java:42)
+	at org.apache.catalina.connector.Response.setContentType(Response.java:711)
+	at org.apache.catalina.connector.ResponseFacade.setContentType(ResponseFacade.java:258)
+	at org.apache.jsp.bug54703_jsp._jspService(bug54703_jsp.java:72)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:83)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:224)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:107)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:75)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:933)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:90)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:493)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:986)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1584)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1543)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Aug 24, 2017 11:46:14 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('B51730E7F1BEDCC5F2007ED3F4FE1484')
+Aug 24, 2017 11:46:14 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+java.lang.NullPointerException
+	at org.apache.tomcat.util.http.parser.HttpParser.parseMediaType(HttpParser.java:231)
+	at org.apache.tomcat.util.http.parser.MediaTypeCache.parse(MediaTypeCache.java:42)
+	at org.apache.catalina.connector.Response.setContentType(Response.java:711)
+	at org.apache.catalina.connector.ResponseFacade.setContentType(ResponseFacade.java:258)
+	at org.apache.jsp.bug54703_jsp._jspService(bug54703_jsp.java:72)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:83)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:224)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:107)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:75)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:933)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:90)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:493)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:986)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1584)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1543)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Aug 24, 2017 11:46:14 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('7D670621ED8945BC2CE202E592C751EF')
+Aug 24, 2017 11:46:14 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+java.lang.NullPointerException
+	at org.apache.tomcat.util.http.parser.HttpParser.parseMediaType(HttpParser.java:231)
+	at org.apache.tomcat.util.http.parser.MediaTypeCache.parse(MediaTypeCache.java:42)
+	at org.apache.catalina.connector.Response.setContentType(Response.java:711)
+	at org.apache.catalina.connector.ResponseFacade.setContentType(ResponseFacade.java:258)
+	at org.apache.jsp.bug54703_jsp._jspService(bug54703_jsp.java:72)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:83)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:224)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:107)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:75)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:933)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:90)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:493)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:986)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1584)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1543)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Aug 24, 2017 11:46:14 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('51E19019ACE03109228E997745724610')
+Aug 24, 2017 11:46:15 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+java.lang.NullPointerException
+	at org.apache.tomcat.util.http.parser.HttpParser.parseMediaType(HttpParser.java:231)
+	at org.apache.tomcat.util.http.parser.MediaTypeCache.parse(MediaTypeCache.java:42)
+	at org.apache.catalina.connector.Response.setContentType(Response.java:711)
+	at org.apache.catalina.connector.ResponseFacade.setContentType(ResponseFacade.java:258)
+	at org.apache.jsp.bug54703_jsp._jspService(bug54703_jsp.java:72)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:83)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:224)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:107)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:75)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:933)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:90)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:493)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:986)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1584)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1543)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Aug 24, 2017 11:46:15 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('A89B51238AEDFC05D8357734EDD8BE6D')
+Aug 24, 2017 11:46:15 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+java.lang.NullPointerException
+	at org.apache.tomcat.util.http.parser.HttpParser.parseMediaType(HttpParser.java:231)
+	at org.apache.tomcat.util.http.parser.MediaTypeCache.parse(MediaTypeCache.java:42)
+	at org.apache.catalina.connector.Response.setContentType(Response.java:711)
+	at org.apache.catalina.connector.ResponseFacade.setContentType(ResponseFacade.java:258)
+	at org.apache.jsp.bug54703_jsp._jspService(bug54703_jsp.java:72)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:83)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:224)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:107)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:75)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:933)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:90)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:493)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:986)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1584)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1543)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Aug 24, 2017 11:46:15 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('7C64CACC4960939A6EBE599012A29FDF')
+Aug 24, 2017 11:46:15 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+java.lang.NullPointerException
+	at org.apache.tomcat.util.http.parser.HttpParser.parseMediaType(HttpParser.java:231)
+	at org.apache.tomcat.util.http.parser.MediaTypeCache.parse(MediaTypeCache.java:42)
+	at org.apache.catalina.connector.Response.setContentType(Response.java:711)
+	at org.apache.catalina.connector.ResponseFacade.setContentType(ResponseFacade.java:258)
+	at org.apache.jsp.bug54703_jsp._jspService(bug54703_jsp.java:72)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:83)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:224)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:107)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:75)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:933)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:90)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:493)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:986)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1584)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1543)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Aug 24, 2017 11:46:15 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('631EB0CC88215EFD4080A2DAFD65CD95')
+Aug 24, 2017 11:46:15 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+java.lang.NullPointerException
+	at org.apache.tomcat.util.http.parser.HttpParser.parseMediaType(HttpParser.java:231)
+	at org.apache.tomcat.util.http.parser.MediaTypeCache.parse(MediaTypeCache.java:42)
+	at org.apache.catalina.connector.Response.setContentType(Response.java:711)
+	at org.apache.catalina.connector.ResponseFacade.setContentType(ResponseFacade.java:258)
+	at org.apache.jsp.bug54703_jsp._jspService(bug54703_jsp.java:72)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:83)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:224)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:107)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:75)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:933)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:90)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:493)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:986)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1584)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1543)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Aug 24, 2017 11:46:15 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('85006EFF967D1713D31BDBCD57A40E39')
+Aug 24, 2017 11:46:15 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+java.lang.NullPointerException
+	at org.apache.tomcat.util.http.parser.HttpParser.parseMediaType(HttpParser.java:231)
+	at org.apache.tomcat.util.http.parser.MediaTypeCache.parse(MediaTypeCache.java:42)
+	at org.apache.catalina.connector.Response.setContentType(Response.java:711)
+	at org.apache.catalina.connector.ResponseFacade.setContentType(ResponseFacade.java:258)
+	at org.apache.jsp.bug54703_jsp._jspService(bug54703_jsp.java:72)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:83)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:224)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:107)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:75)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:933)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:90)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:493)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:986)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1584)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1543)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Aug 24, 2017 11:46:15 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('1BD05AA9ACCAE1A62CDC92DC2488A5F8')
+Aug 24, 2017 11:46:15 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+java.lang.NullPointerException
+	at org.apache.tomcat.util.http.parser.HttpParser.parseMediaType(HttpParser.java:231)
+	at org.apache.tomcat.util.http.parser.MediaTypeCache.parse(MediaTypeCache.java:42)
+	at org.apache.catalina.connector.Response.setContentType(Response.java:711)
+	at org.apache.catalina.connector.ResponseFacade.setContentType(ResponseFacade.java:258)
+	at org.apache.jsp.bug54703_jsp._jspService(bug54703_jsp.java:72)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:83)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:224)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:107)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:75)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:933)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:90)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:493)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:986)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1584)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1543)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Aug 24, 2017 11:46:15 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('C83A87583CC369BC12243812BDB0E319')
+Aug 24, 2017 11:46:15 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+java.lang.NullPointerException
+	at org.apache.tomcat.util.http.parser.HttpParser.parseMediaType(HttpParser.java:231)
+	at org.apache.tomcat.util.http.parser.MediaTypeCache.parse(MediaTypeCache.java:42)
+	at org.apache.catalina.connector.Response.setContentType(Response.java:711)
+	at org.apache.catalina.connector.ResponseFacade.setContentType(ResponseFacade.java:258)
+	at org.apache.jsp.bug54703_jsp._jspService(bug54703_jsp.java:72)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:83)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:224)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:107)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:75)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:933)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:90)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:493)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:986)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1584)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1543)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Aug 24, 2017 11:46:15 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('07B2091E0BA7C78DB8E3A8141A574705')
+Aug 24, 2017 11:46:15 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+java.lang.NullPointerException
+	at org.apache.tomcat.util.http.parser.HttpParser.parseMediaType(HttpParser.java:231)
+	at org.apache.tomcat.util.http.parser.MediaTypeCache.parse(MediaTypeCache.java:42)
+	at org.apache.catalina.connector.Response.setContentType(Response.java:711)
+	at org.apache.catalina.connector.ResponseFacade.setContentType(ResponseFacade.java:258)
+	at org.apache.jsp.bug54703_jsp._jspService(bug54703_jsp.java:72)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:83)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:224)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:107)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:75)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:933)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:90)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:493)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:986)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1584)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1543)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Aug 24, 2017 11:46:15 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('71D74F31C1D1C5CFB1B38754F32B3A70')
+Aug 24, 2017 11:46:16 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+java.lang.NullPointerException
+	at org.apache.tomcat.util.http.parser.HttpParser.parseMediaType(HttpParser.java:231)
+	at org.apache.tomcat.util.http.parser.MediaTypeCache.parse(MediaTypeCache.java:42)
+	at org.apache.catalina.connector.Response.setContentType(Response.java:711)
+	at org.apache.catalina.connector.ResponseFacade.setContentType(ResponseFacade.java:258)
+	at org.apache.jsp.bug54703_jsp._jspService(bug54703_jsp.java:72)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:83)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:224)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:107)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:75)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:933)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:90)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:493)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:986)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1584)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1543)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Aug 24, 2017 11:46:16 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('00D0EE4708DA99E7153A3F73332789FF')
+Aug 24, 2017 11:46:16 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+java.lang.NullPointerException
+	at org.apache.tomcat.util.http.parser.HttpParser.parseMediaType(HttpParser.java:231)
+	at org.apache.tomcat.util.http.parser.MediaTypeCache.parse(MediaTypeCache.java:42)
+	at org.apache.catalina.connector.Response.setContentType(Response.java:711)
+	at org.apache.catalina.connector.ResponseFacade.setContentType(ResponseFacade.java:258)
+	at org.apache.jsp.bug54703_jsp._jspService(bug54703_jsp.java:72)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:83)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:224)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:107)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:75)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:933)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:90)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:493)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:986)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1584)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1543)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Aug 24, 2017 11:46:16 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('A43E81972317F803C663957C14517033')
+Aug 24, 2017 11:46:16 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+java.lang.NullPointerException
+	at org.apache.tomcat.util.http.parser.HttpParser.parseMediaType(HttpParser.java:231)
+	at org.apache.tomcat.util.http.parser.MediaTypeCache.parse(MediaTypeCache.java:42)
+	at org.apache.catalina.connector.Response.setContentType(Response.java:711)
+	at org.apache.catalina.connector.ResponseFacade.setContentType(ResponseFacade.java:258)
+	at org.apache.jsp.bug54703_jsp._jspService(bug54703_jsp.java:72)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:83)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:224)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:107)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:75)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:933)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:90)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:493)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:986)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1584)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1543)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Aug 24, 2017 12:16:24 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('8DCC71A964EB736B1075C00C8440843F')
+Aug 24, 2017 12:16:24 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('7D670621ED8945BC2CE202E592C751EF')
+Aug 24, 2017 12:16:24 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('C83A87583CC369BC12243812BDB0E319')
+Aug 24, 2017 12:16:24 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('B890451DA28F85AE44D27752B5A1FFB3')
+Aug 24, 2017 12:16:24 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('BCA33EA874B998412668E625E834E006')
+Aug 24, 2017 12:16:24 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('A89B51238AEDFC05D8357734EDD8BE6D')
+Aug 24, 2017 12:16:24 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('9BE349172064B1F6575D5CF29C6C3A03')
+Aug 24, 2017 12:16:24 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('EED91C64AD0653859905A49D39A12026')
+Aug 24, 2017 12:16:24 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('1E4A662E352C520F425E9C370CC8284E')
+Aug 24, 2017 12:16:24 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('1BD05AA9ACCAE1A62CDC92DC2488A5F8')
+Aug 24, 2017 12:16:24 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('2574E9681D6F627F59D2D25827CBF565')
+Aug 24, 2017 12:16:24 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('07B2091E0BA7C78DB8E3A8141A574705')
+Aug 24, 2017 12:16:24 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('917F0D6AE5B4ED327F3B70F39C190FDF')
+Aug 24, 2017 12:16:24 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('8817C018FA2167DBAFE7F089955DB3A4')
+Aug 24, 2017 12:16:24 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('D84FD7031F3B5EFDF1C44329C9207DFF')
+Aug 24, 2017 12:16:24 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('51E19019ACE03109228E997745724610')
+Aug 24, 2017 12:16:24 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('00D0EE4708DA99E7153A3F73332789FF')
+Aug 24, 2017 12:16:24 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('49845888284C012232EE1D257D926E5B')
+Aug 24, 2017 12:16:24 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('BBADFA5EFAC6484EE46BDE6024500C46')
+Aug 24, 2017 12:16:24 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('631EB0CC88215EFD4080A2DAFD65CD95')
+Aug 24, 2017 12:16:24 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('B3C668D587D5CCD2290969F33F80E9A5')
+Aug 24, 2017 12:16:24 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('01A3BBAE93C7AF2AF2C2F71DDE33924F')
+Aug 24, 2017 12:16:24 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('61B3263E09856945CF57120ABECD82FA')
+Aug 24, 2017 12:16:24 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('7C64CACC4960939A6EBE599012A29FDF')
+Aug 24, 2017 12:16:24 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('EFBA859F3427E09F2351F5A4592111F0')
+Aug 24, 2017 12:16:24 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('71D74F31C1D1C5CFB1B38754F32B3A70')
+Aug 24, 2017 12:16:24 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('FDD046B343C0C978CF8AB0407708A985')
+Aug 24, 2017 12:16:24 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('A43E81972317F803C663957C14517033')
+Aug 24, 2017 12:16:24 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('00D5759605599DB9207F84E52F530983')
+Aug 24, 2017 12:16:24 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('B51730E7F1BEDCC5F2007ED3F4FE1484')
+Aug 24, 2017 12:16:24 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('85006EFF967D1713D31BDBCD57A40E39')
+Aug 24, 2017 12:16:24 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('7A92CA4A235CAF853C92EB2A5A7A6B73')
+Aug 24, 2017 12:16:24 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('408E56B832DFF8F1730882A1C3998AF0')
+Aug 24, 2017 12:16:24 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('D75254B47B85A2D6E4D52B2F0E172912')
+Aug 24, 2017 12:16:24 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('0EF36D7DF7D4F2322B9977195999F007')
+Aug 24, 2017 12:16:24 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('936795E881C8BD99A1E7D4585F29B103')
+Aug 24, 2017 12:16:24 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('E8C7ED957B06F448D11601C8D359B512')
+Aug 24, 2017 12:16:24 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('8030275C2EF8EF6C40EB9DF7629652C1')
+Aug 24, 2017 12:16:24 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('4D203C1B8762D5E27273A1CB1D046E29')
+Aug 24, 2017 12:16:24 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('6E8C4B6260BAAB621915BDB41C8EFDE4')
+Aug 24, 2017 12:53:36 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+Aug 24, 2017 12:53:36 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+Aug 24, 2017 1:38:38 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Aug 24, 2017 1:38:38 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Aug 24, 2017 1:38:38 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@2ca98faa')
+Aug 24, 2017 1:38:47 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.runtime.JspApplicationContextImpl', 'org.apache.jasper.runtime.JspApplicationContextImpl@3b714a37')
+Aug 24, 2017 1:38:47 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.ELInterpreter', 'org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@50130e1e')
+Aug 24, 2017 1:38:48 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('7E394FEA7B3EDBA8A941F9D00CD30198')
+Aug 24, 2017 1:38:49 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('EC5078CF625B4086A447A422A1985173')
+Aug 24, 2017 1:38:49 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at org.apache.catalina.connector.Response.setContentType(Response.java:719)
+	at org.apache.catalina.connector.ResponseFacade.setContentType(ResponseFacade.java:258)
+	at org.apache.jsp.bug54703_jsp._jspService(bug54703_jsp.java:72)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:83)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:224)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:107)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:75)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:933)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:90)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:493)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:986)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1584)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1543)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Aug 24, 2017 1:38:49 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('51FC85DCB4A2320661B4E1C508050119')
+Aug 24, 2017 1:38:49 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('CAA6717715EB2B37E1FB145637F8BD58')
+Aug 24, 2017 1:38:49 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+fr.inria.spirals.npefix.resi.exception.NoMoreDecision
+	at fr.inria.spirals.npefix.resi.selector.ExplorerSelector.select(ExplorerSelector.java:108)
+	at sun.reflect.GeneratedMethodAccessor16.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:323)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$84(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Aug 24, 2017 1:38:49 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('581FCEAC2DEE57DFDA658D05166C406F')
+Aug 24, 2017 1:38:49 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+fr.inria.spirals.npefix.resi.exception.NoMoreDecision
+	at fr.inria.spirals.npefix.resi.selector.ExplorerSelector.select(ExplorerSelector.java:108)
+	at sun.reflect.GeneratedMethodAccessor16.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:323)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$84(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Aug 24, 2017 1:38:49 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('623169067AE60A43845BF5A0B08ADADB')
+Aug 24, 2017 1:38:49 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+fr.inria.spirals.npefix.resi.exception.NoMoreDecision
+	at fr.inria.spirals.npefix.resi.selector.ExplorerSelector.select(ExplorerSelector.java:108)
+	at sun.reflect.GeneratedMethodAccessor16.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:323)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$84(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Aug 24, 2017 1:38:49 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('5D649056C7BD71CC49D74631DCE8B87E')
+Aug 24, 2017 1:38:49 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+fr.inria.spirals.npefix.resi.exception.NoMoreDecision
+	at fr.inria.spirals.npefix.resi.selector.ExplorerSelector.select(ExplorerSelector.java:108)
+	at sun.reflect.GeneratedMethodAccessor16.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:323)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$84(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Aug 24, 2017 1:38:49 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('B5DC814A228CE2AE0A6EEA696AE84F0E')
+Aug 24, 2017 1:38:49 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+fr.inria.spirals.npefix.resi.exception.NoMoreDecision
+	at fr.inria.spirals.npefix.resi.selector.ExplorerSelector.select(ExplorerSelector.java:108)
+	at sun.reflect.GeneratedMethodAccessor16.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:323)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$84(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Aug 24, 2017 1:38:49 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('FE3C20D109D47E56908158A161534DCE')
+Aug 24, 2017 1:38:49 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+fr.inria.spirals.npefix.resi.exception.NoMoreDecision
+	at fr.inria.spirals.npefix.resi.selector.ExplorerSelector.select(ExplorerSelector.java:108)
+	at sun.reflect.GeneratedMethodAccessor16.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:323)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$84(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Aug 24, 2017 1:38:49 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('6E4803885533580F4ACF2FC737180AF5')
+Aug 24, 2017 1:38:49 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+fr.inria.spirals.npefix.resi.exception.NoMoreDecision
+	at fr.inria.spirals.npefix.resi.selector.ExplorerSelector.select(ExplorerSelector.java:108)
+	at sun.reflect.GeneratedMethodAccessor16.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:323)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$84(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Aug 24, 2017 1:38:49 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('64C181053153027E32974ADAEF73CAF8')
+Aug 24, 2017 1:38:49 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+fr.inria.spirals.npefix.resi.exception.NoMoreDecision
+	at fr.inria.spirals.npefix.resi.selector.ExplorerSelector.select(ExplorerSelector.java:108)
+	at sun.reflect.GeneratedMethodAccessor16.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:323)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$84(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Aug 24, 2017 1:38:49 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('61E7C3B2AAEC392270D8A6627F89D1DE')
+Aug 24, 2017 1:38:49 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+fr.inria.spirals.npefix.resi.exception.NoMoreDecision
+	at fr.inria.spirals.npefix.resi.selector.ExplorerSelector.select(ExplorerSelector.java:108)
+	at sun.reflect.GeneratedMethodAccessor16.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:323)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$84(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Aug 24, 2017 1:38:49 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('41F504D4342EF363E194FC868F48920C')
+Aug 24, 2017 1:38:49 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+fr.inria.spirals.npefix.resi.exception.NoMoreDecision
+	at fr.inria.spirals.npefix.resi.selector.ExplorerSelector.select(ExplorerSelector.java:108)
+	at sun.reflect.GeneratedMethodAccessor16.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:323)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$84(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Aug 24, 2017 1:38:49 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('21F1E5817DD2F181D5E721122E552EC2')
+Aug 24, 2017 1:38:50 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+fr.inria.spirals.npefix.resi.exception.NoMoreDecision
+	at fr.inria.spirals.npefix.resi.selector.ExplorerSelector.select(ExplorerSelector.java:108)
+	at sun.reflect.GeneratedMethodAccessor16.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:323)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$84(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Aug 24, 2017 1:38:50 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('AC6F668522BE90167283C3E1F0D4A761')
+Aug 24, 2017 1:38:50 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+fr.inria.spirals.npefix.resi.exception.NoMoreDecision
+	at fr.inria.spirals.npefix.resi.selector.ExplorerSelector.select(ExplorerSelector.java:108)
+	at sun.reflect.GeneratedMethodAccessor16.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:323)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$84(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Aug 24, 2017 1:38:50 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('EB3F4B51B91625A9EBF6C65D2CDD7FD2')
+Aug 24, 2017 1:38:50 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+fr.inria.spirals.npefix.resi.exception.NoMoreDecision
+	at fr.inria.spirals.npefix.resi.selector.ExplorerSelector.select(ExplorerSelector.java:108)
+	at sun.reflect.GeneratedMethodAccessor16.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:323)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$84(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Aug 24, 2017 1:38:50 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('46C1DCD2100A87AB8824452CC3956DFA')
+Aug 24, 2017 1:38:50 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+fr.inria.spirals.npefix.resi.exception.NoMoreDecision
+	at fr.inria.spirals.npefix.resi.selector.ExplorerSelector.select(ExplorerSelector.java:108)
+	at sun.reflect.GeneratedMethodAccessor16.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:323)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$84(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Aug 24, 2017 1:38:50 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('F6A0F70C6577F8C63B6BF7745667CBE1')
+Aug 24, 2017 1:38:50 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+fr.inria.spirals.npefix.resi.exception.NoMoreDecision
+	at fr.inria.spirals.npefix.resi.selector.ExplorerSelector.select(ExplorerSelector.java:108)
+	at sun.reflect.GeneratedMethodAccessor16.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:323)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$84(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Aug 24, 2017 1:38:50 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('23A094DFCFC03C1E7693E2963E998346')
+Aug 24, 2017 1:38:50 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+fr.inria.spirals.npefix.resi.exception.NoMoreDecision
+	at fr.inria.spirals.npefix.resi.selector.ExplorerSelector.select(ExplorerSelector.java:108)
+	at sun.reflect.GeneratedMethodAccessor16.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:323)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$84(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Aug 24, 2017 1:38:50 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('62753E112A7092024AF73B2492B2B956')
+Aug 24, 2017 1:38:50 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [An exception occurred processing JSP page /bug54703.jsp at line 26
+
+1: <%--
+2:  Licensed to the Apache Software Foundation (ASF) under one or more
+3:   contributor license agreements.  See the NOTICE file distributed with
+
+
+Stacktrace:] with root cause
+fr.inria.spirals.npefix.resi.exception.NoMoreDecision
+	at fr.inria.spirals.npefix.resi.selector.ExplorerSelector.select(ExplorerSelector.java:108)
+	at sun.reflect.GeneratedMethodAccessor16.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:323)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$84(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Aug 24, 2017 1:40:26 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+Aug 24, 2017 1:40:26 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()

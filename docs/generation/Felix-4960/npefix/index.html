@@ -1,0 +1,199 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Felix 4960</title>
+    <link rel="stylesheet" type="text/css" href="../../../../css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1>Felix 4960</h1>
+    <table class="summary pure-table">
+      <tr class="pure-table-odd">
+        <td class="label">Nb candidate patch</td> <td>10</td>
+      </tr>
+      <tr>
+        <td class="label">Nb patch</td> <td>4</td>
+      </tr>
+    </table>
+    <ul class="executions">
+        <li class="execution success">
+          <h2>Execution 1</h2>
+          <span class="decision">Strat1A </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/BundleRevisionImpl.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="536"></td><td class="line" data-line-number="536"></td><td class="code"><span>            // Check the module class path.</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="537"></td><td class="line" data-line-number=""></td><td class="code"><span>            for (int i = 0; i &lt; contentPath.size(); i++)</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="538"></td><td class="line" data-line-number=""></td><td class="code"><span>            {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="539"></td><td class="line" data-line-number=""></td><td class="code"><span>                if (contentPath.get(i).hasEntry(name))</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="540"></td><td class="line" data-line-number=""></td><td class="code"><span>                {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="541"></td><td class="line" data-line-number=""></td><td class="code"><span>                    // Use the class path index + 1 for creating the path so</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="542"></td><td class="line" data-line-number=""></td><td class="code"><span>                    // that we can differentiate between module content URLs</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="543"></td><td class="line" data-line-number=""></td><td class="code"><span>                    // (where the path will start with 0) and module class</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="544"></td><td class="line" data-line-number=""></td><td class="code"><span>                    // path URLs.</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="545"></td><td class="line" data-line-number=""></td><td class="code"><span>                    l.add(createURL(i + 1, name));</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="537"></td><td class="code"><span>            } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="538"></td><td class="code"><span>                if (contentPath == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="539"></td><td class="code"><span>                    for (int i = 0; i &lt; m_declaredCaps.size(); i++)</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="540"></td><td class="code"><span>                    {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="541"></td><td class="code"><span>                        if (contentPath.get(i).hasEntry(name))</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="542"></td><td class="code"><span>                        {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="543"></td><td class="code"><span>                            // Use the class path index + 1 for creating the path so</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="544"></td><td class="code"><span>                            // that we can differentiate between module content URLs</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="545"></td><td class="code"><span>                            // (where the path will start with 0) and module class</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="546"></td><td class="code"><span>                            // path URLs.</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="547"></td><td class="code"><span>                            l.add(createURL(i + 1, name));</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="548"></td><td class="code"><span>                        }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="549"></td><td class="code"><span>                    }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="550"></td><td class="code"><span>                } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="551"></td><td class="code"><span>                    for (int i = 0; i &lt; contentPath.size(); i++)</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="552"></td><td class="code"><span>                    {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="553"></td><td class="code"><span>                        if (contentPath.get(i).hasEntry(name))</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="554"></td><td class="code"><span>                        {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="555"></td><td class="code"><span>                            // Use the class path index + 1 for creating the path so</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="556"></td><td class="code"><span>                            // that we can differentiate between module content URLs</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="557"></td><td class="code"><span>                            // (where the path will start with 0) and module class</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="558"></td><td class="code"><span>                            // path URLs.</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="559"></td><td class="code"><span>                            l.add(createURL(i + 1, name));</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="560"></td><td class="code"><span>                        }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="561"></td><td class="code"><span>                    }</span></td></tr>
+<tr class=""><td class="line" data-line-number="546"></td><td class="line" data-line-number="562"></td><td class="code"><span>                }</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 2</h2>
+          <span class="decision">Strat1A </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/BundleRevisionImpl.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="536"></td><td class="line" data-line-number="536"></td><td class="code"><span>            // Check the module class path.</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="537"></td><td class="line" data-line-number=""></td><td class="code"><span>            for (int i = 0; i &lt; contentPath.size(); i++)</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="538"></td><td class="line" data-line-number=""></td><td class="code"><span>            {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="539"></td><td class="line" data-line-number=""></td><td class="code"><span>                if (contentPath.get(i).hasEntry(name))</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="540"></td><td class="line" data-line-number=""></td><td class="code"><span>                {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="541"></td><td class="line" data-line-number=""></td><td class="code"><span>                    // Use the class path index + 1 for creating the path so</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="542"></td><td class="line" data-line-number=""></td><td class="code"><span>                    // that we can differentiate between module content URLs</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="543"></td><td class="line" data-line-number=""></td><td class="code"><span>                    // (where the path will start with 0) and module class</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="544"></td><td class="line" data-line-number=""></td><td class="code"><span>                    // path URLs.</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="545"></td><td class="line" data-line-number=""></td><td class="code"><span>                    l.add(createURL(i + 1, name));</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="537"></td><td class="code"><span>            } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="538"></td><td class="code"><span>                if (contentPath == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="539"></td><td class="code"><span>                    for (int i = 0; i &lt; m_declaredReqs.size(); i++)</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="540"></td><td class="code"><span>                    {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="541"></td><td class="code"><span>                        if (contentPath.get(i).hasEntry(name))</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="542"></td><td class="code"><span>                        {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="543"></td><td class="code"><span>                            // Use the class path index + 1 for creating the path so</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="544"></td><td class="code"><span>                            // that we can differentiate between module content URLs</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="545"></td><td class="code"><span>                            // (where the path will start with 0) and module class</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="546"></td><td class="code"><span>                            // path URLs.</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="547"></td><td class="code"><span>                            l.add(createURL(i + 1, name));</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="548"></td><td class="code"><span>                        }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="549"></td><td class="code"><span>                    }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="550"></td><td class="code"><span>                } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="551"></td><td class="code"><span>                    for (int i = 0; i &lt; contentPath.size(); i++)</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="552"></td><td class="code"><span>                    {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="553"></td><td class="code"><span>                        if (contentPath.get(i).hasEntry(name))</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="554"></td><td class="code"><span>                        {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="555"></td><td class="code"><span>                            // Use the class path index + 1 for creating the path so</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="556"></td><td class="code"><span>                            // that we can differentiate between module content URLs</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="557"></td><td class="code"><span>                            // (where the path will start with 0) and module class</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="558"></td><td class="code"><span>                            // path URLs.</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="559"></td><td class="code"><span>                            l.add(createURL(i + 1, name));</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="560"></td><td class="code"><span>                        }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="561"></td><td class="code"><span>                    }</span></td></tr>
+<tr class=""><td class="line" data-line-number="546"></td><td class="line" data-line-number="562"></td><td class="code"><span>                }</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 3</h2>
+          <span class="decision">Strat1A </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/BundleRevisionImpl.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="536"></td><td class="line" data-line-number="536"></td><td class="code"><span>            // Check the module class path.</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="537"></td><td class="line" data-line-number=""></td><td class="code"><span>            for (int i = 0; i &lt; contentPath.size(); i++)</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="538"></td><td class="line" data-line-number=""></td><td class="code"><span>            {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="539"></td><td class="line" data-line-number=""></td><td class="code"><span>                if (contentPath.get(i).hasEntry(name))</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="540"></td><td class="line" data-line-number=""></td><td class="code"><span>                {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="541"></td><td class="line" data-line-number=""></td><td class="code"><span>                    // Use the class path index + 1 for creating the path so</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="542"></td><td class="line" data-line-number=""></td><td class="code"><span>                    // that we can differentiate between module content URLs</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="543"></td><td class="line" data-line-number=""></td><td class="code"><span>                    // (where the path will start with 0) and module class</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="544"></td><td class="line" data-line-number=""></td><td class="code"><span>                    // path URLs.</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="545"></td><td class="line" data-line-number=""></td><td class="code"><span>                    l.add(createURL(i + 1, name));</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="537"></td><td class="code"><span>            } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="538"></td><td class="code"><span>                if (contentPath == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="539"></td><td class="code"><span>                    for (int i = 0; i &lt; l.size(); i++)</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="540"></td><td class="code"><span>                    {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="541"></td><td class="code"><span>                        if (contentPath.get(i).hasEntry(name))</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="542"></td><td class="code"><span>                        {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="543"></td><td class="code"><span>                            // Use the class path index + 1 for creating the path so</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="544"></td><td class="code"><span>                            // that we can differentiate between module content URLs</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="545"></td><td class="code"><span>                            // (where the path will start with 0) and module class</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="546"></td><td class="code"><span>                            // path URLs.</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="547"></td><td class="code"><span>                            l.add(createURL(i + 1, name));</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="548"></td><td class="code"><span>                        }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="549"></td><td class="code"><span>                    }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="550"></td><td class="code"><span>                } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="551"></td><td class="code"><span>                    for (int i = 0; i &lt; contentPath.size(); i++)</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="552"></td><td class="code"><span>                    {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="553"></td><td class="code"><span>                        if (contentPath.get(i).hasEntry(name))</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="554"></td><td class="code"><span>                        {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="555"></td><td class="code"><span>                            // Use the class path index + 1 for creating the path so</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="556"></td><td class="code"><span>                            // that we can differentiate between module content URLs</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="557"></td><td class="code"><span>                            // (where the path will start with 0) and module class</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="558"></td><td class="code"><span>                            // path URLs.</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="559"></td><td class="code"><span>                            l.add(createURL(i + 1, name));</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="560"></td><td class="code"><span>                        }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="561"></td><td class="code"><span>                    }</span></td></tr>
+<tr class=""><td class="line" data-line-number="546"></td><td class="line" data-line-number="562"></td><td class="code"><span>                }</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 4</h2>
+          <span class="decision">Strat2A </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/BundleRevisionImpl.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="536"></td><td class="line" data-line-number="536"></td><td class="code"><span>            // Check the module class path.</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="537"></td><td class="line" data-line-number=""></td><td class="code"><span>            for (int i = 0; i &lt; contentPath.size(); i++)</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="538"></td><td class="line" data-line-number=""></td><td class="code"><span>            {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="539"></td><td class="line" data-line-number=""></td><td class="code"><span>                if (contentPath.get(i).hasEntry(name))</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="540"></td><td class="line" data-line-number=""></td><td class="code"><span>                {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="541"></td><td class="line" data-line-number=""></td><td class="code"><span>                    // Use the class path index + 1 for creating the path so</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="542"></td><td class="line" data-line-number=""></td><td class="code"><span>                    // that we can differentiate between module content URLs</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="543"></td><td class="line" data-line-number=""></td><td class="code"><span>                    // (where the path will start with 0) and module class</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="544"></td><td class="line" data-line-number=""></td><td class="code"><span>                    // path URLs.</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="545"></td><td class="line" data-line-number=""></td><td class="code"><span>                    l.add(createURL(i + 1, name));</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="537"></td><td class="code"><span>            } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="538"></td><td class="code"><span>                if (contentPath == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="539"></td><td class="code"><span>                    for (int i = 0; i &lt; new ArrayList().size(); i++)</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="540"></td><td class="code"><span>                    {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="541"></td><td class="code"><span>                        if (contentPath.get(i).hasEntry(name))</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="542"></td><td class="code"><span>                        {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="543"></td><td class="code"><span>                            // Use the class path index + 1 for creating the path so</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="544"></td><td class="code"><span>                            // that we can differentiate between module content URLs</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="545"></td><td class="code"><span>                            // (where the path will start with 0) and module class</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="546"></td><td class="code"><span>                            // path URLs.</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="547"></td><td class="code"><span>                            l.add(createURL(i + 1, name));</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="548"></td><td class="code"><span>                        }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="549"></td><td class="code"><span>                    }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="550"></td><td class="code"><span>                } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="551"></td><td class="code"><span>                    for (int i = 0; i &lt; contentPath.size(); i++)</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="552"></td><td class="code"><span>                    {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="553"></td><td class="code"><span>                        if (contentPath.get(i).hasEntry(name))</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="554"></td><td class="code"><span>                        {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="555"></td><td class="code"><span>                            // Use the class path index + 1 for creating the path so</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="556"></td><td class="code"><span>                            // that we can differentiate between module content URLs</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="557"></td><td class="code"><span>                            // (where the path will start with 0) and module class</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="558"></td><td class="code"><span>                            // path URLs.</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="559"></td><td class="code"><span>                            l.add(createURL(i + 1, name));</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="560"></td><td class="code"><span>                        }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="561"></td><td class="code"><span>                    }</span></td></tr>
+<tr class=""><td class="line" data-line-number="546"></td><td class="line" data-line-number="562"></td><td class="code"><span>                }</span></td></tr>
+</tbody></table>
+
+        </li>
+    </ul>
+  </body>
+</html>

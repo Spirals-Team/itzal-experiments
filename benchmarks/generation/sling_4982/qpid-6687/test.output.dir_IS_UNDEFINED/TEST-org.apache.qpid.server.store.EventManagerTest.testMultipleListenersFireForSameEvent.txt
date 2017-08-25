@@ -1,0 +1,5 @@
+2016-01-19 15:20:56,671 INFO  [main] o.a.q.t.u.QpidTestCase ========== start EventManagerTest.testMultipleListenersFireForSameEvent ==========
+2016-01-19 15:20:56,672 INFO  [main] o.a.q.t.u.QpidTestCase ========== run EventManagerTest.testMultipleListenersFireForSameEvent ==========
+2016-01-19 15:20:56,672 DEBUG [main] o.a.q.s.s.EventManager Received event PERSISTENT_MESSAGE_SIZE_OVERFULL
+2016-01-19 15:20:56,672 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown EventManagerTest.testMultipleListenersFireForSameEvent ==========
+2016-01-19 15:20:56,672 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

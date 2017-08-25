@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1447318396956
+Build-Jdk: 1.7.0_85
+Built-By: thomas
+Bundle-Description: The Apache Commons Parent POM provides common settin
+ gs for all Apache Commons components.
+Bundle-DocURL: http://commons.apache.org/commons-collection/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Commons Collection
+Bundle-SymbolicName: org.apache.commons.commons-collection
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 0.0.1
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.commons.collections;version="0.0.1",org.apach
+ e.commons.collections.bag;version="0.0.1",org.apache.commons.collection
+ s.bidimap;version="0.0.1",org.apache.commons.collections.buffer;version
+ ="0.0.1",org.apache.commons.collections.collection;version="0.0.1",org.
+ apache.commons.collections.comparators;version="0.0.1",org.apache.commo
+ ns.collections.functors;version="0.0.1",org.apache.commons.collections.
+ iterators;version="0.0.1",org.apache.commons.collections.keyvalue;versi
+ on="0.0.1",org.apache.commons.collections.list;version="0.0.1",org.apac
+ he.commons.collections.map;version="0.0.1",org.apache.commons.collectio
+ ns.set;version="0.0.1",org.apache.commons.collections.splitmap;version=
+ "0.0.1"
+Tool: Bnd-2.1.0.20130426-122213

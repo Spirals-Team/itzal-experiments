@@ -1,0 +1,6 @@
+2016-01-19 15:34:30,610 INFO  [main] o.a.q.t.u.QpidTestCase ========== start SimpleAuthenticationManagerTest.testAuthenticateWithCramMd5SaslServer ==========
+2016-01-19 15:34:30,615 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:34:30,617 INFO  [main] o.a.q.t.u.QpidTestCase ========== run SimpleAuthenticationManagerTest.testAuthenticateWithCramMd5SaslServer ==========
+2016-01-19 15:34:30,618 DEBUG [main] o.a.q.s.s.a.m.SimpleAuthenticationManager Authenticated as testUser
+2016-01-19 15:34:30,619 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown SimpleAuthenticationManagerTest.testAuthenticateWithCramMd5SaslServer ==========
+2016-01-19 15:34:30,619 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

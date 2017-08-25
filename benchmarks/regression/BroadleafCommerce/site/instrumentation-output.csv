@@ -1,0 +1,6 @@
+1503435378788	org.broadleafcommerce.core.search.service.solr.SolrSearchServiceImpl	449	19293	19323	true	(org.broadleafcommerce.core.search.service.solr.SolrContext.getServer()) != null
+1503435378796	org.broadleafcommerce.core.search.service.solr.SolrSearchServiceImpl	457	19545	19582	true	((org.broadleafcommerce.core.search.service.solr.SolrContext.getReindexServer()) != null)
+1503435378797	org.broadleafcommerce.core.search.service.solr.SolrContext	153	7350	7368	false	(org.broadleafcommerce.core.search.service.solr.SolrContext.adminServer) != null
+1503435378797	org.broadleafcommerce.core.search.service.solr.SolrSearchServiceImpl	466	19892	19927	true	((org.broadleafcommerce.core.search.service.solr.SolrContext.getAdminServer()) != null)
+1503435378798	org.broadleafcommerce.core.search.service.solr.SolrContext	153	7350	7368	false	(org.broadleafcommerce.core.search.service.solr.SolrContext.adminServer) != null
+1503435378798	org.broadleafcommerce.core.search.service.solr.SolrContext	153	7350	7368	false	(org.broadleafcommerce.core.search.service.solr.SolrContext.adminServer) != null

@@ -1,0 +1,4 @@
+2016-01-19 15:12:58,470 INFO  [main] o.a.q.t.u.QpidTestCase ========== start FileGroupDatabaseTest.testGetUsersWithEmptyGroup ==========
+2016-01-19 15:12:58,471 INFO  [main] o.a.q.t.u.QpidTestCase ========== run FileGroupDatabaseTest.testGetUsersWithEmptyGroup ==========
+2016-01-19 15:12:58,472 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown FileGroupDatabaseTest.testGetUsersWithEmptyGroup ==========
+2016-01-19 15:12:58,472 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

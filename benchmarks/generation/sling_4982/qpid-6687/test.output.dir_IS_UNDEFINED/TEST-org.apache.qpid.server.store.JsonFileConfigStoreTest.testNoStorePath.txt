@@ -1,0 +1,6 @@
+2016-01-19 15:19:28,817 INFO  [main] o.a.q.t.u.QpidTestCase ========== start JsonFileConfigStoreTest.testNoStorePath ==========
+2016-01-19 15:19:28,819 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:19:28,820 INFO  [main] o.a.q.t.u.QpidTestCase ========== run JsonFileConfigStoreTest.testNoStorePath ==========
+2016-01-19 15:19:28,820 ERROR [main] o.a.q.s.u.ServerScopedRuntimeException Cannot determine path for configuration storage
+2016-01-19 15:19:28,820 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown JsonFileConfigStoreTest.testNoStorePath ==========
+2016-01-19 15:19:28,820 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

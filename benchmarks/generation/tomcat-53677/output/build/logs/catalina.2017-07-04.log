@@ -1,0 +1,32 @@
+Jul 04, 2017 4:33:29 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Jul 04, 2017 4:33:29 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 4:33:29 PM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 4:33:29 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Jul 04, 2017 4:33:29 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 519 ms
+Jul 04, 2017 4:33:29 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 04, 2017 4:33:29 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.0-dev
+Jul 04, 2017 4:33:29 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/ROOT
+Jul 04, 2017 4:33:29 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/manager
+Jul 04, 2017 4:33:29 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/docs
+Jul 04, 2017 4:33:29 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/examples
+Jul 04, 2017 4:33:29 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/host-manager
+Jul 04, 2017 4:33:29 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/bug53677
+Jul 04, 2017 4:33:30 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 4:33:30 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Jul 04, 2017 4:33:30 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1119 ms

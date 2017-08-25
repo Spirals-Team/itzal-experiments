@@ -1,0 +1,3 @@
+2016-01-19 15:20:56,746 INFO  [main] o.a.q.t.u.QpidTestCase ========== run ConsumerListTest.testGetSize ==========
+2016-01-19 15:20:56,748 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown ConsumerListTest.testGetSize ==========
+2016-01-19 15:20:56,748 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

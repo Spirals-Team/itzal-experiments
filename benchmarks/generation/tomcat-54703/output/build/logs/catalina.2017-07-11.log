@@ -1,0 +1,46 @@
+Jul 11, 2017 5:01:28 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Jul 11, 2017 5:01:29 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Jul 11, 2017 5:01:29 PM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 11, 2017 5:01:29 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-nio-8009"]
+Jul 11, 2017 5:01:29 PM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 11, 2017 5:01:29 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 627 ms
+Jul 11, 2017 5:01:29 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 11, 2017 5:01:29 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.0-dev
+Jul 11, 2017 5:01:29 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /mnt/secondary/npe-dataset/tomcat-54703/output/build/webapps/manager
+Jul 11, 2017 5:01:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /mnt/secondary/npe-dataset/tomcat-54703/output/build/webapps/ROOT
+Jul 11, 2017 5:01:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /mnt/secondary/npe-dataset/tomcat-54703/output/build/webapps/host-manager
+Jul 11, 2017 5:01:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /mnt/secondary/npe-dataset/tomcat-54703/output/build/webapps/examples
+Jul 11, 2017 5:01:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /mnt/secondary/npe-dataset/tomcat-54703/output/build/webapps/docs
+Jul 11, 2017 5:01:32 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8080"]
+Jul 11, 2017 5:01:32 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-nio-8009"]
+Jul 11, 2017 5:01:32 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3447 ms
+Jul 11, 2017 5:01:42 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-8080"]
+Jul 11, 2017 5:01:42 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-nio-8009"]
+Jul 11, 2017 5:01:42 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jul 11, 2017 5:01:42 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-8080"]
+Jul 11, 2017 5:01:42 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-nio-8009"]
+Jul 11, 2017 5:01:42 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-8080"]
+Jul 11, 2017 5:01:42 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-nio-8009"]

@@ -1,0 +1,4 @@
+2016-01-19 15:20:05,440 INFO  [main] o.a.q.t.u.QpidTestCase ========== start JMSSelectorFilterTest.testEqualsAndHashCodeUsingSelectorString ==========
+2016-01-19 15:20:05,441 INFO  [main] o.a.q.t.u.QpidTestCase ========== run JMSSelectorFilterTest.testEqualsAndHashCodeUsingSelectorString ==========
+2016-01-19 15:20:05,441 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown JMSSelectorFilterTest.testEqualsAndHashCodeUsingSelectorString ==========
+2016-01-19 15:20:05,441 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

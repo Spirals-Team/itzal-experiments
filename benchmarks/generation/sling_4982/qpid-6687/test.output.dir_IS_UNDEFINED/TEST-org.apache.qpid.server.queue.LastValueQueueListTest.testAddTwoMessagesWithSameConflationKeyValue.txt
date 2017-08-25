@@ -1,0 +1,8 @@
+2016-01-19 15:19:28,751 INFO  [main] o.a.q.t.u.QpidTestCase ========== start LastValueQueueListTest.testAddTwoMessagesWithSameConflationKeyValue ==========
+2016-01-19 15:19:28,753 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:19:28,756 INFO  [main] o.a.q.t.u.QpidTestCase ========== run LastValueQueueListTest.testAddTwoMessagesWithSameConflationKeyValue ==========
+2016-01-19 15:19:28,757 DEBUG [main] o.a.q.s.q.LastValueQueueList Adding entry QueueEntryImpl{_entryId=-9223372036854775807, _state=AVAILABLE} for message 0 with conflation key testKeyValue
+2016-01-19 15:19:28,757 DEBUG [main] o.a.q.s.q.LastValueQueueList Adding entry QueueEntryImpl{_entryId=-9223372036854775806, _state=AVAILABLE} for message 0 with conflation key testKeyValue
+2016-01-19 15:19:28,757 DEBUG [main] o.a.q.s.q.LastValueQueueList Entry QueueEntryImpl{_entryId=-9223372036854775806, _state=AVAILABLE} for message 0 replacing older entry QueueEntryImpl{_entryId=-9223372036854775807, _state=AVAILABLE} for message 0
+2016-01-19 15:19:28,757 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown LastValueQueueListTest.testAddTwoMessagesWithSameConflationKeyValue ==========
+2016-01-19 15:19:28,758 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

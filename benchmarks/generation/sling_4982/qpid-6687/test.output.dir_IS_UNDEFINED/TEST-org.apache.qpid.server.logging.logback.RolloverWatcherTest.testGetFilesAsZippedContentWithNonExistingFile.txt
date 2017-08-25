@@ -1,0 +1,4 @@
+2016-01-19 15:12:12,303 INFO  [main] o.a.q.t.u.QpidTestCase ========== start RolloverWatcherTest.testGetFilesAsZippedContentWithNonExistingFile ==========
+2016-01-19 15:12:12,304 INFO  [main] o.a.q.t.u.QpidTestCase ========== run RolloverWatcherTest.testGetFilesAsZippedContentWithNonExistingFile ==========
+2016-01-19 15:12:12,307 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown RolloverWatcherTest.testGetFilesAsZippedContentWithNonExistingFile ==========
+2016-01-19 15:12:12,307 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

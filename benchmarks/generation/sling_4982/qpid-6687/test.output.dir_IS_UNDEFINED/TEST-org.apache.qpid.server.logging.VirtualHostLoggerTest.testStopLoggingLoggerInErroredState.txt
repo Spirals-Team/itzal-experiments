@@ -1,0 +1,7 @@
+2017-07-20 09:13:06,894 INFO  [main] o.a.q.t.u.QpidTestCase ========== start VirtualHostLoggerTest.testStopLoggingLoggerInErroredState ==========
+2017-07-20 09:13:06,968 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Starting task executor Broker-Config
+2017-07-20 09:13:06,974 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Task executor is started
+2017-07-20 09:13:07,089 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 64 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2017-07-20 09:13:07,105 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 14 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectRegistration
+2017-07-20 09:13:07,411 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 0 implementations of interface org.apache.qpid.server.plugin.ProtocolEngineCreator
+2017-07-20 09:13:07,815 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

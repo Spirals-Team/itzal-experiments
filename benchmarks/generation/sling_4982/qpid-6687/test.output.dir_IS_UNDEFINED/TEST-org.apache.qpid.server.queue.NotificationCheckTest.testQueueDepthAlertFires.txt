@@ -1,0 +1,6 @@
+2016-01-19 15:19:48,316 INFO  [main] o.a.q.t.u.QpidTestCase ========== start NotificationCheckTest.testQueueDepthAlertFires ==========
+2016-01-19 15:19:48,317 INFO  [main] o.a.q.t.u.QpidTestCase ========== run NotificationCheckTest.testQueueDepthAlertFires ==========
+2016-01-19 15:19:48,317 INFO  [main] o.a.q.s.q.NotificationCheck QUEUE_DEPTH_ALERT On Queue null - 1Kb : Maximum queue depth threshold (1Kb) breached.
+2016-01-19 15:19:48,318 INFO  [main] o.a.q.s.q.NotificationCheck QUEUE_DEPTH_ALERT On Queue null - 2Kb : Maximum queue depth threshold (1Kb) breached.
+2016-01-19 15:19:48,318 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown NotificationCheckTest.testQueueDepthAlertFires ==========
+2016-01-19 15:19:48,318 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

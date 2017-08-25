@@ -1,0 +1,4 @@
+2016-01-19 15:19:28,630 INFO  [main] o.a.q.t.u.QpidTestCase ========== start SecurityManagerTest.testAuthoriseUserOperation ==========
+2016-01-19 15:19:28,631 INFO  [main] o.a.q.t.u.QpidTestCase ========== run SecurityManagerTest.testAuthoriseUserOperation ==========
+2016-01-19 15:19:28,633 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown SecurityManagerTest.testAuthoriseUserOperation ==========
+2016-01-19 15:19:28,633 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

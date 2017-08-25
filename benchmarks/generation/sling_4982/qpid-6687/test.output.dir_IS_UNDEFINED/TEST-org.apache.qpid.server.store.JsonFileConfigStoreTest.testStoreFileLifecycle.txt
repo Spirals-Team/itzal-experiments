@@ -1,0 +1,7 @@
+2016-01-19 15:19:28,942 INFO  [main] o.a.q.t.u.QpidTestCase ========== start JsonFileConfigStoreTest.testStoreFileLifecycle ==========
+2016-01-19 15:19:28,944 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:19:28,948 INFO  [main] o.a.q.t.u.QpidTestCase ========== run JsonFileConfigStoreTest.testStoreFileLifecycle ==========
+2016-01-19 15:19:28,955 DEBUG [main] o.a.q.s.s.JsonFileConfigStore Deleting store /tmp/json-1453213168945
+2016-01-19 15:19:28,956 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown JsonFileConfigStoreTest.testStoreFileLifecycle ==========
+2016-01-19 15:19:28,956 DEBUG [main] o.a.q.u.FileUtils Failed to delete /tmp/json-1453213168945
+2016-01-19 15:19:28,956 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

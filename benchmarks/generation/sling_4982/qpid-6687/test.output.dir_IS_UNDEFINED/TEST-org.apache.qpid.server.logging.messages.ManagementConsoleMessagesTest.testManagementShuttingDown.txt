@@ -1,0 +1,4 @@
+2016-01-19 15:20:54,358 INFO  [main] o.a.q.t.u.QpidTestCase ========== start ManagementConsoleMessagesTest.testManagementShuttingDown ==========
+2016-01-19 15:20:54,359 INFO  [main] o.a.q.t.u.QpidTestCase ========== run ManagementConsoleMessagesTest.testManagementShuttingDown ==========
+2016-01-19 15:20:54,360 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown ManagementConsoleMessagesTest.testManagementShuttingDown ==========
+2016-01-19 15:20:54,360 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

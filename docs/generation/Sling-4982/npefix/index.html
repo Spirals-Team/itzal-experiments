@@ -1,0 +1,270 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sling 4982</title>
+    <link rel="stylesheet" type="text/css" href="../../../../css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1>Sling 4982</h1>
+    <table class="summary pure-table">
+      <tr class="pure-table-odd">
+        <td class="label">Nb candidate patch</td> <td>20</td>
+      </tr>
+      <tr>
+        <td class="label">Nb patch</td> <td>11</td>
+      </tr>
+    </table>
+    <ul class="executions">
+        <li class="execution success">
+          <h2>Execution 1</h2>
+          <span class="decision">Strat1A </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/ContentDispositionFilter.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="286"></td><td class="line" data-line-number="286"></td><td class="code"><span>                ValueMap props = resource.adaptTo(ValueMap.class);</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="287"></td><td class="line" data-line-number=""></td><td class="code"><span>                if (props.containsKey(PROP_JCR_DATA) ) {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="288"></td><td class="line" data-line-number=""></td><td class="code"><span>                    jcrData = true;</span></td></tr>
+<tr class=""><td class="line" data-line-number="289"></td><td class="line" data-line-number="287"></td><td class="code"><span>                } else {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="290"></td><td class="line" data-line-number=""></td><td class="code"><span>                    Resource jcrContent = resource.getChild(JCR_CONTENT_LEAF);</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="291"></td><td class="line" data-line-number=""></td><td class="code"><span>                    if (jcrContent!= null) {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="292"></td><td class="line" data-line-number=""></td><td class="code"><span>                        props = jcrContent.adaptTo(ValueMap.class);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="288"></td><td class="code"><span>                    if (props == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="289"></td><td class="code"><span>                        if ( ValueMap.EMPTY.containsKey(PROP_JCR_DATA) ) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="290"></td><td class="code"><span>                            jcrData = true;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="291"></td><td class="code"><span>                        } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="292"></td><td class="code"><span>                            Resource jcrContent = resource.getChild(JCR_CONTENT_LEAF);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="293"></td><td class="code"><span>                            if (jcrContent!= null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="294"></td><td class="code"><span>                                props = jcrContent.adaptTo(ValueMap.class);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="295"></td><td class="code"><span>                                if (props.containsKey(PROP_JCR_DATA) ) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="296"></td><td class="code"><span>                                    jcrData = true;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="297"></td><td class="code"><span>                                }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="298"></td><td class="code"><span>                            }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="299"></td><td class="code"><span>                        }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="300"></td><td class="code"><span>                    } else {</span></td></tr>
+<tr class=""><td class="line" data-line-number="293"></td><td class="line" data-line-number="301"></td><td class="code"><span>                        if (props.containsKey(PROP_JCR_DATA) ) {</span></td></tr>
+<tr class=""><td class="line" data-line-number="294"></td><td class="line" data-line-number="302"></td><td class="code"><span>                            jcrData = true;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="303"></td><td class="code"><span>                        } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="304"></td><td class="code"><span>                            Resource jcrContent = resource.getChild(JCR_CONTENT_LEAF);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="305"></td><td class="code"><span>                            if (jcrContent!= null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="306"></td><td class="code"><span>                                props = jcrContent.adaptTo(ValueMap.class);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="307"></td><td class="code"><span>                                if (props.containsKey(PROP_JCR_DATA) ) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="308"></td><td class="code"><span>                                    jcrData = true;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="309"></td><td class="code"><span>                                }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="310"></td><td class="code"><span>                            }</span></td></tr>
+<tr class=""><td class="line" data-line-number="295"></td><td class="line" data-line-number="311"></td><td class="code"><span>                        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="296"></td><td class="line" data-line-number="312"></td><td class="code"><span>                    }</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="297"></td><td class="line" data-line-number=""></td><td class="code"><span>                }     </span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="313"></td><td class="code"><span>                }</span></td></tr>
+<tr class=""><td class="line" data-line-number="298"></td><td class="line" data-line-number="314"></td><td class="code"><span>            }</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 2</h2>
+          <span class="decision">Strat1A </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/ContentDispositionFilter.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="292"></td><td class="line" data-line-number="292"></td><td class="code"><span>                        props = jcrContent.adaptTo(ValueMap.class);</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="293"></td><td class="line" data-line-number=""></td><td class="code"><span>                        if (props.containsKey(PROP_JCR_DATA) ) {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="294"></td><td class="line" data-line-number=""></td><td class="code"><span>                            jcrData = true;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="293"></td><td class="code"><span>                        } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="294"></td><td class="code"><span>                            if (props == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="295"></td><td class="code"><span>                                if ( ValueMap.EMPTY.containsKey(PROP_JCR_DATA) ) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="296"></td><td class="code"><span>                                    jcrData = true;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="297"></td><td class="code"><span>                                }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="298"></td><td class="code"><span>                            } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="299"></td><td class="code"><span>                                if (props.containsKey(PROP_JCR_DATA) ) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="300"></td><td class="code"><span>                                    jcrData = true;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="301"></td><td class="code"><span>                                }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="302"></td><td class="code"><span>                            }</span></td></tr>
+<tr class=""><td class="line" data-line-number="295"></td><td class="line" data-line-number="303"></td><td class="code"><span>                        }</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 3</h2>
+          <span class="decision">Strat1B </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/ContentDispositionFilter.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="286"></td><td class="line" data-line-number="286"></td><td class="code"><span>                ValueMap props = resource.adaptTo(ValueMap.class);</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="287"></td><td class="line" data-line-number=""></td><td class="code"><span>                if (props.containsKey(PROP_JCR_DATA) ) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="287"></td><td class="code"><span>                } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="288"></td><td class="code"><span>                    if (props == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="289"></td><td class="code"><span>                        props = ValueMap.EMPTY;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="290"></td><td class="code"><span>                    }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="291"></td><td class="code"><span>                    if (props.containsKey(PROP_JCR_DATA) ) {</span></td></tr>
+<tr class=""><td class="line" data-line-number="288"></td><td class="line" data-line-number="292"></td><td class="code"><span>                    jcrData = true;</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="296"></td><td class="line" data-line-number="300"></td><td class="code"><span>                    }</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="297"></td><td class="line" data-line-number=""></td><td class="code"><span>                }     </span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="301"></td><td class="code"><span>                }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="302"></td><td class="code"><span>                }</span></td></tr>
+<tr class=""><td class="line" data-line-number="298"></td><td class="line" data-line-number="303"></td><td class="code"><span>            }</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 4</h2>
+          <span class="decision">Strat1B </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/ContentDispositionFilter.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="292"></td><td class="line" data-line-number="292"></td><td class="code"><span>                        props = jcrContent.adaptTo(ValueMap.class);</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="293"></td><td class="line" data-line-number=""></td><td class="code"><span>                        if (props.containsKey(PROP_JCR_DATA) ) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="293"></td><td class="code"><span>                        } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="294"></td><td class="code"><span>                            if (props == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="295"></td><td class="code"><span>                                props = ValueMap.EMPTY;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="296"></td><td class="code"><span>                            }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="297"></td><td class="code"><span>                            if (props.containsKey(PROP_JCR_DATA) ) {</span></td></tr>
+<tr class=""><td class="line" data-line-number="294"></td><td class="line" data-line-number="298"></td><td class="code"><span>                            jcrData = true;</span></td></tr>
+<tr class=""><td class="line" data-line-number="295"></td><td class="line" data-line-number="299"></td><td class="code"><span>                        }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="300"></td><td class="code"><span>                        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="296"></td><td class="line" data-line-number="301"></td><td class="code"><span>                    }</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 5</h2>
+          <span class="decision">Strat3 </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/ContentDispositionFilter.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="292"></td><td class="line" data-line-number="292"></td><td class="code"><span>                        props = jcrContent.adaptTo(ValueMap.class);</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="293"></td><td class="line" data-line-number=""></td><td class="code"><span>                        if (props.containsKey(PROP_JCR_DATA) ) {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="294"></td><td class="line" data-line-number=""></td><td class="code"><span>                            jcrData = true;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="293"></td><td class="code"><span>                        } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="294"></td><td class="code"><span>                            if (props != null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="295"></td><td class="code"><span>                                if (props.containsKey(PROP_JCR_DATA) ) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="296"></td><td class="code"><span>                                    jcrData = true;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="297"></td><td class="code"><span>                                }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="298"></td><td class="code"><span>                            }</span></td></tr>
+<tr class=""><td class="line" data-line-number="295"></td><td class="line" data-line-number="299"></td><td class="code"><span>                        }</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 6</h2>
+          <span class="decision">Strat4 VAR </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/ContentDispositionFilter.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="286"></td><td class="line" data-line-number="286"></td><td class="code"><span>                ValueMap props = resource.adaptTo(ValueMap.class);</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="287"></td><td class="line" data-line-number=""></td><td class="code"><span>                if (props.containsKey(PROP_JCR_DATA) ) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="287"></td><td class="code"><span>                } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="288"></td><td class="code"><span>                    if (props == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="289"></td><td class="code"><span>                        return Boolean.FALSE;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="290"></td><td class="code"><span>                    }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="291"></td><td class="code"><span>                    if (props.containsKey(PROP_JCR_DATA) ) {</span></td></tr>
+<tr class=""><td class="line" data-line-number="288"></td><td class="line" data-line-number="292"></td><td class="code"><span>                    jcrData = true;</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="296"></td><td class="line" data-line-number="300"></td><td class="code"><span>                    }</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="297"></td><td class="line" data-line-number=""></td><td class="code"><span>                }     </span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="301"></td><td class="code"><span>                }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="302"></td><td class="code"><span>                }</span></td></tr>
+<tr class=""><td class="line" data-line-number="298"></td><td class="line" data-line-number="303"></td><td class="code"><span>            }</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 7</h2>
+          <span class="decision">Strat4 VAR </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/ContentDispositionFilter.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="292"></td><td class="line" data-line-number="292"></td><td class="code"><span>                        props = jcrContent.adaptTo(ValueMap.class);</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="293"></td><td class="line" data-line-number=""></td><td class="code"><span>                        if (props.containsKey(PROP_JCR_DATA) ) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="293"></td><td class="code"><span>                        } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="294"></td><td class="code"><span>                            if (props == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="295"></td><td class="code"><span>                                return Boolean.FALSE;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="296"></td><td class="code"><span>                            }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="297"></td><td class="code"><span>                            if (props.containsKey(PROP_JCR_DATA) ) {</span></td></tr>
+<tr class=""><td class="line" data-line-number="294"></td><td class="line" data-line-number="298"></td><td class="code"><span>                            jcrData = true;</span></td></tr>
+<tr class=""><td class="line" data-line-number="295"></td><td class="line" data-line-number="299"></td><td class="code"><span>                        }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="300"></td><td class="code"><span>                        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="296"></td><td class="line" data-line-number="301"></td><td class="code"><span>                    }</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 8</h2>
+          <span class="decision">Strat4 VAR </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/ContentDispositionFilter.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="286"></td><td class="line" data-line-number="286"></td><td class="code"><span>                ValueMap props = resource.adaptTo(ValueMap.class);</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="287"></td><td class="line" data-line-number=""></td><td class="code"><span>                if (props.containsKey(PROP_JCR_DATA) ) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="287"></td><td class="code"><span>                } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="288"></td><td class="code"><span>                    if (props == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="289"></td><td class="code"><span>                        return jcrData;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="290"></td><td class="code"><span>                    }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="291"></td><td class="code"><span>                    if (props.containsKey(PROP_JCR_DATA) ) {</span></td></tr>
+<tr class=""><td class="line" data-line-number="288"></td><td class="line" data-line-number="292"></td><td class="code"><span>                    jcrData = true;</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="296"></td><td class="line" data-line-number="300"></td><td class="code"><span>                    }</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="297"></td><td class="line" data-line-number=""></td><td class="code"><span>                }     </span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="301"></td><td class="code"><span>                }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="302"></td><td class="code"><span>                }</span></td></tr>
+<tr class=""><td class="line" data-line-number="298"></td><td class="line" data-line-number="303"></td><td class="code"><span>            }</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 9</h2>
+          <span class="decision">Strat4 VAR </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/ContentDispositionFilter.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="292"></td><td class="line" data-line-number="292"></td><td class="code"><span>                        props = jcrContent.adaptTo(ValueMap.class);</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="293"></td><td class="line" data-line-number=""></td><td class="code"><span>                        if (props.containsKey(PROP_JCR_DATA) ) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="293"></td><td class="code"><span>                        } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="294"></td><td class="code"><span>                            if (props == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="295"></td><td class="code"><span>                                return jcrData;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="296"></td><td class="code"><span>                            }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="297"></td><td class="code"><span>                            if (props.containsKey(PROP_JCR_DATA) ) {</span></td></tr>
+<tr class=""><td class="line" data-line-number="294"></td><td class="line" data-line-number="298"></td><td class="code"><span>                            jcrData = true;</span></td></tr>
+<tr class=""><td class="line" data-line-number="295"></td><td class="line" data-line-number="299"></td><td class="code"><span>                        }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="300"></td><td class="code"><span>                        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="296"></td><td class="line" data-line-number="301"></td><td class="code"><span>                    }</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 10</h2>
+          <span class="decision">Strat4 NEW </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/ContentDispositionFilter.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="286"></td><td class="line" data-line-number="286"></td><td class="code"><span>                ValueMap props = resource.adaptTo(ValueMap.class);</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="287"></td><td class="line" data-line-number=""></td><td class="code"><span>                if (props.containsKey(PROP_JCR_DATA) ) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="287"></td><td class="code"><span>                } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="288"></td><td class="code"><span>                    if (props == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="289"></td><td class="code"><span>                        return false;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="290"></td><td class="code"><span>                    }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="291"></td><td class="code"><span>                    if (props.containsKey(PROP_JCR_DATA) ) {</span></td></tr>
+<tr class=""><td class="line" data-line-number="288"></td><td class="line" data-line-number="292"></td><td class="code"><span>                    jcrData = true;</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="296"></td><td class="line" data-line-number="300"></td><td class="code"><span>                    }</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="297"></td><td class="line" data-line-number=""></td><td class="code"><span>                }     </span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="301"></td><td class="code"><span>                }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="302"></td><td class="code"><span>                }</span></td></tr>
+<tr class=""><td class="line" data-line-number="298"></td><td class="line" data-line-number="303"></td><td class="code"><span>            }</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 11</h2>
+          <span class="decision">Strat4 NEW </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/ContentDispositionFilter.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="292"></td><td class="line" data-line-number="292"></td><td class="code"><span>                        props = jcrContent.adaptTo(ValueMap.class);</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="293"></td><td class="line" data-line-number=""></td><td class="code"><span>                        if (props.containsKey(PROP_JCR_DATA) ) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="293"></td><td class="code"><span>                        } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="294"></td><td class="code"><span>                            if (props == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="295"></td><td class="code"><span>                                return false;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="296"></td><td class="code"><span>                            }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="297"></td><td class="code"><span>                            if (props.containsKey(PROP_JCR_DATA) ) {</span></td></tr>
+<tr class=""><td class="line" data-line-number="294"></td><td class="line" data-line-number="298"></td><td class="code"><span>                            jcrData = true;</span></td></tr>
+<tr class=""><td class="line" data-line-number="295"></td><td class="line" data-line-number="299"></td><td class="code"><span>                        }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="300"></td><td class="code"><span>                        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="296"></td><td class="line" data-line-number="301"></td><td class="code"><span>                    }</span></td></tr>
+</tbody></table>
+
+        </li>
+    </ul>
+  </body>
+</html>

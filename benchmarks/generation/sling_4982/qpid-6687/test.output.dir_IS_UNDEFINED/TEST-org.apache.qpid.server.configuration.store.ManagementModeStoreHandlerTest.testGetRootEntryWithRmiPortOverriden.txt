@@ -1,0 +1,15 @@
+2016-01-19 15:20:56,514 INFO  [main] o.a.q.t.u.QpidTestCase ========== start ManagementModeStoreHandlerTest.testGetRootEntryWithRmiPortOverriden ==========
+2016-01-19 15:20:56,516 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Management mode quiescing entry Mock for ConfiguredObjectRecord, hashCode: 2076249476
+2016-01-19 15:20:56,516 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Management mode quiescing entry Mock for ConfiguredObjectRecord, hashCode: 2076249476
+2016-01-19 15:20:56,517 INFO  [main] o.a.q.t.u.QpidTestCase ========== run ManagementModeStoreHandlerTest.testGetRootEntryWithRmiPortOverriden ==========
+2016-01-19 15:20:56,517 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing JsonSystemConfigImpl : System
+2016-01-19 15:20:56,517 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed JsonSystemConfigImpl : System
+2016-01-19 15:20:56,519 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Management mode quiescing entry Mock for ConfiguredObjectRecord, hashCode: 2076249476
+2016-01-19 15:20:56,519 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Management mode quiescing entry Mock for ConfiguredObjectRecord, hashCode: 2076249476
+2016-01-19 15:20:56,520 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Add management mode port configuration ConfiguredObjectRecord [id=17f6d0db-4aca-4adb-939c-81528251ec6b, type=Port, attributes={port=9090, name=MANAGEMENT-MODE-PORT-RMI, protocols=[RMI]}, parents={Broker=c7792483-60ff-4f4b-9b9f-8393588eca13}] for port 9090 and protocol RMI
+2016-01-19 15:20:56,521 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Add management mode port configuration ConfiguredObjectRecord [id=13e7964b-626b-4307-98d3-f1e65af1affb, type=Port, attributes={authenticationProvider=MANAGEMENT_MODE_AUTHENTICATION, port=9190, name=MANAGEMENT-MODE-PORT-JMX_RMI, protocols=[JMX_RMI]}, parents={Broker=c7792483-60ff-4f4b-9b9f-8393588eca13}] for port 9190 and protocol JMX_RMI
+2016-01-19 15:20:56,521 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing  : System
+2016-01-19 15:20:56,521 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed  : System
+2016-01-19 15:20:56,521 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed  : System
+2016-01-19 15:20:56,521 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown ManagementModeStoreHandlerTest.testGetRootEntryWithRmiPortOverriden ==========
+2016-01-19 15:20:56,521 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

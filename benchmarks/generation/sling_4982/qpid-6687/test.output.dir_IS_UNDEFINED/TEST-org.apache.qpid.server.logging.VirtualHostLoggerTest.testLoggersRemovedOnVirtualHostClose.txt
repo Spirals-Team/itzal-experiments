@@ -1,0 +1,25 @@
+2016-01-19 15:39:24,905 INFO  [main] o.a.q.t.u.QpidTestCase ========== start VirtualHostLoggerTest.testLoggersRemovedOnVirtualHostClose ==========
+2016-01-19 15:39:24,906 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Starting task executor Broker-Config
+2016-01-19 15:39:24,907 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Task executor is started
+2016-01-19 15:39:24,928 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Submitting task org.apache.qpid.server.model.AbstractConfiguredObject$2@e1de817 to executor Broker-Config
+2016-01-19 15:39:24,928 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Performing task org.apache.qpid.server.model.AbstractConfiguredObject$2@e1de817
+2016-01-19 15:39:24,953 DEBUG [Broker-Config] o.a.q.s.p.QpidServiceLoader Found 2 implementations of interface org.apache.qpid.server.plugin.SystemNodeCreator
+2016-01-19 15:39:24,960 DEBUG [Broker-Config] o.a.q.s.p.QpidServiceLoader Found 1 implementations of interface org.apache.qpid.server.plugin.ConnectionValidator
+2016-01-19 15:39:24,970 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Running task org.apache.qpid.server.model.AbstractConfiguredObject$2@8debff5 immediately
+2016-01-19 15:39:24,970 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Performing task org.apache.qpid.server.model.AbstractConfiguredObject$2@8debff5
+2016-01-19 15:39:24,978 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Task org.apache.qpid.server.model.AbstractConfiguredObject$2@8debff5 is performed successfully with result: null
+2016-01-19 15:39:24,982 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Running task org.apache.qpid.server.model.AbstractConfiguredObject$2@42d29e10 immediately
+2016-01-19 15:39:24,982 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Performing task org.apache.qpid.server.model.AbstractConfiguredObject$2@42d29e10
+2016-01-19 15:39:24,987 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Task org.apache.qpid.server.model.AbstractConfiguredObject$2@42d29e10 is performed successfully with result: null
+2016-01-19 15:39:24,988 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Running task org.apache.qpid.server.model.AbstractConfiguredObject$2@305faa2b immediately
+2016-01-19 15:39:24,989 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Performing task org.apache.qpid.server.model.AbstractConfiguredObject$2@305faa2b
+2016-01-19 15:39:24,995 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Task org.apache.qpid.server.model.AbstractConfiguredObject$2@305faa2b is performed successfully with result: null
+2016-01-19 15:39:24,996 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Running task org.apache.qpid.server.model.AbstractConfiguredObject$2@1848b035 immediately
+2016-01-19 15:39:24,996 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Performing task org.apache.qpid.server.model.AbstractConfiguredObject$2@1848b035
+2016-01-19 15:39:25,002 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Task org.apache.qpid.server.model.AbstractConfiguredObject$2@1848b035 is performed successfully with result: null
+2016-01-19 15:39:25,013 INFO  [main] o.a.q.t.u.QpidTestCase ========== run VirtualHostLoggerTest.testLoggersRemovedOnVirtualHostClose ==========
+2016-01-19 15:39:25,013 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Task org.apache.qpid.server.model.AbstractConfiguredObject$2@e1de817 is performed successfully with result: null
+2016-01-19 15:39:25,014 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Submitting task org.apache.qpid.server.model.AbstractConfiguredObject$2@3541cb24 to executor Broker-Config
+2016-01-19 15:39:25,014 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Performing task org.apache.qpid.server.model.AbstractConfiguredObject$2@3541cb24
+2016-01-19 15:39:25,022 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Running task org.apache.qpid.server.model.AbstractConfiguredObject$2@63e68ec0 immediately
+2016-01-19 15:39:25,022 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Performing task org.apache.qpid.server.model.AbstractConfiguredObject$2@63e68ec0

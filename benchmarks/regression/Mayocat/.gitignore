@@ -1,0 +1,29 @@
+# Eclipse
+target
+target-eclipse
+.settings
+.classpath
+.project
+
+# Intellij
+*.iml
+.idea
+
+stacktrace.log
+.gradle
+.DS_Store
+.groovy
+web-app/WEB-INF/classes/
+
+# conf & application data
+shop/application/config-postgres.yml
+shop/application/mayocat.yml
+shop/application/data/elasticsearch
+shop/application/data/imagecache
+shop/application/data/themes
+shop/application/data/tenants
+shop/application/data/payments
+
+# misc
+/classes
+shop/logs/mayocat.log

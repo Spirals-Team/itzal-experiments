@@ -1,0 +1,4 @@
+2016-01-19 15:20:56,683 INFO  [main] o.a.q.t.u.QpidTestCase ========== start CompositeFilterTest.testDecideWithAcceptFilter ==========
+2016-01-19 15:20:56,683 INFO  [main] o.a.q.t.u.QpidTestCase ========== run CompositeFilterTest.testDecideWithAcceptFilter ==========
+2016-01-19 15:20:56,684 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown CompositeFilterTest.testDecideWithAcceptFilter ==========
+2016-01-19 15:20:56,684 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

@@ -1,0 +1,142 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lang 703</title>
+    <link rel="stylesheet" type="text/css" href="../../../../css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1>Lang 703</h1>
+    <table class="summary pure-table">
+      <tr class="pure-table-odd">
+        <td class="label">Nb candidate patch</td> <td>19</td>
+      </tr>
+      <tr>
+        <td class="label">Nb patch</td> <td>7</td>
+      </tr>
+    </table>
+    <ul class="executions">
+        <li class="execution success">
+          <h2>Execution 1</h2>
+          <span class="decision">Strat1A </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/StringUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="3297"></td><td class="line" data-line-number="3297"></td><td class="code"><span></span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="3298"></td><td class="line" data-line-number=""></td><td class="code"><span>        bufSize *= ((array[startIndex] == null ? 16 : array[startIndex].toString().length()) + 1);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="3298"></td><td class="code"><span>        if (array[startIndex].toString() == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="3299"></td><td class="code"><span>            bufSize *= ((array[startIndex] == null ? 16 : org.apache.commons.lang3.StringUtils.EMPTY.length()) + 1);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="3300"></td><td class="code"><span>        } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="3301"></td><td class="code"><span>            bufSize *= ((array[startIndex] == null ? 16 : array[startIndex].toString().length()) + 1);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="3302"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="3299"></td><td class="line" data-line-number="3303"></td><td class="code"><span>        StringBuilder buf = new StringBuilder(bufSize);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 2</h2>
+          <span class="decision">Strat1A </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/StringUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="3384"></td><td class="line" data-line-number="3384"></td><td class="code"><span></span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="3385"></td><td class="line" data-line-number=""></td><td class="code"><span>        bufSize *= ((array[startIndex] == null ? 16 : array[startIndex].toString().length())</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="3386"></td><td class="line" data-line-number=""></td><td class="code"><span>                        + separator.length());</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="3385"></td><td class="code"><span>        if (array[startIndex].toString() == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="3386"></td><td class="code"><span>            bufSize *= ((array[startIndex] == null ? 16 : org.apache.commons.lang3.StringUtils.EMPTY.length())</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="3387"></td><td class="code"><span>            + separator.length());</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="3388"></td><td class="code"><span>        } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="3389"></td><td class="code"><span>            bufSize *= ((array[startIndex] == null ? 16 : array[startIndex].toString().length())</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="3390"></td><td class="code"><span>            + separator.length());</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="3391"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="3387"></td><td class="line" data-line-number="3392"></td><td class="code"><span></span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 3</h2>
+          <span class="decision">Strat1A </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/StringUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="3384"></td><td class="line" data-line-number="3384"></td><td class="code"><span></span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="3385"></td><td class="line" data-line-number=""></td><td class="code"><span>        bufSize *= ((array[startIndex] == null ? 16 : array[startIndex].toString().length())</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="3386"></td><td class="line" data-line-number=""></td><td class="code"><span>                        + separator.length());</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="3385"></td><td class="code"><span>        if (array[startIndex].toString() == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="3386"></td><td class="code"><span>            bufSize *= ((array[startIndex] == null ? 16 : separator.length())</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="3387"></td><td class="code"><span>            + separator.length());</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="3388"></td><td class="code"><span>        } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="3389"></td><td class="code"><span>            bufSize *= ((array[startIndex] == null ? 16 : array[startIndex].toString().length())</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="3390"></td><td class="code"><span>            + separator.length());</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="3391"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="3387"></td><td class="line" data-line-number="3392"></td><td class="code"><span></span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 4</h2>
+          <span class="decision">Strat2A </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/StringUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="3297"></td><td class="line" data-line-number="3297"></td><td class="code"><span></span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="3298"></td><td class="line" data-line-number=""></td><td class="code"><span>        bufSize *= ((array[startIndex] == null ? 16 : array[startIndex].toString().length()) + 1);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="3298"></td><td class="code"><span>        if (array[startIndex].toString() == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="3299"></td><td class="code"><span>            bufSize *= ((array[startIndex] == null ? 16 : new String().length()) + 1);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="3300"></td><td class="code"><span>        } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="3301"></td><td class="code"><span>            bufSize *= ((array[startIndex] == null ? 16 : array[startIndex].toString().length()) + 1);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="3302"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="3299"></td><td class="line" data-line-number="3303"></td><td class="code"><span>        StringBuilder buf = new StringBuilder(bufSize);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 5</h2>
+          <span class="decision">Strat3 </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/StringUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="3297"></td><td class="line" data-line-number="3297"></td><td class="code"><span></span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="3298"></td><td class="line" data-line-number=""></td><td class="code"><span>        bufSize *= ((array[startIndex] == null ? 16 : array[startIndex].toString().length()) + 1);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="3298"></td><td class="code"><span>        if (array[startIndex].toString() != null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="3299"></td><td class="code"><span>            bufSize *= ((array[startIndex] == null ? 16 : array[startIndex].toString().length()) + 1);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="3300"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="3299"></td><td class="line" data-line-number="3301"></td><td class="code"><span>        StringBuilder buf = new StringBuilder(bufSize);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 6</h2>
+          <span class="decision">Strat2A </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/StringUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="3384"></td><td class="line" data-line-number="3384"></td><td class="code"><span></span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="3385"></td><td class="line" data-line-number=""></td><td class="code"><span>        bufSize *= ((array[startIndex] == null ? 16 : array[startIndex].toString().length())</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="3386"></td><td class="line" data-line-number=""></td><td class="code"><span>                        + separator.length());</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="3385"></td><td class="code"><span>        if (array[startIndex].toString() == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="3386"></td><td class="code"><span>            bufSize *= ((array[startIndex] == null ? 16 : new String().length())</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="3387"></td><td class="code"><span>            + separator.length());</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="3388"></td><td class="code"><span>        } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="3389"></td><td class="code"><span>            bufSize *= ((array[startIndex] == null ? 16 : array[startIndex].toString().length())</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="3390"></td><td class="code"><span>            + separator.length());</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="3391"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="3387"></td><td class="line" data-line-number="3392"></td><td class="code"><span></span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 7</h2>
+          <span class="decision">Strat3 </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/StringUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="3384"></td><td class="line" data-line-number="3384"></td><td class="code"><span></span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="3385"></td><td class="line" data-line-number=""></td><td class="code"><span>        bufSize *= ((array[startIndex] == null ? 16 : array[startIndex].toString().length())</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="3386"></td><td class="line" data-line-number=""></td><td class="code"><span>                        + separator.length());</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="3385"></td><td class="code"><span>        if (array[startIndex].toString() != null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="3386"></td><td class="code"><span>            bufSize *= ((array[startIndex] == null ? 16 : array[startIndex].toString().length())</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="3387"></td><td class="code"><span>            + separator.length());</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="3388"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="3387"></td><td class="line" data-line-number="3389"></td><td class="code"><span></span></td></tr>
+</tbody></table>
+
+        </li>
+    </ul>
+  </body>
+</html>

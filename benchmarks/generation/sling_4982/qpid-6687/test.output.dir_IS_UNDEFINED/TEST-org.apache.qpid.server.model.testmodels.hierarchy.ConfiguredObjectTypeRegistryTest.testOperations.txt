@@ -1,0 +1,4 @@
+2016-01-19 15:20:56,370 INFO  [main] o.a.q.t.u.QpidTestCase ========== start ConfiguredObjectTypeRegistryTest.testOperations ==========
+2016-01-19 15:20:56,375 INFO  [main] o.a.q.t.u.QpidTestCase ========== run ConfiguredObjectTypeRegistryTest.testOperations ==========
+2016-01-19 15:20:56,376 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown ConfiguredObjectTypeRegistryTest.testOperations ==========
+2016-01-19 15:20:56,377 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

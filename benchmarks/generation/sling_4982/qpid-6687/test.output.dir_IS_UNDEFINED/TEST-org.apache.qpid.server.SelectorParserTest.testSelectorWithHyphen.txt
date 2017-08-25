@@ -1,0 +1,4 @@
+2016-01-19 15:19:26,425 INFO  [main] o.a.q.t.u.QpidTestCase ========== start SelectorParserTest.testSelectorWithHyphen ==========
+2016-01-19 15:19:26,432 INFO  [main] o.a.q.t.u.QpidTestCase ========== run SelectorParserTest.testSelectorWithHyphen ==========
+2016-01-19 15:19:26,432 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown SelectorParserTest.testSelectorWithHyphen ==========
+2016-01-19 15:19:26,432 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

@@ -1,0 +1,48 @@
+Jul 11, 2017 4:54:53 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Jul 11, 2017 4:54:53 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+Jul 11, 2017 4:54:53 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 356 ms
+Jul 11, 2017 4:54:53 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Jul 11, 2017 4:54:53 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0-snapshot
+Jul 11, 2017 4:54:54 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+Jul 11, 2017 4:54:54 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+Jul 11, 2017 4:54:54 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/16  config=null
+Jul 11, 2017 4:54:54 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 781 ms
+Jul 11, 2017 4:57:09 PM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+Jul 11, 2017 4:57:10 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Jul 11, 2017 4:57:10 PM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8080
+Jul 11, 2017 4:58:16 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Jul 11, 2017 4:58:16 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+Jul 11, 2017 4:58:16 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 298 ms
+Jul 11, 2017 4:58:16 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Jul 11, 2017 4:58:16 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0-snapshot
+Jul 11, 2017 4:58:16 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+Jul 11, 2017 4:58:16 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+Jul 11, 2017 4:58:16 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/16  config=null
+Jul 11, 2017 4:58:16 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 567 ms
+Jul 11, 2017 5:00:23 PM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+Jul 11, 2017 5:00:24 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Jul 11, 2017 5:00:24 PM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8080

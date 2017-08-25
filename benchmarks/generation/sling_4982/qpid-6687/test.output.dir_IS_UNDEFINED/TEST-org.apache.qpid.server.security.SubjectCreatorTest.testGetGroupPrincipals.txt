@@ -1,0 +1,3 @@
+2016-01-19 15:20:54,288 INFO  [main] o.a.q.t.u.QpidTestCase ========== run SubjectCreatorTest.testGetGroupPrincipals ==========
+2016-01-19 15:20:54,289 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown SubjectCreatorTest.testGetGroupPrincipals ==========
+2016-01-19 15:20:54,289 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

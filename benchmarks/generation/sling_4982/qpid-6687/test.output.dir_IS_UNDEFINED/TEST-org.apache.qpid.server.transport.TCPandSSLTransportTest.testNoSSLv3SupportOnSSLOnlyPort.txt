@@ -1,0 +1,11 @@
+2016-01-19 15:12:12,488 INFO  [main] o.a.q.t.u.QpidTestCase ========== start TCPandSSLTransportTest.testNoSSLv3SupportOnSSLOnlyPort ==========
+2016-01-19 15:12:12,489 INFO  [main] o.a.q.t.u.QpidTestCase ========== run TCPandSSLTransportTest.testNoSSLv3SupportOnSSLOnlyPort ==========
+2016-01-19 15:12:12,497 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 0 implementations of interface org.apache.qpid.server.plugin.ProtocolEngineCreator
+2016-01-19 15:12:12,500 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown TCPandSSLTransportTest.testNoSSLv3SupportOnSSLOnlyPort ==========
+2016-01-19 15:12:12,500 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender
+2016-01-19 15:12:12,502 ERROR [Selector-Port-null] o.a.q.s.t.SelectorThread Failed to register selector on accepting port
+java.nio.channels.ClosedChannelException: null
+	at java.nio.channels.spi.AbstractSelectableChannel.register(AbstractSelectableChannel.java:197) ~[na:1.8.0_66-internal]
+	at org.apache.qpid.server.transport.SelectorThread$1.run(SelectorThread.java:80) ~[classes/:na]
+	at org.apache.qpid.server.transport.SelectorThread.runTasks(SelectorThread.java:267) [classes/:na]
+	at org.apache.qpid.server.transport.SelectorThread.run(SelectorThread.java:131) [classes/:na]

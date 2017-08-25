@@ -1,0 +1,4 @@
+2016-01-19 15:20:05,441 INFO  [main] o.a.q.t.u.QpidTestCase ========== start VirtualHostMessagesTest.testVirtualhostClosed ==========
+2016-01-19 15:20:05,442 INFO  [main] o.a.q.t.u.QpidTestCase ========== run VirtualHostMessagesTest.testVirtualhostClosed ==========
+2016-01-19 15:20:05,442 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown VirtualHostMessagesTest.testVirtualhostClosed ==========
+2016-01-19 15:20:05,442 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

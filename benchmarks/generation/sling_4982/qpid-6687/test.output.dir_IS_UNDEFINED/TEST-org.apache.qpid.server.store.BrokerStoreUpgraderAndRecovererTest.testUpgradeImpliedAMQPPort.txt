@@ -1,0 +1,9 @@
+2016-01-19 15:20:53,651 INFO  [main] o.a.q.t.u.QpidTestCase ========== start BrokerStoreUpgraderAndRecovererTest.testUpgradeImpliedAMQPPort ==========
+2016-01-19 15:20:53,652 INFO  [main] o.a.q.t.u.QpidTestCase ========== run BrokerStoreUpgraderAndRecovererTest.testUpgradeImpliedAMQPPort ==========
+2016-01-19 15:20:53,652 INFO  [main] o.a.q.s.s.GenericStoreUpgrader Broker store has model version 2.0. Number of record(s) 2
+2016-01-19 15:20:53,652 DEBUG [main] o.a.q.s.s.GenericStoreUpgrader Adding Broker store upgrader from model version: 2.0
+2016-01-19 15:20:53,652 DEBUG [main] o.a.q.s.s.GenericStoreUpgrader Adding Broker store upgrader from model version: 3.0
+2016-01-19 15:20:53,652 WARN  [main] o.a.q.s.s.BrokerStoreUpgraderAndRecoverer Unable to identify the target virtual host node for old default virtualhost name : 'test'
+2016-01-19 15:20:53,653 DEBUG [main] o.a.q.s.s.GenericStoreUpgrader Broker store upgrade is about to complete. 2 total record(s). Records to update 8 Records to delete 0
+2016-01-19 15:20:53,653 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown BrokerStoreUpgraderAndRecovererTest.testUpgradeImpliedAMQPPort ==========
+2016-01-19 15:20:53,653 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

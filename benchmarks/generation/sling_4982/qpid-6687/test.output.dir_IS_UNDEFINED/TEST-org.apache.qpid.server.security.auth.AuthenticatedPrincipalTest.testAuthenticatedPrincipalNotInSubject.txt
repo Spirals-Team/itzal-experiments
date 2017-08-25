@@ -1,0 +1,4 @@
+2016-01-19 15:20:54,226 INFO  [main] o.a.q.t.u.QpidTestCase ========== start AuthenticatedPrincipalTest.testAuthenticatedPrincipalNotInSubject ==========
+2016-01-19 15:20:54,226 INFO  [main] o.a.q.t.u.QpidTestCase ========== run AuthenticatedPrincipalTest.testAuthenticatedPrincipalNotInSubject ==========
+2016-01-19 15:20:54,227 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown AuthenticatedPrincipalTest.testAuthenticatedPrincipalNotInSubject ==========
+2016-01-19 15:20:54,227 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

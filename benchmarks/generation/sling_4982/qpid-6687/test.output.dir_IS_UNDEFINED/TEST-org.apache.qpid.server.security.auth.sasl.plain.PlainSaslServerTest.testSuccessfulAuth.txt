@@ -1,0 +1,3 @@
+2016-01-19 15:36:53,568 INFO  [main] o.a.q.t.u.QpidTestCase ========== run PlainSaslServerTest.testSuccessfulAuth ==========
+2016-01-19 15:36:53,570 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown PlainSaslServerTest.testSuccessfulAuth ==========
+2016-01-19 15:36:53,570 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

@@ -1,0 +1,4 @@
+2017-07-20 09:13:08,007 INFO  [main] o.a.q.t.u.QpidTestCase ========== start AbstractConfiguredObjectTest.testDefaultedAttributeValue ==========
+2017-07-20 09:13:08,008 INFO  [main] o.a.q.t.u.QpidTestCase ========== run AbstractConfiguredObjectTest.testDefaultedAttributeValue ==========
+2017-07-20 09:13:08,009 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown AbstractConfiguredObjectTest.testDefaultedAttributeValue ==========
+2017-07-20 09:13:08,010 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

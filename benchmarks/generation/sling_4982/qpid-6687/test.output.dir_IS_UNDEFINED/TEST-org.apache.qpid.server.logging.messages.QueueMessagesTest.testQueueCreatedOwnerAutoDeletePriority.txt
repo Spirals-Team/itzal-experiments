@@ -1,0 +1,4 @@
+2016-01-19 15:20:54,099 INFO  [main] o.a.q.t.u.QpidTestCase ========== start QueueMessagesTest.testQueueCreatedOwnerAutoDeletePriority ==========
+2016-01-19 15:20:54,100 INFO  [main] o.a.q.t.u.QpidTestCase ========== run QueueMessagesTest.testQueueCreatedOwnerAutoDeletePriority ==========
+2016-01-19 15:20:54,100 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown QueueMessagesTest.testQueueCreatedOwnerAutoDeletePriority ==========
+2016-01-19 15:20:54,100 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

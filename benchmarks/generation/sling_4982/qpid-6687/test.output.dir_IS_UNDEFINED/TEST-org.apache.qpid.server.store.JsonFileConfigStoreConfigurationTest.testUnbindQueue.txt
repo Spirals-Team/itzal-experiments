@@ -1,0 +1,8 @@
+2016-01-19 15:19:48,396 INFO  [main] o.a.q.t.u.QpidTestCase ========== start JsonFileConfigStoreConfigurationTest.testUnbindQueue ==========
+2016-01-19 15:19:48,398 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:19:48,399 DEBUG [main] o.a.q.u.FileUtils Failed to delete /tmp/testUnbindQueue
+2016-01-19 15:19:48,399 INFO  [main] o.a.q.t.u.QpidTestCase Set system property "QPID_WORK" to: "/tmp"
+2016-01-19 15:19:48,403 INFO  [main] o.a.q.t.u.QpidTestCase ========== run JsonFileConfigStoreConfigurationTest.testUnbindQueue ==========
+2016-01-19 15:19:48,412 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown JsonFileConfigStoreConfigurationTest.testUnbindQueue ==========
+2016-01-19 15:19:48,412 DEBUG [main] o.a.q.t.u.QpidTestCase reverting 1 test properties
+2016-01-19 15:19:48,412 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.sling.security.impl.ContentDispositionFilterTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.097 sec <<< FAILURE! - in org.apache.sling.security.impl.ContentDispositionFilterTest
+test_isJcrData6(org.apache.sling.security.impl.ContentDispositionFilterTest)  Time elapsed: 0.092 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.sling.security.impl.ContentDispositionFilter$RewriterResponse.isJcrData(ContentDispositionFilter.java:287)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junitx.util.PrivateAccessor.invoke(PrivateAccessor.java:253)
+	at org.apache.sling.security.impl.ContentDispositionFilterTest.test_isJcrData6(ContentDispositionFilterTest.java:60)
+
+test_isJcrData7(org.apache.sling.security.impl.ContentDispositionFilterTest)  Time elapsed: 0.003 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.sling.security.impl.ContentDispositionFilter$RewriterResponse.isJcrData(ContentDispositionFilter.java:293)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junitx.util.PrivateAccessor.invoke(PrivateAccessor.java:253)
+	at org.apache.sling.security.impl.ContentDispositionFilterTest.test_isJcrData7(ContentDispositionFilterTest.java:92)
+

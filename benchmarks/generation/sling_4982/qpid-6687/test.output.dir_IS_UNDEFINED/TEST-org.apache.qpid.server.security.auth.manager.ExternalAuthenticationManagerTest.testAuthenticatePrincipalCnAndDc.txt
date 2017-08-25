@@ -1,0 +1,12 @@
+2016-01-19 15:20:55,474 INFO  [main] o.a.q.t.u.QpidTestCase ========== start ExternalAuthenticationManagerTest.testAuthenticatePrincipalCnAndDc ==========
+2016-01-19 15:20:55,479 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:20:55,488 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:20:55,497 INFO  [main] o.a.q.t.u.QpidTestCase ========== run ExternalAuthenticationManagerTest.testAuthenticatePrincipalCnAndDc ==========
+2016-01-19 15:20:55,498 DEBUG [main] o.a.q.s.s.a.s.e.ExternalSaslServer Parsing username from Principal DN: CN=person,DC=example,DC=com
+2016-01-19 15:20:55,500 DEBUG [main] o.a.q.s.s.a.s.e.ExternalSaslServer Constructing Principal with username: person@example.com
+2016-01-19 15:20:55,500 DEBUG [main] o.a.q.s.s.a.s.e.ExternalSaslServer Parsing username from Principal DN: CN=person,DC=example,DC=com
+2016-01-19 15:20:55,500 DEBUG [main] o.a.q.s.s.a.s.e.ExternalSaslServer Constructing Principal with username: person@example.com
+2016-01-19 15:20:55,500 DEBUG [main] o.a.q.s.s.a.s.e.ExternalSaslServer Parsing username from Principal DN: CN=person,DC=example,DC=com
+2016-01-19 15:20:55,500 DEBUG [main] o.a.q.s.s.a.s.e.ExternalSaslServer Constructing Principal with username: person@example.com
+2016-01-19 15:20:55,500 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown ExternalAuthenticationManagerTest.testAuthenticatePrincipalCnAndDc ==========
+2016-01-19 15:20:55,500 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

@@ -1,0 +1,44 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1502903869238
+Build-Jdk: 1.7.0_95
+Built-By: thomas
+Bundle-Description: The Apache Commons Math project is a library of ligh
+ tweight, self-contained mathematics and statistics components addressin
+ g the most common practical problems not immediately available in the J
+ ava programming language or commons-lang.
+Bundle-DocURL: http://commons.apache.org/proper/commons-math/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Commons Math
+Bundle-SymbolicName: org.apache.commons.math3
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 1115.0.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.commons.math;version=1115,org.apache.commons.
+ math.analysis;version=1115,org.apache.commons.math.analysis.integration
+ ;version=1115,org.apache.commons.math.analysis.interpolation;version=11
+ 15,org.apache.commons.math.analysis.polynomials;version=1115,org.apache
+ .commons.math.analysis.solvers;version=1115,org.apache.commons.math.com
+ plex;version=1115,org.apache.commons.math.distribution;version=1115,org
+ .apache.commons.math.estimation;version=1115,org.apache.commons.math.fr
+ action;version=1115,org.apache.commons.math.genetics;version=1115,org.a
+ pache.commons.math.geometry;version=1115,org.apache.commons.math.linear
+ ;version=1115,org.apache.commons.math.ode;version=1115,org.apache.commo
+ ns.math.ode.events;version=1115,org.apache.commons.math.ode.nonstiff;ve
+ rsion=1115,org.apache.commons.math.ode.sampling;version=1115,org.apache
+ .commons.math.optimization;version=1115,org.apache.commons.math.optimiz
+ ation.direct;version=1115,org.apache.commons.math.optimization.fitting;
+ version=1115,org.apache.commons.math.optimization.general;version=1115,
+ org.apache.commons.math.optimization.linear;version=1115,org.apache.com
+ mons.math.optimization.univariate;version=1115,org.apache.commons.math.
+ random;version=1115,org.apache.commons.math.special;version=1115,org.ap
+ ache.commons.math.stat;version=1115,org.apache.commons.math.stat.cluste
+ ring;version=1115,org.apache.commons.math.stat.correlation;version=1115
+ ,org.apache.commons.math.stat.descriptive;version=1115,org.apache.commo
+ ns.math.stat.descriptive.moment;version=1115,org.apache.commons.math.st
+ at.descriptive.rank;version=1115,org.apache.commons.math.stat.descripti
+ ve.summary;version=1115,org.apache.commons.math.stat.inference;version=
+ 1115,org.apache.commons.math.stat.ranking;version=1115,org.apache.commo
+ ns.math.stat.regression;version=1115,org.apache.commons.math.transform;
+ version=1115,org.apache.commons.math.util;version=1115
+Tool: Bnd-2.1.0.20130426-122213

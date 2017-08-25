@@ -1,0 +1,84 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Math 290</title>
+    <link rel="stylesheet" type="text/css" href="../../../../css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1>Math 290</h1>
+    <table class="summary pure-table">
+      <tr class="pure-table-odd">
+        <td class="label">Nb candidate patch</td> <td>14</td>
+      </tr>
+      <tr>
+        <td class="label">Nb patch</td> <td>4</td>
+      </tr>
+    </table>
+    <ul class="executions">
+        <li class="execution success">
+          <h2>Execution 1</h2>
+          <span class="decision">Strat1A </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/SimplexTableau.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="248"></td><td class="line" data-line-number="248"></td><td class="code"><span>        for (int artificialVar = 0; artificialVar &lt; numArtificialVariables; artificialVar++) {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="249"></td><td class="line" data-line-number=""></td><td class="code"><span>            int row = getBasicRow(getArtificialVariableOffset() + artificialVar);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="249"></td><td class="code"><span>            int row;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="250"></td><td class="code"><span>            if (getBasicRow(getArtificialVariableOffset() + artificialVar) == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="251"></td><td class="code"><span>                row = numDecisionVariables;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="252"></td><td class="code"><span>            } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="253"></td><td class="code"><span>                row = getBasicRow(getArtificialVariableOffset() + artificialVar);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="254"></td><td class="code"><span>            }</span></td></tr>
+<tr class=""><td class="line" data-line-number="250"></td><td class="line" data-line-number="255"></td><td class="code"><span>            subtractRow(0, row, 1.0);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 2</h2>
+          <span class="decision">Strat2A </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/SimplexTableau.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="248"></td><td class="line" data-line-number="248"></td><td class="code"><span>        for (int artificialVar = 0; artificialVar &lt; numArtificialVariables; artificialVar++) {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="249"></td><td class="line" data-line-number=""></td><td class="code"><span>            int row = getBasicRow(getArtificialVariableOffset() + artificialVar);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="249"></td><td class="code"><span>            int row;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="250"></td><td class="code"><span>            if (getBasicRow(getArtificialVariableOffset() + artificialVar) == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="251"></td><td class="code"><span>                row = 0;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="252"></td><td class="code"><span>            } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="253"></td><td class="code"><span>                row = getBasicRow(getArtificialVariableOffset() + artificialVar);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="254"></td><td class="code"><span>            }</span></td></tr>
+<tr class=""><td class="line" data-line-number="250"></td><td class="line" data-line-number="255"></td><td class="code"><span>            subtractRow(0, row, 1.0);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 3</h2>
+          <span class="decision">Strat3 </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/SimplexTableau.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="248"></td><td class="line" data-line-number="248"></td><td class="code"><span>        for (int artificialVar = 0; artificialVar &lt; numArtificialVariables; artificialVar++) {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="249"></td><td class="line" data-line-number=""></td><td class="code"><span>            int row = getBasicRow(getArtificialVariableOffset() + artificialVar);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="249"></td><td class="code"><span>            if (getBasicRow(getArtificialVariableOffset() + artificialVar) != null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="250"></td><td class="code"><span>                int row = getBasicRow(getArtificialVariableOffset() + artificialVar);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="251"></td><td class="code"><span>            }</span></td></tr>
+<tr class=""><td class="line" data-line-number="250"></td><td class="line" data-line-number="252"></td><td class="code"><span>            subtractRow(0, row, 1.0);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 4</h2>
+          <span class="decision">Strat4 VOID </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/SimplexTableau.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="248"></td><td class="line" data-line-number="248"></td><td class="code"><span>        for (int artificialVar = 0; artificialVar &lt; numArtificialVariables; artificialVar++) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="249"></td><td class="code"><span>            if (getBasicRow(getArtificialVariableOffset() + artificialVar) == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="250"></td><td class="code"><span>                return null;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="251"></td><td class="code"><span>            }</span></td></tr>
+<tr class=""><td class="line" data-line-number="249"></td><td class="line" data-line-number="252"></td><td class="code"><span>            int row = getBasicRow(getArtificialVariableOffset() + artificialVar);</span></td></tr>
+</tbody></table>
+
+        </li>
+    </ul>
+  </body>
+</html>

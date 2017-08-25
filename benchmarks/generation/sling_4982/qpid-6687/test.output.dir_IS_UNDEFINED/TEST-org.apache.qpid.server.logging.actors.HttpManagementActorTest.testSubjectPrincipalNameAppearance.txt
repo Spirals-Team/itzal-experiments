@@ -1,0 +1,4 @@
+2016-01-19 15:20:56,766 INFO  [main] o.a.q.t.u.QpidTestCase ========== start HttpManagementActorTest.testSubjectPrincipalNameAppearance ==========
+2016-01-19 15:20:56,766 INFO  [main] o.a.q.t.u.QpidTestCase ========== run HttpManagementActorTest.testSubjectPrincipalNameAppearance ==========
+2016-01-19 15:20:56,770 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown HttpManagementActorTest.testSubjectPrincipalNameAppearance ==========
+2016-01-19 15:20:56,770 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

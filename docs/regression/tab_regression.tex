@@ -1,0 +1,455 @@
+\begin{table}
+  \centering
+  \caption{The Effectiveness of four Production Oracles to Detect Regression based on User Traffic}
+  \label{tab:regression}
+  \resizebox*{0.48\textwidth}{!}{
+  \begin{tabular}{|l|l|r|r|r|r|}
+    \hline
+    & & \multicolumn{4}{c|}{Oracles} \\ \cline{3-6}
+    Project & 
+    Patch Location  & 
+    \rotatebox{90}{HTTP status} & 
+    \rotatebox{90}{HTTP content} & 
+    \rotatebox{90}{\# Method} & 
+    \rotatebox{90}{\# Block} \\
+    \hline 
+    Broadleaf 
+    & CategoryImpl:835 1
+    & 0\%  \failing 
+    & 17\%  \passing 
+    & 36 \% \passing 
+    & 40 \% \passing  \\
+    Broadleaf 
+    & CategoryImpl:835 2
+    & 0\%  \failing 
+    & 17\%  \passing 
+    & 36 \% \passing 
+    & 40 \% \passing  \\
+    Broadleaf 
+    & CategoryImpl:835 3
+    & 0\%  \failing 
+    & 20\%  \passing 
+    & 36 \% \passing 
+    & 41 \% \passing  \\
+    Broadleaf 
+    & CategoryImpl:835 4
+    & 0\%  \failing 
+    & 17\%  \passing 
+    & 36 \% \passing 
+    & 40 \% \passing  \\
+    Broadleaf 
+    & CategoryImpl:835 5
+    & 0\%  \failing 
+    & 20\%  \passing 
+    & 36 \% \passing 
+    & 41 \% \passing  \\
+    Broadleaf 
+    & CategoryImpl:835 6
+    & 0\%  \failing 
+    & 20\%  \passing 
+    & 36 \% \passing 
+    & 41 \% \passing  \\
+    Broadleaf 
+    & CategoryImpl:835 7
+    & 45\%  \passing 
+    & 48\%  \passing 
+    & 42 \% \passing 
+    & 47 \% \passing  \\
+    Broadleaf 
+    & OrderItemImpl:418 1
+    & 0\%  \failing 
+    & 1\%  \passing 
+    & 0 \% \failing 
+    & 0 \% \failing  \\
+    Broadleaf 
+    & OrderItemImpl:418 2
+    & 0\%  \failing 
+    & 1\%  \passing 
+    & 0 \% \failing 
+    & 0 \% \failing  \\
+    Broadleaf 
+    & OrderItemImpl:418 3
+    & 0\%  \failing 
+    & 1\%  \passing 
+    & 0 \% \failing 
+    & 0 \% \failing  \\
+    Broadleaf 
+    & RelatedProductsServiceImpl:208 1
+    & 0\%  \failing 
+    & 1\%  \passing 
+    & 0 \% \failing 
+    & 0 \% \failing  \\
+    Broadleaf 
+    & RelatedProductsServiceImpl:208 2
+    & 0\%  \failing 
+    & 7\%  \passing 
+    & 34 \% \passing 
+    & 38 \% \passing  \\
+    Broadleaf 
+    & RelatedProductsServiceImpl:208 3
+    & 0\%  \failing 
+    & 15\%  \passing 
+    & 3 \% \passing 
+    & 4 \% \passing  \\
+    Broadleaf 
+    & SolrHelperServiceImpl:531 1
+    & 0\%  \failing 
+    & 13\%  \passing 
+    & 0 \% \failing 
+    & 0 \% \failing  \\
+    Broadleaf 
+    & SolrHelperServiceImpl:531 2
+    & 35\%  \passing 
+    & 37\%  \passing 
+    & 11 \% \passing 
+    & 9 \% \passing  \\
+    Broadleaf 
+    & SolrHelperServiceImpl:531 3
+    & 35\%  \passing 
+    & 37\%  \passing 
+    & 11 \% \passing 
+    & 9 \% \passing  \\
+    Broadleaf 
+    & SolrHelperServiceImpl:531 4
+    & 35\%  \passing 
+    & 37\%  \passing 
+    & 11 \% \passing 
+    & 9 \% \passing  \\
+    Broadleaf 
+    & SolrHelperServiceImpl:531 5
+    & 35\%  \passing 
+    & 37\%  \passing 
+    & 11 \% \passing 
+    & 9 \% \passing  \\
+    \hline
+    Mayocat 
+    & AbstractScopeCookieContainerFilter:202 1
+    & 0\%  \failing 
+    & 0\%  \failing 
+    & 0 \% \failing 
+    & 0 \% \failing  \\
+    Mayocat 
+    & AbstractScopeCookieContainerFilter:202 2
+    & 0\%  \failing 
+    & 0\%  \failing 
+    & 0 \% \failing 
+    & 0 \% \failing  \\
+    Mayocat 
+    & AbstractScopeCookieContainerFilter:202 3
+    & 0\%  \failing 
+    & 21\%  \passing 
+    & 6 \% \passing 
+    & 6 \% \passing  \\
+    Mayocat 
+    & AbstractScopeCookieContainerFilter:202 4
+    & 0\%  \failing 
+    & 21\%  \passing 
+    & 6 \% \passing 
+    & 6 \% \passing  \\
+    Mayocat 
+    & AbstractScopeCookieContainerFilter:202 5
+    & 0\%  \failing 
+    & 21\%  \passing 
+    & 6 \% \passing 
+    & 6 \% \passing  \\
+    Mayocat 
+    & AbstractScopeCookieContainerFilter:256 1
+    & 0\%  \failing 
+    & 0\%  \failing 
+    & 0 \% \failing 
+    & 0 \% \failing  \\
+    Mayocat 
+    & AbstractScopeCookieContainerFilter:256 2
+    & 0\%  \failing 
+    & 0\%  \failing 
+    & 0 \% \failing 
+    & 0 \% \failing  \\
+    Mayocat 
+    & AbstractScopeCookieContainerFilter:256 3
+    & 0\%  \failing 
+    & 0\%  \failing 
+    & 0 \% \failing 
+    & 0 \% \failing  \\
+    Mayocat 
+    & AbstractScopeCookieContainerFilter:256 4
+    & 0\%  \failing 
+    & 0\%  \failing 
+    & 0 \% \failing 
+    & 0 \% \failing  \\
+    Mayocat 
+    & DateAsTimestampArgumentFactory:30 1
+    & 0\%  \failing 
+    & 0\%  \failing 
+    & 0 \% \failing 
+    & 0 \% \failing  \\
+    Mayocat 
+    & DateAsTimestampArgumentFactory:30 2
+    & 0\%  \failing 
+    & 0\%  \failing 
+    & 1 \% \passing 
+    & 1 \% \passing  \\
+    Mayocat 
+    & DateAsTimestampArgumentFactory:30 3
+    & 0\%  \failing 
+    & 0\%  \failing 
+    & 0 \% \failing 
+    & 0 \% \failing  \\
+    Mayocat 
+    & DateAsTimestampArgumentFactory:30 4
+    & 0\%  \failing 
+    & 0\%  \failing 
+    & 0 \% \failing 
+    & 0 \% \failing  \\
+    Mayocat 
+    & DateAsTimestampArgumentFactory:30 5
+    & 0\%  \failing 
+    & 0\%  \failing 
+    & 0 \% \failing 
+    & 0 \% \failing  \\
+    Mayocat 
+    & DefaultCartLoader:88 1
+    & 82\%  \passing 
+    & 82\%  \passing 
+    & 18 \% \passing 
+    & 16 \% \passing  \\
+    Mayocat 
+    & DefaultCartLoader:88 2
+    & 0\%  \failing 
+    & 0\%  \failing 
+    & 0 \% \failing 
+    & 0 \% \failing  \\
+    Mayocat 
+    & DefaultCartManager:198 1
+    & 0\%  \failing 
+    & 0\%  \failing 
+    & 0 \% \failing 
+    & 0 \% \failing  \\
+    Mayocat 
+    & DefaultCartManager:198 2
+    & 0\%  \failing 
+    & 0\%  \failing 
+    & 0 \% \failing 
+    & 0 \% \failing  \\
+    Mayocat 
+    & MapAsJsonArgumentFactory:30 1
+    & 0\%  \failing 
+    & 0\%  \failing 
+    & 0 \% \failing 
+    & 0 \% \failing  \\
+    Mayocat 
+    & MapAsJsonArgumentFactory:30 2
+    & 0\%  \failing 
+    & 0\%  \failing 
+    & 2 \% \passing 
+    & 2 \% \passing  \\
+    Mayocat 
+    & MapAsJsonArgumentFactory:30 3
+    & 0\%  \failing 
+    & 0\%  \failing 
+    & 0 \% \failing 
+    & 0 \% \failing  \\
+    Mayocat 
+    & MapAsJsonArgumentFactory:30 4
+    & 0\%  \failing 
+    & 0\%  \failing 
+    & 0 \% \failing 
+    & 0 \% \failing  \\
+    Mayocat 
+    & MapAsJsonArgumentFactory:30 5
+    & 0\%  \failing 
+    & 0\%  \failing 
+    & 0 \% \failing 
+    & 0 \% \failing  \\
+    Mayocat 
+    & PostgresUUIDArrayArgumentFactory:30 1
+    & 0\%  \failing 
+    & 0\%  \failing 
+    & 1 \% \passing 
+    & 2 \% \passing  \\
+    Mayocat 
+    & PostgresUUIDArrayArgumentFactory:30 2
+    & 0\%  \failing 
+    & 0\%  \failing 
+    & 0 \% \failing 
+    & 1 \% \passing  \\
+    Mayocat 
+    & PostgresUUIDArrayArgumentFactory:30 3
+    & 0\%  \failing 
+    & 0\%  \failing 
+    & 0 \% \failing 
+    & 1 \% \passing  \\
+    Mayocat 
+    & PostgresUUIDArrayArgumentFactory:30 4
+    & 0\%  \failing 
+    & 0\%  \failing 
+    & 0 \% \failing 
+    & 1 \% \passing  \\
+    Mayocat 
+    & ProductMapper:44 1
+    & 0\%  \failing 
+    & 0\%  \failing 
+    & 0 \% \failing 
+    & 0 \% \failing  \\
+    Mayocat 
+    & ProductMapper:44 2
+    & 0\%  \failing 
+    & 0\%  \failing 
+    & 0 \% \failing 
+    & 0 \% \failing  \\
+    Mayocat 
+    & ProductMapper:44 3
+    & 0\%  \failing 
+    & 0\%  \failing 
+    & 0 \% \failing 
+    & 0 \% \failing  \\
+    Mayocat 
+    & ProductMapper:44 4
+    & 0\%  \failing 
+    & 0\%  \failing 
+    & 0 \% \failing 
+    & 0 \% \failing  \\
+    Mayocat 
+    & ProductMapper:44 5
+    & 0\%  \failing 
+    & 0\%  \failing 
+    & 0 \% \failing 
+    & 0 \% \failing  \\
+    \hline
+    Shopizer 
+    & CategoryFacadeImpl:55 1
+    & 0\%  \failing 
+    & 0\%  \failing 
+    & 0 \% \failing 
+    & 0 \% \failing  \\
+    Shopizer 
+    & CategoryFacadeImpl:55 2
+    & 0\%  \failing 
+    & 67\%  \passing 
+    & 6 \% \passing 
+    & 5 \% \passing  \\
+    Shopizer 
+    & CategoryFacadeImpl:55 3
+    & 0\%  \failing 
+    & 67\%  \passing 
+    & 18 \% \passing 
+    & 18 \% \passing  \\
+    Shopizer 
+    & CategoryFacadeImpl:55 4
+    & 0\%  \failing 
+    & 67\%  \passing 
+    & 15 \% \passing 
+    & 14 \% \passing  \\
+    Shopizer 
+    & CategoryFacadeImpl:55 5
+    & 0\%  \failing 
+    & 67\%  \passing 
+    & 18 \% \passing 
+    & 18 \% \passing  \\
+    Shopizer 
+    & ReadableCategoryPopulator:51 1
+    & 0\%  \failing 
+    & 0\%  \failing 
+    & 1 \% \passing 
+    & 1 \% \passing  \\
+    Shopizer 
+    & ReadableCategoryPopulator:51 2
+    & 0\%  \failing 
+    & 67\%  \passing 
+    & 4 \% \passing 
+    & 3 \% \passing  \\
+    Shopizer 
+    & ReadableCategoryPopulator:51 3
+    & 12\%  \passing 
+    & 67\%  \passing 
+    & 10 \% \passing 
+    & 7 \% \passing  \\
+    Shopizer 
+    & ReadableCategoryPopulator:51 4
+    & 0\%  \failing 
+    & 67\%  \passing 
+    & 6 \% \passing 
+    & 4 \% \passing  \\
+    Shopizer 
+    & ReadableCategoryPopulator:51 5
+    & 0\%  \failing 
+    & 67\%  \passing 
+    & 6 \% \passing 
+    & 5 \% \passing  \\
+    Shopizer 
+    & ReadableProductPopulator:94 1
+    & 0\%  \failing 
+    & 0\%  \failing 
+    & 0 \% \failing 
+    & 0 \% \failing  \\
+    Shopizer 
+    & ReadableProductPopulator:94 2
+    & 26\%  \passing 
+    & 37\%  \passing 
+    & 9 \% \passing 
+    & 6 \% \passing  \\
+    Shopizer 
+    & ReadableProductPopulator:94 3
+    & 26\%  \passing 
+    & 37\%  \passing 
+    & 11 \% \passing 
+    & 7 \% \passing  \\
+    Shopizer 
+    & ReadableProductPopulator:94 4
+    & 26\%  \passing 
+    & 37\%  \passing 
+    & 11 \% \passing 
+    & 7 \% \passing  \\
+    Shopizer 
+    & ShoppingCategoryController:253 1
+    & 0\%  \failing 
+    & 0\%  \failing 
+    & 0 \% \failing 
+    & 0 \% \failing  \\
+    Shopizer 
+    & ShoppingCategoryController:253 2
+    & 0\%  \failing 
+    & 0\%  \failing 
+    & 0 \% \failing 
+    & 0 \% \failing  \\
+    Shopizer 
+    & ShoppingCategoryController:253 3
+    & 0\%  \failing 
+    & 0\%  \failing 
+    & 0 \% \failing 
+    & 0 \% \failing  \\
+    Shopizer 
+    & ShoppingCategoryController:253 4
+    & 0\%  \failing 
+    & 12\%  \passing 
+    & 2 \% \passing 
+    & 1 \% \passing  \\
+    Shopizer 
+    & ShoppingCategoryController:253 5
+    & 12\%  \passing 
+    & 12\%  \passing 
+    & 2 \% \passing 
+    & 1 \% \passing  \\
+    Shopizer 
+    & ShoppingCategoryController:253 6
+    & 12\%  \passing 
+    & 12\%  \passing 
+    & 2 \% \passing 
+    & 1 \% \passing  \\
+    Shopizer 
+    & ShoppingCategoryController:253 7
+    & 12\%  \passing 
+    & 12\%  \passing 
+    & 2 \% \passing 
+    & 1 \% \passing  \\
+    Shopizer 
+    & ShoppingCategoryController:253 8
+    & 12\%  \passing 
+    & 12\%  \passing 
+    & 2 \% \passing 
+    & 1 \% \passing  \\
+    \hline
+    3 projects & \multicolumn{5}{|l|}{72 patches and 20 valid patches} \\
+    \hline
+  \end{tabular}
+  }
+\end{table}

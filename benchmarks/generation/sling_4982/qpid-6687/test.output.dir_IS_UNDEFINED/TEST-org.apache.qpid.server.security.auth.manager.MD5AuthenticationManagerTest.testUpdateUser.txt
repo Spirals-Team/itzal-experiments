@@ -1,0 +1,5 @@
+2016-01-19 15:34:31,153 INFO  [main] o.a.q.t.u.QpidTestCase ========== start MD5AuthenticationManagerTest.testUpdateUser ==========
+2016-01-19 15:34:31,231 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:34:31,240 INFO  [main] o.a.q.t.u.QpidTestCase ========== run MD5AuthenticationManagerTest.testUpdateUser ==========
+2016-01-19 15:34:31,262 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown MD5AuthenticationManagerTest.testUpdateUser ==========
+2016-01-19 15:34:31,262 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

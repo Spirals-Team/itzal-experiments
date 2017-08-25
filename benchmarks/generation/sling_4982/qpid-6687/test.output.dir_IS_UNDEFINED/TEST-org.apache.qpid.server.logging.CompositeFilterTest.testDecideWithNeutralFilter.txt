@@ -1,0 +1,4 @@
+2016-01-19 15:20:56,681 INFO  [main] o.a.q.t.u.QpidTestCase ========== start CompositeFilterTest.testDecideWithNeutralFilter ==========
+2016-01-19 15:20:56,681 INFO  [main] o.a.q.t.u.QpidTestCase ========== run CompositeFilterTest.testDecideWithNeutralFilter ==========
+2016-01-19 15:20:56,682 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown CompositeFilterTest.testDecideWithNeutralFilter ==========
+2016-01-19 15:20:56,682 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

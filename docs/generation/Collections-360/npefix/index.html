@@ -1,0 +1,327 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Collection 360</title>
+    <link rel="stylesheet" type="text/css" href="../../../../css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1>Collection 360</h1>
+    <table class="summary pure-table">
+      <tr class="pure-table-odd">
+        <td class="label">Nb candidate patch</td> <td>51</td>
+      </tr>
+      <tr>
+        <td class="label">Nb patch</td> <td>16</td>
+      </tr>
+    </table>
+    <ul class="executions">
+        <li class="execution success">
+          <h2>Execution 1</h2>
+          <span class="decision">Strat4 VAR </span><span class="decision">Strat4 VAR </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/FilterListIterator.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="229"></td><td class="line" data-line-number="229"></td><td class="code"><span></span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="230"></td><td class="code"><span>        if (iterator == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="231"></td><td class="code"><span>            return previousObjectSet;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="232"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="230"></td><td class="line" data-line-number="233"></td><td class="code"><span>        while (iterator.hasNext()) {</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="258"></td><td class="line" data-line-number="261"></td><td class="code"><span></span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="262"></td><td class="code"><span>        if (iterator == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="263"></td><td class="code"><span>            return previousObjectSet;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="264"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="259"></td><td class="line" data-line-number="265"></td><td class="code"><span>        while (iterator.hasPrevious()) {</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 2</h2>
+          <span class="decision">Strat4 VAR </span><span class="decision">Strat4 VAR </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/FilterListIterator.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="229"></td><td class="line" data-line-number="229"></td><td class="code"><span></span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="230"></td><td class="code"><span>        if (iterator == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="231"></td><td class="code"><span>            return previousObjectSet;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="232"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="230"></td><td class="line" data-line-number="233"></td><td class="code"><span>        while (iterator.hasNext()) {</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="258"></td><td class="line" data-line-number="261"></td><td class="code"><span></span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="262"></td><td class="code"><span>        if (iterator == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="263"></td><td class="code"><span>            return Boolean.FALSE;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="264"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="259"></td><td class="line" data-line-number="265"></td><td class="code"><span>        while (iterator.hasPrevious()) {</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 3</h2>
+          <span class="decision">Strat4 VAR </span><span class="decision">Strat4 VAR </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/FilterListIterator.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="229"></td><td class="line" data-line-number="229"></td><td class="code"><span></span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="230"></td><td class="code"><span>        if (iterator == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="231"></td><td class="code"><span>            return previousObjectSet;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="232"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="230"></td><td class="line" data-line-number="233"></td><td class="code"><span>        while (iterator.hasNext()) {</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="258"></td><td class="line" data-line-number="261"></td><td class="code"><span></span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="262"></td><td class="code"><span>        if (iterator == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="263"></td><td class="code"><span>            return nextObjectSet;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="264"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="259"></td><td class="line" data-line-number="265"></td><td class="code"><span>        while (iterator.hasPrevious()) {</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 4</h2>
+          <span class="decision">Strat4 VAR </span><span class="decision">Strat4 NEW </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/FilterListIterator.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="229"></td><td class="line" data-line-number="229"></td><td class="code"><span></span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="230"></td><td class="code"><span>        if (iterator == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="231"></td><td class="code"><span>            return previousObjectSet;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="232"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="230"></td><td class="line" data-line-number="233"></td><td class="code"><span>        while (iterator.hasNext()) {</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="258"></td><td class="line" data-line-number="261"></td><td class="code"><span></span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="262"></td><td class="code"><span>        if (iterator == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="263"></td><td class="code"><span>            return false;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="264"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="259"></td><td class="line" data-line-number="265"></td><td class="code"><span>        while (iterator.hasPrevious()) {</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 5</h2>
+          <span class="decision">Strat4 VAR </span><span class="decision">Strat4 VAR </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/FilterListIterator.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="229"></td><td class="line" data-line-number="229"></td><td class="code"><span></span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="230"></td><td class="code"><span>        if (iterator == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="231"></td><td class="code"><span>            return Boolean.FALSE;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="232"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="230"></td><td class="line" data-line-number="233"></td><td class="code"><span>        while (iterator.hasNext()) {</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="258"></td><td class="line" data-line-number="261"></td><td class="code"><span></span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="262"></td><td class="code"><span>        if (iterator == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="263"></td><td class="code"><span>            return previousObjectSet;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="264"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="259"></td><td class="line" data-line-number="265"></td><td class="code"><span>        while (iterator.hasPrevious()) {</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 6</h2>
+          <span class="decision">Strat4 VAR </span><span class="decision">Strat4 VAR </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/FilterListIterator.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="229"></td><td class="line" data-line-number="229"></td><td class="code"><span></span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="230"></td><td class="code"><span>        if (iterator == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="231"></td><td class="code"><span>            return Boolean.FALSE;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="232"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="230"></td><td class="line" data-line-number="233"></td><td class="code"><span>        while (iterator.hasNext()) {</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="258"></td><td class="line" data-line-number="261"></td><td class="code"><span></span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="262"></td><td class="code"><span>        if (iterator == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="263"></td><td class="code"><span>            return Boolean.FALSE;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="264"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="259"></td><td class="line" data-line-number="265"></td><td class="code"><span>        while (iterator.hasPrevious()) {</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 7</h2>
+          <span class="decision">Strat4 VAR </span><span class="decision">Strat4 VAR </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/FilterListIterator.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="229"></td><td class="line" data-line-number="229"></td><td class="code"><span></span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="230"></td><td class="code"><span>        if (iterator == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="231"></td><td class="code"><span>            return Boolean.FALSE;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="232"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="230"></td><td class="line" data-line-number="233"></td><td class="code"><span>        while (iterator.hasNext()) {</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="258"></td><td class="line" data-line-number="261"></td><td class="code"><span></span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="262"></td><td class="code"><span>        if (iterator == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="263"></td><td class="code"><span>            return nextObjectSet;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="264"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="259"></td><td class="line" data-line-number="265"></td><td class="code"><span>        while (iterator.hasPrevious()) {</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 8</h2>
+          <span class="decision">Strat4 VAR </span><span class="decision">Strat4 NEW </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/FilterListIterator.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="229"></td><td class="line" data-line-number="229"></td><td class="code"><span></span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="230"></td><td class="code"><span>        if (iterator == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="231"></td><td class="code"><span>            return Boolean.FALSE;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="232"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="230"></td><td class="line" data-line-number="233"></td><td class="code"><span>        while (iterator.hasNext()) {</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="258"></td><td class="line" data-line-number="261"></td><td class="code"><span></span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="262"></td><td class="code"><span>        if (iterator == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="263"></td><td class="code"><span>            return false;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="264"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="259"></td><td class="line" data-line-number="265"></td><td class="code"><span>        while (iterator.hasPrevious()) {</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 9</h2>
+          <span class="decision">Strat4 VAR </span><span class="decision">Strat4 VAR </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/FilterListIterator.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="229"></td><td class="line" data-line-number="229"></td><td class="code"><span></span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="230"></td><td class="code"><span>        if (iterator == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="231"></td><td class="code"><span>            return nextObjectSet;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="232"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="230"></td><td class="line" data-line-number="233"></td><td class="code"><span>        while (iterator.hasNext()) {</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="258"></td><td class="line" data-line-number="261"></td><td class="code"><span></span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="262"></td><td class="code"><span>        if (iterator == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="263"></td><td class="code"><span>            return previousObjectSet;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="264"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="259"></td><td class="line" data-line-number="265"></td><td class="code"><span>        while (iterator.hasPrevious()) {</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 10</h2>
+          <span class="decision">Strat4 VAR </span><span class="decision">Strat4 VAR </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/FilterListIterator.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="229"></td><td class="line" data-line-number="229"></td><td class="code"><span></span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="230"></td><td class="code"><span>        if (iterator == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="231"></td><td class="code"><span>            return nextObjectSet;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="232"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="230"></td><td class="line" data-line-number="233"></td><td class="code"><span>        while (iterator.hasNext()) {</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="258"></td><td class="line" data-line-number="261"></td><td class="code"><span></span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="262"></td><td class="code"><span>        if (iterator == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="263"></td><td class="code"><span>            return Boolean.FALSE;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="264"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="259"></td><td class="line" data-line-number="265"></td><td class="code"><span>        while (iterator.hasPrevious()) {</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 11</h2>
+          <span class="decision">Strat4 VAR </span><span class="decision">Strat4 VAR </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/FilterListIterator.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="229"></td><td class="line" data-line-number="229"></td><td class="code"><span></span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="230"></td><td class="code"><span>        if (iterator == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="231"></td><td class="code"><span>            return nextObjectSet;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="232"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="230"></td><td class="line" data-line-number="233"></td><td class="code"><span>        while (iterator.hasNext()) {</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="258"></td><td class="line" data-line-number="261"></td><td class="code"><span></span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="262"></td><td class="code"><span>        if (iterator == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="263"></td><td class="code"><span>            return nextObjectSet;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="264"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="259"></td><td class="line" data-line-number="265"></td><td class="code"><span>        while (iterator.hasPrevious()) {</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 12</h2>
+          <span class="decision">Strat4 VAR </span><span class="decision">Strat4 NEW </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/FilterListIterator.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="229"></td><td class="line" data-line-number="229"></td><td class="code"><span></span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="230"></td><td class="code"><span>        if (iterator == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="231"></td><td class="code"><span>            return nextObjectSet;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="232"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="230"></td><td class="line" data-line-number="233"></td><td class="code"><span>        while (iterator.hasNext()) {</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="258"></td><td class="line" data-line-number="261"></td><td class="code"><span></span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="262"></td><td class="code"><span>        if (iterator == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="263"></td><td class="code"><span>            return false;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="264"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="259"></td><td class="line" data-line-number="265"></td><td class="code"><span>        while (iterator.hasPrevious()) {</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 13</h2>
+          <span class="decision">Strat4 NEW </span><span class="decision">Strat4 VAR </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/FilterListIterator.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="229"></td><td class="line" data-line-number="229"></td><td class="code"><span></span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="230"></td><td class="code"><span>        if (iterator == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="231"></td><td class="code"><span>            return false;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="232"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="230"></td><td class="line" data-line-number="233"></td><td class="code"><span>        while (iterator.hasNext()) {</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="258"></td><td class="line" data-line-number="261"></td><td class="code"><span></span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="262"></td><td class="code"><span>        if (iterator == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="263"></td><td class="code"><span>            return previousObjectSet;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="264"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="259"></td><td class="line" data-line-number="265"></td><td class="code"><span>        while (iterator.hasPrevious()) {</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 14</h2>
+          <span class="decision">Strat4 NEW </span><span class="decision">Strat4 VAR </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/FilterListIterator.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="229"></td><td class="line" data-line-number="229"></td><td class="code"><span></span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="230"></td><td class="code"><span>        if (iterator == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="231"></td><td class="code"><span>            return false;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="232"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="230"></td><td class="line" data-line-number="233"></td><td class="code"><span>        while (iterator.hasNext()) {</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="258"></td><td class="line" data-line-number="261"></td><td class="code"><span></span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="262"></td><td class="code"><span>        if (iterator == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="263"></td><td class="code"><span>            return Boolean.FALSE;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="264"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="259"></td><td class="line" data-line-number="265"></td><td class="code"><span>        while (iterator.hasPrevious()) {</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 15</h2>
+          <span class="decision">Strat4 NEW </span><span class="decision">Strat4 VAR </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/FilterListIterator.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="229"></td><td class="line" data-line-number="229"></td><td class="code"><span></span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="230"></td><td class="code"><span>        if (iterator == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="231"></td><td class="code"><span>            return false;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="232"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="230"></td><td class="line" data-line-number="233"></td><td class="code"><span>        while (iterator.hasNext()) {</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="258"></td><td class="line" data-line-number="261"></td><td class="code"><span></span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="262"></td><td class="code"><span>        if (iterator == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="263"></td><td class="code"><span>            return nextObjectSet;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="264"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="259"></td><td class="line" data-line-number="265"></td><td class="code"><span>        while (iterator.hasPrevious()) {</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 16</h2>
+          <span class="decision">Strat4 NEW </span><span class="decision">Strat4 NEW </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/FilterListIterator.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="229"></td><td class="line" data-line-number="229"></td><td class="code"><span></span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="230"></td><td class="code"><span>        if (iterator == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="231"></td><td class="code"><span>            return false;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="232"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="230"></td><td class="line" data-line-number="233"></td><td class="code"><span>        while (iterator.hasNext()) {</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="258"></td><td class="line" data-line-number="261"></td><td class="code"><span></span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="262"></td><td class="code"><span>        if (iterator == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="263"></td><td class="code"><span>            return false;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="264"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="259"></td><td class="line" data-line-number="265"></td><td class="code"><span>        while (iterator.hasPrevious()) {</span></td></tr>
+</tbody></table>
+
+        </li>
+    </ul>
+  </body>
+</html>

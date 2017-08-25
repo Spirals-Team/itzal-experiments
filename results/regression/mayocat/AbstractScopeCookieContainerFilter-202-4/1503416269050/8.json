@@ -1,0 +1,1 @@
+{"date":1503416672609,"request":{"method":"POST","url":"http://localhost:8080/cart/add"},"blockCoverage":{},"response":{"status":303},"methodCoverage":{},"executedIf":{},"contentType":"text/html"}

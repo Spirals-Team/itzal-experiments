@@ -1,0 +1,4 @@
+2017-07-20 09:13:08,033 INFO  [main] o.a.q.t.u.QpidTestCase ========== start AbstractConfiguredObjectTest.testImmutableAttributeNullValue ==========
+2017-07-20 09:13:08,035 INFO  [main] o.a.q.t.u.QpidTestCase ========== run AbstractConfiguredObjectTest.testImmutableAttributeNullValue ==========
+2017-07-20 09:13:08,037 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown AbstractConfiguredObjectTest.testImmutableAttributeNullValue ==========
+2017-07-20 09:13:08,037 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

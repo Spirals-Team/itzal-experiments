@@ -1,0 +1,8 @@
+2016-01-19 15:36:53,264 INFO  [main] o.a.q.t.u.QpidTestCase ========== start TaskExecutorTest.testStop ==========
+2016-01-19 15:36:53,265 INFO  [main] o.a.q.t.u.QpidTestCase ========== run TaskExecutorTest.testStop ==========
+2016-01-19 15:36:53,266 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Starting task executor Broker-Config
+2016-01-19 15:36:53,266 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Task executor is started
+2016-01-19 15:36:53,266 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Stopping task executor Broker-Config
+2016-01-19 15:36:53,266 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Task executor is stopped
+2016-01-19 15:36:53,266 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown TaskExecutorTest.testStop ==========
+2016-01-19 15:36:53,266 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

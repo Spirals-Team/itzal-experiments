@@ -1,0 +1,4 @@
+2016-01-19 15:12:58,458 INFO  [main] o.a.q.t.u.QpidTestCase ========== start FileGroupDatabaseTest.testGetGroupPrincipalsForUserWhenUserAddedToGroupTheyAreAlreadyIn ==========
+2016-01-19 15:12:58,463 INFO  [main] o.a.q.t.u.QpidTestCase ========== run FileGroupDatabaseTest.testGetGroupPrincipalsForUserWhenUserAddedToGroupTheyAreAlreadyIn ==========
+2016-01-19 15:12:58,465 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown FileGroupDatabaseTest.testGetGroupPrincipalsForUserWhenUserAddedToGroupTheyAreAlreadyIn ==========
+2016-01-19 15:12:58,465 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

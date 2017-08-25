@@ -1,0 +1,16 @@
+2016-01-19 15:20:56,494 INFO  [main] o.a.q.t.u.QpidTestCase ========== start ManagementModeStoreHandlerTest.testGetRootEntryWithManagementPortsOverriden ==========
+2016-01-19 15:20:56,497 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Management mode quiescing entry Mock for ConfiguredObjectRecord, hashCode: 647973805
+2016-01-19 15:20:56,498 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Management mode quiescing entry Mock for ConfiguredObjectRecord, hashCode: 647973805
+2016-01-19 15:20:56,498 INFO  [main] o.a.q.t.u.QpidTestCase ========== run ManagementModeStoreHandlerTest.testGetRootEntryWithManagementPortsOverriden ==========
+2016-01-19 15:20:56,498 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing JsonSystemConfigImpl : System
+2016-01-19 15:20:56,498 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed JsonSystemConfigImpl : System
+2016-01-19 15:20:56,500 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Management mode quiescing entry Mock for ConfiguredObjectRecord, hashCode: 647973805
+2016-01-19 15:20:56,500 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Management mode quiescing entry Mock for ConfiguredObjectRecord, hashCode: 647973805
+2016-01-19 15:20:56,501 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Add management mode port configuration ConfiguredObjectRecord [id=177ab9e2-9aa5-40db-a2e1-cf7de0443101, type=Port, attributes={port=2000, name=MANAGEMENT-MODE-PORT-RMI, protocols=[RMI]}, parents={Broker=20a0e320-f583-49c8-9fb0-5bfb89551749}] for port 2000 and protocol RMI
+2016-01-19 15:20:56,501 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Add management mode port configuration ConfiguredObjectRecord [id=378248a6-a273-4685-93d2-98baa708c5e1, type=Port, attributes={authenticationProvider=MANAGEMENT_MODE_AUTHENTICATION, port=3000, name=MANAGEMENT-MODE-PORT-JMX_RMI, protocols=[JMX_RMI]}, parents={Broker=20a0e320-f583-49c8-9fb0-5bfb89551749}] for port 3000 and protocol JMX_RMI
+2016-01-19 15:20:56,501 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Add management mode port configuration ConfiguredObjectRecord [id=d27ea3fb-4ea0-45a5-8588-0df9f41b3b0d, type=Port, attributes={authenticationProvider=MANAGEMENT_MODE_AUTHENTICATION, port=1000, name=MANAGEMENT-MODE-PORT-HTTP, protocols=[HTTP]}, parents={Broker=20a0e320-f583-49c8-9fb0-5bfb89551749}] for port 1000 and protocol HTTP
+2016-01-19 15:20:56,501 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing  : System
+2016-01-19 15:20:56,501 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed  : System
+2016-01-19 15:20:56,501 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed  : System
+2016-01-19 15:20:56,502 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown ManagementModeStoreHandlerTest.testGetRootEntryWithManagementPortsOverriden ==========
+2016-01-19 15:20:56,502 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

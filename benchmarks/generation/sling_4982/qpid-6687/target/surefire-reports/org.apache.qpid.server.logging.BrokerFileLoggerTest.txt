@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.qpid.server.logging.BrokerFileLoggerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.056 sec <<< FAILURE! - in org.apache.qpid.server.logging.BrokerFileLoggerTest
+testGetLogFilesOnResolutionErrors(org.apache.qpid.server.logging.BrokerFileLoggerTest)  Time elapsed: 0.056 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.qpid.server.logging.BrokerFileLoggerImpl.stopLogging(BrokerFileLoggerImpl.java:194)
+	at org.apache.qpid.server.logging.BrokerFileLoggerTest.tearDown(BrokerFileLoggerTest.java:94)
+

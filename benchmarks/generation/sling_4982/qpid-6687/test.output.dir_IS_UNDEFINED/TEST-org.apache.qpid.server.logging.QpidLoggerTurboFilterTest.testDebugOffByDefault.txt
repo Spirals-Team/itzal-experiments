@@ -1,0 +1,4 @@
+2016-01-19 15:20:18,320 INFO  [main] o.a.q.t.u.QpidTestCase ========== start QpidLoggerTurboFilterTest.testDebugOffByDefault ==========
+2016-01-19 15:20:18,320 INFO  [main] o.a.q.t.u.QpidTestCase ========== run QpidLoggerTurboFilterTest.testDebugOffByDefault ==========
+2016-01-19 15:20:18,320 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown QpidLoggerTurboFilterTest.testDebugOffByDefault ==========
+2016-01-19 15:20:18,321 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

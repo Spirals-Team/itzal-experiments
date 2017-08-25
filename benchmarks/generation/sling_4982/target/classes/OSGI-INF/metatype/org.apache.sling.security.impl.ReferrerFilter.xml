@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/metatype">
+    <OCD id="org.apache.sling.security.impl.ReferrerFilter" name="%referrer.name" description="%referrer.description">
+        <AD id="allow.empty" type="Boolean" default="false" name="%allow.empty.name" description="%allow.empty.description"/>
+        <AD id="allow.hosts" type="String" name="%allow.hosts.name" description="%allow.hosts.description" cardinality="2147483647"/>
+        <AD id="allow.hosts.regexp" type="String" name="%allow.hosts.regexp.name" description="%allow.hosts.regexp.description" cardinality="2147483647"/>
+        <AD id="filter.methods" type="String" default="POST,PUT,DELETE" name="%filter.methods.name" description="%filter.methods.description" cardinality="2147483647"/>
+    </OCD>
+    <Designate pid="org.apache.sling.security.impl.ReferrerFilter">
+        <Object ocdref="org.apache.sling.security.impl.ReferrerFilter"/>
+    </Designate>
+</metatype:MetaData>

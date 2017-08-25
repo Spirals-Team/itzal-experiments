@@ -1,0 +1,14 @@
+2016-01-19 15:20:56,476 INFO  [main] o.a.q.t.u.QpidTestCase ========== start ManagementModeStoreHandlerTest.testSaveCLIHttpPort ==========
+2016-01-19 15:20:56,477 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Management mode quiescing entry Mock for ConfiguredObjectRecord, hashCode: 1824322115
+2016-01-19 15:20:56,477 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Management mode quiescing entry Mock for ConfiguredObjectRecord, hashCode: 1824322115
+2016-01-19 15:20:56,477 INFO  [main] o.a.q.t.u.QpidTestCase ========== run ManagementModeStoreHandlerTest.testSaveCLIHttpPort ==========
+2016-01-19 15:20:56,477 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing JsonSystemConfigImpl : System
+2016-01-19 15:20:56,477 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed JsonSystemConfigImpl : System
+2016-01-19 15:20:56,478 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Management mode quiescing entry Mock for ConfiguredObjectRecord, hashCode: 1824322115
+2016-01-19 15:20:56,478 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Management mode quiescing entry Mock for ConfiguredObjectRecord, hashCode: 1824322115
+2016-01-19 15:20:56,478 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Add management mode port configuration ConfiguredObjectRecord [id=54819f44-cf47-4c1b-ae29-268bbe731f79, type=Port, attributes={authenticationProvider=MANAGEMENT_MODE_AUTHENTICATION, port=1000, name=MANAGEMENT-MODE-PORT-HTTP, protocols=[HTTP]}, parents={Broker=19c9c7d2-0e9c-4a2a-b021-230c2bcd53f1}] for port 1000 and protocol HTTP
+2016-01-19 15:20:56,478 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing  : System
+2016-01-19 15:20:56,478 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed  : System
+2016-01-19 15:20:56,478 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed  : System
+2016-01-19 15:20:56,478 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown ManagementModeStoreHandlerTest.testSaveCLIHttpPort ==========
+2016-01-19 15:20:56,478 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

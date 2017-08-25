@@ -1,0 +1,6 @@
+2016-01-19 15:19:28,725 INFO  [main] o.a.q.t.u.QpidTestCase ========== start LastValueQueueListTest.testAddAndRemoveMessageWithConflationKeyValue ==========
+2016-01-19 15:19:28,729 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:19:28,730 INFO  [main] o.a.q.t.u.QpidTestCase ========== run LastValueQueueListTest.testAddAndRemoveMessageWithConflationKeyValue ==========
+2016-01-19 15:19:28,731 DEBUG [main] o.a.q.s.q.LastValueQueueList Adding entry QueueEntryImpl{_entryId=-9223372036854775807, _state=AVAILABLE} for message 0 with conflation key testKeyValue
+2016-01-19 15:19:28,731 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown LastValueQueueListTest.testAddAndRemoveMessageWithConflationKeyValue ==========
+2016-01-19 15:19:28,732 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

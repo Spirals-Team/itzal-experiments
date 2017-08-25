@@ -1,0 +1,14 @@
+2016-01-19 15:20:56,463 INFO  [main] o.a.q.t.u.QpidTestCase ========== start ManagementModeStoreHandlerTest.testGetRootEntryWithConnectorPortOverriden ==========
+2016-01-19 15:20:56,466 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Management mode quiescing entry Mock for ConfiguredObjectRecord, hashCode: 1454171136
+2016-01-19 15:20:56,468 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Management mode quiescing entry Mock for ConfiguredObjectRecord, hashCode: 1454171136
+2016-01-19 15:20:56,468 INFO  [main] o.a.q.t.u.QpidTestCase ========== run ManagementModeStoreHandlerTest.testGetRootEntryWithConnectorPortOverriden ==========
+2016-01-19 15:20:56,468 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing JsonSystemConfigImpl : System
+2016-01-19 15:20:56,468 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed JsonSystemConfigImpl : System
+2016-01-19 15:20:56,469 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Management mode quiescing entry Mock for ConfiguredObjectRecord, hashCode: 1454171136
+2016-01-19 15:20:56,470 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Management mode quiescing entry Mock for ConfiguredObjectRecord, hashCode: 1454171136
+2016-01-19 15:20:56,470 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Add management mode port configuration ConfiguredObjectRecord [id=8029e373-9240-4e69-8314-1d8539a38f9f, type=Port, attributes={authenticationProvider=MANAGEMENT_MODE_AUTHENTICATION, port=9090, name=MANAGEMENT-MODE-PORT-JMX_RMI, protocols=[JMX_RMI]}, parents={Broker=e7fa21d5-f62a-48d0-babf-1045214aef3f}] for port 9090 and protocol JMX_RMI
+2016-01-19 15:20:56,471 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing  : System
+2016-01-19 15:20:56,471 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed  : System
+2016-01-19 15:20:56,471 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed  : System
+2016-01-19 15:20:56,471 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown ManagementModeStoreHandlerTest.testGetRootEntryWithConnectorPortOverriden ==========
+2016-01-19 15:20:56,471 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

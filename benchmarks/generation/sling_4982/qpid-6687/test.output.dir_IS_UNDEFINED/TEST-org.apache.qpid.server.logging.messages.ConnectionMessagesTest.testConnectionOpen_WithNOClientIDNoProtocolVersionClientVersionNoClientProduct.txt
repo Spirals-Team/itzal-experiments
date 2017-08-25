@@ -1,0 +1,4 @@
+2016-01-19 15:20:50,210 INFO  [main] o.a.q.t.u.QpidTestCase ========== start ConnectionMessagesTest.testConnectionOpen_WithNOClientIDNoProtocolVersionClientVersionNoClientProduct ==========
+2016-01-19 15:20:50,210 INFO  [main] o.a.q.t.u.QpidTestCase ========== run ConnectionMessagesTest.testConnectionOpen_WithNOClientIDNoProtocolVersionClientVersionNoClientProduct ==========
+2016-01-19 15:20:50,212 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown ConnectionMessagesTest.testConnectionOpen_WithNOClientIDNoProtocolVersionClientVersionNoClientProduct ==========
+2016-01-19 15:20:50,212 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

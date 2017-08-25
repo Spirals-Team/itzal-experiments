@@ -1,0 +1,47 @@
+2017-07-20 09:13:07,817 INFO  [main] o.a.q.t.u.QpidTestCase ========== start BrokerFileLoggerTest.testGetLogFilesOnResolutionErrors ==========
+2017-07-20 09:13:07,819 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Starting task executor Broker-Config
+2017-07-20 09:13:07,819 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Task executor is started
+2017-07-20 09:13:07,820 INFO  [main] o.a.q.t.u.QpidTestCase ========== run BrokerFileLoggerTest.testGetLogFilesOnResolutionErrors ==========
+2017-07-20 09:13:07,832 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Submitting task org.apache.qpid.server.model.AbstractConfiguredObject$2@40a57174 to executor Broker-Config
+2017-07-20 09:13:07,834 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Performing task org.apache.qpid.server.model.AbstractConfiguredObject$2@40a57174
+2017-07-20 09:13:07,863 ERROR [Broker-Config] o.a.q.s.m.AbstractConfiguredObject Failed to open object with name 'BrokerFileLoggerTest.testGetLogFilesOnResolutionErrors'.  Object will be put into ERROR state.
+java.lang.IllegalArgumentException: Cannot convert 'invalid' into a int for attribute maxFileSize (Cannot convert string 'invalid' to an integer)
+	at org.apache.qpid.server.model.ConfiguredObjectAttribute.convert(ConfiguredObjectAttribute.java:84) ~[classes/:na]
+	at org.apache.qpid.server.model.AbstractConfiguredObject.automatedSetValue(AbstractConfiguredObject.java:416) ~[classes/:na]
+	at org.apache.qpid.server.model.AbstractConfiguredObject.resolveAutomatedAttribute(AbstractConfiguredObject.java:1124) ~[classes/:na]
+	at org.apache.qpid.server.model.AbstractConfiguredObject.onResolve(AbstractConfiguredObject.java:1079) ~[classes/:na]
+	at org.apache.qpid.server.logging.AbstractBrokerLogger.onResolve(AbstractBrokerLogger.java:44) ~[classes/:na]
+	at org.apache.qpid.server.model.AbstractConfiguredObject.doResolution(AbstractConfiguredObject.java:917) ~[classes/:na]
+	at org.apache.qpid.server.model.AbstractConfiguredObject$1.call(AbstractConfiguredObject.java:473) [classes/:na]
+	at org.apache.qpid.server.model.AbstractConfiguredObject$1.call(AbstractConfiguredObject.java:463) [classes/:na]
+	at org.apache.qpid.server.model.AbstractConfiguredObject$2.execute(AbstractConfiguredObject.java:506) [classes/:na]
+	at org.apache.qpid.server.model.AbstractConfiguredObject$2.execute(AbstractConfiguredObject.java:499) [classes/:na]
+	at org.apache.qpid.server.configuration.updater.TaskExecutorImpl.executeTask(TaskExecutorImpl.java:317) [classes/:na]
+	at org.apache.qpid.server.configuration.updater.TaskExecutorImpl.access$700(TaskExecutorImpl.java:48) [classes/:na]
+	at org.apache.qpid.server.configuration.updater.TaskExecutorImpl$CallableWrapper$1.run(TaskExecutorImpl.java:361) [classes/:na]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.7.0_95]
+	at javax.security.auth.Subject.doAs(Subject.java:356) [na:1.7.0_95]
+	at org.apache.qpid.server.configuration.updater.TaskExecutorImpl$CallableWrapper.call(TaskExecutorImpl.java:356) [classes/:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [na:1.7.0_95]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_95]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_95]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_95]
+Caused by: java.lang.IllegalArgumentException: Cannot convert string 'invalid' to an integer
+	at org.apache.qpid.server.model.AttributeValueConverter$7.convert(AttributeValueConverter.java:240) ~[classes/:na]
+	at org.apache.qpid.server.model.AttributeValueConverter$7.convert(AttributeValueConverter.java:218) ~[classes/:na]
+	at org.apache.qpid.server.model.ConfiguredObjectAttribute.convert(ConfiguredObjectAttribute.java:77) ~[classes/:na]
+	... 19 common frames omitted
+Caused by: java.lang.NumberFormatException: For input string: "invalid"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65) ~[na:1.7.0_95]
+	at java.lang.Integer.parseInt(Integer.java:492) ~[na:1.7.0_95]
+	at java.lang.Integer.valueOf(Integer.java:582) ~[na:1.7.0_95]
+	at org.apache.qpid.server.model.AttributeValueConverter$7.convert(AttributeValueConverter.java:236) ~[classes/:na]
+	... 21 common frames omitted
+2017-07-20 09:13:07,883 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Task org.apache.qpid.server.model.AbstractConfiguredObject$2@40a57174 is performed successfully with result: null
+2017-07-20 09:13:07,883 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Submitting task org.apache.qpid.server.model.AbstractConfiguredObject$2@324177e3 to executor Broker-Config
+2017-07-20 09:13:07,883 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Performing task org.apache.qpid.server.model.AbstractConfiguredObject$2@324177e3
+2017-07-20 09:13:07,883 DEBUG [Broker-Config] o.a.q.s.m.AbstractConfiguredObject Closing BrokerFileLoggerImpl : BrokerFileLoggerTest.testGetLogFilesOnResolutionErrors
+2017-07-20 09:13:07,883 DEBUG [Broker-Config] o.a.q.s.m.AbstractConfiguredObject Closed BrokerFileLoggerImpl : BrokerFileLoggerTest.testGetLogFilesOnResolutionErrors
+2017-07-20 09:13:07,883 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Task org.apache.qpid.server.model.AbstractConfiguredObject$2@324177e3 is performed successfully with result: null
+2017-07-20 09:13:07,883 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown BrokerFileLoggerTest.testGetLogFilesOnResolutionErrors ==========
+2017-07-20 09:13:07,884 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

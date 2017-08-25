@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: MckoiTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.071 sec <<< FAILURE! - in MckoiTest
+test(MckoiTest)  Time elapsed: 0.036 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.mckoi.database.jdbcserver.JDBCDatabaseInterface.execQuery(JDBCDatabaseInterface.java:213)
+	at com.mckoi.database.jdbc.MConnection.executeQuery(MConnection.java:349)
+	at com.mckoi.database.jdbc.MStatement.executeQuery(MStatement.java:110)
+	at com.mckoi.database.jdbc.MStatement.executeQuery(MStatement.java:127)
+	at MckoiTest.test(MckoiTest.java:15)
+

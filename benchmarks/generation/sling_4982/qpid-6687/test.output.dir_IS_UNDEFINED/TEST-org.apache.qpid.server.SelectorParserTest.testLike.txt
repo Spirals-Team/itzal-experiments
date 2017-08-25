@@ -1,0 +1,4 @@
+2016-01-19 15:19:26,382 INFO  [main] o.a.q.t.u.QpidTestCase ========== start SelectorParserTest.testLike ==========
+2016-01-19 15:19:26,385 INFO  [main] o.a.q.t.u.QpidTestCase ========== run SelectorParserTest.testLike ==========
+2016-01-19 15:19:26,386 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown SelectorParserTest.testLike ==========
+2016-01-19 15:19:26,388 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

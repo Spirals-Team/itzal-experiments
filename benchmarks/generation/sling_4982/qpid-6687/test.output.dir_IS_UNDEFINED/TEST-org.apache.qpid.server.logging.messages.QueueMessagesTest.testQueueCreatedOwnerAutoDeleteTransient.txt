@@ -1,0 +1,4 @@
+2016-01-19 15:20:54,096 INFO  [main] o.a.q.t.u.QpidTestCase ========== start QueueMessagesTest.testQueueCreatedOwnerAutoDeleteTransient ==========
+2016-01-19 15:20:54,097 INFO  [main] o.a.q.t.u.QpidTestCase ========== run QueueMessagesTest.testQueueCreatedOwnerAutoDeleteTransient ==========
+2016-01-19 15:20:54,097 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown QueueMessagesTest.testQueueCreatedOwnerAutoDeleteTransient ==========
+2016-01-19 15:20:54,097 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

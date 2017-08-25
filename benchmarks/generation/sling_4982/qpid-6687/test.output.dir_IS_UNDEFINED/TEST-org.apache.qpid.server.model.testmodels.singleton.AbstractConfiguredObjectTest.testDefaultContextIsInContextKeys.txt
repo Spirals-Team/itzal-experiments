@@ -1,0 +1,6 @@
+2017-07-20 09:13:08,059 INFO  [main] o.a.q.t.u.QpidTestCase ========== start AbstractConfiguredObjectTest.testDefaultContextIsInContextKeys ==========
+2017-07-20 09:13:08,061 INFO  [main] o.a.q.t.u.QpidTestCase ========== run AbstractConfiguredObjectTest.testDefaultContextIsInContextKeys ==========
+2017-07-20 09:13:08,062 INFO  [main] o.a.q.t.u.QpidTestCase Set system property "TEST_CONTEXT_DEFAULT" to: "notdefault"
+2017-07-20 09:13:08,063 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown AbstractConfiguredObjectTest.testDefaultContextIsInContextKeys ==========
+2017-07-20 09:13:08,063 DEBUG [main] o.a.q.t.u.QpidTestCase reverting 1 test properties
+2017-07-20 09:13:08,063 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

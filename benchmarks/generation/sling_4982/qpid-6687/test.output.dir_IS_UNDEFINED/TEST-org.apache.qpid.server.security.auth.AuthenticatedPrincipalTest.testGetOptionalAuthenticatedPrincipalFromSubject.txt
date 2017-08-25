@@ -1,0 +1,4 @@
+2016-01-19 15:20:54,225 INFO  [main] o.a.q.t.u.QpidTestCase ========== start AuthenticatedPrincipalTest.testGetOptionalAuthenticatedPrincipalFromSubject ==========
+2016-01-19 15:20:54,225 INFO  [main] o.a.q.t.u.QpidTestCase ========== run AuthenticatedPrincipalTest.testGetOptionalAuthenticatedPrincipalFromSubject ==========
+2016-01-19 15:20:54,226 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown AuthenticatedPrincipalTest.testGetOptionalAuthenticatedPrincipalFromSubject ==========
+2016-01-19 15:20:54,226 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

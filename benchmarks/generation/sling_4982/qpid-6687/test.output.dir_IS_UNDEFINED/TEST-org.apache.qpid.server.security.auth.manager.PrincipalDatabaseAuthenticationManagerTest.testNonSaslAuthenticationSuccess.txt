@@ -1,0 +1,8 @@
+2016-01-19 15:36:53,482 INFO  [main] o.a.q.t.u.QpidTestCase ========== start PrincipalDatabaseAuthenticationManagerTest.testNonSaslAuthenticationSuccess ==========
+2016-01-19 15:36:53,484 INFO  [main] o.a.q.t.u.QpidTestCase ========== run PrincipalDatabaseAuthenticationManagerTest.testNonSaslAuthenticationSuccess ==========
+2016-01-19 15:36:53,486 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:36:53,501 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing  : PrincipalDatabaseAuthenticationManagerTest.testNonSaslAuthenticationSuccess
+2016-01-19 15:36:53,501 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed  : PrincipalDatabaseAuthenticationManagerTest.testNonSaslAuthenticationSuccess
+2016-01-19 15:36:53,502 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed  : PrincipalDatabaseAuthenticationManagerTest.testNonSaslAuthenticationSuccess
+2016-01-19 15:36:53,502 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown PrincipalDatabaseAuthenticationManagerTest.testNonSaslAuthenticationSuccess ==========
+2016-01-19 15:36:53,502 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

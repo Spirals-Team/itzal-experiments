@@ -1,0 +1,4 @@
+2016-01-19 15:14:16,700 INFO  [main] o.a.q.t.u.QpidTestCase ========== start NonJavaTrustStoreTest.testCreationOfTrustStoreFromNonCertificate ==========
+2016-01-19 15:14:16,723 INFO  [main] o.a.q.t.u.QpidTestCase ========== run NonJavaTrustStoreTest.testCreationOfTrustStoreFromNonCertificate ==========
+2016-01-19 15:14:16,724 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown NonJavaTrustStoreTest.testCreationOfTrustStoreFromNonCertificate ==========
+2016-01-19 15:14:16,738 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

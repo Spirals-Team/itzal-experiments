@@ -1,0 +1,14 @@
+2016-01-19 15:20:56,489 INFO  [main] o.a.q.t.u.QpidTestCase ========== start ManagementModeStoreHandlerTest.testRemoveCLIPort ==========
+2016-01-19 15:20:56,490 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Management mode quiescing entry Mock for ConfiguredObjectRecord, hashCode: 865858182
+2016-01-19 15:20:56,490 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Management mode quiescing entry Mock for ConfiguredObjectRecord, hashCode: 865858182
+2016-01-19 15:20:56,490 INFO  [main] o.a.q.t.u.QpidTestCase ========== run ManagementModeStoreHandlerTest.testRemoveCLIPort ==========
+2016-01-19 15:20:56,490 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing JsonSystemConfigImpl : System
+2016-01-19 15:20:56,490 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed JsonSystemConfigImpl : System
+2016-01-19 15:20:56,491 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Management mode quiescing entry Mock for ConfiguredObjectRecord, hashCode: 865858182
+2016-01-19 15:20:56,491 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Management mode quiescing entry Mock for ConfiguredObjectRecord, hashCode: 865858182
+2016-01-19 15:20:56,491 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Add management mode port configuration ConfiguredObjectRecord [id=83201d65-4c04-4965-91e0-78a352c560e2, type=Port, attributes={authenticationProvider=MANAGEMENT_MODE_AUTHENTICATION, port=1000, name=MANAGEMENT-MODE-PORT-HTTP, protocols=[HTTP]}, parents={Broker=b94d3f71-74f3-40d1-8e34-40de66b60279}] for port 1000 and protocol HTTP
+2016-01-19 15:20:56,491 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing  : System
+2016-01-19 15:20:56,491 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed  : System
+2016-01-19 15:20:56,492 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed  : System
+2016-01-19 15:20:56,492 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown ManagementModeStoreHandlerTest.testRemoveCLIPort ==========
+2016-01-19 15:20:56,492 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

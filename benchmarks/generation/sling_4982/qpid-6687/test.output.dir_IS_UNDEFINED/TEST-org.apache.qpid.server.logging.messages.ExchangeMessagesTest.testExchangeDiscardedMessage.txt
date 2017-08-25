@@ -1,0 +1,5 @@
+2016-01-19 15:20:54,534 INFO  [main] o.a.q.t.u.QpidTestCase ========== start ExchangeMessagesTest.testExchangeDiscardedMessage ==========
+2016-01-19 15:20:54,536 INFO  [main] o.a.q.t.u.QpidTestCase ========== run ExchangeMessagesTest.testExchangeDiscardedMessage ==========
+2016-01-19 15:20:54,538 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:20:54,542 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown ExchangeMessagesTest.testExchangeDiscardedMessage ==========
+2016-01-19 15:20:54,543 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

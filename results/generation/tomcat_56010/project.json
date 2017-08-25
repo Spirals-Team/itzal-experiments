@@ -1,0 +1,8 @@
+{
+   "name": "Tomcat 56010",
+   "benchmark": "Ares",
+   "oracle": "Production",
+   "type": "IAE",
+   "application": "server",
+   "loc": 195130
+}

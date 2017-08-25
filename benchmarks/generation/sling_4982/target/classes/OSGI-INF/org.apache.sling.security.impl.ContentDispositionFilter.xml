@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="org.apache.sling.security.impl.ContentDispositionFilter" activate="activate">
+    <implementation class="org.apache.sling.security.impl.ContentDispositionFilter"/>
+    <service servicefactory="false">
+        <provide interface="javax.servlet.Filter"/>
+    </service>
+    <property name="sling.filter.scope" value="request"/>
+    <property name="service.ranking" type="Integer" value="-25000"/>
+    <property name="sling.content.disposition.paths">
+        
+    </property>
+    <property name="sling.content.disposition.excluded.paths">
+        
+    </property>
+    <property name="sling.content.disposition.all.paths" type="Boolean" value="false"/>
+    <property name="service.vendor" value="The Apache Software Foundation"/>
+    <property name="service.pid" value="org.apache.sling.security.impl.ContentDispositionFilter"/>
+</scr:component>

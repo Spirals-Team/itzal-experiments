@@ -1,0 +1,31 @@
+2016-01-19 15:36:53,661 INFO  [main] o.a.q.t.u.QpidTestCase ========== start AbstractStandardVirtualHostNodeTest.testActivateVHNWithVHBlueprint_StoreHasNoVH ==========
+2016-01-19 15:36:53,664 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:36:53,667 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:36:53,668 INFO  [main] o.a.q.t.u.QpidTestCase ========== run AbstractStandardVirtualHostNodeTest.testActivateVHNWithVHBlueprint_StoreHasNoVH ==========
+2016-01-19 15:36:53,673 DEBUG [main] o.a.q.s.v.AbstractStandardVirtualHostNode Activating virtualhost node TestVirtualHostNode[id=128d0395-ed5c-42b2-94ab-c26cc8806979, name=testNode, state=UNINITIALIZED]
+2016-01-19 15:36:53,678 INFO  [main] o.a.q.s.s.GenericStoreUpgrader VirtualHost store has model version 3.1. Number of record(s) 5
+2016-01-19 15:36:53,679 DEBUG [main] o.a.q.s.s.GenericStoreUpgrader VirtualHost store upgrade is about to complete. 5 total record(s). Records to update 0 Records to delete 0
+2016-01-19 15:36:53,679 DEBUG [main] o.a.q.s.s.GenericRecoverer Recovering the children of TestVirtualHostNode[id=128d0395-ed5c-42b2-94ab-c26cc8806979, name=testNode, state=UNINITIALIZED]
+2016-01-19 15:36:53,737 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 2 implementations of interface org.apache.qpid.server.plugin.SystemNodeCreator
+2016-01-19 15:36:53,742 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 1 implementations of interface org.apache.qpid.server.plugin.ConnectionValidator
+2016-01-19 15:36:53,760 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing TestVirtualHostNode : testNode
+2016-01-19 15:36:53,761 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing TestMemoryVirtualHost : testVirtualHost
+2016-01-19 15:36:53,761 DEBUG [main] o.a.q.s.v.AbstractVirtualHost Closing connection registry :0 connections.
+2016-01-19 15:36:53,762 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing FanoutExchange : amq.fanout
+2016-01-19 15:36:53,763 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed FanoutExchange : amq.fanout
+2016-01-19 15:36:53,763 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed FanoutExchange : amq.fanout
+2016-01-19 15:36:53,763 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing DirectExchange : amq.direct
+2016-01-19 15:36:53,764 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed DirectExchange : amq.direct
+2016-01-19 15:36:53,764 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed DirectExchange : amq.direct
+2016-01-19 15:36:53,764 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing TopicExchange : amq.topic
+2016-01-19 15:36:53,764 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed TopicExchange : amq.topic
+2016-01-19 15:36:53,764 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed TopicExchange : amq.topic
+2016-01-19 15:36:53,764 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing HeadersExchange : amq.match
+2016-01-19 15:36:53,764 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed HeadersExchange : amq.match
+2016-01-19 15:36:53,764 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed HeadersExchange : amq.match
+2016-01-19 15:36:53,765 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed TestMemoryVirtualHost : testVirtualHost
+2016-01-19 15:36:53,766 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed TestMemoryVirtualHost : testVirtualHost
+2016-01-19 15:36:53,766 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed TestVirtualHostNode : testNode
+2016-01-19 15:36:53,766 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed TestVirtualHostNode : testNode
+2016-01-19 15:36:53,766 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown AbstractStandardVirtualHostNodeTest.testActivateVHNWithVHBlueprint_StoreHasNoVH ==========
+2016-01-19 15:36:53,766 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

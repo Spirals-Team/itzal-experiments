@@ -1,0 +1,43 @@
+2016-01-19 15:20:55,708 INFO  [main] o.a.q.t.u.QpidTestCase ========== start TopicExchangeTest.testStarMatch ==========
+2016-01-19 15:20:55,710 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:20:55,718 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 2 implementations of interface org.apache.qpid.server.plugin.SystemNodeCreator
+2016-01-19 15:20:55,718 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 1 implementations of interface org.apache.qpid.server.plugin.ConnectionValidator
+2016-01-19 15:20:55,757 INFO  [main] o.a.q.t.u.QpidTestCase ========== run TopicExchangeTest.testStarMatch ==========
+2016-01-19 15:20:55,768 DEBUG [main] o.a.q.s.q.AbstractQueue Queue 'a*' target size : 1048576
+2016-01-19 15:20:55,771 DEBUG [main] o.a.q.s.e.TopicExchange Registering queue a* with routing key a.*
+2016-01-19 15:20:55,784 DEBUG [main] o.a.q.s.t.LocalTransaction Beginning 1 post transaction actions
+2016-01-19 15:20:55,784 DEBUG [main] o.a.q.s.t.LocalTransaction Completed post transaction actions
+2016-01-19 15:20:55,787 DEBUG [main] o.a.q.s.t.LocalTransaction Beginning 1 post transaction actions
+2016-01-19 15:20:55,787 DEBUG [main] o.a.q.s.t.LocalTransaction Completed post transaction actions
+2016-01-19 15:20:55,787 INFO  [main] o.a.q.s.e.TopicExchange Message routing key: a No routes.
+2016-01-19 15:20:55,787 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing TestMemoryVirtualHost : testStarMatch
+2016-01-19 15:20:55,787 DEBUG [main] o.a.q.s.v.AbstractVirtualHost Closing connection registry :0 connections.
+2016-01-19 15:20:55,787 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing DirectExchange : amq.direct
+2016-01-19 15:20:55,787 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed DirectExchange : amq.direct
+2016-01-19 15:20:55,787 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed DirectExchange : amq.direct
+2016-01-19 15:20:55,787 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing TopicExchange : amq.topic
+2016-01-19 15:20:55,787 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed TopicExchange : amq.topic
+2016-01-19 15:20:55,787 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed TopicExchange : amq.topic
+2016-01-19 15:20:55,787 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing HeadersExchange : amq.match
+2016-01-19 15:20:55,787 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed HeadersExchange : amq.match
+2016-01-19 15:20:55,787 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed HeadersExchange : amq.match
+2016-01-19 15:20:55,787 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing FanoutExchange : amq.fanout
+2016-01-19 15:20:55,787 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed FanoutExchange : amq.fanout
+2016-01-19 15:20:55,787 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed FanoutExchange : amq.fanout
+2016-01-19 15:20:55,787 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing TopicExchange : test
+2016-01-19 15:20:55,787 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing BindingImpl : a.*
+2016-01-19 15:20:55,787 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed BindingImpl : a.*
+2016-01-19 15:20:55,787 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed BindingImpl : a.*
+2016-01-19 15:20:55,787 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed TopicExchange : test
+2016-01-19 15:20:55,787 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed TopicExchange : test
+2016-01-19 15:20:55,787 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing StandardQueueImpl : a*
+2016-01-19 15:20:55,787 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing BindingImpl : a.*
+2016-01-19 15:20:55,787 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed BindingImpl : a.*
+2016-01-19 15:20:55,787 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed StandardQueueImpl : a*
+2016-01-19 15:20:55,787 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed StandardQueueImpl : a*
+2016-01-19 15:20:55,787 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed TestMemoryVirtualHost : testStarMatch
+2016-01-19 15:20:55,788 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed TestMemoryVirtualHost : testStarMatch
+2016-01-19 15:20:55,788 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown TopicExchangeTest.testStarMatch ==========
+2016-01-19 15:20:55,788 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing TestMemoryVirtualHost : testStarMatch
+2016-01-19 15:20:55,788 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed TestMemoryVirtualHost : testStarMatch
+2016-01-19 15:20:55,788 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

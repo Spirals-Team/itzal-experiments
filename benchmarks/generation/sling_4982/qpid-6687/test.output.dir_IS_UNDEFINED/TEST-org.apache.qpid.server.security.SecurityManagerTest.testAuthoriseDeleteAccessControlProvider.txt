@@ -1,0 +1,4 @@
+2016-01-19 15:19:28,580 INFO  [main] o.a.q.t.u.QpidTestCase ========== start SecurityManagerTest.testAuthoriseDeleteAccessControlProvider ==========
+2016-01-19 15:19:28,581 INFO  [main] o.a.q.t.u.QpidTestCase ========== run SecurityManagerTest.testAuthoriseDeleteAccessControlProvider ==========
+2016-01-19 15:19:28,583 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown SecurityManagerTest.testAuthoriseDeleteAccessControlProvider ==========
+2016-01-19 15:19:28,583 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

@@ -1,0 +1,4 @@
+2016-01-19 15:19:26,346 INFO  [main] o.a.q.t.u.QpidTestCase ========== start ChannelLogSubjectTest.testDisabled ==========
+2016-01-19 15:19:26,349 INFO  [main] o.a.q.t.u.QpidTestCase ========== run ChannelLogSubjectTest.testDisabled ==========
+2016-01-19 15:19:26,352 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown ChannelLogSubjectTest.testDisabled ==========
+2016-01-19 15:19:26,353 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

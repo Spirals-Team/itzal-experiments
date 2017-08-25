@@ -1,0 +1,4 @@
+2016-01-19 15:20:54,432 INFO  [main] o.a.q.t.u.QpidTestCase ========== start StoreConfigurationChangeListenerTest.testAttributeSet ==========
+2016-01-19 15:20:54,433 INFO  [main] o.a.q.t.u.QpidTestCase ========== run StoreConfigurationChangeListenerTest.testAttributeSet ==========
+2016-01-19 15:20:54,433 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown StoreConfigurationChangeListenerTest.testAttributeSet ==========
+2016-01-19 15:20:54,433 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

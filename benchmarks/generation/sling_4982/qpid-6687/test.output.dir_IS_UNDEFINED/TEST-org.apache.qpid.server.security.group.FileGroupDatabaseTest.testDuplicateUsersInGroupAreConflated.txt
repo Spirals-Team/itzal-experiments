@@ -1,0 +1,4 @@
+2016-01-19 15:12:58,442 INFO  [main] o.a.q.t.u.QpidTestCase ========== start FileGroupDatabaseTest.testDuplicateUsersInGroupAreConflated ==========
+2016-01-19 15:12:58,443 INFO  [main] o.a.q.t.u.QpidTestCase ========== run FileGroupDatabaseTest.testDuplicateUsersInGroupAreConflated ==========
+2016-01-19 15:12:58,444 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown FileGroupDatabaseTest.testDuplicateUsersInGroupAreConflated ==========
+2016-01-19 15:12:58,444 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

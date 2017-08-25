@@ -1,0 +1,4 @@
+2016-01-19 15:14:17,430 INFO  [main] o.a.q.t.u.QpidTestCase ========== start FileTrustStoreTest.testCreatePeersOnlyTrustStoreFromFile_Success ==========
+2016-01-19 15:14:17,432 INFO  [main] o.a.q.t.u.QpidTestCase ========== run FileTrustStoreTest.testCreatePeersOnlyTrustStoreFromFile_Success ==========
+2016-01-19 15:14:17,438 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown FileTrustStoreTest.testCreatePeersOnlyTrustStoreFromFile_Success ==========
+2016-01-19 15:14:17,439 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

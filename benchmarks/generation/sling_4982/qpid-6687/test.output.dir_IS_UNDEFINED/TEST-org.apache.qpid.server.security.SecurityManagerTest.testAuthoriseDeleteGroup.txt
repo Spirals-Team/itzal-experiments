@@ -1,0 +1,4 @@
+2016-01-19 15:19:28,482 INFO  [main] o.a.q.t.u.QpidTestCase ========== start SecurityManagerTest.testAuthoriseDeleteGroup ==========
+2016-01-19 15:19:28,483 INFO  [main] o.a.q.t.u.QpidTestCase ========== run SecurityManagerTest.testAuthoriseDeleteGroup ==========
+2016-01-19 15:19:28,485 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown SecurityManagerTest.testAuthoriseDeleteGroup ==========
+2016-01-19 15:19:28,485 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

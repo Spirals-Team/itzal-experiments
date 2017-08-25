@@ -1,0 +1,26 @@
+2016-01-19 15:20:54,560 INFO  [main] o.a.q.t.u.QpidTestCase ========== start VirtualHostQueueCreationTest.testQueueNameWithLengthLessThan255ButDLExchangeNameWithLengthGreaterThan255 ==========
+2016-01-19 15:20:54,562 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:20:54,570 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 2 implementations of interface org.apache.qpid.server.plugin.SystemNodeCreator
+2016-01-19 15:20:54,571 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 1 implementations of interface org.apache.qpid.server.plugin.ConnectionValidator
+2016-01-19 15:20:54,611 INFO  [main] o.a.q.t.u.QpidTestCase ========== run VirtualHostQueueCreationTest.testQueueNameWithLengthLessThan255ButDLExchangeNameWithLengthGreaterThan255 ==========
+2016-01-19 15:20:54,611 INFO  [main] o.a.q.t.u.QpidTestCase Set system property "qpid.broker_dead_letter_exchange_suffix" to: "_DLEXCHANGE"
+2016-01-19 15:20:54,611 INFO  [main] o.a.q.t.u.QpidTestCase Set system property "qpid.broker_dead_letter_queue_suffix" to: "_DLQ"
+2016-01-19 15:20:54,612 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing TestMemoryVirtualHost : testQueueNameWithLengthLessThan255ButDLExchangeNameWithLengthGreaterThan255
+2016-01-19 15:20:54,612 DEBUG [main] o.a.q.s.v.AbstractVirtualHost Closing connection registry :0 connections.
+2016-01-19 15:20:54,612 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing DirectExchange : amq.direct
+2016-01-19 15:20:54,612 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed DirectExchange : amq.direct
+2016-01-19 15:20:54,612 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed DirectExchange : amq.direct
+2016-01-19 15:20:54,612 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing TopicExchange : amq.topic
+2016-01-19 15:20:54,612 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed TopicExchange : amq.topic
+2016-01-19 15:20:54,612 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed TopicExchange : amq.topic
+2016-01-19 15:20:54,612 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing HeadersExchange : amq.match
+2016-01-19 15:20:54,612 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed HeadersExchange : amq.match
+2016-01-19 15:20:54,612 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed HeadersExchange : amq.match
+2016-01-19 15:20:54,613 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing FanoutExchange : amq.fanout
+2016-01-19 15:20:54,613 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed FanoutExchange : amq.fanout
+2016-01-19 15:20:54,613 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed FanoutExchange : amq.fanout
+2016-01-19 15:20:54,613 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed TestMemoryVirtualHost : testQueueNameWithLengthLessThan255ButDLExchangeNameWithLengthGreaterThan255
+2016-01-19 15:20:54,614 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed TestMemoryVirtualHost : testQueueNameWithLengthLessThan255ButDLExchangeNameWithLengthGreaterThan255
+2016-01-19 15:20:54,614 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown VirtualHostQueueCreationTest.testQueueNameWithLengthLessThan255ButDLExchangeNameWithLengthGreaterThan255 ==========
+2016-01-19 15:20:54,614 DEBUG [main] o.a.q.t.u.QpidTestCase reverting 2 test properties
+2016-01-19 15:20:54,615 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

@@ -1,0 +1,4 @@
+2016-01-19 15:34:30,782 INFO  [main] o.a.q.t.u.QpidTestCase ========== start LDAPSSLSocketFactoryGeneratorTest.testClassloaderDelegatesToParent ==========
+2016-01-19 15:34:30,786 INFO  [main] o.a.q.t.u.QpidTestCase ========== run LDAPSSLSocketFactoryGeneratorTest.testClassloaderDelegatesToParent ==========
+2016-01-19 15:34:30,787 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown LDAPSSLSocketFactoryGeneratorTest.testClassloaderDelegatesToParent ==========
+2016-01-19 15:34:30,787 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

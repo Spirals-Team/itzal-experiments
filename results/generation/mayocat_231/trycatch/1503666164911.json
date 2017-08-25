@@ -1,0 +1,2644 @@
+{
+  "executions": [
+    {
+      "result": {
+        "success": false,
+        "type": "Request"
+      },
+      "metadata": {
+        "seed": 10,
+        "strategy_selection": "exploration"
+      },
+      "test": {
+        "name": "{}",
+        "class": "/cart"
+      },
+      "endDate": 1503666115842,
+      "decisions": [
+        {
+          "epsilon": 0,
+          "nbUse": 2,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 2429,
+            "line": 86,
+            "sourceStart": 2225,
+            "class": "org.mayocat.shop.shipping.DefaultShippingService"
+          },
+          "used": true,
+          "strategy": "Strat4 NULL",
+          "value": {
+            "instanceType": "Primitive",
+            "class": "null",
+            "value": "null"
+          }
+        },
+        {
+          "epsilon": 0,
+          "nbUse": 2,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 4024,
+            "line": 129,
+            "sourceStart": 3492,
+            "class": "org.mayocat.shop.shipping.DefaultShippingService"
+          },
+          "used": true,
+          "strategy": "Strat4 NULL",
+          "value": {
+            "instanceType": "Primitive",
+            "class": "null",
+            "value": "null"
+          }
+        }
+      ],
+      "locations": [
+        {
+          "sourceEnd": 4024,
+          "line": 129,
+          "executionCount": 0,
+          "sourceStart": 3492,
+          "class": "org.mayocat.shop.shipping.DefaultShippingService"
+        },
+        {
+          "sourceEnd": 2429,
+          "line": 86,
+          "executionCount": 0,
+          "sourceStart": 2225,
+          "class": "org.mayocat.shop.shipping.DefaultShippingService"
+        }
+      ],
+      "startDate": 1503666094541
+    },
+    {
+      "result": {
+        "success": true,
+        "type": "Request"
+      },
+      "metadata": {
+        "seed": 10,
+        "strategy_selection": "exploration"
+      },
+      "test": {
+        "name": "{}",
+        "class": "/cart"
+      },
+      "endDate": 1503666116585,
+      "decisions": [
+        {
+          "epsilon": 0,
+          "nbUse": 3,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 2429,
+            "line": 86,
+            "sourceStart": 2225,
+            "class": "org.mayocat.shop.shipping.DefaultShippingService"
+          },
+          "used": true,
+          "strategy": "Strat4 NULL",
+          "value": {
+            "instanceType": "Primitive",
+            "class": "null",
+            "value": "null"
+          }
+        },
+        {
+          "epsilon": 0,
+          "nbUse": 1,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 4024,
+            "line": 129,
+            "sourceStart": 3492,
+            "class": "org.mayocat.shop.shipping.DefaultShippingService"
+          },
+          "used": true,
+          "strategy": "Strat4 NEW",
+          "value": {
+            "instanceType": "New",
+            "class": "java.util.ArrayList"
+          }
+        }
+      ],
+      "locations": [
+        {
+          "sourceEnd": 4024,
+          "line": 129,
+          "executionCount": 0,
+          "sourceStart": 3492,
+          "class": "org.mayocat.shop.shipping.DefaultShippingService"
+        },
+        {
+          "sourceEnd": 2429,
+          "line": 86,
+          "executionCount": 0,
+          "sourceStart": 2225,
+          "class": "org.mayocat.shop.shipping.DefaultShippingService"
+        }
+      ],
+      "startDate": 1503666115843
+    },
+    {
+      "result": {
+        "success": false,
+        "type": "Request"
+      },
+      "metadata": {
+        "seed": 10,
+        "strategy_selection": "exploration"
+      },
+      "test": {
+        "name": "{}",
+        "class": "/cart"
+      },
+      "endDate": 1503666117126,
+      "decisions": [
+        {
+          "epsilon": 0,
+          "nbUse": 1,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 2429,
+            "line": 86,
+            "sourceStart": 2225,
+            "class": "org.mayocat.shop.shipping.DefaultShippingService"
+          },
+          "used": true,
+          "strategy": "Strat4 NULL",
+          "value": {
+            "instanceType": "Primitive",
+            "class": "null",
+            "value": "null"
+          }
+        },
+        {
+          "epsilon": 0,
+          "nbUse": 1,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 5041,
+            "line": 146,
+            "sourceStart": 4031,
+            "class": "org.mayocat.shop.shipping.DefaultShippingService"
+          },
+          "used": true,
+          "strategy": "Strat4 NULL",
+          "value": {
+            "instanceType": "Primitive",
+            "class": "null",
+            "value": "null"
+          }
+        }
+      ],
+      "locations": [
+        {
+          "sourceEnd": 5041,
+          "line": 146,
+          "executionCount": 0,
+          "sourceStart": 4031,
+          "class": "org.mayocat.shop.shipping.DefaultShippingService"
+        },
+        {
+          "sourceEnd": 2429,
+          "line": 86,
+          "executionCount": 0,
+          "sourceStart": 2225,
+          "class": "org.mayocat.shop.shipping.DefaultShippingService"
+        }
+      ],
+      "startDate": 1503666116585
+    },
+    {
+      "result": {
+        "success": false,
+        "type": "Request"
+      },
+      "metadata": {
+        "seed": 10,
+        "strategy_selection": "exploration"
+      },
+      "test": {
+        "name": "{}",
+        "class": "/cart"
+      },
+      "endDate": 1503666117913,
+      "decisions": [
+        {
+          "epsilon": 0,
+          "nbUse": 2,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 2429,
+            "line": 86,
+            "sourceStart": 2225,
+            "class": "org.mayocat.shop.shipping.DefaultShippingService"
+          },
+          "used": true,
+          "strategy": "Strat4 NULL",
+          "value": {
+            "instanceType": "Primitive",
+            "class": "null",
+            "value": "null"
+          }
+        },
+        {
+          "epsilon": 0,
+          "nbUse": 1,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 5041,
+            "line": 146,
+            "sourceStart": 4031,
+            "class": "org.mayocat.shop.shipping.DefaultShippingService"
+          },
+          "used": true,
+          "strategy": "Strat4 NEW",
+          "value": {
+            "parameterTypes": [
+              "java.util.UUID",
+              "java.lang.String",
+              "org.mayocat.shop.taxes.PriceWithTaxes"
+            ],
+            "instanceType": "New",
+            "class": "org.mayocat.shop.shipping.ShippingOption",
+            "parameters": [
+              {
+                "instanceType": "Primitive",
+                "class": "null",
+                "value": "null"
+              },
+              {
+                "instanceType": "Primitive",
+                "class": "null",
+                "value": "null"
+              },
+              {
+                "instanceType": "Primitive",
+                "class": "null",
+                "value": "null"
+              }
+            ]
+          }
+        }
+      ],
+      "locations": [
+        {
+          "sourceEnd": 5041,
+          "line": 146,
+          "executionCount": 0,
+          "sourceStart": 4031,
+          "class": "org.mayocat.shop.shipping.DefaultShippingService"
+        },
+        {
+          "sourceEnd": 2429,
+          "line": 86,
+          "executionCount": 0,
+          "sourceStart": 2225,
+          "class": "org.mayocat.shop.shipping.DefaultShippingService"
+        }
+      ],
+      "startDate": 1503666117128
+    },
+    {
+      "result": {
+        "success": false,
+        "type": "Request"
+      },
+      "metadata": {
+        "seed": 10,
+        "strategy_selection": "exploration"
+      },
+      "test": {
+        "name": "{}",
+        "class": "/cart"
+      },
+      "endDate": 1503666118403,
+      "decisions": [
+        {
+          "epsilon": 0,
+          "nbUse": 1,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 2429,
+            "line": 86,
+            "sourceStart": 2225,
+            "class": "org.mayocat.shop.shipping.DefaultShippingService"
+          },
+          "used": true,
+          "strategy": "Strat4 NULL",
+          "value": {
+            "instanceType": "Primitive",
+            "class": "null",
+            "value": "null"
+          }
+        },
+        {
+          "epsilon": 0,
+          "nbUse": 0,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 1277,
+            "line": 25,
+            "sourceStart": 736,
+            "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+          },
+          "used": true,
+          "strategy": "Strat4 NULL",
+          "value": {
+            "instanceType": "Primitive",
+            "class": "null",
+            "value": "null"
+          }
+        },
+        {
+          "epsilon": 0,
+          "nbUse": 1,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 4024,
+            "line": 129,
+            "sourceStart": 3492,
+            "class": "org.mayocat.shop.shipping.DefaultShippingService"
+          },
+          "used": true,
+          "strategy": "Strat4 NULL",
+          "value": {
+            "instanceType": "Primitive",
+            "class": "null",
+            "value": "null"
+          }
+        }
+      ],
+      "locations": [
+        {
+          "sourceEnd": 4024,
+          "line": 129,
+          "executionCount": 0,
+          "sourceStart": 3492,
+          "class": "org.mayocat.shop.shipping.DefaultShippingService"
+        },
+        {
+          "sourceEnd": 2429,
+          "line": 86,
+          "executionCount": 0,
+          "sourceStart": 2225,
+          "class": "org.mayocat.shop.shipping.DefaultShippingService"
+        },
+        {
+          "sourceEnd": 1277,
+          "line": 25,
+          "executionCount": 0,
+          "sourceStart": 736,
+          "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+        }
+      ],
+      "startDate": 1503666117913
+    },
+    {
+      "result": {
+        "success": true,
+        "type": "Request"
+      },
+      "metadata": {
+        "seed": 10,
+        "strategy_selection": "exploration"
+      },
+      "test": {
+        "name": "{}",
+        "class": "/cart"
+      },
+      "endDate": 1503666119087,
+      "decisions": [
+        {
+          "epsilon": 0,
+          "nbUse": 2,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 2429,
+            "line": 86,
+            "sourceStart": 2225,
+            "class": "org.mayocat.shop.shipping.DefaultShippingService"
+          },
+          "used": true,
+          "strategy": "Strat4 NULL",
+          "value": {
+            "instanceType": "Primitive",
+            "class": "null",
+            "value": "null"
+          }
+        },
+        {
+          "epsilon": 0,
+          "nbUse": 0,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 1277,
+            "line": 25,
+            "sourceStart": 736,
+            "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+          },
+          "used": true,
+          "strategy": "Strat4 NULL",
+          "value": {
+            "instanceType": "Primitive",
+            "class": "null",
+            "value": "null"
+          }
+        },
+        {
+          "epsilon": 0,
+          "nbUse": 1,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 4024,
+            "line": 129,
+            "sourceStart": 3492,
+            "class": "org.mayocat.shop.shipping.DefaultShippingService"
+          },
+          "used": true,
+          "strategy": "Strat4 NEW",
+          "value": {
+            "instanceType": "New",
+            "class": "java.util.ArrayList"
+          }
+        }
+      ],
+      "locations": [
+        {
+          "sourceEnd": 4024,
+          "line": 129,
+          "executionCount": 0,
+          "sourceStart": 3492,
+          "class": "org.mayocat.shop.shipping.DefaultShippingService"
+        },
+        {
+          "sourceEnd": 2429,
+          "line": 86,
+          "executionCount": 0,
+          "sourceStart": 2225,
+          "class": "org.mayocat.shop.shipping.DefaultShippingService"
+        },
+        {
+          "sourceEnd": 1277,
+          "line": 25,
+          "executionCount": 0,
+          "sourceStart": 736,
+          "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+        }
+      ],
+      "startDate": 1503666118404
+    },
+    {
+      "result": {
+        "success": false,
+        "type": "Request"
+      },
+      "metadata": {"seed": 10},
+      "test": {
+        "name": "{}",
+        "class": "/cart"
+      },
+      "endDate": 1503666119615,
+      "decisions": [
+        {
+          "epsilon": 0,
+          "nbUse": 3,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 2429,
+            "line": 86,
+            "sourceStart": 2225,
+            "class": "org.mayocat.shop.shipping.DefaultShippingService"
+          },
+          "used": true,
+          "strategy": "Strat4 NULL",
+          "value": {
+            "instanceType": "Primitive",
+            "class": "null",
+            "value": "null"
+          }
+        },
+        {
+          "epsilon": 0,
+          "nbUse": 0,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 1277,
+            "line": 25,
+            "sourceStart": 736,
+            "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+          },
+          "used": true,
+          "strategy": "Strat4 NULL",
+          "value": {
+            "instanceType": "Primitive",
+            "class": "null",
+            "value": "null"
+          }
+        },
+        {
+          "epsilon": 0,
+          "nbUse": 0,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 5041,
+            "line": 146,
+            "sourceStart": 4031,
+            "class": "org.mayocat.shop.shipping.DefaultShippingService"
+          },
+          "used": true,
+          "strategy": "Strat4 NULL",
+          "value": {
+            "instanceType": "Primitive",
+            "class": "null",
+            "value": "null"
+          }
+        }
+      ],
+      "locations": [
+        {
+          "sourceEnd": 5041,
+          "line": 146,
+          "executionCount": 0,
+          "sourceStart": 4031,
+          "class": "org.mayocat.shop.shipping.DefaultShippingService"
+        },
+        {
+          "sourceEnd": 2429,
+          "line": 86,
+          "executionCount": 0,
+          "sourceStart": 2225,
+          "class": "org.mayocat.shop.shipping.DefaultShippingService"
+        },
+        {
+          "sourceEnd": 1277,
+          "line": 25,
+          "executionCount": 0,
+          "sourceStart": 736,
+          "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+        }
+      ],
+      "startDate": 1503666119087
+    },
+    {
+      "result": {
+        "success": false,
+        "type": "Request"
+      },
+      "metadata": {"seed": 10},
+      "test": {
+        "name": "{}",
+        "class": "/cart"
+      },
+      "endDate": 1503666120126,
+      "decisions": [
+        {
+          "epsilon": 0,
+          "nbUse": 4,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 2429,
+            "line": 86,
+            "sourceStart": 2225,
+            "class": "org.mayocat.shop.shipping.DefaultShippingService"
+          },
+          "used": true,
+          "strategy": "Strat4 NULL",
+          "value": {
+            "instanceType": "Primitive",
+            "class": "null",
+            "value": "null"
+          }
+        },
+        {
+          "epsilon": 0,
+          "nbUse": 0,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 1277,
+            "line": 25,
+            "sourceStart": 736,
+            "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+          },
+          "used": true,
+          "strategy": "Strat4 NULL",
+          "value": {
+            "instanceType": "Primitive",
+            "class": "null",
+            "value": "null"
+          }
+        },
+        {
+          "epsilon": 0,
+          "nbUse": 0,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 5041,
+            "line": 146,
+            "sourceStart": 4031,
+            "class": "org.mayocat.shop.shipping.DefaultShippingService"
+          },
+          "used": true,
+          "strategy": "Strat4 NEW",
+          "value": {
+            "parameterTypes": [
+              "java.util.UUID",
+              "java.lang.String",
+              "org.mayocat.shop.taxes.PriceWithTaxes"
+            ],
+            "instanceType": "New",
+            "class": "org.mayocat.shop.shipping.ShippingOption",
+            "parameters": [
+              {
+                "instanceType": "Primitive",
+                "class": "null",
+                "value": "null"
+              },
+              {
+                "instanceType": "Primitive",
+                "class": "null",
+                "value": "null"
+              },
+              {
+                "instanceType": "Primitive",
+                "class": "null",
+                "value": "null"
+              }
+            ]
+          }
+        }
+      ],
+      "locations": [
+        {
+          "sourceEnd": 5041,
+          "line": 146,
+          "executionCount": 0,
+          "sourceStart": 4031,
+          "class": "org.mayocat.shop.shipping.DefaultShippingService"
+        },
+        {
+          "sourceEnd": 2429,
+          "line": 86,
+          "executionCount": 0,
+          "sourceStart": 2225,
+          "class": "org.mayocat.shop.shipping.DefaultShippingService"
+        },
+        {
+          "sourceEnd": 1277,
+          "line": 25,
+          "executionCount": 0,
+          "sourceStart": 736,
+          "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+        }
+      ],
+      "startDate": 1503666119616
+    },
+    {
+      "result": {
+        "success": true,
+        "type": "Request"
+      },
+      "metadata": {
+        "seed": 10,
+        "strategy_selection": "exploration"
+      },
+      "test": {
+        "name": "{}",
+        "class": "/cart"
+      },
+      "endDate": 1503666120615,
+      "decisions": [
+        {
+          "epsilon": 0,
+          "nbUse": 5,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 2429,
+            "line": 86,
+            "sourceStart": 2225,
+            "class": "org.mayocat.shop.shipping.DefaultShippingService"
+          },
+          "used": true,
+          "strategy": "Strat4 NULL",
+          "value": {
+            "instanceType": "Primitive",
+            "class": "null",
+            "value": "null"
+          }
+        },
+        {
+          "epsilon": 0,
+          "nbUse": 0,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 1277,
+            "line": 25,
+            "sourceStart": 736,
+            "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+          },
+          "used": true,
+          "strategy": "Strat4 NULL",
+          "value": {
+            "instanceType": "Primitive",
+            "class": "null",
+            "value": "null"
+          }
+        },
+        {
+          "epsilon": 0,
+          "nbUse": 0,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 4024,
+            "line": 129,
+            "sourceStart": 3492,
+            "class": "org.mayocat.shop.shipping.DefaultShippingService"
+          },
+          "used": true,
+          "strategy": "Strat4 VAR",
+          "value": {
+            "variableName": "options",
+            "instanceType": "Variable"
+          }
+        }
+      ],
+      "locations": [
+        {
+          "sourceEnd": 4024,
+          "line": 129,
+          "executionCount": 0,
+          "sourceStart": 3492,
+          "class": "org.mayocat.shop.shipping.DefaultShippingService"
+        },
+        {
+          "sourceEnd": 2429,
+          "line": 86,
+          "executionCount": 0,
+          "sourceStart": 2225,
+          "class": "org.mayocat.shop.shipping.DefaultShippingService"
+        },
+        {
+          "sourceEnd": 1277,
+          "line": 25,
+          "executionCount": 0,
+          "sourceStart": 736,
+          "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+        }
+      ],
+      "startDate": 1503666120126
+    },
+    {
+      "result": {
+        "success": false,
+        "type": "Request"
+      },
+      "metadata": {
+        "seed": 10,
+        "strategy_selection": "exploration"
+      },
+      "test": {
+        "name": "{}",
+        "class": "/cart"
+      },
+      "endDate": 1503666121128,
+      "decisions": [
+        {
+          "epsilon": 0,
+          "nbUse": 6,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 2429,
+            "line": 86,
+            "sourceStart": 2225,
+            "class": "org.mayocat.shop.shipping.DefaultShippingService"
+          },
+          "used": true,
+          "strategy": "Strat4 NULL",
+          "value": {
+            "instanceType": "Primitive",
+            "class": "null",
+            "value": "null"
+          }
+        },
+        {
+          "epsilon": 0,
+          "nbUse": 0,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 1277,
+            "line": 25,
+            "sourceStart": 736,
+            "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+          },
+          "used": true,
+          "strategy": "Strat4 NULL",
+          "value": {
+            "instanceType": "Primitive",
+            "class": "null",
+            "value": "null"
+          }
+        }
+      ],
+      "locations": [
+        {
+          "sourceEnd": 2429,
+          "line": 86,
+          "executionCount": 0,
+          "sourceStart": 2225,
+          "class": "org.mayocat.shop.shipping.DefaultShippingService"
+        },
+        {
+          "sourceEnd": 1277,
+          "line": 25,
+          "executionCount": 0,
+          "sourceStart": 736,
+          "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+        }
+      ],
+      "startDate": 1503666120617
+    },
+    {
+      "result": {
+        "success": true,
+        "type": "Request"
+      },
+      "metadata": {"seed": 10},
+      "test": {
+        "name": "{}",
+        "class": "/cart"
+      },
+      "endDate": 1503666121465,
+      "decisions": [
+        {
+          "epsilon": 0,
+          "nbUse": 7,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 2429,
+            "line": 86,
+            "sourceStart": 2225,
+            "class": "org.mayocat.shop.shipping.DefaultShippingService"
+          },
+          "used": true,
+          "strategy": "Strat4 NULL",
+          "value": {
+            "instanceType": "Primitive",
+            "class": "null",
+            "value": "null"
+          }
+        },
+        {
+          "epsilon": 0,
+          "nbUse": 0,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 1277,
+            "line": 25,
+            "sourceStart": 736,
+            "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+          },
+          "used": true,
+          "strategy": "Strat4 VAR",
+          "value": {
+            "fieldName": "ZERO",
+            "instanceType": "StaticVariable",
+            "class": "java.math.BigDecimal"
+          }
+        }
+      ],
+      "locations": [
+        {
+          "sourceEnd": 2429,
+          "line": 86,
+          "executionCount": 0,
+          "sourceStart": 2225,
+          "class": "org.mayocat.shop.shipping.DefaultShippingService"
+        },
+        {
+          "sourceEnd": 1277,
+          "line": 25,
+          "executionCount": 0,
+          "sourceStart": 736,
+          "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+        }
+      ],
+      "startDate": 1503666121129
+    },
+    {
+      "result": {
+        "success": true,
+        "type": "Request"
+      },
+      "metadata": {"seed": 10},
+      "test": {
+        "name": "{}",
+        "class": "/cart"
+      },
+      "endDate": 1503666121797,
+      "decisions": [
+        {
+          "epsilon": 0,
+          "nbUse": 8,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 2429,
+            "line": 86,
+            "sourceStart": 2225,
+            "class": "org.mayocat.shop.shipping.DefaultShippingService"
+          },
+          "used": true,
+          "strategy": "Strat4 NULL",
+          "value": {
+            "instanceType": "Primitive",
+            "class": "null",
+            "value": "null"
+          }
+        },
+        {
+          "epsilon": 0,
+          "nbUse": 0,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 1277,
+            "line": 25,
+            "sourceStart": 736,
+            "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+          },
+          "used": true,
+          "strategy": "Strat4 VAR",
+          "value": {
+            "fieldName": "ONE",
+            "instanceType": "StaticVariable",
+            "class": "java.math.BigDecimal"
+          }
+        }
+      ],
+      "locations": [
+        {
+          "sourceEnd": 2429,
+          "line": 86,
+          "executionCount": 0,
+          "sourceStart": 2225,
+          "class": "org.mayocat.shop.shipping.DefaultShippingService"
+        },
+        {
+          "sourceEnd": 1277,
+          "line": 25,
+          "executionCount": 0,
+          "sourceStart": 736,
+          "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+        }
+      ],
+      "startDate": 1503666121465
+    },
+    {
+      "result": {
+        "success": true,
+        "type": "Request"
+      },
+      "metadata": {"seed": 10},
+      "test": {
+        "name": "{}",
+        "class": "/cart"
+      },
+      "endDate": 1503666122128,
+      "decisions": [
+        {
+          "epsilon": 0,
+          "nbUse": 9,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 2429,
+            "line": 86,
+            "sourceStart": 2225,
+            "class": "org.mayocat.shop.shipping.DefaultShippingService"
+          },
+          "used": true,
+          "strategy": "Strat4 NULL",
+          "value": {
+            "instanceType": "Primitive",
+            "class": "null",
+            "value": "null"
+          }
+        },
+        {
+          "epsilon": 0,
+          "nbUse": 0,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 1277,
+            "line": 25,
+            "sourceStart": 736,
+            "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+          },
+          "used": true,
+          "strategy": "Strat4 VAR",
+          "value": {
+            "fieldName": "TEN",
+            "instanceType": "StaticVariable",
+            "class": "java.math.BigDecimal"
+          }
+        }
+      ],
+      "locations": [
+        {
+          "sourceEnd": 2429,
+          "line": 86,
+          "executionCount": 0,
+          "sourceStart": 2225,
+          "class": "org.mayocat.shop.shipping.DefaultShippingService"
+        },
+        {
+          "sourceEnd": 1277,
+          "line": 25,
+          "executionCount": 0,
+          "sourceStart": 736,
+          "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+        }
+      ],
+      "startDate": 1503666121798
+    },
+    {
+      "result": {
+        "success": true,
+        "type": "Request"
+      },
+      "metadata": {"seed": 10},
+      "test": {
+        "name": "{}",
+        "class": "/cart"
+      },
+      "endDate": 1503666122449,
+      "decisions": [
+        {
+          "epsilon": 0,
+          "nbUse": 10,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 2429,
+            "line": 86,
+            "sourceStart": 2225,
+            "class": "org.mayocat.shop.shipping.DefaultShippingService"
+          },
+          "used": true,
+          "strategy": "Strat4 NULL",
+          "value": {
+            "instanceType": "Primitive",
+            "class": "null",
+            "value": "null"
+          }
+        },
+        {
+          "epsilon": 0,
+          "nbUse": 0,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 1277,
+            "line": 25,
+            "sourceStart": 736,
+            "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+          },
+          "used": true,
+          "strategy": "Strat4 NEW",
+          "value": {
+            "parameterTypes": ["long"],
+            "instanceType": "New",
+            "class": "java.math.BigDecimal",
+            "parameters": [{
+              "instanceType": "Primitive",
+              "class": "class java.lang.Long",
+              "value": 0
+            }]
+          }
+        }
+      ],
+      "locations": [
+        {
+          "sourceEnd": 2429,
+          "line": 86,
+          "executionCount": 0,
+          "sourceStart": 2225,
+          "class": "org.mayocat.shop.shipping.DefaultShippingService"
+        },
+        {
+          "sourceEnd": 1277,
+          "line": 25,
+          "executionCount": 0,
+          "sourceStart": 736,
+          "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+        }
+      ],
+      "startDate": 1503666122128
+    },
+    {
+      "result": {
+        "success": true,
+        "type": "Request"
+      },
+      "metadata": {"seed": 10},
+      "test": {
+        "name": "{}",
+        "class": "/cart"
+      },
+      "endDate": 1503666122821,
+      "decisions": [
+        {
+          "epsilon": 0,
+          "nbUse": 11,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 2429,
+            "line": 86,
+            "sourceStart": 2225,
+            "class": "org.mayocat.shop.shipping.DefaultShippingService"
+          },
+          "used": true,
+          "strategy": "Strat4 NULL",
+          "value": {
+            "instanceType": "Primitive",
+            "class": "null",
+            "value": "null"
+          }
+        },
+        {
+          "epsilon": 0,
+          "nbUse": 0,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 1277,
+            "line": 25,
+            "sourceStart": 736,
+            "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+          },
+          "used": true,
+          "strategy": "Strat4 NEW",
+          "value": {
+            "parameterTypes": ["int"],
+            "instanceType": "New",
+            "class": "java.math.BigDecimal",
+            "parameters": [{
+              "instanceType": "Primitive",
+              "class": "class java.lang.Integer",
+              "value": 0
+            }]
+          }
+        }
+      ],
+      "locations": [
+        {
+          "sourceEnd": 2429,
+          "line": 86,
+          "executionCount": 0,
+          "sourceStart": 2225,
+          "class": "org.mayocat.shop.shipping.DefaultShippingService"
+        },
+        {
+          "sourceEnd": 1277,
+          "line": 25,
+          "executionCount": 0,
+          "sourceStart": 736,
+          "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+        }
+      ],
+      "startDate": 1503666122450
+    },
+    {
+      "result": {
+        "success": true,
+        "type": "Request"
+      },
+      "metadata": {"seed": 10},
+      "test": {
+        "name": "{}",
+        "class": "/cart"
+      },
+      "endDate": 1503666123103,
+      "decisions": [
+        {
+          "epsilon": 0,
+          "nbUse": 12,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 2429,
+            "line": 86,
+            "sourceStart": 2225,
+            "class": "org.mayocat.shop.shipping.DefaultShippingService"
+          },
+          "used": true,
+          "strategy": "Strat4 NULL",
+          "value": {
+            "instanceType": "Primitive",
+            "class": "null",
+            "value": "null"
+          }
+        },
+        {
+          "epsilon": 0,
+          "nbUse": 0,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 1277,
+            "line": 25,
+            "sourceStart": 736,
+            "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+          },
+          "used": true,
+          "strategy": "Strat4 NEW",
+          "value": {
+            "parameterTypes": ["double"],
+            "instanceType": "New",
+            "class": "java.math.BigDecimal",
+            "parameters": [{
+              "instanceType": "Primitive",
+              "class": "class java.lang.Double",
+              "value": 0
+            }]
+          }
+        }
+      ],
+      "locations": [
+        {
+          "sourceEnd": 2429,
+          "line": 86,
+          "executionCount": 0,
+          "sourceStart": 2225,
+          "class": "org.mayocat.shop.shipping.DefaultShippingService"
+        },
+        {
+          "sourceEnd": 1277,
+          "line": 25,
+          "executionCount": 0,
+          "sourceStart": 736,
+          "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+        }
+      ],
+      "startDate": 1503666122821
+    },
+    {
+      "result": {
+        "success": true,
+        "type": "Request"
+      },
+      "metadata": {
+        "seed": 10,
+        "strategy_selection": "exploration"
+      },
+      "test": {
+        "name": "{}",
+        "class": "/cart"
+      },
+      "endDate": 1503666123429,
+      "decisions": [
+        {
+          "epsilon": 0,
+          "nbUse": 1,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 2429,
+            "line": 86,
+            "sourceStart": 2225,
+            "class": "org.mayocat.shop.shipping.DefaultShippingService"
+          },
+          "used": true,
+          "strategy": "Strat4 NULL",
+          "value": {
+            "instanceType": "Primitive",
+            "class": "null",
+            "value": "null"
+          }
+        },
+        {
+          "epsilon": 0,
+          "nbUse": 0,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 4024,
+            "line": 129,
+            "sourceStart": 3492,
+            "class": "org.mayocat.shop.shipping.DefaultShippingService"
+          },
+          "used": true,
+          "strategy": "Strat4 VAR",
+          "value": {
+            "variableName": "options",
+            "instanceType": "Variable"
+          }
+        }
+      ],
+      "locations": [
+        {
+          "sourceEnd": 4024,
+          "line": 129,
+          "executionCount": 0,
+          "sourceStart": 3492,
+          "class": "org.mayocat.shop.shipping.DefaultShippingService"
+        },
+        {
+          "sourceEnd": 2429,
+          "line": 86,
+          "executionCount": 0,
+          "sourceStart": 2225,
+          "class": "org.mayocat.shop.shipping.DefaultShippingService"
+        }
+      ],
+      "startDate": 1503666123103
+    },
+    {
+      "result": {
+        "success": false,
+        "type": "Request"
+      },
+      "metadata": {
+        "seed": 10,
+        "strategy_selection": "exploration"
+      },
+      "test": {
+        "name": "{}",
+        "class": "/cart"
+      },
+      "endDate": 1503666123686,
+      "decisions": [{
+        "epsilon": 0,
+        "nbUse": 1,
+        "decisionType": "NEW",
+        "location": {
+          "sourceEnd": 2429,
+          "line": 86,
+          "sourceStart": 2225,
+          "class": "org.mayocat.shop.shipping.DefaultShippingService"
+        },
+        "used": true,
+        "strategy": "Strat4 NULL",
+        "value": {
+          "instanceType": "Primitive",
+          "class": "null",
+          "value": "null"
+        }
+      }],
+      "locations": [{
+        "sourceEnd": 2429,
+        "line": 86,
+        "executionCount": 0,
+        "sourceStart": 2225,
+        "class": "org.mayocat.shop.shipping.DefaultShippingService"
+      }],
+      "startDate": 1503666123430
+    },
+    {
+      "result": {
+        "success": false,
+        "type": "Request"
+      },
+      "metadata": {
+        "seed": 10,
+        "strategy_selection": "exploration"
+      },
+      "test": {
+        "name": "{}",
+        "class": "/cart"
+      },
+      "endDate": 1503666123915,
+      "decisions": [{
+        "epsilon": 0,
+        "nbUse": 1,
+        "decisionType": "NEW",
+        "location": {
+          "sourceEnd": 2429,
+          "line": 86,
+          "sourceStart": 2225,
+          "class": "org.mayocat.shop.shipping.DefaultShippingService"
+        },
+        "used": true,
+        "strategy": "Strat4 NEW",
+        "value": {
+          "parameterTypes": [
+            "java.util.UUID",
+            "java.lang.String",
+            "org.mayocat.shop.taxes.PriceWithTaxes"
+          ],
+          "instanceType": "New",
+          "class": "org.mayocat.shop.shipping.ShippingOption",
+          "parameters": [
+            {
+              "instanceType": "Primitive",
+              "class": "null",
+              "value": "null"
+            },
+            {
+              "instanceType": "Primitive",
+              "class": "null",
+              "value": "null"
+            },
+            {
+              "instanceType": "Primitive",
+              "class": "null",
+              "value": "null"
+            }
+          ]
+        }
+      }],
+      "locations": [{
+        "sourceEnd": 2429,
+        "line": 86,
+        "executionCount": 0,
+        "sourceStart": 2225,
+        "class": "org.mayocat.shop.shipping.DefaultShippingService"
+      }],
+      "startDate": 1503666123686
+    },
+    {
+      "result": {
+        "success": false,
+        "type": "Request"
+      },
+      "metadata": {
+        "seed": 10,
+        "strategy_selection": "exploration"
+      },
+      "test": {
+        "name": "{}",
+        "class": "/cart"
+      },
+      "endDate": 1503666124137,
+      "decisions": [{
+        "epsilon": 0,
+        "nbUse": 1,
+        "decisionType": "NEW",
+        "location": {
+          "sourceEnd": 5041,
+          "line": 146,
+          "sourceStart": 4031,
+          "class": "org.mayocat.shop.shipping.DefaultShippingService"
+        },
+        "used": true,
+        "strategy": "Strat4 NULL",
+        "value": {
+          "instanceType": "Primitive",
+          "class": "null",
+          "value": "null"
+        }
+      }],
+      "locations": [{
+        "sourceEnd": 5041,
+        "line": 146,
+        "executionCount": 0,
+        "sourceStart": 4031,
+        "class": "org.mayocat.shop.shipping.DefaultShippingService"
+      }],
+      "startDate": 1503666123915
+    },
+    {
+      "result": {
+        "success": false,
+        "type": "Request"
+      },
+      "metadata": {
+        "seed": 10,
+        "strategy_selection": "exploration"
+      },
+      "test": {
+        "name": "{}",
+        "class": "/cart"
+      },
+      "endDate": 1503666124315,
+      "decisions": [{
+        "epsilon": 0,
+        "nbUse": 1,
+        "decisionType": "NEW",
+        "location": {
+          "sourceEnd": 5041,
+          "line": 146,
+          "sourceStart": 4031,
+          "class": "org.mayocat.shop.shipping.DefaultShippingService"
+        },
+        "used": true,
+        "strategy": "Strat4 NEW",
+        "value": {
+          "parameterTypes": [
+            "java.util.UUID",
+            "java.lang.String",
+            "org.mayocat.shop.taxes.PriceWithTaxes"
+          ],
+          "instanceType": "New",
+          "class": "org.mayocat.shop.shipping.ShippingOption",
+          "parameters": [
+            {
+              "instanceType": "Primitive",
+              "class": "null",
+              "value": "null"
+            },
+            {
+              "instanceType": "Primitive",
+              "class": "null",
+              "value": "null"
+            },
+            {
+              "instanceType": "Primitive",
+              "class": "null",
+              "value": "null"
+            }
+          ]
+        }
+      }],
+      "locations": [{
+        "sourceEnd": 5041,
+        "line": 146,
+        "executionCount": 0,
+        "sourceStart": 4031,
+        "class": "org.mayocat.shop.shipping.DefaultShippingService"
+      }],
+      "startDate": 1503666124138
+    },
+    {
+      "result": {
+        "success": false,
+        "type": "Request"
+      },
+      "metadata": {
+        "seed": 10,
+        "strategy_selection": "exploration"
+      },
+      "test": {
+        "name": "{}",
+        "class": "/cart"
+      },
+      "endDate": 1503666124555,
+      "decisions": [
+        {
+          "epsilon": 0,
+          "nbUse": 0,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 1277,
+            "line": 25,
+            "sourceStart": 736,
+            "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+          },
+          "used": true,
+          "strategy": "Strat4 NULL",
+          "value": {
+            "instanceType": "Primitive",
+            "class": "null",
+            "value": "null"
+          }
+        },
+        {
+          "epsilon": 0,
+          "nbUse": 1,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 2429,
+            "line": 86,
+            "sourceStart": 2225,
+            "class": "org.mayocat.shop.shipping.DefaultShippingService"
+          },
+          "used": true,
+          "strategy": "Strat4 NULL",
+          "value": {
+            "instanceType": "Primitive",
+            "class": "null",
+            "value": "null"
+          }
+        },
+        {
+          "epsilon": 0,
+          "nbUse": 1,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 4024,
+            "line": 129,
+            "sourceStart": 3492,
+            "class": "org.mayocat.shop.shipping.DefaultShippingService"
+          },
+          "used": true,
+          "strategy": "Strat4 NULL",
+          "value": {
+            "instanceType": "Primitive",
+            "class": "null",
+            "value": "null"
+          }
+        }
+      ],
+      "locations": [
+        {
+          "sourceEnd": 4024,
+          "line": 129,
+          "executionCount": 0,
+          "sourceStart": 3492,
+          "class": "org.mayocat.shop.shipping.DefaultShippingService"
+        },
+        {
+          "sourceEnd": 2429,
+          "line": 86,
+          "executionCount": 0,
+          "sourceStart": 2225,
+          "class": "org.mayocat.shop.shipping.DefaultShippingService"
+        },
+        {
+          "sourceEnd": 1277,
+          "line": 25,
+          "executionCount": 0,
+          "sourceStart": 736,
+          "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+        }
+      ],
+      "startDate": 1503666124315
+    },
+    {
+      "result": {
+        "success": true,
+        "type": "Request"
+      },
+      "metadata": {
+        "seed": 10,
+        "strategy_selection": "exploration"
+      },
+      "test": {
+        "name": "{}",
+        "class": "/cart"
+      },
+      "endDate": 1503666124878,
+      "decisions": [
+        {
+          "epsilon": 0,
+          "nbUse": 0,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 1277,
+            "line": 25,
+            "sourceStart": 736,
+            "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+          },
+          "used": true,
+          "strategy": "Strat4 NULL",
+          "value": {
+            "instanceType": "Primitive",
+            "class": "null",
+            "value": "null"
+          }
+        },
+        {
+          "epsilon": 0,
+          "nbUse": 2,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 2429,
+            "line": 86,
+            "sourceStart": 2225,
+            "class": "org.mayocat.shop.shipping.DefaultShippingService"
+          },
+          "used": true,
+          "strategy": "Strat4 NULL",
+          "value": {
+            "instanceType": "Primitive",
+            "class": "null",
+            "value": "null"
+          }
+        },
+        {
+          "epsilon": 0,
+          "nbUse": 1,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 4024,
+            "line": 129,
+            "sourceStart": 3492,
+            "class": "org.mayocat.shop.shipping.DefaultShippingService"
+          },
+          "used": true,
+          "strategy": "Strat4 NEW",
+          "value": {
+            "instanceType": "New",
+            "class": "java.util.ArrayList"
+          }
+        }
+      ],
+      "locations": [
+        {
+          "sourceEnd": 4024,
+          "line": 129,
+          "executionCount": 0,
+          "sourceStart": 3492,
+          "class": "org.mayocat.shop.shipping.DefaultShippingService"
+        },
+        {
+          "sourceEnd": 2429,
+          "line": 86,
+          "executionCount": 0,
+          "sourceStart": 2225,
+          "class": "org.mayocat.shop.shipping.DefaultShippingService"
+        },
+        {
+          "sourceEnd": 1277,
+          "line": 25,
+          "executionCount": 0,
+          "sourceStart": 736,
+          "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+        }
+      ],
+      "startDate": 1503666124555
+    },
+    {
+      "result": {
+        "success": false,
+        "type": "Request"
+      },
+      "metadata": {"seed": 10},
+      "test": {
+        "name": "{}",
+        "class": "/cart"
+      },
+      "endDate": 1503666125110,
+      "decisions": [
+        {
+          "epsilon": 0,
+          "nbUse": 0,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 1277,
+            "line": 25,
+            "sourceStart": 736,
+            "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+          },
+          "used": true,
+          "strategy": "Strat4 NULL",
+          "value": {
+            "instanceType": "Primitive",
+            "class": "null",
+            "value": "null"
+          }
+        },
+        {
+          "epsilon": 0,
+          "nbUse": 3,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 2429,
+            "line": 86,
+            "sourceStart": 2225,
+            "class": "org.mayocat.shop.shipping.DefaultShippingService"
+          },
+          "used": true,
+          "strategy": "Strat4 NULL",
+          "value": {
+            "instanceType": "Primitive",
+            "class": "null",
+            "value": "null"
+          }
+        },
+        {
+          "epsilon": 0,
+          "nbUse": 0,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 5041,
+            "line": 146,
+            "sourceStart": 4031,
+            "class": "org.mayocat.shop.shipping.DefaultShippingService"
+          },
+          "used": true,
+          "strategy": "Strat4 NULL",
+          "value": {
+            "instanceType": "Primitive",
+            "class": "null",
+            "value": "null"
+          }
+        }
+      ],
+      "locations": [
+        {
+          "sourceEnd": 5041,
+          "line": 146,
+          "executionCount": 0,
+          "sourceStart": 4031,
+          "class": "org.mayocat.shop.shipping.DefaultShippingService"
+        },
+        {
+          "sourceEnd": 2429,
+          "line": 86,
+          "executionCount": 0,
+          "sourceStart": 2225,
+          "class": "org.mayocat.shop.shipping.DefaultShippingService"
+        },
+        {
+          "sourceEnd": 1277,
+          "line": 25,
+          "executionCount": 0,
+          "sourceStart": 736,
+          "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+        }
+      ],
+      "startDate": 1503666124878
+    },
+    {
+      "result": {
+        "success": false,
+        "type": "Request"
+      },
+      "metadata": {"seed": 10},
+      "test": {
+        "name": "{}",
+        "class": "/cart"
+      },
+      "endDate": 1503666125354,
+      "decisions": [
+        {
+          "epsilon": 0,
+          "nbUse": 0,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 1277,
+            "line": 25,
+            "sourceStart": 736,
+            "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+          },
+          "used": true,
+          "strategy": "Strat4 NULL",
+          "value": {
+            "instanceType": "Primitive",
+            "class": "null",
+            "value": "null"
+          }
+        },
+        {
+          "epsilon": 0,
+          "nbUse": 4,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 2429,
+            "line": 86,
+            "sourceStart": 2225,
+            "class": "org.mayocat.shop.shipping.DefaultShippingService"
+          },
+          "used": true,
+          "strategy": "Strat4 NULL",
+          "value": {
+            "instanceType": "Primitive",
+            "class": "null",
+            "value": "null"
+          }
+        },
+        {
+          "epsilon": 0,
+          "nbUse": 0,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 5041,
+            "line": 146,
+            "sourceStart": 4031,
+            "class": "org.mayocat.shop.shipping.DefaultShippingService"
+          },
+          "used": true,
+          "strategy": "Strat4 NEW",
+          "value": {
+            "parameterTypes": [
+              "java.util.UUID",
+              "java.lang.String",
+              "org.mayocat.shop.taxes.PriceWithTaxes"
+            ],
+            "instanceType": "New",
+            "class": "org.mayocat.shop.shipping.ShippingOption",
+            "parameters": [
+              {
+                "instanceType": "Primitive",
+                "class": "null",
+                "value": "null"
+              },
+              {
+                "instanceType": "Primitive",
+                "class": "null",
+                "value": "null"
+              },
+              {
+                "instanceType": "Primitive",
+                "class": "null",
+                "value": "null"
+              }
+            ]
+          }
+        }
+      ],
+      "locations": [
+        {
+          "sourceEnd": 5041,
+          "line": 146,
+          "executionCount": 0,
+          "sourceStart": 4031,
+          "class": "org.mayocat.shop.shipping.DefaultShippingService"
+        },
+        {
+          "sourceEnd": 2429,
+          "line": 86,
+          "executionCount": 0,
+          "sourceStart": 2225,
+          "class": "org.mayocat.shop.shipping.DefaultShippingService"
+        },
+        {
+          "sourceEnd": 1277,
+          "line": 25,
+          "executionCount": 0,
+          "sourceStart": 736,
+          "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+        }
+      ],
+      "startDate": 1503666125110
+    },
+    {
+      "result": {
+        "success": true,
+        "type": "Request"
+      },
+      "metadata": {
+        "seed": 10,
+        "strategy_selection": "exploration"
+      },
+      "test": {
+        "name": "{}",
+        "class": "/cart"
+      },
+      "endDate": 1503666125773,
+      "decisions": [
+        {
+          "epsilon": 0,
+          "nbUse": 0,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 1277,
+            "line": 25,
+            "sourceStart": 736,
+            "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+          },
+          "used": true,
+          "strategy": "Strat4 NULL",
+          "value": {
+            "instanceType": "Primitive",
+            "class": "null",
+            "value": "null"
+          }
+        },
+        {
+          "epsilon": 0,
+          "nbUse": 1,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 2429,
+            "line": 86,
+            "sourceStart": 2225,
+            "class": "org.mayocat.shop.shipping.DefaultShippingService"
+          },
+          "used": true,
+          "strategy": "Strat4 NULL",
+          "value": {
+            "instanceType": "Primitive",
+            "class": "null",
+            "value": "null"
+          }
+        },
+        {
+          "epsilon": 0,
+          "nbUse": 0,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 4024,
+            "line": 129,
+            "sourceStart": 3492,
+            "class": "org.mayocat.shop.shipping.DefaultShippingService"
+          },
+          "used": true,
+          "strategy": "Strat4 VAR",
+          "value": {
+            "variableName": "options",
+            "instanceType": "Variable"
+          }
+        }
+      ],
+      "locations": [
+        {
+          "sourceEnd": 4024,
+          "line": 129,
+          "executionCount": 0,
+          "sourceStart": 3492,
+          "class": "org.mayocat.shop.shipping.DefaultShippingService"
+        },
+        {
+          "sourceEnd": 2429,
+          "line": 86,
+          "executionCount": 0,
+          "sourceStart": 2225,
+          "class": "org.mayocat.shop.shipping.DefaultShippingService"
+        },
+        {
+          "sourceEnd": 1277,
+          "line": 25,
+          "executionCount": 0,
+          "sourceStart": 736,
+          "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+        }
+      ],
+      "startDate": 1503666125354
+    },
+    {
+      "result": {
+        "success": false,
+        "type": "Request"
+      },
+      "metadata": {
+        "seed": 10,
+        "strategy_selection": "exploration"
+      },
+      "test": {
+        "name": "{}",
+        "class": "/cart"
+      },
+      "endDate": 1503666126079,
+      "decisions": [
+        {
+          "epsilon": 0,
+          "nbUse": 0,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 1277,
+            "line": 25,
+            "sourceStart": 736,
+            "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+          },
+          "used": true,
+          "strategy": "Strat4 NULL",
+          "value": {
+            "instanceType": "Primitive",
+            "class": "null",
+            "value": "null"
+          }
+        },
+        {
+          "epsilon": 0,
+          "nbUse": 1,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 2429,
+            "line": 86,
+            "sourceStart": 2225,
+            "class": "org.mayocat.shop.shipping.DefaultShippingService"
+          },
+          "used": true,
+          "strategy": "Strat4 NULL",
+          "value": {
+            "instanceType": "Primitive",
+            "class": "null",
+            "value": "null"
+          }
+        }
+      ],
+      "locations": [
+        {
+          "sourceEnd": 2429,
+          "line": 86,
+          "executionCount": 0,
+          "sourceStart": 2225,
+          "class": "org.mayocat.shop.shipping.DefaultShippingService"
+        },
+        {
+          "sourceEnd": 1277,
+          "line": 25,
+          "executionCount": 0,
+          "sourceStart": 736,
+          "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+        }
+      ],
+      "startDate": 1503666125773
+    },
+    {
+      "result": {
+        "success": false,
+        "type": "Request"
+      },
+      "metadata": {
+        "seed": 10,
+        "strategy_selection": "exploration"
+      },
+      "test": {
+        "name": "{}",
+        "class": "/cart"
+      },
+      "endDate": 1503666126253,
+      "decisions": [
+        {
+          "epsilon": 0,
+          "nbUse": 0,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 1277,
+            "line": 25,
+            "sourceStart": 736,
+            "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+          },
+          "used": true,
+          "strategy": "Strat4 NULL",
+          "value": {
+            "instanceType": "Primitive",
+            "class": "null",
+            "value": "null"
+          }
+        },
+        {
+          "epsilon": 0,
+          "nbUse": 1,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 2429,
+            "line": 86,
+            "sourceStart": 2225,
+            "class": "org.mayocat.shop.shipping.DefaultShippingService"
+          },
+          "used": true,
+          "strategy": "Strat4 NEW",
+          "value": {
+            "parameterTypes": [
+              "java.util.UUID",
+              "java.lang.String",
+              "org.mayocat.shop.taxes.PriceWithTaxes"
+            ],
+            "instanceType": "New",
+            "class": "org.mayocat.shop.shipping.ShippingOption",
+            "parameters": [
+              {
+                "instanceType": "Primitive",
+                "class": "null",
+                "value": "null"
+              },
+              {
+                "instanceType": "Primitive",
+                "class": "null",
+                "value": "null"
+              },
+              {
+                "instanceType": "Primitive",
+                "class": "null",
+                "value": "null"
+              }
+            ]
+          }
+        }
+      ],
+      "locations": [
+        {
+          "sourceEnd": 2429,
+          "line": 86,
+          "executionCount": 0,
+          "sourceStart": 2225,
+          "class": "org.mayocat.shop.shipping.DefaultShippingService"
+        },
+        {
+          "sourceEnd": 1277,
+          "line": 25,
+          "executionCount": 0,
+          "sourceStart": 736,
+          "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+        }
+      ],
+      "startDate": 1503666126079
+    },
+    {
+      "result": {
+        "success": false,
+        "type": "Request"
+      },
+      "metadata": {"seed": 10},
+      "test": {
+        "name": "{}",
+        "class": "/cart"
+      },
+      "endDate": 1503666126463,
+      "decisions": [
+        {
+          "epsilon": 0,
+          "nbUse": 0,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 1277,
+            "line": 25,
+            "sourceStart": 736,
+            "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+          },
+          "used": true,
+          "strategy": "Strat4 NULL",
+          "value": {
+            "instanceType": "Primitive",
+            "class": "null",
+            "value": "null"
+          }
+        },
+        {
+          "epsilon": 0,
+          "nbUse": 0,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 5041,
+            "line": 146,
+            "sourceStart": 4031,
+            "class": "org.mayocat.shop.shipping.DefaultShippingService"
+          },
+          "used": true,
+          "strategy": "Strat4 NULL",
+          "value": {
+            "instanceType": "Primitive",
+            "class": "null",
+            "value": "null"
+          }
+        }
+      ],
+      "locations": [
+        {
+          "sourceEnd": 5041,
+          "line": 146,
+          "executionCount": 0,
+          "sourceStart": 4031,
+          "class": "org.mayocat.shop.shipping.DefaultShippingService"
+        },
+        {
+          "sourceEnd": 1277,
+          "line": 25,
+          "executionCount": 0,
+          "sourceStart": 736,
+          "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+        }
+      ],
+      "startDate": 1503666126253
+    },
+    {
+      "result": {
+        "success": false,
+        "type": "Request"
+      },
+      "metadata": {"seed": 10},
+      "test": {
+        "name": "{}",
+        "class": "/cart"
+      },
+      "endDate": 1503666126644,
+      "decisions": [
+        {
+          "epsilon": 0,
+          "nbUse": 0,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 1277,
+            "line": 25,
+            "sourceStart": 736,
+            "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+          },
+          "used": true,
+          "strategy": "Strat4 NULL",
+          "value": {
+            "instanceType": "Primitive",
+            "class": "null",
+            "value": "null"
+          }
+        },
+        {
+          "epsilon": 0,
+          "nbUse": 0,
+          "decisionType": "NEW",
+          "location": {
+            "sourceEnd": 5041,
+            "line": 146,
+            "sourceStart": 4031,
+            "class": "org.mayocat.shop.shipping.DefaultShippingService"
+          },
+          "used": true,
+          "strategy": "Strat4 NEW",
+          "value": {
+            "parameterTypes": [
+              "java.util.UUID",
+              "java.lang.String",
+              "org.mayocat.shop.taxes.PriceWithTaxes"
+            ],
+            "instanceType": "New",
+            "class": "org.mayocat.shop.shipping.ShippingOption",
+            "parameters": [
+              {
+                "instanceType": "Primitive",
+                "class": "null",
+                "value": "null"
+              },
+              {
+                "instanceType": "Primitive",
+                "class": "null",
+                "value": "null"
+              },
+              {
+                "instanceType": "Primitive",
+                "class": "null",
+                "value": "null"
+              }
+            ]
+          }
+        }
+      ],
+      "locations": [
+        {
+          "sourceEnd": 5041,
+          "line": 146,
+          "executionCount": 0,
+          "sourceStart": 4031,
+          "class": "org.mayocat.shop.shipping.DefaultShippingService"
+        },
+        {
+          "sourceEnd": 1277,
+          "line": 25,
+          "executionCount": 0,
+          "sourceStart": 736,
+          "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+        }
+      ],
+      "startDate": 1503666126464
+    },
+    {
+      "result": {
+        "success": false,
+        "type": "Request"
+      },
+      "metadata": {
+        "seed": 10,
+        "strategy_selection": "exploration"
+      },
+      "test": {
+        "name": "{}",
+        "class": "/cart"
+      },
+      "endDate": 1503666126812,
+      "decisions": [{
+        "epsilon": 0,
+        "nbUse": 0,
+        "decisionType": "NEW",
+        "location": {
+          "sourceEnd": 1277,
+          "line": 25,
+          "sourceStart": 736,
+          "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+        },
+        "used": true,
+        "strategy": "Strat4 NULL",
+        "value": {
+          "instanceType": "Primitive",
+          "class": "null",
+          "value": "null"
+        }
+      }],
+      "locations": [{
+        "sourceEnd": 1277,
+        "line": 25,
+        "executionCount": 0,
+        "sourceStart": 736,
+        "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+      }],
+      "startDate": 1503666126645
+    },
+    {
+      "result": {
+        "success": true,
+        "type": "Request"
+      },
+      "metadata": {"seed": 10},
+      "test": {
+        "name": "{}",
+        "class": "/cart"
+      },
+      "endDate": 1503666127052,
+      "decisions": [{
+        "epsilon": 0,
+        "nbUse": 0,
+        "decisionType": "NEW",
+        "location": {
+          "sourceEnd": 1277,
+          "line": 25,
+          "sourceStart": 736,
+          "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+        },
+        "used": true,
+        "strategy": "Strat4 VAR",
+        "value": {
+          "fieldName": "ZERO",
+          "instanceType": "StaticVariable",
+          "class": "java.math.BigDecimal"
+        }
+      }],
+      "locations": [{
+        "sourceEnd": 1277,
+        "line": 25,
+        "executionCount": 0,
+        "sourceStart": 736,
+        "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+      }],
+      "startDate": 1503666126813
+    },
+    {
+      "result": {
+        "success": true,
+        "type": "Request"
+      },
+      "metadata": {"seed": 10},
+      "test": {
+        "name": "{}",
+        "class": "/cart"
+      },
+      "endDate": 1503666127280,
+      "decisions": [{
+        "epsilon": 0,
+        "nbUse": 0,
+        "decisionType": "NEW",
+        "location": {
+          "sourceEnd": 1277,
+          "line": 25,
+          "sourceStart": 736,
+          "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+        },
+        "used": true,
+        "strategy": "Strat4 VAR",
+        "value": {
+          "fieldName": "ONE",
+          "instanceType": "StaticVariable",
+          "class": "java.math.BigDecimal"
+        }
+      }],
+      "locations": [{
+        "sourceEnd": 1277,
+        "line": 25,
+        "executionCount": 0,
+        "sourceStart": 736,
+        "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+      }],
+      "startDate": 1503666127053
+    },
+    {
+      "result": {
+        "success": true,
+        "type": "Request"
+      },
+      "metadata": {"seed": 10},
+      "test": {
+        "name": "{}",
+        "class": "/cart"
+      },
+      "endDate": 1503666127524,
+      "decisions": [{
+        "epsilon": 0,
+        "nbUse": 0,
+        "decisionType": "NEW",
+        "location": {
+          "sourceEnd": 1277,
+          "line": 25,
+          "sourceStart": 736,
+          "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+        },
+        "used": true,
+        "strategy": "Strat4 VAR",
+        "value": {
+          "fieldName": "TEN",
+          "instanceType": "StaticVariable",
+          "class": "java.math.BigDecimal"
+        }
+      }],
+      "locations": [{
+        "sourceEnd": 1277,
+        "line": 25,
+        "executionCount": 0,
+        "sourceStart": 736,
+        "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+      }],
+      "startDate": 1503666127280
+    },
+    {
+      "result": {
+        "success": true,
+        "type": "Request"
+      },
+      "metadata": {"seed": 10},
+      "test": {
+        "name": "{}",
+        "class": "/cart"
+      },
+      "endDate": 1503666127768,
+      "decisions": [{
+        "epsilon": 0,
+        "nbUse": 0,
+        "decisionType": "NEW",
+        "location": {
+          "sourceEnd": 1277,
+          "line": 25,
+          "sourceStart": 736,
+          "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+        },
+        "used": true,
+        "strategy": "Strat4 NEW",
+        "value": {
+          "parameterTypes": ["long"],
+          "instanceType": "New",
+          "class": "java.math.BigDecimal",
+          "parameters": [{
+            "instanceType": "Primitive",
+            "class": "class java.lang.Long",
+            "value": 0
+          }]
+        }
+      }],
+      "locations": [{
+        "sourceEnd": 1277,
+        "line": 25,
+        "executionCount": 0,
+        "sourceStart": 736,
+        "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+      }],
+      "startDate": 1503666127524
+    },
+    {
+      "result": {
+        "success": true,
+        "type": "Request"
+      },
+      "metadata": {"seed": 10},
+      "test": {
+        "name": "{}",
+        "class": "/cart"
+      },
+      "endDate": 1503666128040,
+      "decisions": [{
+        "epsilon": 0,
+        "nbUse": 0,
+        "decisionType": "NEW",
+        "location": {
+          "sourceEnd": 1277,
+          "line": 25,
+          "sourceStart": 736,
+          "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+        },
+        "used": true,
+        "strategy": "Strat4 NEW",
+        "value": {
+          "parameterTypes": ["int"],
+          "instanceType": "New",
+          "class": "java.math.BigDecimal",
+          "parameters": [{
+            "instanceType": "Primitive",
+            "class": "class java.lang.Integer",
+            "value": 0
+          }]
+        }
+      }],
+      "locations": [{
+        "sourceEnd": 1277,
+        "line": 25,
+        "executionCount": 0,
+        "sourceStart": 736,
+        "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+      }],
+      "startDate": 1503666127769
+    },
+    {
+      "result": {
+        "success": true,
+        "type": "Request"
+      },
+      "metadata": {"seed": 10},
+      "test": {
+        "name": "{}",
+        "class": "/cart"
+      },
+      "endDate": 1503666128276,
+      "decisions": [{
+        "epsilon": 0,
+        "nbUse": 0,
+        "decisionType": "NEW",
+        "location": {
+          "sourceEnd": 1277,
+          "line": 25,
+          "sourceStart": 736,
+          "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+        },
+        "used": true,
+        "strategy": "Strat4 NEW",
+        "value": {
+          "parameterTypes": ["double"],
+          "instanceType": "New",
+          "class": "java.math.BigDecimal",
+          "parameters": [{
+            "instanceType": "Primitive",
+            "class": "class java.lang.Double",
+            "value": 0
+          }]
+        }
+      }],
+      "locations": [{
+        "sourceEnd": 1277,
+        "line": 25,
+        "executionCount": 0,
+        "sourceStart": 736,
+        "class": "org.mayocat.shop.shipping.strategy.FlatStrategyPriceCalculator"
+      }],
+      "startDate": 1503666128041
+    }
+  ],
+  "start": 1503666164911,
+  "end": 1503666164955
+}

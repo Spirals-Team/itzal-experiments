@@ -1,0 +1,4 @@
+2016-01-19 15:19:27,948 INFO  [main] o.a.q.t.u.QpidTestCase ========== start SimpleLDAPAuthenticationManagerFactoryTest.testLdapsWhenTrustStoreNotFound ==========
+2016-01-19 15:19:27,952 INFO  [main] o.a.q.t.u.QpidTestCase ========== run SimpleLDAPAuthenticationManagerFactoryTest.testLdapsWhenTrustStoreNotFound ==========
+2016-01-19 15:19:27,976 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown SimpleLDAPAuthenticationManagerFactoryTest.testLdapsWhenTrustStoreNotFound ==========
+2016-01-19 15:19:27,976 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

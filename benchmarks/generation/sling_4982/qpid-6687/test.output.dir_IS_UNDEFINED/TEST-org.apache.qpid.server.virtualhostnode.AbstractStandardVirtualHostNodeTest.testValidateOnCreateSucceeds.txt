@@ -1,0 +1,11 @@
+2016-01-19 15:36:53,945 INFO  [main] o.a.q.t.u.QpidTestCase ========== start AbstractStandardVirtualHostNodeTest.testValidateOnCreateSucceeds ==========
+2016-01-19 15:36:53,947 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:36:53,949 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:36:53,950 INFO  [main] o.a.q.t.u.QpidTestCase ========== run AbstractStandardVirtualHostNodeTest.testValidateOnCreateSucceeds ==========
+2016-01-19 15:36:53,954 DEBUG [main] o.a.q.s.v.AbstractStandardVirtualHostNode Activating virtualhost node [id=1c886c8f-14eb-4f6c-a55e-9de41c38f3e1, name=AbstractStandardVirtualHostNodeTest.testValidateOnCreateSucceeds, state=UNINITIALIZED]
+2016-01-19 15:36:53,958 DEBUG [main] o.a.q.s.s.GenericRecoverer Recovering the children of [id=1c886c8f-14eb-4f6c-a55e-9de41c38f3e1, name=AbstractStandardVirtualHostNodeTest.testValidateOnCreateSucceeds, state=UNINITIALIZED]
+2016-01-19 15:36:53,961 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing  : AbstractStandardVirtualHostNodeTest.testValidateOnCreateSucceeds
+2016-01-19 15:36:53,962 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed  : AbstractStandardVirtualHostNodeTest.testValidateOnCreateSucceeds
+2016-01-19 15:36:53,962 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed  : AbstractStandardVirtualHostNodeTest.testValidateOnCreateSucceeds
+2016-01-19 15:36:53,962 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown AbstractStandardVirtualHostNodeTest.testValidateOnCreateSucceeds ==========
+2016-01-19 15:36:53,962 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

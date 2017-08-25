@@ -1,0 +1,5 @@
+2016-01-19 15:34:30,826 INFO  [main] o.a.q.t.u.QpidTestCase ========== start CRAMMD5HexServerTest.testUnknownUser ==========
+2016-01-19 15:34:30,828 INFO  [main] o.a.q.s.s.a.d.Base64MD5PasswordFilePrincipalDatabase PasswordFile using file /tmp/passwd2312474734052752820db
+2016-01-19 15:34:30,831 INFO  [main] o.a.q.t.u.QpidTestCase ========== run CRAMMD5HexServerTest.testUnknownUser ==========
+2016-01-19 15:34:30,831 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown CRAMMD5HexServerTest.testUnknownUser ==========
+2016-01-19 15:34:30,832 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

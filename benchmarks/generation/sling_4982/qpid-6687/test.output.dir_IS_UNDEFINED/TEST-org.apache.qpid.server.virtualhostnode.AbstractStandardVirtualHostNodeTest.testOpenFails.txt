@@ -1,0 +1,48 @@
+2016-01-19 15:36:53,588 INFO  [main] o.a.q.t.u.QpidTestCase ========== start AbstractStandardVirtualHostNodeTest.testOpenFails ==========
+2016-01-19 15:36:53,591 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:36:53,598 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:36:53,598 INFO  [main] o.a.q.t.u.QpidTestCase ========== run AbstractStandardVirtualHostNodeTest.testOpenFails ==========
+2016-01-19 15:36:53,608 ERROR [main] o.a.q.s.m.AbstractConfiguredObject Failed to open object with name 'AbstractStandardVirtualHostNodeTest.testOpenFails'.  Object will be put into ERROR state.
+java.lang.RuntimeException: Cannot validate
+	at org.apache.qpid.server.virtualhostnode.AbstractStandardVirtualHostNodeTest$TestAbstractVirtualHostNode.onValidate(AbstractStandardVirtualHostNodeTest.java:593) ~[test-classes/:na]
+	at org.apache.qpid.server.model.AbstractConfiguredObject.doValidation(AbstractConfiguredObject.java:909) [classes/:na]
+	at org.apache.qpid.server.model.AbstractConfiguredObject$1.call(AbstractConfiguredObject.java:474) [classes/:na]
+	at org.apache.qpid.server.model.AbstractConfiguredObject$1.call(AbstractConfiguredObject.java:463) [classes/:na]
+	at org.apache.qpid.server.model.AbstractConfiguredObject$2.execute(AbstractConfiguredObject.java:506) [classes/:na]
+	at org.apache.qpid.server.model.AbstractConfiguredObject$2.execute(AbstractConfiguredObject.java:499) [classes/:na]
+	at org.apache.qpid.server.configuration.updater.CurrentThreadTaskExecutor.submit(CurrentThreadTaskExecutor.java:108) [test-classes/:na]
+	at org.apache.qpid.server.model.AbstractConfiguredObject.doOnConfigThread(AbstractConfiguredObject.java:498) [classes/:na]
+	at org.apache.qpid.server.model.AbstractConfiguredObject.openAsync(AbstractConfiguredObject.java:462) [classes/:na]
+	at org.apache.qpid.server.model.AbstractConfiguredObject.open(AbstractConfiguredObject.java:456) [classes/:na]
+	at org.apache.qpid.server.virtualhostnode.AbstractStandardVirtualHostNodeTest.testOpenFails(AbstractStandardVirtualHostNodeTest.java:434) [test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_66-internal]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_66-internal]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_66-internal]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_66-internal]
+	at junit.framework.TestCase.runTest(TestCase.java:176) [junit-4.11.jar:na]
+	at org.apache.qpid.test.utils.QpidTestCase.runTest(QpidTestCase.java:171) [qpid-test-utils-6.0.0.jar:6.0.0]
+	at junit.framework.TestCase.runBare(TestCase.java:141) [junit-4.11.jar:na]
+	at junit.framework.TestResult$1.protect(TestResult.java:122) [junit-4.11.jar:na]
+	at junit.framework.TestResult.runProtected(TestResult.java:142) [junit-4.11.jar:na]
+	at junit.framework.TestResult.run(TestResult.java:125) [junit-4.11.jar:na]
+	at junit.framework.TestCase.run(TestCase.java:129) [junit-4.11.jar:na]
+	at org.apache.qpid.test.utils.QpidTestCase.run(QpidTestCase.java:156) [qpid-test-utils-6.0.0.jar:6.0.0]
+	at junit.framework.TestSuite.runTest(TestSuite.java:255) [junit-4.11.jar:na]
+	at junit.framework.TestSuite.run(TestSuite.java:250) [junit-4.11.jar:na]
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84) [junit-4.11.jar:na]
+	at org.junit.runners.Suite.runChild(Suite.java:127) [junit-4.11.jar:na]
+	at org.junit.runners.Suite.runChild(Suite.java:26) [junit-4.11.jar:na]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238) [junit-4.11.jar:na]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63) [junit-4.11.jar:na]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236) [junit-4.11.jar:na]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53) [junit-4.11.jar:na]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229) [junit-4.11.jar:na]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309) [junit-4.11.jar:na]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160) [junit-4.11.jar:na]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69) [junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:234) [junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:74) [junit-rt.jar:na]
+2016-01-19 15:36:53,608 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing TestAbstractVirtualHostNode : AbstractStandardVirtualHostNodeTest.testOpenFails
+2016-01-19 15:36:53,608 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed TestAbstractVirtualHostNode : AbstractStandardVirtualHostNodeTest.testOpenFails
+2016-01-19 15:36:53,608 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown AbstractStandardVirtualHostNodeTest.testOpenFails ==========
+2016-01-19 15:36:53,609 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

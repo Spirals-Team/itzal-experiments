@@ -1,0 +1,6 @@
+2016-01-19 15:19:28,956 INFO  [main] o.a.q.t.u.QpidTestCase ========== start JsonFileConfigStoreTest.testObjectWithNonStringName ==========
+2016-01-19 15:19:28,958 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:19:28,959 INFO  [main] o.a.q.t.u.QpidTestCase ========== run JsonFileConfigStoreTest.testObjectWithNonStringName ==========
+2016-01-19 15:19:28,967 ERROR [main] o.a.q.s.u.ServerScopedRuntimeException The record dacdf15d-2235-4a79-b5af-7ea11442eb52 of type Exchange does not have an attribute 'name' of type String
+2016-01-19 15:19:28,967 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown JsonFileConfigStoreTest.testObjectWithNonStringName ==========
+2016-01-19 15:19:28,967 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

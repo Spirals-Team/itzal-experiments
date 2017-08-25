@@ -1,0 +1,4 @@
+2016-01-19 15:19:28,678 INFO  [main] o.a.q.t.u.QpidTestCase ========== start BrokerOptionsTest.testOverriddenManagementModeHttpPort ==========
+2016-01-19 15:19:28,679 INFO  [main] o.a.q.t.u.QpidTestCase ========== run BrokerOptionsTest.testOverriddenManagementModeHttpPort ==========
+2016-01-19 15:19:28,679 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown BrokerOptionsTest.testOverriddenManagementModeHttpPort ==========
+2016-01-19 15:19:28,679 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

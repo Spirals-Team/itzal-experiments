@@ -1,0 +1,4 @@
+2016-01-19 15:19:28,677 INFO  [main] o.a.q.t.u.QpidTestCase ========== start BrokerOptionsTest.testSetInitialSystemProperties ==========
+2016-01-19 15:19:28,678 INFO  [main] o.a.q.t.u.QpidTestCase ========== run BrokerOptionsTest.testSetInitialSystemProperties ==========
+2016-01-19 15:19:28,678 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown BrokerOptionsTest.testSetInitialSystemProperties ==========
+2016-01-19 15:19:28,678 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

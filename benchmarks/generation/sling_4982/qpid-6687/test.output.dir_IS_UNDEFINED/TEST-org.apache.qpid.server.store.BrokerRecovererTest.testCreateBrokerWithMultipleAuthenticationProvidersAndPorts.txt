@@ -1,0 +1,8 @@
+2016-01-19 15:39:24,739 INFO  [main] o.a.q.t.u.QpidTestCase ========== start BrokerRecovererTest.testCreateBrokerWithMultipleAuthenticationProvidersAndPorts ==========
+2016-01-19 15:39:24,741 INFO  [main] o.a.q.t.u.QpidTestCase ========== run BrokerRecovererTest.testCreateBrokerWithMultipleAuthenticationProvidersAndPorts ==========
+2016-01-19 15:39:24,742 DEBUG [main] o.a.q.s.s.GenericRecoverer Recovering the children of JsonSystemConfigImpl [id=00000000-0000-0000-0000-000000000000, name=System]
+2016-01-19 15:39:24,743 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 2 implementations of interface org.apache.qpid.server.plugin.SystemNodeCreator
+2016-01-19 15:39:24,771 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 1 implementations of interface org.apache.qpid.server.plugin.ConfigurationSecretEncrypterFactory
+2016-01-19 15:39:24,772 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 1 implementations of interface org.apache.qpid.server.plugin.ConfigurationSecretEncrypterFactory
+2016-01-19 15:39:24,773 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown BrokerRecovererTest.testCreateBrokerWithMultipleAuthenticationProvidersAndPorts ==========
+2016-01-19 15:39:24,773 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

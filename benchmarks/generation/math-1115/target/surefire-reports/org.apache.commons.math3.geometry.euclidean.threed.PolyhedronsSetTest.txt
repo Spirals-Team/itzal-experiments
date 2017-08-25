@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSetTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.068 sec <<< FAILURE! - in org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSetTest
+testTooThinBox(org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSetTest)  Time elapsed: 0.042 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.math3.geometry.partitioning.BSPTree.fitToCell(BSPTree.java:301)
+	at org.apache.commons.math3.geometry.partitioning.BSPTree.insertCut(BSPTree.java:159)
+	at org.apache.commons.math3.geometry.partitioning.RegionFactory.buildConvex(RegionFactory.java:55)
+	at org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSet.buildBoundary(PolyhedronsSet.java:215)
+	at org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSet.<init>(PolyhedronsSet.java:120)
+	at org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSet.<init>(PolyhedronsSet.java:185)
+	at org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSetTest.testTooThinBox(PolyhedronsSetTest.java:25)
+

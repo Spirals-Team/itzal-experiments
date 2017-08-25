@@ -1,0 +1,726 @@
+Jul 11, 2017 4:54:54 PM org.apache.catalina.core.DefaultInstanceManager <init>
+SEVERE: "Restricted listeners property file not found
+Jul 11, 2017 4:54:54 PM org.apache.catalina.core.DefaultInstanceManager <init>
+SEVERE: "Restricted listeners property file not found
+Jul 11, 2017 4:54:54 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Jul 11, 2017 4:54:54 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Jul 11, 2017 4:54:54 PM org.apache.catalina.core.DefaultInstanceManager <init>
+SEVERE: "Restricted listeners property file not found
+Jul 11, 2017 4:55:54 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('7C4FE85C93C8A183CFBE3376A9AAE78E')
+Jul 11, 2017 4:55:54 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('8961B859D47A76CAE136D1A734FC3973')
+Jul 11, 2017 4:55:54 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('E8C5F73238544F37444B36B7759201A5')
+Jul 11, 2017 4:55:54 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('D19FD20DCDF911E4006D50275343B98D')
+Jul 11, 2017 4:55:54 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('FD5F870873D0E3E9333053640AF2E732')
+Jul 11, 2017 4:55:54 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('BA420E9648281EB91413620427065C4F')
+Jul 11, 2017 4:55:54 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('DC9C6D995C258AE3FD10019763C032CB')
+Jul 11, 2017 4:55:54 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('E4A4D45C612BFC7EA2038B235FD65EA6')
+Jul 11, 2017 4:55:54 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('EE322DC84D97050A6DDFAB7FCDBBCA92')
+Jul 11, 2017 4:55:54 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('5313214FBDBAF82AA643BDC31E2EDC26')
+Jul 11, 2017 4:55:54 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('1672757039A3C1B4D9FF4E5CA5650258')
+Jul 11, 2017 4:56:14 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+java.lang.ClassNotFoundException: fr.inria.spirals.npefix.resi.exception.ForceReturn
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at org.apache.jasper.compiler.JspDocumentParser.parse(JspDocumentParser.java:157)
+	at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:200)
+	at org.apache.jasper.compiler.ParserController.parse(ParserController.java:103)
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:153)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:314)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:294)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:281)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:561)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:312)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:337)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:266)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:433)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jul 11, 2017 4:56:19 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+java.lang.ClassNotFoundException: fr.inria.spirals.npefix.resi.exception.ForceReturn
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at org.apache.jasper.compiler.JspDocumentParser.parse(JspDocumentParser.java:157)
+	at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:200)
+	at org.apache.jasper.compiler.ParserController.parse(ParserController.java:103)
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:153)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:314)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:294)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:281)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:561)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:312)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:337)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:266)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:433)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jul 11, 2017 4:56:24 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+java.lang.ClassNotFoundException: fr.inria.spirals.npefix.resi.exception.ForceReturn
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at org.apache.jasper.compiler.JspDocumentParser.parse(JspDocumentParser.java:157)
+	at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:200)
+	at org.apache.jasper.compiler.ParserController.parse(ParserController.java:103)
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:153)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:314)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:294)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:281)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:561)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:312)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:337)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:266)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:433)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jul 11, 2017 4:56:29 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+java.lang.ClassNotFoundException: fr.inria.spirals.npefix.resi.exception.ForceReturn
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at org.apache.jasper.compiler.JspDocumentParser.parse(JspDocumentParser.java:157)
+	at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:200)
+	at org.apache.jasper.compiler.ParserController.parse(ParserController.java:103)
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:153)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:314)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:294)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:281)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:561)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:312)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:337)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:266)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:433)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jul 11, 2017 4:57:10 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+Jul 11, 2017 4:57:10 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+Jul 11, 2017 4:58:16 PM org.apache.catalina.core.DefaultInstanceManager <init>
+SEVERE: "Restricted listeners property file not found
+Jul 11, 2017 4:58:16 PM org.apache.catalina.core.DefaultInstanceManager <init>
+SEVERE: "Restricted listeners property file not found
+Jul 11, 2017 4:58:16 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Jul 11, 2017 4:58:16 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Jul 11, 2017 4:58:16 PM org.apache.catalina.core.DefaultInstanceManager <init>
+SEVERE: "Restricted listeners property file not found
+Jul 11, 2017 4:58:23 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 3 in the jsp file: /bug43758.jsp
+Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+1: <jsp:root xmlns:jsp="http://java.sun.com/JSP/Page"
+2: xmlns="http://www.w3.org/1999/xhtml" version="2.0">
+3: <jsp:scriptlet></jsp:scriptlet>
+4: <html>
+5: <head><title>Simple jspx page</title></head>
+6: <body>Place content here</body>
+
+
+An error occurred at line: 3 in the jsp file: /bug43758.jsp
+Syntax error, insert ";" to complete Statement
+1: <jsp:root xmlns:jsp="http://java.sun.com/JSP/Page"
+2: xmlns="http://www.w3.org/1999/xhtml" version="2.0">
+3: <jsp:scriptlet></jsp:scriptlet>
+4: <html>
+5: <head><title>Simple jspx page</title></head>
+6: <body>Place content here</body>
+
+
+An error occurred at line: 3 in the jsp file: /bug43758.jsp
+The left-hand side of an assignment must be a variable
+1: <jsp:root xmlns:jsp="http://java.sun.com/JSP/Page"
+2: xmlns="http://www.w3.org/1999/xhtml" version="2.0">
+3: <jsp:scriptlet></jsp:scriptlet>
+4: <html>
+5: <head><title>Simple jspx page</title></head>
+6: <body>Place content here</body>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:92)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:330)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:423)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:316)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:294)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:281)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:561)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:312)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:337)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:266)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:433)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jul 11, 2017 4:58:29 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 3 in the jsp file: /bug43758.jsp
+Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+1: <jsp:root xmlns:jsp="http://java.sun.com/JSP/Page"
+2: xmlns="http://www.w3.org/1999/xhtml" version="2.0">
+3: <jsp:scriptlet></jsp:scriptlet>
+4: <html>
+5: <head><title>Simple jspx page</title></head>
+6: <body>Place content here</body>
+
+
+An error occurred at line: 3 in the jsp file: /bug43758.jsp
+Syntax error, insert ";" to complete Statement
+1: <jsp:root xmlns:jsp="http://java.sun.com/JSP/Page"
+2: xmlns="http://www.w3.org/1999/xhtml" version="2.0">
+3: <jsp:scriptlet></jsp:scriptlet>
+4: <html>
+5: <head><title>Simple jspx page</title></head>
+6: <body>Place content here</body>
+
+
+An error occurred at line: 3 in the jsp file: /bug43758.jsp
+The left-hand side of an assignment must be a variable
+1: <jsp:root xmlns:jsp="http://java.sun.com/JSP/Page"
+2: xmlns="http://www.w3.org/1999/xhtml" version="2.0">
+3: <jsp:scriptlet></jsp:scriptlet>
+4: <html>
+5: <head><title>Simple jspx page</title></head>
+6: <body>Place content here</body>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:92)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:330)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:423)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:316)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:294)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:281)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:561)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:312)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:337)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:266)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:433)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jul 11, 2017 4:58:34 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+java.lang.NullPointerException
+	at org.apache.jasper.compiler.SmapUtil$SmapGenVisitor.doSmapText(SmapUtil.java:1399)
+	at org.apache.jasper.compiler.SmapUtil$SmapGenVisitor.visit(SmapUtil.java:970)
+	at org.apache.jasper.compiler.Node$Scriptlet.accept(Node.java:1410)
+	at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:6914)
+	at org.apache.jasper.compiler.Node$Visitor.visitBody(Node.java:7047)
+	at org.apache.jasper.compiler.SmapUtil$SmapGenVisitor.visitBody(SmapUtil.java:917)
+	at org.apache.jasper.compiler.Node$Visitor.visit(Node.java:7080)
+	at org.apache.jasper.compiler.Node$JspRoot.accept(Node.java:537)
+	at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:6914)
+	at org.apache.jasper.compiler.Node$Visitor.visitBody(Node.java:7047)
+	at org.apache.jasper.compiler.SmapUtil$SmapGenVisitor.visitBody(SmapUtil.java:917)
+	at org.apache.jasper.compiler.Node$Visitor.visit(Node.java:7065)
+	at org.apache.jasper.compiler.Node$Root.accept(Node.java:97)
+	at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:6914)
+	at org.apache.jasper.compiler.SmapUtil.evaluateNodes(SmapUtil.java:1801)
+	at org.apache.jasper.compiler.SmapUtil.generateSmap(SmapUtil.java:1554)
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:237)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:314)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:294)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:281)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:561)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:312)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:337)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:266)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:433)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jul 11, 2017 4:58:39 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 3 in the jsp file: /bug43758.jsp
+Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+1: <jsp:root xmlns:jsp="http://java.sun.com/JSP/Page"
+2: xmlns="http://www.w3.org/1999/xhtml" version="2.0">
+3: <jsp:scriptlet></jsp:scriptlet>
+4: <html>
+5: <head><title>Simple jspx page</title></head>
+6: <body>Place content here</body>
+
+
+An error occurred at line: 3 in the jsp file: /bug43758.jsp
+Syntax error, insert ";" to complete Statement
+1: <jsp:root xmlns:jsp="http://java.sun.com/JSP/Page"
+2: xmlns="http://www.w3.org/1999/xhtml" version="2.0">
+3: <jsp:scriptlet></jsp:scriptlet>
+4: <html>
+5: <head><title>Simple jspx page</title></head>
+6: <body>Place content here</body>
+
+
+An error occurred at line: 3 in the jsp file: /bug43758.jsp
+The left-hand side of an assignment must be a variable
+1: <jsp:root xmlns:jsp="http://java.sun.com/JSP/Page"
+2: xmlns="http://www.w3.org/1999/xhtml" version="2.0">
+3: <jsp:scriptlet></jsp:scriptlet>
+4: <html>
+5: <head><title>Simple jspx page</title></head>
+6: <body>Place content here</body>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:92)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:330)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:423)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:316)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:294)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:281)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:561)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:312)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:337)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:266)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:433)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jul 11, 2017 4:58:45 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 3 in the jsp file: /bug43758.jsp
+Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+1: <jsp:root xmlns:jsp="http://java.sun.com/JSP/Page"
+2: xmlns="http://www.w3.org/1999/xhtml" version="2.0">
+3: <jsp:scriptlet></jsp:scriptlet>
+4: <html>
+5: <head><title>Simple jspx page</title></head>
+6: <body>Place content here</body>
+
+
+An error occurred at line: 3 in the jsp file: /bug43758.jsp
+Syntax error, insert ";" to complete Statement
+1: <jsp:root xmlns:jsp="http://java.sun.com/JSP/Page"
+2: xmlns="http://www.w3.org/1999/xhtml" version="2.0">
+3: <jsp:scriptlet></jsp:scriptlet>
+4: <html>
+5: <head><title>Simple jspx page</title></head>
+6: <body>Place content here</body>
+
+
+An error occurred at line: 3 in the jsp file: /bug43758.jsp
+The left-hand side of an assignment must be a variable
+1: <jsp:root xmlns:jsp="http://java.sun.com/JSP/Page"
+2: xmlns="http://www.w3.org/1999/xhtml" version="2.0">
+3: <jsp:scriptlet></jsp:scriptlet>
+4: <html>
+5: <head><title>Simple jspx page</title></head>
+6: <body>Place content here</body>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:92)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:330)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:423)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:316)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:294)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:281)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:561)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:312)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:337)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:266)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:433)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jul 11, 2017 4:58:50 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+java.lang.NullPointerException
+	at org.apache.jasper.compiler.SmapUtil$SmapGenVisitor.doSmapText(SmapUtil.java:1399)
+	at org.apache.jasper.compiler.SmapUtil$SmapGenVisitor.visit(SmapUtil.java:970)
+	at org.apache.jasper.compiler.Node$Scriptlet.accept(Node.java:1410)
+	at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:6914)
+	at org.apache.jasper.compiler.Node$Visitor.visitBody(Node.java:7047)
+	at org.apache.jasper.compiler.SmapUtil$SmapGenVisitor.visitBody(SmapUtil.java:917)
+	at org.apache.jasper.compiler.Node$Visitor.visit(Node.java:7080)
+	at org.apache.jasper.compiler.Node$JspRoot.accept(Node.java:537)
+	at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:6914)
+	at org.apache.jasper.compiler.Node$Visitor.visitBody(Node.java:7047)
+	at org.apache.jasper.compiler.SmapUtil$SmapGenVisitor.visitBody(SmapUtil.java:917)
+	at org.apache.jasper.compiler.Node$Visitor.visit(Node.java:7065)
+	at org.apache.jasper.compiler.Node$Root.accept(Node.java:97)
+	at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:6914)
+	at org.apache.jasper.compiler.SmapUtil.evaluateNodes(SmapUtil.java:1801)
+	at org.apache.jasper.compiler.SmapUtil.generateSmap(SmapUtil.java:1554)
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:237)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:314)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:294)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:281)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:561)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:312)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:337)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:266)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:433)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jul 11, 2017 4:58:55 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 3 in the jsp file: /bug43758.jsp
+Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+1: <jsp:root xmlns:jsp="http://java.sun.com/JSP/Page"
+2: xmlns="http://www.w3.org/1999/xhtml" version="2.0">
+3: <jsp:scriptlet></jsp:scriptlet>
+4: <html>
+5: <head><title>Simple jspx page</title></head>
+6: <body>Place content here</body>
+
+
+An error occurred at line: 3 in the jsp file: /bug43758.jsp
+Syntax error, insert ";" to complete Statement
+1: <jsp:root xmlns:jsp="http://java.sun.com/JSP/Page"
+2: xmlns="http://www.w3.org/1999/xhtml" version="2.0">
+3: <jsp:scriptlet></jsp:scriptlet>
+4: <html>
+5: <head><title>Simple jspx page</title></head>
+6: <body>Place content here</body>
+
+
+An error occurred at line: 3 in the jsp file: /bug43758.jsp
+The left-hand side of an assignment must be a variable
+1: <jsp:root xmlns:jsp="http://java.sun.com/JSP/Page"
+2: xmlns="http://www.w3.org/1999/xhtml" version="2.0">
+3: <jsp:scriptlet></jsp:scriptlet>
+4: <html>
+5: <head><title>Simple jspx page</title></head>
+6: <body>Place content here</body>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:92)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:330)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:423)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:316)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:294)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:281)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:561)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:312)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:337)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:266)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:433)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jul 11, 2017 4:59:01 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 3 in the jsp file: /bug43758.jsp
+Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+1: <jsp:root xmlns:jsp="http://java.sun.com/JSP/Page"
+2: xmlns="http://www.w3.org/1999/xhtml" version="2.0">
+3: <jsp:scriptlet></jsp:scriptlet>
+4: <html>
+5: <head><title>Simple jspx page</title></head>
+6: <body>Place content here</body>
+
+
+An error occurred at line: 3 in the jsp file: /bug43758.jsp
+Syntax error, insert ";" to complete Statement
+1: <jsp:root xmlns:jsp="http://java.sun.com/JSP/Page"
+2: xmlns="http://www.w3.org/1999/xhtml" version="2.0">
+3: <jsp:scriptlet></jsp:scriptlet>
+4: <html>
+5: <head><title>Simple jspx page</title></head>
+6: <body>Place content here</body>
+
+
+An error occurred at line: 3 in the jsp file: /bug43758.jsp
+The left-hand side of an assignment must be a variable
+1: <jsp:root xmlns:jsp="http://java.sun.com/JSP/Page"
+2: xmlns="http://www.w3.org/1999/xhtml" version="2.0">
+3: <jsp:scriptlet></jsp:scriptlet>
+4: <html>
+5: <head><title>Simple jspx page</title></head>
+6: <body>Place content here</body>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:92)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:330)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:423)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:316)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:294)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:281)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:561)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:312)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:337)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:266)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:433)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jul 11, 2017 4:59:06 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+java.lang.RuntimeException: No more available decision
+	at fr.inria.spirals.npefix.resi.selector.ExplorerSelector.select(ExplorerSelector.java:98)
+	at sun.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:323)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$84(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:275)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:252)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:161)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:194)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:148)
+	at com.sun.proxy.$Proxy0.select(Unknown Source)
+	at fr.inria.spirals.npefix.resi.CallChecker.getDecision(CallChecker.java:74)
+	at fr.inria.spirals.npefix.resi.CallChecker.called(CallChecker.java:178)
+	at fr.inria.spirals.npefix.resi.CallChecker.beforeCalled(CallChecker.java:219)
+	at org.apache.jasper.compiler.SmapUtil$SmapGenVisitor.doSmapText(SmapUtil.java:1398)
+	at org.apache.jasper.compiler.SmapUtil$SmapGenVisitor.visit(SmapUtil.java:970)
+	at org.apache.jasper.compiler.Node$Scriptlet.accept(Node.java:1410)
+	at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:6914)
+	at org.apache.jasper.compiler.Node$Visitor.visitBody(Node.java:7047)
+	at org.apache.jasper.compiler.SmapUtil$SmapGenVisitor.visitBody(SmapUtil.java:917)
+	at org.apache.jasper.compiler.Node$Visitor.visit(Node.java:7080)
+	at org.apache.jasper.compiler.Node$JspRoot.accept(Node.java:537)
+	at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:6914)
+	at org.apache.jasper.compiler.Node$Visitor.visitBody(Node.java:7047)
+	at org.apache.jasper.compiler.SmapUtil$SmapGenVisitor.visitBody(SmapUtil.java:917)
+	at org.apache.jasper.compiler.Node$Visitor.visit(Node.java:7065)
+	at org.apache.jasper.compiler.Node$Root.accept(Node.java:97)
+	at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:6914)
+	at org.apache.jasper.compiler.SmapUtil.evaluateNodes(SmapUtil.java:1801)
+	at org.apache.jasper.compiler.SmapUtil.generateSmap(SmapUtil.java:1554)
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:237)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:314)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:294)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:281)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:561)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:312)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:337)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:266)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:433)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jul 11, 2017 4:59:12 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.runtime.JspApplicationContextImpl', 'org.apache.jasper.runtime.JspApplicationContextImpl@61422dd9')
+Jul 11, 2017 4:59:12 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('FB9C60348DC29CB887EDD6095E57D669')
+Jul 11, 2017 4:59:17 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('B7D806C9AAD0DF147EEFFA0C6BBB4172')
+Jul 11, 2017 4:59:22 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('B5E6BAB4366553C81DA4F9823D6045D0')
+Jul 11, 2017 4:59:27 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('561AE28B0E10FD8535821C2A39CA5523')
+Jul 11, 2017 4:59:32 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('A30526BF26179301CFE84E718411451D')
+Jul 11, 2017 4:59:37 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('2DCCA839A7B839D8F3AC07341728EEA2')
+Jul 11, 2017 4:59:42 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('0CB5BA830DD63B0FFD1CD16D53949A75')
+Jul 11, 2017 4:59:48 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('475581F270C0DA039D98FB11B3B4F6DA')
+Jul 11, 2017 4:59:53 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('CD81EA1DF21A7D43CEEBF459E5E1BF2E')
+Jul 11, 2017 4:59:58 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('90227B3D9BAAA668AA7DEFC09D7EEEC6')
+Jul 11, 2017 5:00:03 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('CDA05ADE16F1E136DC7D9034B6208E9C')
+Jul 11, 2017 5:00:24 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+Jul 11, 2017 5:00:24 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()

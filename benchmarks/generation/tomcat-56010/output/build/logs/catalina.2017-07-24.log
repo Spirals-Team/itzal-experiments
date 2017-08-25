@@ -1,0 +1,613 @@
+24-Jul-2017 16:10:18.989 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+24-Jul-2017 16:10:19.168 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Jul-2017 16:10:19.179 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Jul-2017 16:10:19.183 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2017 16:10:19.185 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Jul-2017 16:10:19.188 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 479 ms
+24-Jul-2017 16:10:19.221 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+24-Jul-2017 16:10:19.221 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.0-dev
+24-Jul-2017 16:10:19.256 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /mnt/secondary/npe-dataset/tomcat-56010/output/build/webapps/bug56010.war
+24-Jul-2017 16:10:20.001 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Jul-2017 16:10:20.065 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /mnt/secondary/npe-dataset/tomcat-56010/output/build/webapps/manager
+24-Jul-2017 16:10:20.117 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /mnt/secondary/npe-dataset/tomcat-56010/output/build/webapps/ROOT
+24-Jul-2017 16:10:20.145 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /mnt/secondary/npe-dataset/tomcat-56010/output/build/webapps/host-manager
+24-Jul-2017 16:10:20.177 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /mnt/secondary/npe-dataset/tomcat-56010/output/build/webapps/examples
+24-Jul-2017 16:10:20.474 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /mnt/secondary/npe-dataset/tomcat-56010/output/build/webapps/docs
+24-Jul-2017 16:10:20.521 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Jul-2017 16:10:20.526 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2017 16:10:20.527 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1339 ms
+24-Jul-2017 18:29:16.350 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-Jul-2017 18:29:16.404 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2017 18:29:16.455 INFO [Thread-6] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+24-Jul-2017 18:29:16.487 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-Jul-2017 18:29:16.541 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2017 18:29:16.541 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-Jul-2017 18:29:16.542 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2017 18:29:42.793 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+24-Jul-2017 18:29:43.010 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Jul-2017 18:29:43.023 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Jul-2017 18:29:43.026 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2017 18:29:43.028 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Jul-2017 18:29:43.028 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 622 ms
+24-Jul-2017 18:29:43.055 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+24-Jul-2017 18:29:43.056 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.0-dev
+24-Jul-2017 18:29:43.098 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /mnt/secondary/npe-dataset/tomcat-56010/output/build/webapps/bug56010.war
+24-Jul-2017 18:29:44.325 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Jul-2017 18:29:44.378 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /mnt/secondary/npe-dataset/tomcat-56010/output/build/webapps/manager
+24-Jul-2017 18:29:45.059 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Jul-2017 18:29:45.063 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /mnt/secondary/npe-dataset/tomcat-56010/output/build/webapps/ROOT
+24-Jul-2017 18:29:45.516 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Jul-2017 18:29:45.518 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /mnt/secondary/npe-dataset/tomcat-56010/output/build/webapps/host-manager
+24-Jul-2017 18:29:46.014 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Jul-2017 18:29:46.016 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /mnt/secondary/npe-dataset/tomcat-56010/output/build/webapps/examples
+24-Jul-2017 18:29:46.825 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /mnt/secondary/npe-dataset/tomcat-56010/output/build/webapps/docs
+24-Jul-2017 18:29:47.488 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Jul-2017 18:29:47.492 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Jul-2017 18:29:47.495 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2017 18:29:47.496 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 4467 ms
+24-Jul-2017 18:30:43.955 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-Jul-2017 18:30:44.007 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2017 18:30:44.058 INFO [Thread-6] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+24-Jul-2017 18:30:44.128 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-Jul-2017 18:30:44.216 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2017 18:30:44.217 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-Jul-2017 18:30:44.218 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2017 18:31:01.986 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+24-Jul-2017 18:31:02.184 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Jul-2017 18:31:02.203 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Jul-2017 18:31:02.208 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2017 18:31:02.212 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Jul-2017 18:31:02.213 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 577 ms
+24-Jul-2017 18:31:02.252 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+24-Jul-2017 18:31:02.253 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.0-dev
+24-Jul-2017 18:31:02.281 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /mnt/secondary/npe-dataset/tomcat-56010/output/build/webapps/bug56010.war
+24-Jul-2017 18:31:03.139 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ContextConfig.processAnnotationsJar contextConfig.jarFile
+ java.io.FileNotFoundException: /home/thomas/git/spoon/target/spoon-core-5.8.0.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:215)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:145)
+	at java.util.jar.JarFile.<init>(JarFile.java:154)
+	at java.util.jar.JarFile.<init>(JarFile.java:91)
+	at sun.net.www.protocol.jar.URLJarFile.<init>(URLJarFile.java:93)
+	at sun.net.www.protocol.jar.URLJarFile.getJarFile(URLJarFile.java:69)
+	at sun.net.www.protocol.jar.JarFileFactory.get(JarFileFactory.java:99)
+	at sun.net.www.protocol.jar.JarURLConnection.connect(JarURLConnection.java:122)
+	at sun.net.www.protocol.jar.JarURLConnection.getJarFile(JarURLConnection.java:89)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:47)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:36)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsJar(ContextConfig.java:1958)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsUrl(ContextConfig.java:1935)
+	at org.apache.catalina.startup.ContextConfig.processAnnotations(ContextConfig.java:1886)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1148)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:770)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:305)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5036)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:702)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:699)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:977)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1763)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+24-Jul-2017 18:31:03.185 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ContextConfig.processResourceJARs Failed to processes JAR found at URL [jar:file:/home/thomas/git/spoon/target/spoon-core-5.8.0.jar!/] for static resources to be included in context with name [jar:file:/home/thomas/git/spoon/target/spoon-core-5.8.0.jar!/]
+24-Jul-2017 18:31:03.254 WARNING [localhost-startStop-1] org.apache.tomcat.util.scan.StandardJarScanner.scan Failed to scan [file:/home/thomas/git/spoon/target/spoon-core-5.8.0.jar] from classloader hierarchy
+ java.io.FileNotFoundException: /home/thomas/git/spoon/target/spoon-core-5.8.0.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:215)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:145)
+	at java.util.jar.JarFile.<init>(JarFile.java:154)
+	at java.util.jar.JarFile.<init>(JarFile.java:91)
+	at sun.net.www.protocol.jar.URLJarFile.<init>(URLJarFile.java:93)
+	at sun.net.www.protocol.jar.URLJarFile.getJarFile(URLJarFile.java:69)
+	at sun.net.www.protocol.jar.JarFileFactory.get(JarFileFactory.java:99)
+	at sun.net.www.protocol.jar.JarURLConnection.connect(JarURLConnection.java:122)
+	at sun.net.www.protocol.jar.JarURLConnection.getJarFile(JarURLConnection.java:89)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:47)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:36)
+	at org.apache.jasper.servlet.TldScanner$TldScannerCallback.scan(TldScanner.java:281)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:300)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:231)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:240)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:99)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:95)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:702)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:699)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:977)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1763)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+24-Jul-2017 18:31:03.259 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Jul-2017 18:31:03.311 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /mnt/secondary/npe-dataset/tomcat-56010/output/build/webapps/manager
+24-Jul-2017 18:31:03.404 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ContextConfig.processAnnotationsJar contextConfig.jarFile
+ java.io.FileNotFoundException: /home/thomas/git/spoon/target/spoon-core-5.8.0.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:215)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:145)
+	at java.util.jar.JarFile.<init>(JarFile.java:154)
+	at java.util.jar.JarFile.<init>(JarFile.java:91)
+	at sun.net.www.protocol.jar.URLJarFile.<init>(URLJarFile.java:93)
+	at sun.net.www.protocol.jar.URLJarFile.getJarFile(URLJarFile.java:69)
+	at sun.net.www.protocol.jar.JarFileFactory.get(JarFileFactory.java:99)
+	at sun.net.www.protocol.jar.JarURLConnection.connect(JarURLConnection.java:122)
+	at sun.net.www.protocol.jar.JarURLConnection.getJarFile(JarURLConnection.java:89)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:47)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:36)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsJar(ContextConfig.java:1958)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsUrl(ContextConfig.java:1935)
+	at org.apache.catalina.startup.ContextConfig.processAnnotations(ContextConfig.java:1886)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1148)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:770)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:305)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5036)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:702)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:699)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1135)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1781)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+24-Jul-2017 18:31:03.415 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ContextConfig.processResourceJARs Failed to processes JAR found at URL [jar:file:/home/thomas/git/spoon/target/spoon-core-5.8.0.jar!/] for static resources to be included in context with name [jar:file:/home/thomas/git/spoon/target/spoon-core-5.8.0.jar!/]
+24-Jul-2017 18:31:03.421 WARNING [localhost-startStop-1] org.apache.tomcat.util.scan.StandardJarScanner.scan Failed to scan [file:/home/thomas/git/spoon/target/spoon-core-5.8.0.jar] from classloader hierarchy
+ java.io.FileNotFoundException: /home/thomas/git/spoon/target/spoon-core-5.8.0.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:215)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:145)
+	at java.util.jar.JarFile.<init>(JarFile.java:154)
+	at java.util.jar.JarFile.<init>(JarFile.java:91)
+	at sun.net.www.protocol.jar.URLJarFile.<init>(URLJarFile.java:93)
+	at sun.net.www.protocol.jar.URLJarFile.getJarFile(URLJarFile.java:69)
+	at sun.net.www.protocol.jar.JarFileFactory.get(JarFileFactory.java:99)
+	at sun.net.www.protocol.jar.JarURLConnection.connect(JarURLConnection.java:122)
+	at sun.net.www.protocol.jar.JarURLConnection.getJarFile(JarURLConnection.java:89)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:47)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:36)
+	at org.apache.jasper.servlet.TldScanner$TldScannerCallback.scan(TldScanner.java:281)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:300)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:231)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:240)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:99)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:95)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:702)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:699)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1135)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1781)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+24-Jul-2017 18:31:03.422 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Jul-2017 18:31:03.430 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /mnt/secondary/npe-dataset/tomcat-56010/output/build/webapps/ROOT
+24-Jul-2017 18:31:03.515 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ContextConfig.processAnnotationsJar contextConfig.jarFile
+ java.io.FileNotFoundException: /home/thomas/git/spoon/target/spoon-core-5.8.0.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:215)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:145)
+	at java.util.jar.JarFile.<init>(JarFile.java:154)
+	at java.util.jar.JarFile.<init>(JarFile.java:91)
+	at sun.net.www.protocol.jar.URLJarFile.<init>(URLJarFile.java:93)
+	at sun.net.www.protocol.jar.URLJarFile.getJarFile(URLJarFile.java:69)
+	at sun.net.www.protocol.jar.JarFileFactory.get(JarFileFactory.java:99)
+	at sun.net.www.protocol.jar.JarURLConnection.connect(JarURLConnection.java:122)
+	at sun.net.www.protocol.jar.JarURLConnection.getJarFile(JarURLConnection.java:89)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:47)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:36)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsJar(ContextConfig.java:1958)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsUrl(ContextConfig.java:1935)
+	at org.apache.catalina.startup.ContextConfig.processAnnotations(ContextConfig.java:1886)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1148)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:770)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:305)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5036)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:702)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:699)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1135)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1781)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+24-Jul-2017 18:31:03.563 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ContextConfig.processResourceJARs Failed to processes JAR found at URL [jar:file:/home/thomas/git/spoon/target/spoon-core-5.8.0.jar!/] for static resources to be included in context with name [jar:file:/home/thomas/git/spoon/target/spoon-core-5.8.0.jar!/]
+24-Jul-2017 18:31:03.569 WARNING [localhost-startStop-1] org.apache.tomcat.util.scan.StandardJarScanner.scan Failed to scan [file:/home/thomas/git/spoon/target/spoon-core-5.8.0.jar] from classloader hierarchy
+ java.io.FileNotFoundException: /home/thomas/git/spoon/target/spoon-core-5.8.0.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:215)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:145)
+	at java.util.jar.JarFile.<init>(JarFile.java:154)
+	at java.util.jar.JarFile.<init>(JarFile.java:91)
+	at sun.net.www.protocol.jar.URLJarFile.<init>(URLJarFile.java:93)
+	at sun.net.www.protocol.jar.URLJarFile.getJarFile(URLJarFile.java:69)
+	at sun.net.www.protocol.jar.JarFileFactory.get(JarFileFactory.java:99)
+	at sun.net.www.protocol.jar.JarURLConnection.connect(JarURLConnection.java:122)
+	at sun.net.www.protocol.jar.JarURLConnection.getJarFile(JarURLConnection.java:89)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:47)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:36)
+	at org.apache.jasper.servlet.TldScanner$TldScannerCallback.scan(TldScanner.java:281)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:300)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:231)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:240)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:99)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:95)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:702)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:699)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1135)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1781)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+24-Jul-2017 18:31:03.572 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Jul-2017 18:31:03.575 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /mnt/secondary/npe-dataset/tomcat-56010/output/build/webapps/host-manager
+24-Jul-2017 18:31:03.648 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ContextConfig.processAnnotationsJar contextConfig.jarFile
+ java.io.FileNotFoundException: /home/thomas/git/spoon/target/spoon-core-5.8.0.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:215)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:145)
+	at java.util.jar.JarFile.<init>(JarFile.java:154)
+	at java.util.jar.JarFile.<init>(JarFile.java:91)
+	at sun.net.www.protocol.jar.URLJarFile.<init>(URLJarFile.java:93)
+	at sun.net.www.protocol.jar.URLJarFile.getJarFile(URLJarFile.java:69)
+	at sun.net.www.protocol.jar.JarFileFactory.get(JarFileFactory.java:99)
+	at sun.net.www.protocol.jar.JarURLConnection.connect(JarURLConnection.java:122)
+	at sun.net.www.protocol.jar.JarURLConnection.getJarFile(JarURLConnection.java:89)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:47)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:36)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsJar(ContextConfig.java:1958)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsUrl(ContextConfig.java:1935)
+	at org.apache.catalina.startup.ContextConfig.processAnnotations(ContextConfig.java:1886)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1148)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:770)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:305)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5036)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:702)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:699)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1135)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1781)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+24-Jul-2017 18:31:03.659 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ContextConfig.processResourceJARs Failed to processes JAR found at URL [jar:file:/home/thomas/git/spoon/target/spoon-core-5.8.0.jar!/] for static resources to be included in context with name [jar:file:/home/thomas/git/spoon/target/spoon-core-5.8.0.jar!/]
+24-Jul-2017 18:31:03.663 WARNING [localhost-startStop-1] org.apache.tomcat.util.scan.StandardJarScanner.scan Failed to scan [file:/home/thomas/git/spoon/target/spoon-core-5.8.0.jar] from classloader hierarchy
+ java.io.FileNotFoundException: /home/thomas/git/spoon/target/spoon-core-5.8.0.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:215)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:145)
+	at java.util.jar.JarFile.<init>(JarFile.java:154)
+	at java.util.jar.JarFile.<init>(JarFile.java:91)
+	at sun.net.www.protocol.jar.URLJarFile.<init>(URLJarFile.java:93)
+	at sun.net.www.protocol.jar.URLJarFile.getJarFile(URLJarFile.java:69)
+	at sun.net.www.protocol.jar.JarFileFactory.get(JarFileFactory.java:99)
+	at sun.net.www.protocol.jar.JarURLConnection.connect(JarURLConnection.java:122)
+	at sun.net.www.protocol.jar.JarURLConnection.getJarFile(JarURLConnection.java:89)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:47)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:36)
+	at org.apache.jasper.servlet.TldScanner$TldScannerCallback.scan(TldScanner.java:281)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:300)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:231)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:240)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:99)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:95)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:702)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:699)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1135)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1781)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+24-Jul-2017 18:31:03.664 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Jul-2017 18:31:03.666 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /mnt/secondary/npe-dataset/tomcat-56010/output/build/webapps/examples
+24-Jul-2017 18:31:03.857 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ContextConfig.processAnnotationsJar contextConfig.jarFile
+ java.io.FileNotFoundException: /home/thomas/git/spoon/target/spoon-core-5.8.0.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:215)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:145)
+	at java.util.jar.JarFile.<init>(JarFile.java:154)
+	at java.util.jar.JarFile.<init>(JarFile.java:91)
+	at sun.net.www.protocol.jar.URLJarFile.<init>(URLJarFile.java:93)
+	at sun.net.www.protocol.jar.URLJarFile.getJarFile(URLJarFile.java:69)
+	at sun.net.www.protocol.jar.JarFileFactory.get(JarFileFactory.java:99)
+	at sun.net.www.protocol.jar.JarURLConnection.connect(JarURLConnection.java:122)
+	at sun.net.www.protocol.jar.JarURLConnection.getJarFile(JarURLConnection.java:89)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:47)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:36)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsJar(ContextConfig.java:1958)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsUrl(ContextConfig.java:1935)
+	at org.apache.catalina.startup.ContextConfig.processAnnotations(ContextConfig.java:1886)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1148)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:770)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:305)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5036)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:702)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:699)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1135)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1781)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+24-Jul-2017 18:31:03.872 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ContextConfig.processResourceJARs Failed to processes JAR found at URL [jar:file:/home/thomas/git/spoon/target/spoon-core-5.8.0.jar!/] for static resources to be included in context with name [jar:file:/home/thomas/git/spoon/target/spoon-core-5.8.0.jar!/]
+24-Jul-2017 18:31:04.047 WARNING [localhost-startStop-1] org.apache.tomcat.util.scan.StandardJarScanner.scan Failed to scan [file:/home/thomas/git/spoon/target/spoon-core-5.8.0.jar] from classloader hierarchy
+ java.io.FileNotFoundException: /home/thomas/git/spoon/target/spoon-core-5.8.0.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:215)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:145)
+	at java.util.jar.JarFile.<init>(JarFile.java:154)
+	at java.util.jar.JarFile.<init>(JarFile.java:91)
+	at sun.net.www.protocol.jar.URLJarFile.<init>(URLJarFile.java:93)
+	at sun.net.www.protocol.jar.URLJarFile.getJarFile(URLJarFile.java:69)
+	at sun.net.www.protocol.jar.JarFileFactory.get(JarFileFactory.java:99)
+	at sun.net.www.protocol.jar.JarURLConnection.connect(JarURLConnection.java:122)
+	at sun.net.www.protocol.jar.JarURLConnection.getJarFile(JarURLConnection.java:89)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:47)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:36)
+	at org.apache.jasper.servlet.TldScanner$TldScannerCallback.scan(TldScanner.java:281)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:300)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:231)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:240)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:99)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:95)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:702)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:699)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1135)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1781)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+24-Jul-2017 18:31:04.100 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /mnt/secondary/npe-dataset/tomcat-56010/output/build/webapps/docs
+24-Jul-2017 18:31:04.169 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ContextConfig.processAnnotationsJar contextConfig.jarFile
+ java.io.FileNotFoundException: /home/thomas/git/spoon/target/spoon-core-5.8.0.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:215)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:145)
+	at java.util.jar.JarFile.<init>(JarFile.java:154)
+	at java.util.jar.JarFile.<init>(JarFile.java:91)
+	at sun.net.www.protocol.jar.URLJarFile.<init>(URLJarFile.java:93)
+	at sun.net.www.protocol.jar.URLJarFile.getJarFile(URLJarFile.java:69)
+	at sun.net.www.protocol.jar.JarFileFactory.get(JarFileFactory.java:99)
+	at sun.net.www.protocol.jar.JarURLConnection.connect(JarURLConnection.java:122)
+	at sun.net.www.protocol.jar.JarURLConnection.getJarFile(JarURLConnection.java:89)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:47)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:36)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsJar(ContextConfig.java:1958)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsUrl(ContextConfig.java:1935)
+	at org.apache.catalina.startup.ContextConfig.processAnnotations(ContextConfig.java:1886)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1148)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:770)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:305)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5036)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:702)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:699)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1135)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1781)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+24-Jul-2017 18:31:04.177 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ContextConfig.processResourceJARs Failed to processes JAR found at URL [jar:file:/home/thomas/git/spoon/target/spoon-core-5.8.0.jar!/] for static resources to be included in context with name [jar:file:/home/thomas/git/spoon/target/spoon-core-5.8.0.jar!/]
+24-Jul-2017 18:31:04.180 WARNING [localhost-startStop-1] org.apache.tomcat.util.scan.StandardJarScanner.scan Failed to scan [file:/home/thomas/git/spoon/target/spoon-core-5.8.0.jar] from classloader hierarchy
+ java.io.FileNotFoundException: /home/thomas/git/spoon/target/spoon-core-5.8.0.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:215)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:145)
+	at java.util.jar.JarFile.<init>(JarFile.java:154)
+	at java.util.jar.JarFile.<init>(JarFile.java:91)
+	at sun.net.www.protocol.jar.URLJarFile.<init>(URLJarFile.java:93)
+	at sun.net.www.protocol.jar.URLJarFile.getJarFile(URLJarFile.java:69)
+	at sun.net.www.protocol.jar.JarFileFactory.get(JarFileFactory.java:99)
+	at sun.net.www.protocol.jar.JarURLConnection.connect(JarURLConnection.java:122)
+	at sun.net.www.protocol.jar.JarURLConnection.getJarFile(JarURLConnection.java:89)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:47)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:36)
+	at org.apache.jasper.servlet.TldScanner$TldScannerCallback.scan(TldScanner.java:281)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:300)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:231)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:240)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:99)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:95)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:702)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:699)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1135)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1781)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+24-Jul-2017 18:31:04.180 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Jul-2017 18:31:04.184 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Jul-2017 18:31:04.187 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2017 18:31:04.188 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1973 ms
+24-Jul-2017 18:31:09.301 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-Jul-2017 18:31:09.353 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2017 18:31:09.404 INFO [Thread-6] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+24-Jul-2017 18:31:09.454 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-Jul-2017 18:31:09.455 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2017 18:31:09.456 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-Jul-2017 18:31:09.457 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2017 18:31:17.447 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+24-Jul-2017 18:31:17.670 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Jul-2017 18:31:17.688 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Jul-2017 18:31:17.692 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2017 18:31:17.695 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Jul-2017 18:31:17.695 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 585 ms
+24-Jul-2017 18:31:17.729 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+24-Jul-2017 18:31:17.729 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.0-dev
+24-Jul-2017 18:31:17.774 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /mnt/secondary/npe-dataset/tomcat-56010/output/build/webapps/bug56010.war
+24-Jul-2017 18:31:19.015 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Jul-2017 18:31:19.070 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /mnt/secondary/npe-dataset/tomcat-56010/output/build/webapps/manager
+24-Jul-2017 18:31:19.729 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Jul-2017 18:31:19.733 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /mnt/secondary/npe-dataset/tomcat-56010/output/build/webapps/ROOT
+24-Jul-2017 18:31:20.205 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Jul-2017 18:31:20.207 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /mnt/secondary/npe-dataset/tomcat-56010/output/build/webapps/host-manager
+24-Jul-2017 18:31:20.700 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Jul-2017 18:31:20.701 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /mnt/secondary/npe-dataset/tomcat-56010/output/build/webapps/examples
+24-Jul-2017 18:31:21.448 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /mnt/secondary/npe-dataset/tomcat-56010/output/build/webapps/docs
+24-Jul-2017 18:31:22.306 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Jul-2017 18:31:22.312 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Jul-2017 18:31:22.317 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2017 18:31:22.324 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 4628 ms
+24-Jul-2017 18:32:17.843 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-Jul-2017 18:32:17.844 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2017 18:32:17.894 INFO [Thread-6] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+24-Jul-2017 18:32:17.945 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-Jul-2017 18:32:17.946 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2017 18:32:17.947 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-Jul-2017 18:32:17.948 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2017 18:32:19.783 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+24-Jul-2017 18:32:19.992 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Jul-2017 18:32:20.004 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Jul-2017 18:32:20.007 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2017 18:32:20.009 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Jul-2017 18:32:20.009 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 598 ms
+24-Jul-2017 18:32:20.044 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+24-Jul-2017 18:32:20.044 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.0-dev
+24-Jul-2017 18:32:20.099 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /mnt/secondary/npe-dataset/tomcat-56010/output/build/webapps/bug56010.war
+24-Jul-2017 18:32:21.323 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Jul-2017 18:32:21.376 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /mnt/secondary/npe-dataset/tomcat-56010/output/build/webapps/manager
+24-Jul-2017 18:32:22.068 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Jul-2017 18:32:22.072 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /mnt/secondary/npe-dataset/tomcat-56010/output/build/webapps/ROOT
+24-Jul-2017 18:32:22.548 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Jul-2017 18:32:22.553 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /mnt/secondary/npe-dataset/tomcat-56010/output/build/webapps/host-manager
+24-Jul-2017 18:32:23.039 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Jul-2017 18:32:23.041 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /mnt/secondary/npe-dataset/tomcat-56010/output/build/webapps/examples
+24-Jul-2017 18:32:23.857 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /mnt/secondary/npe-dataset/tomcat-56010/output/build/webapps/docs
+24-Jul-2017 18:32:24.562 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Jul-2017 18:32:24.567 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Jul-2017 18:32:24.572 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2017 18:32:24.582 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 4572 ms
+24-Jul-2017 18:34:41.105 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-Jul-2017 18:34:41.156 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2017 18:34:41.207 INFO [Thread-6] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+24-Jul-2017 18:34:41.264 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-Jul-2017 18:34:41.266 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2017 18:34:41.267 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-Jul-2017 18:34:41.267 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2017 18:34:49.213 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+24-Jul-2017 18:34:49.444 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Jul-2017 18:34:49.465 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Jul-2017 18:34:49.485 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2017 18:34:49.491 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Jul-2017 18:34:49.496 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 641 ms
+24-Jul-2017 18:34:49.544 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+24-Jul-2017 18:34:49.545 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.0-dev
+24-Jul-2017 18:34:49.590 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /mnt/secondary/npe-dataset/tomcat-56010/output/build/webapps/bug56010.war
+24-Jul-2017 18:34:50.801 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Jul-2017 18:34:50.843 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /mnt/secondary/npe-dataset/tomcat-56010/output/build/webapps/manager
+24-Jul-2017 18:34:51.467 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Jul-2017 18:34:51.472 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /mnt/secondary/npe-dataset/tomcat-56010/output/build/webapps/ROOT
+24-Jul-2017 18:34:51.943 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Jul-2017 18:34:51.948 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /mnt/secondary/npe-dataset/tomcat-56010/output/build/webapps/host-manager
+24-Jul-2017 18:34:52.367 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Jul-2017 18:34:52.368 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /mnt/secondary/npe-dataset/tomcat-56010/output/build/webapps/examples
+24-Jul-2017 18:34:53.195 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /mnt/secondary/npe-dataset/tomcat-56010/output/build/webapps/docs
+24-Jul-2017 18:34:53.712 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Jul-2017 18:34:53.716 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Jul-2017 18:34:53.719 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2017 18:34:53.720 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 4223 ms
+24-Jul-2017 18:38:42.224 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-Jul-2017 18:38:42.276 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2017 18:38:42.277 INFO [Thread-6] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+24-Jul-2017 18:38:42.345 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-Jul-2017 18:38:42.349 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2017 18:38:42.352 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-Jul-2017 18:38:42.352 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2017 18:38:44.797 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+24-Jul-2017 18:38:45.088 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Jul-2017 18:38:45.110 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Jul-2017 18:38:45.122 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2017 18:38:45.126 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Jul-2017 18:38:45.127 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1149 ms
+24-Jul-2017 18:38:45.202 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+24-Jul-2017 18:38:45.202 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.0-dev
+24-Jul-2017 18:38:45.257 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /mnt/secondary/npe-dataset/tomcat-56010/output/build/webapps/bug56010.war
+24-Jul-2017 18:38:47.503 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Jul-2017 18:38:47.580 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /mnt/secondary/npe-dataset/tomcat-56010/output/build/webapps/manager
+24-Jul-2017 18:38:48.296 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Jul-2017 18:38:48.302 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /mnt/secondary/npe-dataset/tomcat-56010/output/build/webapps/ROOT
+24-Jul-2017 18:38:48.743 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Jul-2017 18:38:48.747 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /mnt/secondary/npe-dataset/tomcat-56010/output/build/webapps/host-manager
+24-Jul-2017 18:38:49.195 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Jul-2017 18:38:49.197 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /mnt/secondary/npe-dataset/tomcat-56010/output/build/webapps/examples
+24-Jul-2017 18:38:49.998 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /mnt/secondary/npe-dataset/tomcat-56010/output/build/webapps/docs
+24-Jul-2017 18:38:50.807 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Jul-2017 18:38:50.812 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Jul-2017 18:38:50.819 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2017 18:38:50.820 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 5692 ms
+24-Jul-2017 18:42:46.624 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-Jul-2017 18:42:46.692 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2017 18:42:46.743 INFO [Thread-6] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+24-Jul-2017 18:42:46.875 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-Jul-2017 18:42:46.880 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+24-Jul-2017 18:42:46.883 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-Jul-2017 18:42:46.884 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1502904094664
+Build-Jdk: 1.7.0_95
+Built-By: thomas
+Bundle-Description: The Apache Commons Parent POM provides common settin
+ gs for all Apache Commons components.
+Bundle-DocURL: http://commons.apache.org/commons-collection/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Commons Lang
+Bundle-SymbolicName: org.apache.commons.commons-collection
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 304.0.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.commons.lang;version=304,org.apache.commons.l
+ ang.builder;version=304,org.apache.commons.lang.enum2;version=304,org.a
+ pache.commons.lang.enums;version=304,org.apache.commons.lang.exception;
+ version=304,org.apache.commons.lang.math;version=304,org.apache.commons
+ .lang.mutable;version=304,org.apache.commons.lang.text;version=304,org.
+ apache.commons.lang.time;version=304
+Tool: Bnd-2.1.0.20130426-122213

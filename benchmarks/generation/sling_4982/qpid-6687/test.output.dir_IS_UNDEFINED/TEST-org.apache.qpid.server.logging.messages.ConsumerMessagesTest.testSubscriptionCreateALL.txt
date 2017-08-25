@@ -1,0 +1,4 @@
+2016-01-19 15:19:27,940 INFO  [main] o.a.q.t.u.QpidTestCase ========== start ConsumerMessagesTest.testSubscriptionCreateALL ==========
+2016-01-19 15:19:27,940 INFO  [main] o.a.q.t.u.QpidTestCase ========== run ConsumerMessagesTest.testSubscriptionCreateALL ==========
+2016-01-19 15:19:27,941 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown ConsumerMessagesTest.testSubscriptionCreateALL ==========
+2016-01-19 15:19:27,941 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

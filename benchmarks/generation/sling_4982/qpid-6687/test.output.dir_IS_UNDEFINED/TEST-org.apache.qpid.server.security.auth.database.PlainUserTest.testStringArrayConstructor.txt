@@ -1,0 +1,4 @@
+2016-01-19 15:20:54,552 INFO  [main] o.a.q.t.u.QpidTestCase ========== start PlainUserTest.testStringArrayConstructor ==========
+2016-01-19 15:20:54,553 INFO  [main] o.a.q.t.u.QpidTestCase ========== run PlainUserTest.testStringArrayConstructor ==========
+2016-01-19 15:20:54,553 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown PlainUserTest.testStringArrayConstructor ==========
+2016-01-19 15:20:54,553 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

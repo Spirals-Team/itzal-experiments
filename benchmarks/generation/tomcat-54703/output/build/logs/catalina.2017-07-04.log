@@ -1,0 +1,2238 @@
+Jul 04, 2017 9:24:25 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Jul 04, 2017 9:24:25 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:24:25 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 9:24:25 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:24:25 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 9:24:25 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 574 ms
+Jul 04, 2017 9:24:25 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 04, 2017 9:24:25 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.0-dev
+Jul 04, 2017 9:24:25 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/ROOT
+Jul 04, 2017 9:24:27 AM org.apache.catalina.core.ContainerBase addChildInternal
+SEVERE: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:155)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:702)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:698)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1056)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1610)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoSuchMethodError: javax.servlet.ServletContext.getSessionCookieConfig()Ljavax/servlet/SessionCookieConfig;
+	at org.apache.catalina.deploy.WebXml.configureContext(WebXml.java:1363)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1224)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:814)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:321)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5100)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+Jul 04, 2017 9:24:27 AM org.apache.catalina.startup.HostConfig deployDirectory
+SEVERE: Error deploying web application directory /home/thomas/git/tomcat/output/build/webapps/ROOT
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:702)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:698)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1056)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1610)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jul 04, 2017 9:24:27 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/manager
+Jul 04, 2017 9:24:28 AM org.apache.catalina.core.ContainerBase addChildInternal
+SEVERE: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/manager]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:155)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:702)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:698)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1056)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1610)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoSuchMethodError: javax.servlet.ServletContext.getSessionCookieConfig()Ljavax/servlet/SessionCookieConfig;
+	at org.apache.catalina.deploy.WebXml.configureContext(WebXml.java:1363)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1224)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:814)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:321)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5100)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+Jul 04, 2017 9:24:28 AM org.apache.catalina.startup.HostConfig deployDirectory
+SEVERE: Error deploying web application directory /home/thomas/git/tomcat/output/build/webapps/manager
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/manager]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:702)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:698)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1056)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1610)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jul 04, 2017 9:24:28 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/docs
+Jul 04, 2017 9:24:29 AM org.apache.catalina.core.ContainerBase addChildInternal
+SEVERE: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/docs]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:155)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:702)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:698)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1056)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1610)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoSuchMethodError: javax.servlet.ServletContext.getSessionCookieConfig()Ljavax/servlet/SessionCookieConfig;
+	at org.apache.catalina.deploy.WebXml.configureContext(WebXml.java:1363)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1224)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:814)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:321)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5100)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+Jul 04, 2017 9:24:29 AM org.apache.catalina.startup.HostConfig deployDirectory
+SEVERE: Error deploying web application directory /home/thomas/git/tomcat/output/build/webapps/docs
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/docs]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:702)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:698)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1056)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1610)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jul 04, 2017 9:24:29 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/examples
+Jul 04, 2017 9:24:29 AM org.apache.catalina.core.ContainerBase addChildInternal
+SEVERE: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/examples]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:155)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:702)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:698)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1056)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1610)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoSuchMethodError: javax.servlet.ServletContext.getSessionCookieConfig()Ljavax/servlet/SessionCookieConfig;
+	at org.apache.catalina.deploy.WebXml.configureContext(WebXml.java:1363)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1219)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:814)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:321)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5100)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+Jul 04, 2017 9:24:29 AM org.apache.catalina.startup.HostConfig deployDirectory
+SEVERE: Error deploying web application directory /home/thomas/git/tomcat/output/build/webapps/examples
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/examples]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:702)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:698)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1056)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1610)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jul 04, 2017 9:24:29 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/host-manager
+Jul 04, 2017 9:24:30 AM org.apache.catalina.core.ContainerBase addChildInternal
+SEVERE: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/host-manager]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:155)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:702)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:698)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1056)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1610)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoSuchMethodError: javax.servlet.ServletContext.getSessionCookieConfig()Ljavax/servlet/SessionCookieConfig;
+	at org.apache.catalina.deploy.WebXml.configureContext(WebXml.java:1363)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1224)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:814)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:321)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5100)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+Jul 04, 2017 9:24:30 AM org.apache.catalina.startup.HostConfig deployDirectory
+SEVERE: Error deploying web application directory /home/thomas/git/tomcat/output/build/webapps/host-manager
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/host-manager]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:702)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:698)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1056)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1610)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jul 04, 2017 9:24:30 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:24:30 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:24:30 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 4716 ms
+Jul 04, 2017 9:24:34 AM org.apache.coyote.http11.AbstractHttp11Processor process
+SEVERE: Error processing request
+java.lang.NoClassDefFoundError: org/apache/tomcat/util/collections/ConcurrentCache
+	at org.apache.tomcat.util.http.parser.MediaTypeCache.<init>(MediaTypeCache.java:11)
+	at org.apache.catalina.connector.Response.<clinit>(Response.java:71)
+	at org.apache.catalina.connector.Connector.createResponse(Connector.java:874)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:459)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:986)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1584)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1543)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.apache.tomcat.util.collections.ConcurrentCache
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	... 12 more
+
+Jul 04, 2017 9:24:34 AM org.apache.coyote.AbstractProtocol$AbstractConnectionHandler process
+SEVERE: Error reading request, ignored
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.catalina.connector.Response
+	at org.apache.catalina.connector.Connector.createResponse(Connector.java:874)
+	at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:565)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1015)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1584)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1543)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jul 04, 2017 9:24:51 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:24:51 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:24:51 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jul 04, 2017 9:24:51 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:24:51 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:24:51 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:24:51 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:25:01 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Jul 04, 2017 9:25:01 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:25:01 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 9:25:01 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:25:01 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 9:25:01 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 514 ms
+Jul 04, 2017 9:25:01 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 04, 2017 9:25:01 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.0-dev
+Jul 04, 2017 9:25:01 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/ROOT
+Jul 04, 2017 9:25:03 AM org.apache.catalina.core.ContainerBase addChildInternal
+SEVERE: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:155)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:702)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:698)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1056)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1610)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoSuchMethodError: javax.servlet.ServletContext.getSessionCookieConfig()Ljavax/servlet/SessionCookieConfig;
+	at org.apache.catalina.deploy.WebXml.configureContext(WebXml.java:1363)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1224)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:814)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:321)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5100)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+Jul 04, 2017 9:25:03 AM org.apache.catalina.startup.HostConfig deployDirectory
+SEVERE: Error deploying web application directory /home/thomas/git/tomcat/output/build/webapps/ROOT
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:702)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:698)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1056)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1610)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jul 04, 2017 9:25:03 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/manager
+Jul 04, 2017 9:25:15 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Jul 04, 2017 9:25:15 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:25:15 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 9:25:15 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:25:15 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 9:25:15 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 544 ms
+Jul 04, 2017 9:25:15 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 04, 2017 9:25:15 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.0-dev
+Jul 04, 2017 9:25:15 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/ROOT
+Jul 04, 2017 9:25:17 AM org.apache.catalina.core.ContainerBase addChildInternal
+SEVERE: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:155)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:702)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:698)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1056)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1610)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoSuchMethodError: javax.servlet.ServletContext.getSessionCookieConfig()Ljavax/servlet/SessionCookieConfig;
+	at org.apache.catalina.deploy.WebXml.configureContext(WebXml.java:1363)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1224)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:814)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:321)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5100)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+Jul 04, 2017 9:25:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+SEVERE: Error deploying web application directory /home/thomas/git/tomcat/output/build/webapps/ROOT
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:702)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:698)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1056)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1610)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jul 04, 2017 9:25:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/manager
+Jul 04, 2017 9:25:18 AM org.apache.catalina.core.ContainerBase addChildInternal
+SEVERE: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/manager]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:155)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:702)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:698)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1056)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1610)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoSuchMethodError: javax.servlet.ServletContext.getSessionCookieConfig()Ljavax/servlet/SessionCookieConfig;
+	at org.apache.catalina.deploy.WebXml.configureContext(WebXml.java:1363)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1224)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:814)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:321)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5100)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+Jul 04, 2017 9:25:18 AM org.apache.catalina.startup.HostConfig deployDirectory
+SEVERE: Error deploying web application directory /home/thomas/git/tomcat/output/build/webapps/manager
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/manager]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:702)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:698)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1056)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1610)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jul 04, 2017 9:25:18 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/docs
+Jul 04, 2017 9:25:19 AM org.apache.catalina.core.ContainerBase addChildInternal
+SEVERE: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/docs]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:155)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:702)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:698)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1056)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1610)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoSuchMethodError: javax.servlet.ServletContext.getSessionCookieConfig()Ljavax/servlet/SessionCookieConfig;
+	at org.apache.catalina.deploy.WebXml.configureContext(WebXml.java:1363)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1224)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:814)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:321)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5100)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+Jul 04, 2017 9:25:19 AM org.apache.catalina.startup.HostConfig deployDirectory
+SEVERE: Error deploying web application directory /home/thomas/git/tomcat/output/build/webapps/docs
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/docs]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:702)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:698)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1056)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1610)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jul 04, 2017 9:25:19 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/examples
+Jul 04, 2017 9:25:21 AM org.apache.catalina.core.ContainerBase addChildInternal
+SEVERE: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/examples]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:155)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:702)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:698)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1056)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1610)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoSuchMethodError: javax.servlet.ServletContext.getSessionCookieConfig()Ljavax/servlet/SessionCookieConfig;
+	at org.apache.catalina.deploy.WebXml.configureContext(WebXml.java:1363)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1219)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:814)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:321)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5100)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+Jul 04, 2017 9:25:21 AM org.apache.catalina.startup.HostConfig deployDirectory
+SEVERE: Error deploying web application directory /home/thomas/git/tomcat/output/build/webapps/examples
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/examples]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:702)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:698)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1056)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1610)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jul 04, 2017 9:25:21 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/host-manager
+Jul 04, 2017 9:25:22 AM org.apache.catalina.core.ContainerBase addChildInternal
+SEVERE: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/host-manager]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:155)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:702)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:698)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1056)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1610)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoSuchMethodError: javax.servlet.ServletContext.getSessionCookieConfig()Ljavax/servlet/SessionCookieConfig;
+	at org.apache.catalina.deploy.WebXml.configureContext(WebXml.java:1363)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1224)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:814)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:321)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5100)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+Jul 04, 2017 9:25:22 AM org.apache.catalina.startup.HostConfig deployDirectory
+SEVERE: Error deploying web application directory /home/thomas/git/tomcat/output/build/webapps/host-manager
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/host-manager]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:702)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:698)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1056)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1610)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jul 04, 2017 9:25:22 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:25:22 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:25:22 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 6458 ms
+Jul 04, 2017 9:25:24 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:25:24 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:25:24 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jul 04, 2017 9:25:24 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:25:24 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:25:24 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:25:24 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:25:30 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Jul 04, 2017 9:25:30 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:25:30 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 9:25:30 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:25:30 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 9:25:30 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 537 ms
+Jul 04, 2017 9:25:30 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 04, 2017 9:25:30 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.0-dev
+Jul 04, 2017 9:25:30 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/ROOT
+Jul 04, 2017 9:25:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/manager
+Jul 04, 2017 9:25:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/docs
+Jul 04, 2017 9:25:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/examples
+Jul 04, 2017 9:25:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/host-manager
+Jul 04, 2017 9:25:31 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:25:31 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:25:31 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1083 ms
+Jul 04, 2017 9:25:44 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:25:44 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:25:44 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jul 04, 2017 9:25:44 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:25:44 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:25:44 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:25:44 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:26:15 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Jul 04, 2017 9:26:15 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:26:15 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 9:26:15 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:26:15 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 9:26:15 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 510 ms
+Jul 04, 2017 9:26:15 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 04, 2017 9:26:15 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.0-dev
+Jul 04, 2017 9:26:15 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/ROOT
+Jul 04, 2017 9:26:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/manager
+Jul 04, 2017 9:26:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/docs
+Jul 04, 2017 9:26:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/examples
+Jul 04, 2017 9:26:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/host-manager
+Jul 04, 2017 9:26:16 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:26:16 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:26:16 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1303 ms
+Jul 04, 2017 9:26:19 AM org.apache.jasper.compiler.Compiler removeGeneratedClassFiles
+WARNING: Failed to delete generated class file [/home/thomas/git/tomcat/output/build/work/Catalina/localhost/examples/org/apache/jsp/bug54703_jsp.class]
+Jul 04, 2017 9:26:19 AM org.apache.jasper.compiler.Compiler removeGeneratedFiles
+WARNING: Failed to delete generated Java file [/home/thomas/git/tomcat/output/build/work/Catalina/localhost/examples/org/apache/jsp/bug54703_jsp.java]
+Jul 04, 2017 9:26:19 AM org.apache.jasper.compiler.Compiler generateJava
+WARNING: Failed to delete generated Java file [/home/thomas/git/tomcat/output/build/work/Catalina/localhost/examples/org/apache/jsp/bug54703_jsp.java]
+Jul 04, 2017 9:26:46 AM org.apache.jasper.compiler.Compiler removeGeneratedClassFiles
+WARNING: Failed to delete generated class file [/home/thomas/git/tomcat/output/build/work/Catalina/localhost/examples/org/apache/jsp/bug54703_jsp.class]
+Jul 04, 2017 9:26:46 AM org.apache.jasper.compiler.Compiler removeGeneratedFiles
+WARNING: Failed to delete generated Java file [/home/thomas/git/tomcat/output/build/work/Catalina/localhost/examples/org/apache/jsp/bug54703_jsp.java]
+Jul 04, 2017 9:26:46 AM org.apache.jasper.compiler.Compiler generateJava
+WARNING: Failed to delete generated Java file [/home/thomas/git/tomcat/output/build/work/Catalina/localhost/examples/org/apache/jsp/bug54703_jsp.java]
+Jul 04, 2017 9:27:04 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:27:04 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:27:04 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jul 04, 2017 9:27:04 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:27:04 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:27:04 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:27:04 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:27:06 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Jul 04, 2017 9:27:06 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:27:06 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 9:27:06 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:27:06 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 9:27:06 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 527 ms
+Jul 04, 2017 9:27:06 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 04, 2017 9:27:06 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.0-dev
+Jul 04, 2017 9:27:06 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/ROOT
+Jul 04, 2017 9:27:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/manager
+Jul 04, 2017 9:27:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/docs
+Jul 04, 2017 9:27:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/examples
+Jul 04, 2017 9:27:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/host-manager
+Jul 04, 2017 9:27:08 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:27:08 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:27:08 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1339 ms
+Jul 04, 2017 9:27:08 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:27:09 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:27:09 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jul 04, 2017 9:27:09 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:27:09 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:27:09 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:27:09 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:27:17 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Jul 04, 2017 9:27:17 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:27:17 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 9:27:17 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:27:17 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 9:27:17 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 573 ms
+Jul 04, 2017 9:27:17 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 04, 2017 9:27:17 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.0-dev
+Jul 04, 2017 9:27:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/ROOT
+Jul 04, 2017 9:27:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/manager
+Jul 04, 2017 9:27:18 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/docs
+Jul 04, 2017 9:27:18 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/examples
+Jul 04, 2017 9:27:22 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Jul 04, 2017 9:27:22 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:27:22 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 9:27:22 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:27:22 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 9:27:22 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 568 ms
+Jul 04, 2017 9:27:22 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 04, 2017 9:27:22 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.0-dev
+Jul 04, 2017 9:27:22 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/ROOT
+Jul 04, 2017 9:27:23 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/manager
+Jul 04, 2017 9:27:23 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/docs
+Jul 04, 2017 9:27:23 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/examples
+Jul 04, 2017 9:27:23 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/host-manager
+Jul 04, 2017 9:27:23 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:27:23 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:27:23 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1160 ms
+Jul 04, 2017 9:27:26 AM org.apache.jasper.compiler.Compiler removeGeneratedClassFiles
+WARNING: Failed to delete generated class file [/home/thomas/git/tomcat/output/build/work/Catalina/localhost/examples/org/apache/jsp/bug54703_jsp.class]
+Jul 04, 2017 9:27:26 AM org.apache.jasper.compiler.Compiler removeGeneratedFiles
+WARNING: Failed to delete generated Java file [/home/thomas/git/tomcat/output/build/work/Catalina/localhost/examples/org/apache/jsp/bug54703_jsp.java]
+Jul 04, 2017 9:27:26 AM org.apache.jasper.compiler.Compiler generateJava
+WARNING: Failed to delete generated Java file [/home/thomas/git/tomcat/output/build/work/Catalina/localhost/examples/org/apache/jsp/bug54703_jsp.java]
+Jul 04, 2017 9:27:32 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:27:32 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:27:32 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jul 04, 2017 9:27:32 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:27:32 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:27:32 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:27:32 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:27:35 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Jul 04, 2017 9:27:35 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:27:35 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 9:27:35 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:27:35 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 9:27:35 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 573 ms
+Jul 04, 2017 9:27:35 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 04, 2017 9:27:35 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.0-dev
+Jul 04, 2017 9:27:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/ROOT
+Jul 04, 2017 9:27:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/manager
+Jul 04, 2017 9:27:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/docs
+Jul 04, 2017 9:27:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/examples
+Jul 04, 2017 9:27:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/host-manager
+Jul 04, 2017 9:27:36 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:27:36 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:27:36 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1158 ms
+Jul 04, 2017 9:27:47 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:27:47 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:27:47 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jul 04, 2017 9:27:47 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:27:47 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:27:47 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:27:47 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:27:48 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Jul 04, 2017 9:27:48 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:27:48 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 9:27:48 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:27:48 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 9:27:48 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 582 ms
+Jul 04, 2017 9:27:48 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 04, 2017 9:27:48 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.0-dev
+Jul 04, 2017 9:27:48 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/ROOT
+Jul 04, 2017 9:27:49 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/manager
+Jul 04, 2017 9:27:49 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/docs
+Jul 04, 2017 9:27:49 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/examples
+Jul 04, 2017 9:27:49 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/host-manager
+Jul 04, 2017 9:27:49 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:27:49 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:27:49 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1078 ms
+Jul 04, 2017 9:28:41 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:28:41 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:28:41 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jul 04, 2017 9:28:41 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:28:41 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:28:41 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:28:41 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:28:43 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Jul 04, 2017 9:28:43 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:28:43 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 9:28:43 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:28:43 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 9:28:43 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 529 ms
+Jul 04, 2017 9:28:43 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 04, 2017 9:28:43 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.0-dev
+Jul 04, 2017 9:28:43 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/ROOT
+Jul 04, 2017 9:28:43 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/manager
+Jul 04, 2017 9:28:43 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/docs
+Jul 04, 2017 9:28:44 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/examples
+Jul 04, 2017 9:28:44 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/host-manager
+Jul 04, 2017 9:28:44 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:28:44 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:28:44 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1142 ms
+Jul 04, 2017 9:29:02 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:29:02 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:29:02 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jul 04, 2017 9:29:02 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:29:02 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:29:02 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:29:02 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:29:18 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Jul 04, 2017 9:29:18 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:29:18 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 9:29:18 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:29:18 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 9:29:18 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 501 ms
+Jul 04, 2017 9:29:18 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 04, 2017 9:29:18 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.0-dev
+Jul 04, 2017 9:29:18 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/ROOT
+Jul 04, 2017 9:29:19 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/manager
+Jul 04, 2017 9:29:19 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/docs
+Jul 04, 2017 9:29:19 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/examples
+Jul 04, 2017 9:29:19 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/host-manager
+Jul 04, 2017 9:29:19 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:29:19 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:29:19 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1116 ms
+Jul 04, 2017 9:29:23 AM org.apache.coyote.http11.AbstractHttp11Processor process
+SEVERE: Error processing request
+java.lang.NoClassDefFoundError: fr/inria/spirals/npefix/resi/exception/ForceReturn
+	at org.apache.catalina.connector.Response.<clinit>(Response.java:71)
+	at org.apache.catalina.connector.Connector.createResponse(Connector.java:874)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:459)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:986)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1584)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1543)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: fr.inria.spirals.npefix.resi.exception.ForceReturn
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	... 11 more
+
+Jul 04, 2017 9:29:23 AM org.apache.coyote.AbstractProtocol$AbstractConnectionHandler process
+SEVERE: Error reading request, ignored
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.catalina.connector.Response
+	at org.apache.catalina.connector.Connector.createResponse(Connector.java:874)
+	at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:565)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1015)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1584)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1543)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jul 04, 2017 9:29:31 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:29:31 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:29:32 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jul 04, 2017 9:29:32 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:29:32 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:29:32 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:29:32 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:29:46 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Jul 04, 2017 9:29:46 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:29:47 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 9:29:47 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:29:47 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 9:29:47 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 518 ms
+Jul 04, 2017 9:29:47 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 04, 2017 9:29:47 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.0-dev
+Jul 04, 2017 9:29:47 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/ROOT
+Jul 04, 2017 9:29:47 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/manager
+Jul 04, 2017 9:29:47 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/docs
+Jul 04, 2017 9:29:47 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/examples
+Jul 04, 2017 9:29:48 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/host-manager
+Jul 04, 2017 9:29:48 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:29:48 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:29:48 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1326 ms
+Jul 04, 2017 9:30:24 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:30:24 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:30:25 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jul 04, 2017 9:30:25 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:30:25 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:30:25 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:30:25 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:30:46 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Jul 04, 2017 9:30:46 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:30:46 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 9:30:46 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:30:46 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 9:30:46 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 599 ms
+Jul 04, 2017 9:30:46 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 04, 2017 9:30:46 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.0-dev
+Jul 04, 2017 9:30:46 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/ROOT
+Jul 04, 2017 9:30:47 AM org.apache.catalina.core.ContainerBase addChildInternal
+SEVERE: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:155)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:702)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:698)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1056)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1610)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoSuchMethodError: javax.servlet.ServletContext.getSessionCookieConfig()Ljavax/servlet/SessionCookieConfig;
+	at org.apache.catalina.deploy.WebXml.configureContext(WebXml.java:1363)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1224)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:814)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:321)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5100)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+Jul 04, 2017 9:30:47 AM org.apache.catalina.startup.HostConfig deployDirectory
+SEVERE: Error deploying web application directory /home/thomas/git/tomcat/output/build/webapps/ROOT
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:702)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:698)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1056)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1610)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jul 04, 2017 9:30:47 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/manager
+Jul 04, 2017 9:30:49 AM org.apache.catalina.core.ContainerBase addChildInternal
+SEVERE: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/manager]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:155)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:702)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:698)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1056)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1610)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoSuchMethodError: javax.servlet.ServletContext.getSessionCookieConfig()Ljavax/servlet/SessionCookieConfig;
+	at org.apache.catalina.deploy.WebXml.configureContext(WebXml.java:1363)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1224)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:814)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:321)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5100)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+Jul 04, 2017 9:30:49 AM org.apache.catalina.startup.HostConfig deployDirectory
+SEVERE: Error deploying web application directory /home/thomas/git/tomcat/output/build/webapps/manager
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/manager]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:702)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:698)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1056)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1610)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jul 04, 2017 9:30:49 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/docs
+Jul 04, 2017 9:30:50 AM org.apache.catalina.core.ContainerBase addChildInternal
+SEVERE: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/docs]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:155)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:702)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:698)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1056)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1610)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoSuchMethodError: javax.servlet.ServletContext.getSessionCookieConfig()Ljavax/servlet/SessionCookieConfig;
+	at org.apache.catalina.deploy.WebXml.configureContext(WebXml.java:1363)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1224)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:814)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:321)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5100)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+Jul 04, 2017 9:30:50 AM org.apache.catalina.startup.HostConfig deployDirectory
+SEVERE: Error deploying web application directory /home/thomas/git/tomcat/output/build/webapps/docs
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/docs]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:702)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:698)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1056)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1610)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jul 04, 2017 9:30:50 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/examples
+Jul 04, 2017 9:30:51 AM org.apache.catalina.core.ContainerBase addChildInternal
+SEVERE: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/examples]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:155)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:702)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:698)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1056)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1610)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoSuchMethodError: javax.servlet.ServletContext.getSessionCookieConfig()Ljavax/servlet/SessionCookieConfig;
+	at org.apache.catalina.deploy.WebXml.configureContext(WebXml.java:1363)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1219)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:814)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:321)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5100)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+Jul 04, 2017 9:30:51 AM org.apache.catalina.startup.HostConfig deployDirectory
+SEVERE: Error deploying web application directory /home/thomas/git/tomcat/output/build/webapps/examples
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/examples]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:702)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:698)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1056)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1610)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jul 04, 2017 9:30:51 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/host-manager
+Jul 04, 2017 9:30:52 AM org.apache.catalina.core.ContainerBase addChildInternal
+SEVERE: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/host-manager]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:155)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:702)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:698)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1056)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1610)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoSuchMethodError: javax.servlet.ServletContext.getSessionCookieConfig()Ljavax/servlet/SessionCookieConfig;
+	at org.apache.catalina.deploy.WebXml.configureContext(WebXml.java:1363)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1224)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:814)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:321)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5100)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+Jul 04, 2017 9:30:52 AM org.apache.catalina.startup.HostConfig deployDirectory
+SEVERE: Error deploying web application directory /home/thomas/git/tomcat/output/build/webapps/host-manager
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/host-manager]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:702)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:698)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1056)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1610)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jul 04, 2017 9:30:52 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:30:52 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:30:52 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 6328 ms
+Jul 04, 2017 9:31:12 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:31:12 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:31:12 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jul 04, 2017 9:31:12 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:31:12 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:31:12 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:31:12 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:33:48 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Jul 04, 2017 9:33:48 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:33:48 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 9:33:48 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:33:48 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 9:33:48 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 534 ms
+Jul 04, 2017 9:33:48 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 04, 2017 9:33:48 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.0-dev
+Jul 04, 2017 9:33:48 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/ROOT
+Jul 04, 2017 9:33:50 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/manager
+Jul 04, 2017 9:33:50 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/docs
+Jul 04, 2017 9:33:50 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/examples
+Jul 04, 2017 9:33:51 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/host-manager
+Jul 04, 2017 9:33:52 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:33:52 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:33:52 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3297 ms
+Jul 04, 2017 9:34:37 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:34:37 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:34:37 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jul 04, 2017 9:34:37 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:34:37 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:34:37 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:34:37 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:34:38 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Jul 04, 2017 9:34:38 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:34:38 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 9:34:38 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:34:38 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 9:34:38 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 535 ms
+Jul 04, 2017 9:34:39 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 04, 2017 9:34:39 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.0-dev
+Jul 04, 2017 9:34:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/ROOT
+Jul 04, 2017 9:34:40 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/manager
+Jul 04, 2017 9:34:40 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/docs
+Jul 04, 2017 9:34:41 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/examples
+Jul 04, 2017 9:34:41 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/host-manager
+Jul 04, 2017 9:34:42 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:34:42 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:34:42 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3487 ms
+Jul 04, 2017 9:36:17 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:36:17 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:36:18 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jul 04, 2017 9:36:18 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:36:18 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:36:18 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:36:18 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:36:19 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Jul 04, 2017 9:36:19 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:36:19 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 9:36:19 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:36:19 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 9:36:19 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 630 ms
+Jul 04, 2017 9:36:19 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 04, 2017 9:36:19 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.0-dev
+Jul 04, 2017 9:36:19 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/ROOT
+Jul 04, 2017 9:36:21 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/manager
+Jul 04, 2017 9:36:21 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/docs
+Jul 04, 2017 9:36:22 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/examples
+Jul 04, 2017 9:36:22 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/host-manager
+Jul 04, 2017 9:36:23 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:36:23 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:36:23 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3650 ms
+Jul 04, 2017 9:38:18 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:38:18 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:38:18 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jul 04, 2017 9:38:18 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:38:18 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:38:18 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:38:18 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:38:30 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Jul 04, 2017 9:38:30 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:38:30 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 9:38:30 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:38:30 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 9:38:30 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 543 ms
+Jul 04, 2017 9:38:30 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 04, 2017 9:38:30 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.0-dev
+Jul 04, 2017 9:38:30 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/ROOT
+Jul 04, 2017 9:38:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/manager
+Jul 04, 2017 9:38:32 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/docs
+Jul 04, 2017 9:38:32 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/examples
+Jul 04, 2017 9:38:33 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/host-manager
+Jul 04, 2017 9:38:33 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:38:33 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:38:33 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3414 ms
+Jul 04, 2017 9:40:22 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:40:22 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:40:22 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jul 04, 2017 9:40:22 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:40:22 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:40:22 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:40:22 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:40:24 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Jul 04, 2017 9:40:24 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:40:24 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 9:40:24 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:40:24 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 9:40:24 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 532 ms
+Jul 04, 2017 9:40:24 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 04, 2017 9:40:24 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.0-dev
+Jul 04, 2017 9:40:24 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/ROOT
+Jul 04, 2017 9:40:25 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/manager
+Jul 04, 2017 9:40:26 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/docs
+Jul 04, 2017 9:40:26 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/examples
+Jul 04, 2017 9:40:27 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/host-manager
+Jul 04, 2017 9:40:28 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:40:28 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:40:28 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3457 ms
+Jul 04, 2017 9:42:41 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:42:41 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:42:41 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jul 04, 2017 9:42:42 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:42:42 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:42:42 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:42:42 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:42:43 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Jul 04, 2017 9:42:44 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:42:44 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 9:42:44 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:42:44 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 9:42:44 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 532 ms
+Jul 04, 2017 9:42:44 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 04, 2017 9:42:44 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.0-dev
+Jul 04, 2017 9:42:44 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/ROOT
+Jul 04, 2017 9:42:45 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/manager
+Jul 04, 2017 9:42:45 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/docs
+Jul 04, 2017 9:42:46 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/examples
+Jul 04, 2017 9:42:46 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/host-manager
+Jul 04, 2017 9:42:47 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:42:47 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:42:47 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3962 ms
+Jul 04, 2017 9:43:44 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:43:44 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:43:45 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jul 04, 2017 9:43:45 AM org.apache.catalina.session.StandardManager doUnload
+SEVERE: IOException while saving persisted sessions: java.io.FileNotFoundException: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/examples/SESSIONS.ser (No such file or directory)
+java.io.FileNotFoundException: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/examples/SESSIONS.ser (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:221)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:110)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:367)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:333)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:500)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5410)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1406)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1395)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jul 04, 2017 9:43:45 AM org.apache.catalina.session.StandardManager stopInternal
+SEVERE: Exception unloading sessions to persistent storage
+java.io.FileNotFoundException: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/examples/SESSIONS.ser (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:221)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:110)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:367)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:333)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:500)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5410)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1406)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1395)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jul 04, 2017 9:43:45 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:43:45 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:43:45 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:43:45 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:43:46 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Jul 04, 2017 9:43:47 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:43:47 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 9:43:47 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:43:47 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 9:43:47 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 538 ms
+Jul 04, 2017 9:43:47 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 04, 2017 9:43:47 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.0-dev
+Jul 04, 2017 9:43:47 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/ROOT
+Jul 04, 2017 9:43:48 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/manager
+Jul 04, 2017 9:43:48 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/docs
+Jul 04, 2017 9:43:49 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/examples
+Jul 04, 2017 9:43:49 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/host-manager
+Jul 04, 2017 9:43:50 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:43:50 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:43:50 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3702 ms
+Jul 04, 2017 9:45:07 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:45:07 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:45:07 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jul 04, 2017 9:45:07 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:45:07 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:45:07 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:45:07 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:45:28 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Jul 04, 2017 9:45:28 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:45:28 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 9:45:28 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:45:28 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 9:45:28 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 610 ms
+Jul 04, 2017 9:45:28 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 04, 2017 9:45:28 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.0-dev
+Jul 04, 2017 9:45:28 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/ROOT
+Jul 04, 2017 9:45:30 AM org.apache.jasper.EmbeddedServletOptions <init>
+SEVERE: The scratchDir you specified: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/ROOT is unusable.
+Jul 04, 2017 9:45:30 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/manager
+Jul 04, 2017 9:45:30 AM org.apache.jasper.EmbeddedServletOptions <init>
+SEVERE: The scratchDir you specified: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/manager is unusable.
+Jul 04, 2017 9:45:30 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/docs
+Jul 04, 2017 9:45:31 AM org.apache.jasper.EmbeddedServletOptions <init>
+SEVERE: The scratchDir you specified: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/docs is unusable.
+Jul 04, 2017 9:45:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/examples
+Jul 04, 2017 9:45:31 AM org.apache.jasper.EmbeddedServletOptions <init>
+SEVERE: The scratchDir you specified: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/examples is unusable.
+Jul 04, 2017 9:45:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/host-manager
+Jul 04, 2017 9:45:32 AM org.apache.jasper.EmbeddedServletOptions <init>
+SEVERE: The scratchDir you specified: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/host-manager is unusable.
+Jul 04, 2017 9:45:32 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:45:32 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:45:32 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3403 ms
+Jul 04, 2017 9:54:28 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:54:28 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:54:28 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jul 04, 2017 9:54:28 AM org.apache.catalina.session.StandardManager doUnload
+SEVERE: IOException while saving persisted sessions: java.io.FileNotFoundException: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/examples/SESSIONS.ser (Permission denied)
+java.io.FileNotFoundException: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/examples/SESSIONS.ser (Permission denied)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:221)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:110)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:367)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:333)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:500)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5410)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1406)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1395)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jul 04, 2017 9:54:28 AM org.apache.catalina.session.StandardManager stopInternal
+SEVERE: Exception unloading sessions to persistent storage
+java.io.FileNotFoundException: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/examples/SESSIONS.ser (Permission denied)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:221)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:110)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:367)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:333)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:500)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5410)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1406)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1395)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jul 04, 2017 9:54:28 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:54:28 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:54:28 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:54:28 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:54:30 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Jul 04, 2017 9:54:30 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:54:30 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 9:54:31 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:54:31 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 9:54:31 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 619 ms
+Jul 04, 2017 9:54:31 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 04, 2017 9:54:31 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.0-dev
+Jul 04, 2017 9:54:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/ROOT
+Jul 04, 2017 9:54:32 AM org.apache.jasper.EmbeddedServletOptions <init>
+SEVERE: The scratchDir you specified: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/ROOT is unusable.
+Jul 04, 2017 9:54:32 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/manager
+Jul 04, 2017 9:54:32 AM org.apache.jasper.EmbeddedServletOptions <init>
+SEVERE: The scratchDir you specified: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/manager is unusable.
+Jul 04, 2017 9:54:32 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/docs
+Jul 04, 2017 9:54:33 AM org.apache.jasper.EmbeddedServletOptions <init>
+SEVERE: The scratchDir you specified: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/docs is unusable.
+Jul 04, 2017 9:54:33 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/examples
+Jul 04, 2017 9:54:33 AM org.apache.jasper.EmbeddedServletOptions <init>
+SEVERE: The scratchDir you specified: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/examples is unusable.
+Jul 04, 2017 9:54:33 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/host-manager
+Jul 04, 2017 9:54:34 AM org.apache.jasper.EmbeddedServletOptions <init>
+SEVERE: The scratchDir you specified: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/host-manager is unusable.
+Jul 04, 2017 9:54:34 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:54:34 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:54:34 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3397 ms
+Jul 04, 2017 9:55:51 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:55:51 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:55:51 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jul 04, 2017 9:55:51 AM org.apache.catalina.session.StandardManager doUnload
+SEVERE: IOException while saving persisted sessions: java.io.FileNotFoundException: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/examples/SESSIONS.ser (Permission denied)
+java.io.FileNotFoundException: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/examples/SESSIONS.ser (Permission denied)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:221)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:110)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:367)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:333)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:500)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5410)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1406)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1395)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jul 04, 2017 9:55:51 AM org.apache.catalina.session.StandardManager stopInternal
+SEVERE: Exception unloading sessions to persistent storage
+java.io.FileNotFoundException: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/examples/SESSIONS.ser (Permission denied)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:221)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:110)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:367)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:333)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:500)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5410)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1406)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1395)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jul 04, 2017 9:55:51 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:55:51 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:55:51 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:55:51 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:55:52 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Jul 04, 2017 9:55:52 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:55:52 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 9:55:52 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:55:52 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 9:55:52 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 626 ms
+Jul 04, 2017 9:55:52 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 04, 2017 9:55:52 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.0-dev
+Jul 04, 2017 9:55:53 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/ROOT
+Jul 04, 2017 9:55:54 AM org.apache.jasper.EmbeddedServletOptions <init>
+SEVERE: The scratchDir you specified: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/ROOT is unusable.
+Jul 04, 2017 9:55:54 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/manager
+Jul 04, 2017 9:55:54 AM org.apache.jasper.EmbeddedServletOptions <init>
+SEVERE: The scratchDir you specified: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/manager is unusable.
+Jul 04, 2017 9:55:54 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/docs
+Jul 04, 2017 9:55:55 AM org.apache.jasper.EmbeddedServletOptions <init>
+SEVERE: The scratchDir you specified: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/docs is unusable.
+Jul 04, 2017 9:55:55 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/examples
+Jul 04, 2017 9:55:56 AM org.apache.jasper.EmbeddedServletOptions <init>
+SEVERE: The scratchDir you specified: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/examples is unusable.
+Jul 04, 2017 9:55:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/host-manager
+Jul 04, 2017 9:55:56 AM org.apache.jasper.EmbeddedServletOptions <init>
+SEVERE: The scratchDir you specified: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/host-manager is unusable.
+Jul 04, 2017 9:55:56 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:55:56 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:55:56 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3781 ms
+Jul 04, 2017 9:57:36 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:57:36 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:57:36 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jul 04, 2017 9:57:36 AM org.apache.catalina.session.StandardManager doUnload
+SEVERE: IOException while saving persisted sessions: java.io.FileNotFoundException: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/examples/SESSIONS.ser (Permission denied)
+java.io.FileNotFoundException: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/examples/SESSIONS.ser (Permission denied)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:221)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:110)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:367)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:333)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:500)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5410)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1406)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1395)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jul 04, 2017 9:57:36 AM org.apache.catalina.session.StandardManager stopInternal
+SEVERE: Exception unloading sessions to persistent storage
+java.io.FileNotFoundException: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/examples/SESSIONS.ser (Permission denied)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:221)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:110)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:367)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:333)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:500)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5410)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1406)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1395)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jul 04, 2017 9:57:36 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:57:36 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 9:57:36 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 9:57:36 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 10:00:53 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Jul 04, 2017 10:00:53 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 10:00:53 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 10:00:53 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 10:00:53 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 10:00:53 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 616 ms
+Jul 04, 2017 10:00:53 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 04, 2017 10:00:53 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.0-dev
+Jul 04, 2017 10:00:53 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/ROOT
+Jul 04, 2017 10:00:54 AM org.apache.jasper.EmbeddedServletOptions <init>
+SEVERE: The scratchDir you specified: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/ROOT is unusable.
+Jul 04, 2017 10:00:54 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/manager
+Jul 04, 2017 10:00:55 AM org.apache.jasper.EmbeddedServletOptions <init>
+SEVERE: The scratchDir you specified: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/manager is unusable.
+Jul 04, 2017 10:00:55 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/docs
+Jul 04, 2017 10:00:55 AM org.apache.jasper.EmbeddedServletOptions <init>
+SEVERE: The scratchDir you specified: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/docs is unusable.
+Jul 04, 2017 10:00:55 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/examples
+Jul 04, 2017 10:00:56 AM org.apache.jasper.EmbeddedServletOptions <init>
+SEVERE: The scratchDir you specified: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/examples is unusable.
+Jul 04, 2017 10:00:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/host-manager
+Jul 04, 2017 10:00:57 AM org.apache.jasper.EmbeddedServletOptions <init>
+SEVERE: The scratchDir you specified: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/host-manager is unusable.
+Jul 04, 2017 10:00:57 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 10:00:57 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 10:00:57 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3571 ms
+Jul 04, 2017 10:23:31 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 10:23:31 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 10:23:31 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jul 04, 2017 10:23:31 AM org.apache.catalina.session.StandardManager doUnload
+SEVERE: IOException while saving persisted sessions: java.io.FileNotFoundException: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/examples/SESSIONS.ser (Permission denied)
+java.io.FileNotFoundException: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/examples/SESSIONS.ser (Permission denied)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:221)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:110)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:367)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:333)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:500)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5410)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1406)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1395)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jul 04, 2017 10:23:31 AM org.apache.catalina.session.StandardManager stopInternal
+SEVERE: Exception unloading sessions to persistent storage
+java.io.FileNotFoundException: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/examples/SESSIONS.ser (Permission denied)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:221)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:110)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:367)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:333)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:500)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5410)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1406)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1395)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jul 04, 2017 10:23:31 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 10:23:31 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 10:23:31 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 10:23:31 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 10:23:33 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Jul 04, 2017 10:23:33 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 10:23:33 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 10:23:33 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 10:23:33 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 10:23:33 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 615 ms
+Jul 04, 2017 10:23:33 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 04, 2017 10:23:33 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.0-dev
+Jul 04, 2017 10:23:33 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/ROOT
+Jul 04, 2017 10:23:34 AM org.apache.jasper.EmbeddedServletOptions <init>
+SEVERE: The scratchDir you specified: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/ROOT is unusable.
+Jul 04, 2017 10:23:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/manager
+Jul 04, 2017 10:23:35 AM org.apache.jasper.EmbeddedServletOptions <init>
+SEVERE: The scratchDir you specified: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/manager is unusable.
+Jul 04, 2017 10:23:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/docs
+Jul 04, 2017 10:23:35 AM org.apache.jasper.EmbeddedServletOptions <init>
+SEVERE: The scratchDir you specified: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/docs is unusable.
+Jul 04, 2017 10:23:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/examples
+Jul 04, 2017 10:23:36 AM org.apache.jasper.EmbeddedServletOptions <init>
+SEVERE: The scratchDir you specified: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/examples is unusable.
+Jul 04, 2017 10:23:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/host-manager
+Jul 04, 2017 10:23:38 AM org.apache.jasper.EmbeddedServletOptions <init>
+SEVERE: The scratchDir you specified: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/host-manager is unusable.
+Jul 04, 2017 10:23:38 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 10:23:38 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 10:23:38 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 4521 ms
+Jul 04, 2017 11:47:56 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 11:47:56 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 11:47:56 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jul 04, 2017 11:47:56 AM org.apache.catalina.session.StandardManager doUnload
+SEVERE: IOException while saving persisted sessions: java.io.FileNotFoundException: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/examples/SESSIONS.ser (Permission denied)
+java.io.FileNotFoundException: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/examples/SESSIONS.ser (Permission denied)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:221)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:110)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:367)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:333)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:500)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5410)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1406)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1395)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jul 04, 2017 11:47:56 AM org.apache.catalina.session.StandardManager stopInternal
+SEVERE: Exception unloading sessions to persistent storage
+java.io.FileNotFoundException: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/examples/SESSIONS.ser (Permission denied)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:221)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:110)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:367)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:333)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:500)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5410)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1406)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1395)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jul 04, 2017 11:47:56 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 11:47:56 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 11:47:56 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 11:47:56 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 11:47:58 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Jul 04, 2017 11:47:58 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 11:47:58 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 11:47:58 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 11:47:58 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 04, 2017 11:47:58 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1036 ms
+Jul 04, 2017 11:47:58 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 04, 2017 11:47:58 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.0-dev
+Jul 04, 2017 11:47:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/ROOT
+Jul 04, 2017 11:48:00 AM org.apache.jasper.EmbeddedServletOptions <init>
+SEVERE: The scratchDir you specified: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/ROOT is unusable.
+Jul 04, 2017 11:48:00 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/manager
+Jul 04, 2017 11:48:00 AM org.apache.jasper.EmbeddedServletOptions <init>
+SEVERE: The scratchDir you specified: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/manager is unusable.
+Jul 04, 2017 11:48:00 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/docs
+Jul 04, 2017 11:48:01 AM org.apache.jasper.EmbeddedServletOptions <init>
+SEVERE: The scratchDir you specified: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/docs is unusable.
+Jul 04, 2017 11:48:01 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/examples
+Jul 04, 2017 11:48:01 AM org.apache.jasper.EmbeddedServletOptions <init>
+SEVERE: The scratchDir you specified: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/examples is unusable.
+Jul 04, 2017 11:48:01 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/thomas/git/tomcat/output/build/webapps/host-manager
+Jul 04, 2017 11:48:02 AM org.apache.jasper.EmbeddedServletOptions <init>
+SEVERE: The scratchDir you specified: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/host-manager is unusable.
+Jul 04, 2017 11:48:02 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 11:48:02 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 11:48:02 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3585 ms
+Jul 04, 2017 12:02:15 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 12:02:15 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 12:02:15 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jul 04, 2017 12:02:15 PM org.apache.catalina.session.StandardManager doUnload
+SEVERE: IOException while saving persisted sessions: java.io.FileNotFoundException: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/examples/SESSIONS.ser (Permission denied)
+java.io.FileNotFoundException: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/examples/SESSIONS.ser (Permission denied)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:221)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:110)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:367)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:333)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:500)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5410)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1406)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1395)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jul 04, 2017 12:02:15 PM org.apache.catalina.session.StandardManager stopInternal
+SEVERE: Exception unloading sessions to persistent storage
+java.io.FileNotFoundException: /home/thomas/git/tomcat/output/build/work/Catalina/localhost/examples/SESSIONS.ser (Permission denied)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:221)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:110)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:367)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:333)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:500)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5410)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1406)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1395)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jul 04, 2017 12:02:15 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 12:02:15 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-nio-8009"]
+Jul 04, 2017 12:02:15 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-8080"]
+Jul 04, 2017 12:02:15 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-nio-8009"]

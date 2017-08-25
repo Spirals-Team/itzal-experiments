@@ -1,0 +1,4 @@
+2016-01-19 15:34:31,594 INFO  [main] o.a.q.t.u.QpidTestCase ========== start ConfiguredObjectJacksonModuleTest.testManageableAttributeType ==========
+2016-01-19 15:34:31,595 INFO  [main] o.a.q.t.u.QpidTestCase ========== run ConfiguredObjectJacksonModuleTest.testManageableAttributeType ==========
+2016-01-19 15:34:31,619 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown ConfiguredObjectJacksonModuleTest.testManageableAttributeType ==========
+2016-01-19 15:34:31,620 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

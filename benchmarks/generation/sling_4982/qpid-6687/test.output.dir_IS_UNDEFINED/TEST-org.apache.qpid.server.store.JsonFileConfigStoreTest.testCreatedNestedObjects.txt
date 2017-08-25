@@ -1,0 +1,5 @@
+2016-01-19 15:19:28,921 INFO  [main] o.a.q.t.u.QpidTestCase ========== start JsonFileConfigStoreTest.testCreatedNestedObjects ==========
+2016-01-19 15:19:28,923 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:19:28,924 INFO  [main] o.a.q.t.u.QpidTestCase ========== run JsonFileConfigStoreTest.testCreatedNestedObjects ==========
+2016-01-19 15:19:28,942 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown JsonFileConfigStoreTest.testCreatedNestedObjects ==========
+2016-01-19 15:19:28,942 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

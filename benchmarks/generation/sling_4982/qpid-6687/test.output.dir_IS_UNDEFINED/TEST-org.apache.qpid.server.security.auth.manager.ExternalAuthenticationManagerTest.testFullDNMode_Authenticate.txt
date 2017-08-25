@@ -1,0 +1,9 @@
+2016-01-19 15:20:55,449 INFO  [main] o.a.q.t.u.QpidTestCase ========== start ExternalAuthenticationManagerTest.testFullDNMode_Authenticate ==========
+2016-01-19 15:20:55,453 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:20:55,462 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:20:55,470 INFO  [main] o.a.q.t.u.QpidTestCase ========== run ExternalAuthenticationManagerTest.testFullDNMode_Authenticate ==========
+2016-01-19 15:20:55,472 DEBUG [main] o.a.q.s.s.a.s.e.ExternalSaslServer Using external Principal: CN=person, DC=example, DC=com
+2016-01-19 15:20:55,473 DEBUG [main] o.a.q.s.s.a.s.e.ExternalSaslServer Using external Principal: CN=person, DC=example, DC=com
+2016-01-19 15:20:55,473 DEBUG [main] o.a.q.s.s.a.s.e.ExternalSaslServer Using external Principal: CN=person, DC=example, DC=com
+2016-01-19 15:20:55,473 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown ExternalAuthenticationManagerTest.testFullDNMode_Authenticate ==========
+2016-01-19 15:20:55,473 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

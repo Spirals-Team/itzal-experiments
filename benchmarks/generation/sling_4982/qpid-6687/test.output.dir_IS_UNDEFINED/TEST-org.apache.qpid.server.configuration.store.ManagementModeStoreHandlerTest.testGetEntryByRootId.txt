@@ -1,0 +1,8 @@
+2016-01-19 15:20:56,474 INFO  [main] o.a.q.t.u.QpidTestCase ========== start ManagementModeStoreHandlerTest.testGetEntryByRootId ==========
+2016-01-19 15:20:56,475 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Management mode quiescing entry Mock for ConfiguredObjectRecord, hashCode: 1560379655
+2016-01-19 15:20:56,475 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Management mode quiescing entry Mock for ConfiguredObjectRecord, hashCode: 1560379655
+2016-01-19 15:20:56,475 INFO  [main] o.a.q.t.u.QpidTestCase ========== run ManagementModeStoreHandlerTest.testGetEntryByRootId ==========
+2016-01-19 15:20:56,475 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing JsonSystemConfigImpl : System
+2016-01-19 15:20:56,475 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed JsonSystemConfigImpl : System
+2016-01-19 15:20:56,475 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown ManagementModeStoreHandlerTest.testGetEntryByRootId ==========
+2016-01-19 15:20:56,476 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

@@ -1,0 +1,40 @@
+2016-01-19 15:19:26,061 INFO  [main] o.a.q.t.u.QpidTestCase ========== start HeadersExchangeTest.testSimple ==========
+2016-01-19 15:19:26,072 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:19:26,076 INFO  [main] o.a.q.t.u.QpidTestCase ========== run HeadersExchangeTest.testSimple ==========
+2016-01-19 15:19:26,086 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: Binding null with binding key 'Q1' and args: {F0000=null}
+2016-01-19 15:19:26,097 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: Binding null with binding key 'Q2' and args: {F0000=Aardvark}
+2016-01-19 15:19:26,104 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: Binding null with binding key 'Q3' and args: {F0001=null}
+2016-01-19 15:19:26,116 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: Binding null with binding key 'Q4' and args: {F0001=Bear}
+2016-01-19 15:19:26,123 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: Binding null with binding key 'Q5' and args: {F0000=null, F0001=null}
+2016-01-19 15:19:26,131 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: Binding null with binding key 'Q6' and args: {F0000=Aardvark, F0001=Bear}
+2016-01-19 15:19:26,138 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: Binding null with binding key 'Q7' and args: {F0000=null, F0001=Bear}
+2016-01-19 15:19:26,145 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: Binding null with binding key 'Q8' and args: {F0000=Aardvark, F0001=null}
+2016-01-19 15:19:26,146 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: routing message with headers Mock for AMQMessageHeader, hashCode: 802243390
+2016-01-19 15:19:26,146 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: delivering message with headers Mock for AMQMessageHeader, hashCode: 802243390 to null
+2016-01-19 15:19:26,147 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: routing message with headers Mock for AMQMessageHeader, hashCode: 702061917
+2016-01-19 15:19:26,148 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: delivering message with headers Mock for AMQMessageHeader, hashCode: 702061917 to null
+2016-01-19 15:19:26,148 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: delivering message with headers Mock for AMQMessageHeader, hashCode: 702061917 to null
+2016-01-19 15:19:26,149 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: routing message with headers Mock for AMQMessageHeader, hashCode: 890545344
+2016-01-19 15:19:26,149 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: delivering message with headers Mock for AMQMessageHeader, hashCode: 890545344 to null
+2016-01-19 15:19:26,150 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: delivering message with headers Mock for AMQMessageHeader, hashCode: 890545344 to null
+2016-01-19 15:19:26,150 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: delivering message with headers Mock for AMQMessageHeader, hashCode: 890545344 to null
+2016-01-19 15:19:26,150 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: delivering message with headers Mock for AMQMessageHeader, hashCode: 890545344 to null
+2016-01-19 15:19:26,151 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: delivering message with headers Mock for AMQMessageHeader, hashCode: 890545344 to null
+2016-01-19 15:19:26,152 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: routing message with headers Mock for AMQMessageHeader, hashCode: 556488341
+2016-01-19 15:19:26,152 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: delivering message with headers Mock for AMQMessageHeader, hashCode: 556488341 to null
+2016-01-19 15:19:26,152 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: delivering message with headers Mock for AMQMessageHeader, hashCode: 556488341 to null
+2016-01-19 15:19:26,153 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: delivering message with headers Mock for AMQMessageHeader, hashCode: 556488341 to null
+2016-01-19 15:19:26,153 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: delivering message with headers Mock for AMQMessageHeader, hashCode: 556488341 to null
+2016-01-19 15:19:26,153 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: delivering message with headers Mock for AMQMessageHeader, hashCode: 556488341 to null
+2016-01-19 15:19:26,154 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: routing message with headers Mock for AMQMessageHeader, hashCode: 71706941
+2016-01-19 15:19:26,154 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: delivering message with headers Mock for AMQMessageHeader, hashCode: 71706941 to null
+2016-01-19 15:19:26,155 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: delivering message with headers Mock for AMQMessageHeader, hashCode: 71706941 to null
+2016-01-19 15:19:26,155 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: delivering message with headers Mock for AMQMessageHeader, hashCode: 71706941 to null
+2016-01-19 15:19:26,155 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: delivering message with headers Mock for AMQMessageHeader, hashCode: 71706941 to null
+2016-01-19 15:19:26,155 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: delivering message with headers Mock for AMQMessageHeader, hashCode: 71706941 to null
+2016-01-19 15:19:26,156 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: delivering message with headers Mock for AMQMessageHeader, hashCode: 71706941 to null
+2016-01-19 15:19:26,156 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: delivering message with headers Mock for AMQMessageHeader, hashCode: 71706941 to null
+2016-01-19 15:19:26,156 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: delivering message with headers Mock for AMQMessageHeader, hashCode: 71706941 to null
+2016-01-19 15:19:26,157 DEBUG [main] o.a.q.s.e.HeadersExchange Exchange test: routing message with headers Mock for AMQMessageHeader, hashCode: 1771667101
+2016-01-19 15:19:26,158 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown HeadersExchangeTest.testSimple ==========
+2016-01-19 15:19:26,158 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

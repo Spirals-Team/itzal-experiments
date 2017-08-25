@@ -1,0 +1,901 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lang 304</title>
+    <link rel="stylesheet" type="text/css" href="../../../../css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1>Lang 304</h1>
+    <table class="summary pure-table">
+      <tr class="pure-table-odd">
+        <td class="label">Nb candidate patch</td> <td>77</td>
+      </tr>
+      <tr>
+        <td class="label">Nb patch</td> <td>65</td>
+      </tr>
+    </table>
+    <ul class="executions">
+        <li class="execution success">
+          <h2>Execution 1</h2>
+          <span class="decision">Strat2A </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="223"></td><td class="line" data-line-number=""></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return new HashSet().contains(locale);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="226"></td><td class="code"><span>            return cAvailableLocaleSet.contains(locale);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="227"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="224"></td><td class="line" data-line-number="228"></td><td class="code"><span>    }</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 2</h2>
+          <span class="decision">Strat2A </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="223"></td><td class="line" data-line-number=""></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return new HashSet().contains(locale);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="226"></td><td class="code"><span>            return cAvailableLocaleSet.contains(locale);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="227"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="224"></td><td class="line" data-line-number="228"></td><td class="code"><span>    }</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 3</h2>
+          <span class="decision">Strat2A </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="223"></td><td class="line" data-line-number=""></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return new HashSet().contains(locale);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="226"></td><td class="code"><span>            return cAvailableLocaleSet.contains(locale);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="227"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="224"></td><td class="line" data-line-number="228"></td><td class="code"><span>    }</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 4</h2>
+          <span class="decision">Strat2A </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="223"></td><td class="line" data-line-number=""></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return new HashSet().contains(locale);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="226"></td><td class="code"><span>            return cAvailableLocaleSet.contains(locale);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="227"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="224"></td><td class="line" data-line-number="228"></td><td class="code"><span>    }</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 5</h2>
+          <span class="decision">Strat2A </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="223"></td><td class="line" data-line-number=""></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return new HashSet().contains(locale);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="226"></td><td class="code"><span>            return cAvailableLocaleSet.contains(locale);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="227"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="224"></td><td class="line" data-line-number="228"></td><td class="code"><span>    }</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 6</h2>
+          <span class="decision">Strat2A </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="223"></td><td class="line" data-line-number=""></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return new HashSet().contains(locale);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="226"></td><td class="code"><span>            return cAvailableLocaleSet.contains(locale);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="227"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="224"></td><td class="line" data-line-number="228"></td><td class="code"><span>    }</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 7</h2>
+          <span class="decision">Strat2A </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="223"></td><td class="line" data-line-number=""></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return new HashSet().contains(locale);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="226"></td><td class="code"><span>            return cAvailableLocaleSet.contains(locale);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="227"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="224"></td><td class="line" data-line-number="228"></td><td class="code"><span>    }</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 8</h2>
+          <span class="decision">Strat2A </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="223"></td><td class="line" data-line-number=""></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return new HashSet().contains(locale);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="226"></td><td class="code"><span>            return cAvailableLocaleSet.contains(locale);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="227"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="224"></td><td class="line" data-line-number="228"></td><td class="code"><span>    }</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 9</h2>
+          <span class="decision">Strat2B </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            cAvailableLocaleSet = new HashSet();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 10</h2>
+          <span class="decision">Strat2B </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            cAvailableLocaleSet = new HashSet();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 11</h2>
+          <span class="decision">Strat4 VAR </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return Boolean.FALSE;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 12</h2>
+          <span class="decision">Strat2B </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            cAvailableLocaleSet = new HashSet();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 13</h2>
+          <span class="decision">Strat4 VAR </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return Boolean.TRUE;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 14</h2>
+          <span class="decision">Strat4 VAR </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return Boolean.FALSE;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 15</h2>
+          <span class="decision">Strat2B </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            cAvailableLocaleSet = new HashSet();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 16</h2>
+          <span class="decision">Strat4 NEW </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return false;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 17</h2>
+          <span class="decision">Strat2B </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            cAvailableLocaleSet = new HashSet();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 18</h2>
+          <span class="decision">Strat4 VAR </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return Boolean.TRUE;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 19</h2>
+          <span class="decision">Strat4 VAR </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return Boolean.FALSE;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 20</h2>
+          <span class="decision">Strat4 NEW </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return true;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 21</h2>
+          <span class="decision">Strat2B </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            cAvailableLocaleSet = new HashSet();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 22</h2>
+          <span class="decision">Strat4 NEW </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return false;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 23</h2>
+          <span class="decision">Strat4 VAR </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return Boolean.TRUE;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 24</h2>
+          <span class="decision">Strat4 VAR </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return Boolean.FALSE;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 25</h2>
+          <span class="decision">Strat2B </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            cAvailableLocaleSet = new HashSet();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 26</h2>
+          <span class="decision">Strat4 VAR </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return Boolean.FALSE;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 27</h2>
+          <span class="decision">Strat4 NEW </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return true;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 28</h2>
+          <span class="decision">Strat4 NEW </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return false;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 29</h2>
+          <span class="decision">Strat4 VAR </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return Boolean.TRUE;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 30</h2>
+          <span class="decision">Strat4 VAR </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return Boolean.FALSE;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 31</h2>
+          <span class="decision">Strat4 VAR </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return Boolean.TRUE;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 32</h2>
+          <span class="decision">Strat4 NEW </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return true;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 33</h2>
+          <span class="decision">Strat4 NEW </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return false;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 34</h2>
+          <span class="decision">Strat4 VAR </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return Boolean.FALSE;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 35</h2>
+          <span class="decision">Strat2A </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="223"></td><td class="line" data-line-number=""></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return new HashSet().contains(locale);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="226"></td><td class="code"><span>            return cAvailableLocaleSet.contains(locale);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="227"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="224"></td><td class="line" data-line-number="228"></td><td class="code"><span>    }</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 36</h2>
+          <span class="decision">Strat4 VAR </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return Boolean.TRUE;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 37</h2>
+          <span class="decision">Strat4 NEW </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return false;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 38</h2>
+          <span class="decision">Strat4 NEW </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return true;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 39</h2>
+          <span class="decision">Strat4 VAR </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return Boolean.TRUE;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 40</h2>
+          <span class="decision">Strat4 VAR </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return Boolean.FALSE;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 41</h2>
+          <span class="decision">Strat4 NEW </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return false;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 42</h2>
+          <span class="decision">Strat4 NEW </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return true;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 43</h2>
+          <span class="decision">Strat4 NEW </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return false;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 44</h2>
+          <span class="decision">Strat4 VAR </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return Boolean.TRUE;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 45</h2>
+          <span class="decision">Strat4 NEW </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return true;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 46</h2>
+          <span class="decision">Strat4 NEW </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return true;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 47</h2>
+          <span class="decision">Strat4 NEW </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return false;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 48</h2>
+          <span class="decision">Strat4 NEW </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return true;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 49</h2>
+          <span class="decision">Strat2B </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            cAvailableLocaleSet = new HashSet();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 50</h2>
+          <span class="decision">Strat2A </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="223"></td><td class="line" data-line-number=""></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return new HashSet().contains(locale);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="226"></td><td class="code"><span>            return cAvailableLocaleSet.contains(locale);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="227"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="224"></td><td class="line" data-line-number="228"></td><td class="code"><span>    }</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 51</h2>
+          <span class="decision">Strat2A </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="223"></td><td class="line" data-line-number=""></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return new HashSet().contains(locale);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="226"></td><td class="code"><span>            return cAvailableLocaleSet.contains(locale);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="227"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="224"></td><td class="line" data-line-number="228"></td><td class="code"><span>    }</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 52</h2>
+          <span class="decision">Strat4 VAR </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return Boolean.FALSE;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 53</h2>
+          <span class="decision">Strat4 VAR </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return Boolean.TRUE;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 54</h2>
+          <span class="decision">Strat4 NEW </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return false;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 55</h2>
+          <span class="decision">Strat4 NEW </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return true;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 56</h2>
+          <span class="decision">Strat2B </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            cAvailableLocaleSet = new HashSet();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 57</h2>
+          <span class="decision">Strat2B </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            cAvailableLocaleSet = new HashSet();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 58</h2>
+          <span class="decision">Strat4 VAR </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return Boolean.FALSE;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 59</h2>
+          <span class="decision">Strat4 VAR </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return Boolean.FALSE;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 60</h2>
+          <span class="decision">Strat4 VAR </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return Boolean.TRUE;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 61</h2>
+          <span class="decision">Strat4 VAR </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return Boolean.TRUE;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 62</h2>
+          <span class="decision">Strat4 NEW </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return false;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 63</h2>
+          <span class="decision">Strat4 NEW </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return false;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 64</h2>
+          <span class="decision">Strat4 NEW </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return true;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 65</h2>
+          <span class="decision">Strat4 NEW </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/LocaleUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="222"></td><td class="line" data-line-number="222"></td><td class="code"><span>    public static boolean isAvailableLocale(Locale locale) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="223"></td><td class="code"><span>        if (cAvailableLocaleSet == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="224"></td><td class="code"><span>            return true;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="225"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="223"></td><td class="line" data-line-number="226"></td><td class="code"><span>        return cAvailableLocaleSet.contains(locale);</span></td></tr>
+</tbody></table>
+
+        </li>
+    </ul>
+  </body>
+</html>

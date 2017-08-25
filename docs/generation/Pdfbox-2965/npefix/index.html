@@ -1,0 +1,161 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PDFBox 2965</title>
+    <link rel="stylesheet" type="text/css" href="../../../../css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1>PDFBox 2965</h1>
+    <table class="summary pure-table">
+      <tr class="pure-table-odd">
+        <td class="label">Nb candidate patch</td> <td>4</td>
+      </tr>
+      <tr>
+        <td class="label">Nb patch</td> <td>3</td>
+      </tr>
+    </table>
+    <ul class="executions">
+        <li class="execution success">
+          <h2>Execution 1</h2>
+          <span class="decision">Strat2A </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/PDAcroForm.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="250"></td><td class="line" data-line-number="250"></td><td class="code"><span></span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="251"></td><td class="line" data-line-number=""></td><td class="code"><span>            for (int i = 0; i &lt; fields.size() && retval == null; i++)</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="252"></td><td class="line" data-line-number=""></td><td class="code"><span>            {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="253"></td><td class="line" data-line-number=""></td><td class="code"><span>                COSDictionary element = (COSDictionary) fields.getObject(i);</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="254"></td><td class="line" data-line-number=""></td><td class="code"><span>                if (element != null)</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="255"></td><td class="line" data-line-number=""></td><td class="code"><span>                {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="256"></td><td class="line" data-line-number=""></td><td class="code"><span>                    COSString fieldName =</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="251"></td><td class="code"><span>            } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="252"></td><td class="code"><span>                if (fields == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="253"></td><td class="code"><span>                    for (int i = 0; i &lt; new COSArray().size() && retval == null; i++)</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="254"></td><td class="code"><span>                    {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="255"></td><td class="code"><span>                        COSDictionary element = (COSDictionary) fields.getObject(i);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="256"></td><td class="code"><span>                        if (element != null)</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="257"></td><td class="code"><span>                        {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="258"></td><td class="code"><span>                            COSString fieldName =</span></td></tr>
+<tr class=""><td class="line" data-line-number="257"></td><td class="line" data-line-number="259"></td><td class="code"><span>                            (COSString)element.getDictionaryObject(COSName.T);</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="258"></td><td class="line" data-line-number=""></td><td class="code"><span>                    if (fieldName.getString().equals(fullyQualifiedName) ||</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="260"></td><td class="code"><span>                            if (fieldName.getString().equals(fullyQualifiedName) ||</span></td></tr>
+<tr class=""><td class="line" data-line-number="259"></td><td class="line" data-line-number="261"></td><td class="code"><span>                            fieldName.getString().equals(nameSubSection[0]))</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="262"></td><td class="code"><span>                            {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="263"></td><td class="code"><span>                                PDField root = PDField.fromDictionary(this, element, null);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="264"></td><td class="code"><span>                                if (root != null)</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="265"></td><td class="code"><span>                                {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="266"></td><td class="code"><span>                                    if (nameSubSection.length &gt; 1)</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="267"></td><td class="code"><span>                                    {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="268"></td><td class="code"><span>                                        PDField kid = root.findKid(nameSubSection, 1);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="269"></td><td class="code"><span>                                        if (kid != null)</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="270"></td><td class="code"><span>                                        {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="271"></td><td class="code"><span>                                            retval = kid;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="272"></td><td class="code"><span>                                        }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="273"></td><td class="code"><span>                                        else</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="274"></td><td class="code"><span>                                        {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="275"></td><td class="code"><span>                                            retval = root;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="276"></td><td class="code"><span>                                        }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="277"></td><td class="code"><span>                                    }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="278"></td><td class="code"><span>                                    else</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="279"></td><td class="code"><span>                                    {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="280"></td><td class="code"><span>                                        retval = root;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="281"></td><td class="code"><span>                                    }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="282"></td><td class="code"><span>                                }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="283"></td><td class="code"><span>                            }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="284"></td><td class="code"><span>                        }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="285"></td><td class="code"><span>                    }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="286"></td><td class="code"><span>                } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="287"></td><td class="code"><span>                    for (int i = 0; i &lt; fields.size() && retval == null; i++)</span></td></tr>
+<tr class=""><td class="line" data-line-number="260"></td><td class="line" data-line-number="288"></td><td class="code"><span>                    {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="261"></td><td class="line" data-line-number=""></td><td class="code"><span>                        PDField root = PDField.fromDictionary(this, element, null);</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="262"></td><td class="line" data-line-number=""></td><td class="code"><span>                        if (root != null)</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="289"></td><td class="code"><span>                        COSDictionary element = (COSDictionary) fields.getObject(i);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="290"></td><td class="code"><span>                        if (element != null)</span></td></tr>
+<tr class=""><td class="line" data-line-number="263"></td><td class="line" data-line-number="291"></td><td class="code"><span>                        {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="264"></td><td class="line" data-line-number=""></td><td class="code"><span>                            if (nameSubSection.length &gt; 1)</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="292"></td><td class="code"><span>                            COSString fieldName =</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="293"></td><td class="code"><span>                            (COSString)element.getDictionaryObject(COSName.T);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="294"></td><td class="code"><span>                            if (fieldName.getString().equals(fullyQualifiedName) ||</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="295"></td><td class="code"><span>                            fieldName.getString().equals(nameSubSection[0]))</span></td></tr>
+<tr class=""><td class="line" data-line-number="265"></td><td class="line" data-line-number="296"></td><td class="code"><span>                            {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="266"></td><td class="line" data-line-number=""></td><td class="code"><span>                                PDField kid = root.findKid(nameSubSection, 1);</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="267"></td><td class="line" data-line-number=""></td><td class="code"><span>                                if (kid != null)</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="297"></td><td class="code"><span>                                PDField root = PDField.fromDictionary(this, element, null);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="298"></td><td class="code"><span>                                if (root != null)</span></td></tr>
+<tr class=""><td class="line" data-line-number="268"></td><td class="line" data-line-number="299"></td><td class="code"><span>                                {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="269"></td><td class="line" data-line-number=""></td><td class="code"><span>                                    retval = kid;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="300"></td><td class="code"><span>                                    if (nameSubSection.length &gt; 1)</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="301"></td><td class="code"><span>                                    {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="302"></td><td class="code"><span>                                        PDField kid = root.findKid(nameSubSection, 1);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="303"></td><td class="code"><span>                                        if (kid != null)</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="304"></td><td class="code"><span>                                        {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="305"></td><td class="code"><span>                                            retval = kid;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="306"></td><td class="code"><span>                                        }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="307"></td><td class="code"><span>                                        else</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="308"></td><td class="code"><span>                                        {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="309"></td><td class="code"><span>                                            retval = root;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="310"></td><td class="code"><span>                                        }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="311"></td><td class="code"><span>                                    }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="312"></td><td class="code"><span>                                    else</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="313"></td><td class="code"><span>                                    {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="314"></td><td class="code"><span>                                        retval = root;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="315"></td><td class="code"><span>                                    }</span></td></tr>
+<tr class=""><td class="line" data-line-number="270"></td><td class="line" data-line-number="316"></td><td class="code"><span>                                }</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="271"></td><td class="line" data-line-number=""></td><td class="code"><span>                                else</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="272"></td><td class="line" data-line-number=""></td><td class="code"><span>                                {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="273"></td><td class="line" data-line-number=""></td><td class="code"><span>                                    retval = root;</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="274"></td><td class="line" data-line-number=""></td><td class="code"><span>                                }</span></td></tr>
+<tr class=""><td class="line" data-line-number="275"></td><td class="line" data-line-number="317"></td><td class="code"><span>                            }</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="276"></td><td class="line" data-line-number=""></td><td class="code"><span>                            else</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="277"></td><td class="line" data-line-number=""></td><td class="code"><span>                            {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="278"></td><td class="line" data-line-number=""></td><td class="code"><span>                                retval = root;</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="279"></td><td class="line" data-line-number=""></td><td class="code"><span>                            }</span></td></tr>
+<tr class=""><td class="line" data-line-number="280"></td><td class="line" data-line-number="318"></td><td class="code"><span>                        }</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 2</h2>
+          <span class="decision">Strat2B </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/PDAcroForm.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="250"></td><td class="line" data-line-number="250"></td><td class="code"><span></span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="251"></td><td class="line" data-line-number=""></td><td class="code"><span>            for (int i = 0; i &lt; fields.size() && retval == null; i++)</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="251"></td><td class="code"><span>            } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="252"></td><td class="code"><span>                if (fields == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="253"></td><td class="code"><span>                    fields = new COSArray();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="254"></td><td class="code"><span>                }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="255"></td><td class="code"><span>                for (int i = 0; i &lt; fields.size() && retval == null; i++)</span></td></tr>
+<tr class=""><td class="line" data-line-number="252"></td><td class="line" data-line-number="256"></td><td class="code"><span>            {</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="283"></td><td class="line" data-line-number="287"></td><td class="code"><span>            }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="288"></td><td class="code"><span>            }</span></td></tr>
+<tr class=""><td class="line" data-line-number="284"></td><td class="line" data-line-number="289"></td><td class="code"><span>        }</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 3</h2>
+          <span class="decision">Strat4 NULL </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/PDAcroForm.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="250"></td><td class="line" data-line-number="250"></td><td class="code"><span></span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="251"></td><td class="line" data-line-number=""></td><td class="code"><span>            for (int i = 0; i &lt; fields.size() && retval == null; i++)</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="251"></td><td class="code"><span>            } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="252"></td><td class="code"><span>                if (fields == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="253"></td><td class="code"><span>                    return null;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="254"></td><td class="code"><span>                }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="255"></td><td class="code"><span>                for (int i = 0; i &lt; fields.size() && retval == null; i++)</span></td></tr>
+<tr class=""><td class="line" data-line-number="252"></td><td class="line" data-line-number="256"></td><td class="code"><span>            {</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="283"></td><td class="line" data-line-number="287"></td><td class="code"><span>            }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="288"></td><td class="code"><span>            }</span></td></tr>
+<tr class=""><td class="line" data-line-number="284"></td><td class="line" data-line-number="289"></td><td class="code"><span>        }</span></td></tr>
+</tbody></table>
+
+        </li>
+    </ul>
+  </body>
+</html>

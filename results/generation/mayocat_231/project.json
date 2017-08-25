@@ -1,0 +1,8 @@
+{
+   "name": "Mayocat 231",
+   "benchmark": "Itzal",
+   "oracle": "Production",
+   "type": "NPE",
+   "application": "website",
+   "loc": 31231
+}

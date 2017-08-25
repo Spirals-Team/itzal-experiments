@@ -1,0 +1,4 @@
+2016-01-19 15:20:54,504 INFO  [main] o.a.q.t.u.QpidTestCase ========== start BrokerFileLoggerStatusListenerTest.testAddStatusEventForIOExceptionReportedAsWarning ==========
+2016-01-19 15:20:54,515 INFO  [main] o.a.q.t.u.QpidTestCase ========== run BrokerFileLoggerStatusListenerTest.testAddStatusEventForIOExceptionReportedAsWarning ==========
+2016-01-19 15:20:54,520 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown BrokerFileLoggerStatusListenerTest.testAddStatusEventForIOExceptionReportedAsWarning ==========
+2016-01-19 15:20:54,520 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Patch Generation Evaluation</title>
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="../../css/style.css">
+</head>
+<body>
+  <h1>Patch Generation Evaluation</h1>
+  <table class="pure-table pure-table-horizontal">
+    <thead>
+      <tr>
+        <th rowspan="2">#</th>
+        <th rowspan="2">Bug id</th>
+        <th rowspan="2">Benchmark</th>
+        <th rowspan="2">Oracle Type</th>
+        <th rowspan="2">Bug Type</th>
+        <th rowspan="2">Application Type</th>
+        <th rowspan="2">LOC</th>
+        <th rowspan="2"># NPEFix Patch</th>
+        <th rowspan="2"># Failure Oblivious Patch</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="pure-table-odd">
+        <td>1</td>
+        <td><a href="Broadleaf-1282/index.html">BroadleafCommerce 1282</a></td>
+        <td>\cite{DurieuxHM16}</td>
+        <td>HTTP</td>
+        <td>NPE</td>
+        <td>website</td>
+        <td>161428</td>
+        <td>0</td>
+        <td>0</td>
+        <td> 0 </td>
+        <td> 0 </td>
+      </tr>
+      <tr class="pure-table-even">
+        <td>2</td>
+        <td><a href="Collections-360/index.html">Collection 360</a></td>
+        <td>\cite{npefix}</td>
+        <td>Exception</td>
+        <td>NPE</td>
+        <td>library</td>
+        <td>21650</td>
+        <td>16</td>
+        <td>35</td>
+        <td> 64 </td>
+        <td> 44 </td>
+      </tr>
+      <tr class="pure-table-odd">
+        <td>3</td>
+        <td><a href="DataflowjavasdkC-06125D/index.html">DataflowJavaSDK c06125d</a></td>
+        <td>\cite{long2017automatic}</td>
+        <td>Exception</td>
+        <td>NPE</td>
+        <td>library</td>
+        <td>50655</td>
+        <td>2</td>
+        <td>1</td>
+        <td> 0 </td>
+        <td> 0 </td>
+      </tr>
+      <tr class="pure-table-even">
+        <td>4</td>
+        <td><a href="Felix-4960/index.html">Felix 4960</a></td>
+        <td>\cite{npefix}</td>
+        <td>Exception</td>
+        <td>NPE</td>
+        <td>library</td>
+        <td>33057</td>
+        <td>4</td>
+        <td>6</td>
+        <td> 0 </td>
+        <td> 1 </td>
+      </tr>
+      <tr class="pure-table-odd">
+        <td>5</td>
+        <td><a href="Javapoet-70B38E5/index.html">Javapoet 70b38e5</a></td>
+        <td>\cite{long2017automatic}</td>
+        <td>Exception</td>
+        <td>NPE</td>
+        <td>library</td>
+        <td>3884</td>
+        <td>0</td>
+        <td>133</td>
+        <td> 12 </td>
+        <td> 87 </td>
+      </tr>
+      <tr class="pure-table-even">
+        <td>6</td>
+        <td><a href="Jetty-335500/index.html">Jetty 335500</a></td>
+        <td>\cite{gu2016automatic}</td>
+        <td>HTTP</td>
+        <td>NPE</td>
+        <td>server</td>
+        <td>153789</td>
+        <td>2</td>
+        <td>2</td>
+        <td> 2 </td>
+        <td> 2 </td>
+      </tr>
+      <tr class="pure-table-odd">
+        <td>7</td>
+        <td><a href="JongoF-46F658/index.html">Jongo f46f658</a></td>
+        <td>\cite{long2017automatic}</td>
+        <td>Exception</td>
+        <td>NPE</td>
+        <td>library</td>
+        <td>7384</td>
+        <td>0</td>
+        <td>1</td>
+        <td> 2 </td>
+        <td> 8 </td>
+      </tr>
+      <tr class="pure-table-even">
+        <td>8</td>
+        <td><a href="Lang-20/index.html">Lang 20</a></td>
+        <td>\cite{JustJE2014}</td>
+        <td>Exception</td>
+        <td>NPE</td>
+        <td>library</td>
+        <td>49637</td>
+        <td>78</td>
+        <td>634</td>
+        <td> 0 </td>
+        <td> 15 </td>
+      </tr>
+      <tr class="pure-table-odd">
+        <td>9</td>
+        <td><a href="Lang-304/index.html">Lang 304</a></td>
+        <td>\cite{npefix}</td>
+        <td>Exception</td>
+        <td>NPE</td>
+        <td>library</td>
+        <td>17277</td>
+        <td>65</td>
+        <td>12</td>
+        <td> 32 </td>
+        <td> 276 </td>
+      </tr>
+      <tr class="pure-table-even">
+        <td>10</td>
+        <td><a href="Lang-33/index.html">Lang 33</a></td>
+        <td>\cite{JustJE2014}</td>
+        <td>Exception</td>
+        <td>NPE</td>
+        <td>library</td>
+        <td>45444</td>
+        <td>1</td>
+        <td>27</td>
+        <td> 0 </td>
+        <td> 3 </td>
+      </tr>
+      <tr class="pure-table-odd">
+        <td>11</td>
+        <td><a href="Lang-39/index.html">Lang 39</a></td>
+        <td>\cite{JustJE2014}</td>
+        <td>Exception</td>
+        <td>NPE</td>
+        <td>library</td>
+        <td>45143</td>
+        <td>4</td>
+        <td>7</td>
+        <td> 0 </td>
+        <td> 8 </td>
+      </tr>
+      <tr class="pure-table-even">
+        <td>12</td>
+        <td><a href="Lang-587/index.html">Lang 587</a></td>
+        <td>\cite{npefix}</td>
+        <td>Exception</td>
+        <td>NPE</td>
+        <td>library</td>
+        <td>17319</td>
+        <td>28</td>
+        <td>0</td>
+        <td> 3 </td>
+        <td> 0 </td>
+      </tr>
+      <tr class="pure-table-odd">
+        <td>13</td>
+        <td><a href="Lang-703/index.html">Lang 703</a></td>
+        <td>\cite{npefix}</td>
+        <td>Exception</td>
+        <td>NPE</td>
+        <td>library</td>
+        <td>19047</td>
+        <td>7</td>
+        <td>12</td>
+        <td> 0 </td>
+        <td> 15 </td>
+      </tr>
+      <tr class="pure-table-even">
+        <td>14</td>
+        <td><a href="Math-1115/index.html">Math 1115</a></td>
+        <td>\cite{npefix}</td>
+        <td>Exception</td>
+        <td>NPE</td>
+        <td>library</td>
+        <td>90782</td>
+        <td>5</td>
+        <td>6</td>
+        <td> 4 </td>
+        <td> 1 </td>
+      </tr>
+      <tr class="pure-table-odd">
+        <td>15</td>
+        <td><a href="Math-1117/index.html">Math 1117</a></td>
+        <td>\cite{npefix}</td>
+        <td>Exception</td>
+        <td>NPE</td>
+        <td>library</td>
+        <td>90794</td>
+        <td>22132</td>
+        <td>29711</td>
+        <td> 0 </td>
+        <td> 0 </td>
+      </tr>
+      <tr class="pure-table-even">
+        <td>16</td>
+        <td><a href="Math-290/index.html">Math 290</a></td>
+        <td>\cite{npefix}</td>
+        <td>Exception</td>
+        <td>NPE</td>
+        <td>library</td>
+        <td>38728</td>
+        <td>4</td>
+        <td>10</td>
+        <td> 4 </td>
+        <td> 3 </td>
+      </tr>
+      <tr class="pure-table-odd">
+        <td>17</td>
+        <td><a href="Math-305/index.html">Math 305</a></td>
+        <td>\cite{npefix}</td>
+        <td>Exception</td>
+        <td>NPE</td>
+        <td>library</td>
+        <td>38893</td>
+        <td>3</td>
+        <td>1</td>
+        <td> 9 </td>
+        <td> 1 </td>
+      </tr>
+      <tr class="pure-table-even">
+        <td>18</td>
+        <td><a href="Math-369/index.html">Math 369</a></td>
+        <td>\cite{npefix}</td>
+        <td>Exception</td>
+        <td>NPE</td>
+        <td>library</td>
+        <td>41082</td>
+        <td>23</td>
+        <td>3</td>
+        <td> 22 </td>
+        <td> 2 </td>
+      </tr>
+      <tr class="pure-table-odd">
+        <td>19</td>
+        <td><a href="Math-4/index.html">Math 4</a></td>
+        <td>\cite{JustJE2014}</td>
+        <td>Exception</td>
+        <td>NPE</td>
+        <td>library</td>
+        <td>164667</td>
+        <td>415</td>
+        <td>95</td>
+        <td> 2 </td>
+        <td> 17 </td>
+      </tr>
+      <tr class="pure-table-even">
+        <td>20</td>
+        <td><a href="Math-70/index.html">Math 70</a></td>
+        <td>\cite{JustJE2014}</td>
+        <td>Exception</td>
+        <td>NPE</td>
+        <td>library</td>
+        <td>83720</td>
+        <td>1</td>
+        <td>25</td>
+        <td> 0 </td>
+        <td> 24 </td>
+      </tr>
+      <tr class="pure-table-odd">
+        <td>21</td>
+        <td><a href="Math-79/index.html">Math 79</a></td>
+        <td>\cite{JustJE2014}</td>
+        <td>Exception</td>
+        <td>NPE</td>
+        <td>library</td>
+        <td>89611</td>
+        <td>0</td>
+        <td>4</td>
+        <td> 0 </td>
+        <td> 10 </td>
+      </tr>
+      <tr class="pure-table-even">
+        <td>22</td>
+        <td><a href="Math-988A/index.html">Math 988A</a></td>
+        <td>\cite{npefix}</td>
+        <td>Exception</td>
+        <td>NPE</td>
+        <td>library</td>
+        <td>82442</td>
+        <td>168</td>
+        <td>37</td>
+        <td> 8 </td>
+        <td> 11 </td>
+      </tr>
+      <tr class="pure-table-odd">
+        <td>23</td>
+        <td><a href="Math-988B/index.html">Math 988B</a></td>
+        <td>\cite{npefix}</td>
+        <td>Exception</td>
+        <td>NPE</td>
+        <td>library</td>
+        <td>82443</td>
+        <td>17</td>
+        <td>15</td>
+        <td> 1 </td>
+        <td> 12 </td>
+      </tr>
+      <tr class="pure-table-even">
+        <td>24</td>
+        <td><a href="Mayocat-231/index.html">Mayocat 231</a></td>
+        <td>\cite{DurieuxHM16}</td>
+        <td>HTTP</td>
+        <td>NPE</td>
+        <td>website</td>
+        <td>31231</td>
+        <td>102</td>
+        <td>182</td>
+        <td> 18 </td>
+        <td> 19 </td>
+      </tr>
+      <tr class="pure-table-odd">
+        <td>25</td>
+        <td><a href="Pdfbox-2812/index.html">PDFBox 2812</a></td>
+        <td>\cite{npefix}</td>
+        <td>Exception</td>
+        <td>NPE</td>
+        <td>library</td>
+        <td>67294</td>
+        <td>4</td>
+        <td>21</td>
+        <td> 2 </td>
+        <td> 9 </td>
+      </tr>
+      <tr class="pure-table-even">
+        <td>26</td>
+        <td><a href="Pdfbox-2965/index.html">PDFBox 2965</a></td>
+        <td>\cite{npefix}</td>
+        <td>Exception</td>
+        <td>NPE</td>
+        <td>library</td>
+        <td>64375</td>
+        <td>3</td>
+        <td>1</td>
+        <td> 1 </td>
+        <td> 0 </td>
+      </tr>
+      <tr class="pure-table-odd">
+        <td>27</td>
+        <td><a href="Pdfbox-2995/index.html">PDFBox 2995</a></td>
+        <td>\cite{npefix}</td>
+        <td>Exception</td>
+        <td>NPE</td>
+        <td>library</td>
+        <td>64821</td>
+        <td>1</td>
+        <td>4</td>
+        <td> 1 </td>
+        <td> 1 </td>
+      </tr>
+      <tr class="pure-table-even">
+        <td>28</td>
+        <td><a href="Sling-4982/index.html">Sling 4982</a></td>
+        <td>\cite{npefix}</td>
+        <td>Exception</td>
+        <td>NPE</td>
+        <td>library</td>
+        <td>583</td>
+        <td>11</td>
+        <td>9</td>
+        <td> 6 </td>
+        <td> 4 </td>
+      </tr>
+      <tr class="pure-table-odd">
+        <td>29</td>
+        <td><a href="Tomcat-43758/index.html">Tomcat 43758</a></td>
+        <td>\cite{gu2016automatic}</td>
+        <td>HTTP</td>
+        <td>NPE</td>
+        <td>server</td>
+        <td>156480</td>
+        <td>1</td>
+        <td>9</td>
+        <td> 1 </td>
+        <td> 0 </td>
+      </tr>
+      <tr class="pure-table-even">
+        <td>30</td>
+        <td><a href="Tomcat-54703/index.html">Tomcat 54703</a></td>
+        <td>\cite{gu2016automatic}</td>
+        <td>HTTP</td>
+        <td>NPE</td>
+        <td>server</td>
+        <td>186301</td>
+        <td>10</td>
+        <td>0</td>
+        <td> 2 </td>
+        <td> 1 </td>
+      </tr>
+      <tr class="pure-table-odd">
+        <td>31</td>
+        <td><a href="Tomcat-55454/index.html">Tomcat 55454</a></td>
+        <td>\cite{gu2016automatic}</td>
+        <td>HTTP</td>
+        <td>NPE</td>
+        <td>server</td>
+        <td>193648</td>
+        <td>1</td>
+        <td>0</td>
+        <td> 2 </td>
+        <td> 1 </td>
+      </tr>
+      <tr class="pure-table-even">
+        <td>32</td>
+        <td><a href="Tomcat-56010/index.html">Tomcat 56010</a></td>
+        <td>\cite{gu2016automatic}</td>
+        <td>HTTP</td>
+        <td>IAE</td>
+        <td>server</td>
+        <td>195130</td>
+        <td>0</td>
+        <td>0</td>
+        <td> 0 </td>
+        <td> 7 </td>
+      </tr>
+      <tr class="pure-table-odd">
+        <td>33</td>
+        <td><a href="Tomcat-58232/index.html">Tomcat 58232</a></td>
+        <td>\cite{gu2016automatic}</td>
+        <td>HTTP</td>
+        <td>NPE</td>
+        <td>server</td>
+        <td>224194</td>
+        <td>3</td>
+        <td>0</td>
+        <td> ? </td>
+        <td> ? </td>
+      </tr>
+      <tr class="pure-table-even">
+        <td>34</td>
+        <td><a href="WebmagicFf-2F588/index.html">Webmagic ff2f588</a></td>
+        <td>\cite{long2017automatic}</td>
+        <td>Exception</td>
+        <td>NPE</td>
+        <td>library</td>
+        <td>9239</td>
+        <td>2</td>
+        <td>49</td>
+        <td> 0 </td>
+        <td> 10 </td>
+      </tr>
+      
+    </tbody>
+    <tfoot>
+      <tr>
+        <th></th>
+        <th>34 bugs</th>
+        <th>5 benchmarks</th>
+        <th>2 oracle types</th>
+        <th>2 bug types</th>
+        <th>3 application types</th>
+        <th>2622172 LOC</th>
+        <th>23113</th>
+        <th>198</th>
+      </tr>
+    </tfoot>
+  </table>
+
+  <h2>Projects</h2>
+  <table class="pure-table">
+    <thead>
+      <tr>
+        <th>Project</th>
+        <th>Nb Bugs</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="pure-table-odd">
+        <td>Math</td>
+        <td>20</td>
+      </tr>
+      <tr class="pure-table-even">
+        <td>Lang</td>
+        <td>12</td>
+      </tr>
+      <tr class="pure-table-odd">
+        <td>Tomcat</td>
+        <td>9</td>
+      </tr>
+      <tr class="pure-table-even">
+        <td>PDFBox</td>
+        <td>6</td>
+      </tr>
+      <tr class="pure-table-odd">
+        <td>BroadleafCommerce</td>
+        <td>2</td>
+      </tr>
+      <tr class="pure-table-even">
+        <td>Sling</td>
+        <td>2</td>
+      </tr>
+      <tr class="pure-table-odd">
+        <td>Felix</td>
+        <td>2</td>
+      </tr>
+      <tr class="pure-table-even">
+        <td>Jetty</td>
+        <td>2</td>
+      </tr>
+      <tr class="pure-table-odd">
+        <td>Collection</td>
+        <td>2</td>
+      </tr>
+      <tr class="pure-table-even">
+        <td>DataflowJavaSDK</td>
+        <td>2</td>
+      </tr>
+      <tr class="pure-table-odd">
+        <td>Javapoet</td>
+        <td>2</td>
+      </tr>
+      <tr class="pure-table-even">
+        <td>Jongo</td>
+        <td>2</td>
+      </tr>
+      <tr class="pure-table-odd">
+        <td>Webmagic</td>
+        <td>2</td>
+      </tr>
+      <tr class="pure-table-even">
+        <td>Mayocat</td>
+        <td>2</td>
+      </tr>
+      
+    </tbody>
+    <tfoot>
+      <tr>
+        <th>14 projects</td>
+        <th></th>
+      </tr>
+    </tfoot>
+  </table>
+
+  <h2>Bug Types</h2>
+  <table class="pure-table pure-table-horizontal">
+    <thead>
+      <tr>
+        <th>Oracle</th>
+        <th>Nb Bugs</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="pure-table-odd">
+        <td>NPE</td>
+        <td>65</td>
+      </tr>
+      <tr class="pure-table-even">
+        <td>IAE</td>
+        <td>2</td>
+      </tr>
+      
+    </tbody>
+    <tfoot>
+      <tr>
+        <th>2 bug types</th>
+        <th></th>
+      </tr>
+    </tfoot>
+  </table>
+
+  <h2>Oracle</h2>
+  <table class="pure-table pure-table-horizontal">
+    <thead>
+      <tr>
+        <th>Oracle</th>
+        <th>Nb Bugs</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="pure-table-odd">
+        <td>Exception</td>
+        <td>52</td>
+      </tr>
+      <tr class="pure-table-even">
+        <td>HTTP</td>
+        <td>15</td>
+      </tr>
+      
+    </tbody>
+    <tfoot>
+      <tr>
+        <th>2 oracles</td>
+        <th></th>
+      </tr>
+    </tfoot>
+  </table>
+
+  <h2>Benchmark</h2>
+  <table class="pure-table pure-table-horizontal">
+    <thead>
+      <tr>
+        <th>Benchmark</th>
+        <th>Nb Bugs</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="pure-table-odd">
+        <td>\cite{npefix}</td>
+        <td>32</td>
+      </tr>
+      <tr class="pure-table-even">
+        <td>\cite{JustJE2014}</td>
+        <td>12</td>
+      </tr>
+      <tr class="pure-table-odd">
+        <td>\cite{gu2016automatic}</td>
+        <td>11</td>
+      </tr>
+      <tr class="pure-table-even">
+        <td>\cite{long2017automatic}</td>
+        <td>8</td>
+      </tr>
+      <tr class="pure-table-odd">
+        <td>\cite{DurieuxHM16}</td>
+        <td>4</td>
+      </tr>
+      
+    </tbody>
+    <tfoot>
+      <tr>
+        <th>5 benchmarks</th>
+        <th></th>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+</html>

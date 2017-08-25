@@ -1,0 +1,4 @@
+2016-01-19 15:19:28,651 INFO  [main] o.a.q.t.u.QpidTestCase ========== start BrokerOptionsTest.testDefaultManagementModeQuiesceVirtualHosts ==========
+2016-01-19 15:19:28,653 INFO  [main] o.a.q.t.u.QpidTestCase ========== run BrokerOptionsTest.testDefaultManagementModeQuiesceVirtualHosts ==========
+2016-01-19 15:19:28,653 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown BrokerOptionsTest.testDefaultManagementModeQuiesceVirtualHosts ==========
+2016-01-19 15:19:28,653 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

@@ -1,0 +1,2 @@
+org.mayocat.url.DefaultEntityURLFactory
+org.mayocat.url.DefaultURLHelper

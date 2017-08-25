@@ -1,0 +1,4 @@
+2016-01-19 15:20:54,442 INFO  [main] o.a.q.t.u.QpidTestCase ========== run FanoutExchangeTest.testIsBoundStringAMQQueue ==========
+2016-01-19 15:20:54,446 DEBUG [main] o.a.q.s.e.FanoutExchange Binding queue Mock for AMQQueue, hashCode: 977160959 with routing key matters to exchange FanoutExchange[test]
+2016-01-19 15:20:54,447 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown FanoutExchangeTest.testIsBoundStringAMQQueue ==========
+2016-01-19 15:20:54,447 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

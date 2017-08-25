@@ -1,0 +1,8 @@
+2016-01-19 15:36:53,553 INFO  [main] o.a.q.t.u.QpidTestCase ========== start PrincipalDatabaseAuthenticationManagerTest.testOnDelete ==========
+2016-01-19 15:36:53,554 INFO  [main] o.a.q.t.u.QpidTestCase ========== run PrincipalDatabaseAuthenticationManagerTest.testOnDelete ==========
+2016-01-19 15:36:53,556 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:36:53,567 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing  : PrincipalDatabaseAuthenticationManagerTest.testOnDelete
+2016-01-19 15:36:53,567 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed  : PrincipalDatabaseAuthenticationManagerTest.testOnDelete
+2016-01-19 15:36:53,567 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed  : PrincipalDatabaseAuthenticationManagerTest.testOnDelete
+2016-01-19 15:36:53,567 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown PrincipalDatabaseAuthenticationManagerTest.testOnDelete ==========
+2016-01-19 15:36:53,567 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

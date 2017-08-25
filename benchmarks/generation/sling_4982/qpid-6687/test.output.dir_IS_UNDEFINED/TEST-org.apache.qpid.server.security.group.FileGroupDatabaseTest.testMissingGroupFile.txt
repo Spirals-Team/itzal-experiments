@@ -1,0 +1,4 @@
+2016-01-19 15:12:58,455 INFO  [main] o.a.q.t.u.QpidTestCase ========== start FileGroupDatabaseTest.testMissingGroupFile ==========
+2016-01-19 15:12:58,456 INFO  [main] o.a.q.t.u.QpidTestCase ========== run FileGroupDatabaseTest.testMissingGroupFile ==========
+2016-01-19 15:12:58,456 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown FileGroupDatabaseTest.testMissingGroupFile ==========
+2016-01-19 15:12:58,456 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

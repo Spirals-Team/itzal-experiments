@@ -1,0 +1,5 @@
+2016-01-19 15:34:30,788 INFO  [main] o.a.q.t.u.QpidTestCase ========== start CRAMMD5HexServerTest.testSuccessfulAuthReproducingQpid3158 ==========
+2016-01-19 15:34:30,796 INFO  [main] o.a.q.s.s.a.d.Base64MD5PasswordFilePrincipalDatabase PasswordFile using file /tmp/passwd125886964562882896db
+2016-01-19 15:34:30,825 INFO  [main] o.a.q.t.u.QpidTestCase ========== run CRAMMD5HexServerTest.testSuccessfulAuthReproducingQpid3158 ==========
+2016-01-19 15:34:30,826 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown CRAMMD5HexServerTest.testSuccessfulAuthReproducingQpid3158 ==========
+2016-01-19 15:34:30,826 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

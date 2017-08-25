@@ -1,0 +1,4 @@
+2016-01-19 15:19:28,654 INFO  [main] o.a.q.t.u.QpidTestCase ========== start BrokerOptionsTest.testDefaultInitialConfigurationLocation ==========
+2016-01-19 15:19:28,655 INFO  [main] o.a.q.t.u.QpidTestCase ========== run BrokerOptionsTest.testDefaultInitialConfigurationLocation ==========
+2016-01-19 15:19:28,655 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown BrokerOptionsTest.testDefaultInitialConfigurationLocation ==========
+2016-01-19 15:19:28,655 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

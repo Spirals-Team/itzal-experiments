@@ -1,0 +1,4 @@
+2016-01-19 15:20:56,347 INFO  [main] o.a.q.t.u.QpidTestCase ========== start MemoryMessageStoreTest.testRollbackTransactionBeforeCommit ==========
+2016-01-19 15:20:56,348 INFO  [main] o.a.q.t.u.QpidTestCase ========== run MemoryMessageStoreTest.testRollbackTransactionBeforeCommit ==========
+2016-01-19 15:20:56,348 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown MemoryMessageStoreTest.testRollbackTransactionBeforeCommit ==========
+2016-01-19 15:20:56,348 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

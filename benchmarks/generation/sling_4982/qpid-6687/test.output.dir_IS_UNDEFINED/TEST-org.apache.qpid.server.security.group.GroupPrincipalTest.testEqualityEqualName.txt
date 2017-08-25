@@ -1,0 +1,4 @@
+2016-01-19 15:20:53,656 INFO  [main] o.a.q.t.u.QpidTestCase ========== start GroupPrincipalTest.testEqualityEqualName ==========
+2016-01-19 15:20:53,657 INFO  [main] o.a.q.t.u.QpidTestCase ========== run GroupPrincipalTest.testEqualityEqualName ==========
+2016-01-19 15:20:53,657 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown GroupPrincipalTest.testEqualityEqualName ==========
+2016-01-19 15:20:53,657 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

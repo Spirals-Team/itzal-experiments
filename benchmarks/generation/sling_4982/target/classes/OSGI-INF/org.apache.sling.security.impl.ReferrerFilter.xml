@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="org.apache.sling.security.impl.ReferrerFilter" activate="activate" deactivate="deactivate">
+    <implementation class="org.apache.sling.security.impl.ReferrerFilter"/>
+    <service servicefactory="false">
+        <provide interface="javax.servlet.Filter"/>
+    </service>
+    <property name="pattern" value="/.*"/>
+    <property name="allow.empty" type="Boolean" value="false"/>
+    <property name="allow.hosts"/>
+    <property name="allow.hosts.regexp"/>
+    <property name="filter.methods">
+        POST
+        PUT
+        DELETE
+    </property>
+    <property name="service.vendor" value="The Apache Software Foundation"/>
+    <property name="service.pid" value="org.apache.sling.security.impl.ReferrerFilter"/>
+</scr:component>

@@ -1,0 +1,4 @@
+2016-01-19 15:36:53,233 INFO  [main] o.a.q.t.u.QpidTestCase ========== start AbstractConfiguredObjectTest.testUnsuccessfulStateTransitionDoesnotInvokesListener ==========
+2016-01-19 15:36:53,235 INFO  [main] o.a.q.t.u.QpidTestCase ========== run AbstractConfiguredObjectTest.testUnsuccessfulStateTransitionDoesnotInvokesListener ==========
+2016-01-19 15:36:53,237 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown AbstractConfiguredObjectTest.testUnsuccessfulStateTransitionDoesnotInvokesListener ==========
+2016-01-19 15:36:53,238 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

@@ -1,0 +1,11 @@
+2016-01-19 15:20:53,957 INFO  [main] o.a.q.t.u.QpidTestCase ========== start FileSystemPreferencesProviderTest.testSetPreferences ==========
+2016-01-19 15:20:53,959 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:20:53,960 INFO  [main] o.a.q.t.u.QpidTestCase ========== run FileSystemPreferencesProviderTest.testSetPreferences ==========
+2016-01-19 15:20:53,989 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing FileSystemPreferencesProviderImpl : test
+2016-01-19 15:20:53,989 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed FileSystemPreferencesProviderImpl : test
+2016-01-19 15:20:53,989 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed FileSystemPreferencesProviderImpl : test
+2016-01-19 15:20:53,996 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing FileSystemPreferencesProviderImpl : test
+2016-01-19 15:20:53,996 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed FileSystemPreferencesProviderImpl : test
+2016-01-19 15:20:53,996 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed FileSystemPreferencesProviderImpl : test
+2016-01-19 15:20:53,997 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown FileSystemPreferencesProviderTest.testSetPreferences ==========
+2016-01-19 15:20:53,998 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

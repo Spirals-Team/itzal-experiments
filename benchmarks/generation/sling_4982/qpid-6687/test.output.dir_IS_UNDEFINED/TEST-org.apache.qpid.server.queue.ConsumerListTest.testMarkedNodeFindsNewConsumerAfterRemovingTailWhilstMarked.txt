@@ -1,0 +1,3 @@
+2016-01-19 15:20:56,759 INFO  [main] o.a.q.t.u.QpidTestCase ========== run ConsumerListTest.testMarkedNodeFindsNewConsumerAfterRemovingTailWhilstMarked ==========
+2016-01-19 15:20:56,760 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown ConsumerListTest.testMarkedNodeFindsNewConsumerAfterRemovingTailWhilstMarked ==========
+2016-01-19 15:20:56,760 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

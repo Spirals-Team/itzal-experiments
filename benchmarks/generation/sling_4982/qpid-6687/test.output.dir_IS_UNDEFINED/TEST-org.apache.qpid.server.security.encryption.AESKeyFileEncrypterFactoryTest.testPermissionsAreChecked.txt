@@ -1,0 +1,4 @@
+2016-01-19 15:19:48,329 INFO  [main] o.a.q.t.u.QpidTestCase ========== start AESKeyFileEncrypterFactoryTest.testPermissionsAreChecked ==========
+2016-01-19 15:19:48,330 INFO  [main] o.a.q.t.u.QpidTestCase ========== run AESKeyFileEncrypterFactoryTest.testPermissionsAreChecked ==========
+2016-01-19 15:19:48,332 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown AESKeyFileEncrypterFactoryTest.testPermissionsAreChecked ==========
+2016-01-19 15:19:48,333 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

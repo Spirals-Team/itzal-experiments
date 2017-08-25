@@ -1,0 +1,294 @@
+\begin{table*}
+  \centering
+  \caption{The effectiveness of two patch generation models that can be used in production}
+  \label{tab:generation}
+  \begin{tabular}{|l|l|l|l|r||r|r|r|r|}
+    \hline
+    & & & & & \multicolumn{4}{c|}{Patch Models} \\\cline{6-9}
+    Bug & Origin  & Request Oracle & \rotatebox{90}{Bug Type}  & LOC &
+    \multicolumn{2}{c|}{NPEFix} & \multicolumn{2}{c|}{Try-Catch} \\\cline{6-9}
+        &         &                &                           &     &
+       \# Valid & \# Invalid & \# Valid & \# Invalid \\
+    \hline
+    BroadleafCommerce 1282 & \cite{DurieuxHM16} 
+    & HTTP
+    & NPE 
+    & 161428 
+    & 0 
+    & 0 
+    &  0   
+    &  0 \\
+    Collection 360 & \cite{npefix} 
+    & Exception
+    & NPE 
+    & 21650 
+    & 16 
+    & 35 
+    &  64   
+    &  44 \\
+    DataflowJavaSDK c06125d & \cite{long2017automatic} 
+    & Exception
+    & NPE 
+    & 50655 
+    & 2 
+    & 1 
+    &  0   
+    &  0 \\
+    Felix 4960 & \cite{npefix} 
+    & Exception
+    & NPE 
+    & 33057 
+    & 4 
+    & 6 
+    &  0   
+    &  1 \\
+    Javapoet 70b38e5 & \cite{long2017automatic} 
+    & Exception
+    & NPE 
+    & 3884 
+    & 0 
+    & 133 
+    &  12   
+    &  87 \\
+    Jetty 335500 & \cite{gu2016automatic} 
+    & HTTP
+    & NPE 
+    & 153789 
+    & 2 
+    & 2 
+    &  2   
+    &  2 \\
+    Jongo f46f658 & \cite{long2017automatic} 
+    & Exception
+    & NPE 
+    & 7384 
+    & 0 
+    & 1 
+    &  2   
+    &  8 \\
+    Lang 20 & \cite{JustJE2014} 
+    & Exception
+    & NPE 
+    & 49637 
+    & 78 
+    & 634 
+    &  0   
+    &  15 \\
+    Lang 304 & \cite{npefix} 
+    & Exception
+    & NPE 
+    & 17277 
+    & 65 
+    & 12 
+    &  32   
+    &  276 \\
+    Lang 33 & \cite{JustJE2014} 
+    & Exception
+    & NPE 
+    & 45444 
+    & 1 
+    & 27 
+    &  0   
+    &  3 \\
+    Lang 39 & \cite{JustJE2014} 
+    & Exception
+    & NPE 
+    & 45143 
+    & 4 
+    & 7 
+    &  0   
+    &  8 \\
+    Lang 587 & \cite{npefix} 
+    & Exception
+    & NPE 
+    & 17319 
+    & 28 
+    & 0 
+    &  3   
+    &  0 \\
+    Lang 703 & \cite{npefix} 
+    & Exception
+    & NPE 
+    & 19047 
+    & 7 
+    & 12 
+    &  0   
+    &  15 \\
+    Math 1115 & \cite{npefix} 
+    & Exception
+    & NPE 
+    & 90782 
+    & 5 
+    & 6 
+    &  4   
+    &  1 \\
+    Math 1117 & \cite{npefix} 
+    & Exception
+    & NPE 
+    & 90794 
+    & 22132 
+    & 29711 
+    &  0   
+    &  0 \\
+    Math 290 & \cite{npefix} 
+    & Exception
+    & NPE 
+    & 38728 
+    & 4 
+    & 10 
+    &  4   
+    &  3 \\
+    Math 305 & \cite{npefix} 
+    & Exception
+    & NPE 
+    & 38893 
+    & 3 
+    & 1 
+    &  9   
+    &  1 \\
+    Math 369 & \cite{npefix} 
+    & Exception
+    & NPE 
+    & 41082 
+    & 23 
+    & 3 
+    &  22   
+    &  2 \\
+    Math 4 & \cite{JustJE2014} 
+    & Exception
+    & NPE 
+    & 164667 
+    & 415 
+    & 95 
+    &  2   
+    &  17 \\
+    Math 70 & \cite{JustJE2014} 
+    & Exception
+    & NPE 
+    & 83720 
+    & 1 
+    & 25 
+    &  0   
+    &  24 \\
+    Math 79 & \cite{JustJE2014} 
+    & Exception
+    & NPE 
+    & 89611 
+    & 0 
+    & 4 
+    &  0   
+    &  10 \\
+    Math 988A & \cite{npefix} 
+    & Exception
+    & NPE 
+    & 82442 
+    & 168 
+    & 37 
+    &  8   
+    &  11 \\
+    Math 988B & \cite{npefix} 
+    & Exception
+    & NPE 
+    & 82443 
+    & 17 
+    & 15 
+    &  1   
+    &  12 \\
+    Mayocat 231 & \cite{DurieuxHM16} 
+    & HTTP
+    & NPE 
+    & 31231 
+    & 102 
+    & 182 
+    &  18   
+    &  19 \\
+    PDFBox 2812 & \cite{npefix} 
+    & Exception
+    & NPE 
+    & 67294 
+    & 4 
+    & 21 
+    &  2   
+    &  9 \\
+    PDFBox 2965 & \cite{npefix} 
+    & Exception
+    & NPE 
+    & 64375 
+    & 3 
+    & 1 
+    &  1   
+    &  0 \\
+    PDFBox 2995 & \cite{npefix} 
+    & Exception
+    & NPE 
+    & 64821 
+    & 1 
+    & 4 
+    &  1   
+    &  1 \\
+    Sling 4982 & \cite{npefix} 
+    & Exception
+    & NPE 
+    & 583 
+    & 11 
+    & 9 
+    &  6   
+    &  4 \\
+    Tomcat 43758 & \cite{gu2016automatic} 
+    & HTTP
+    & NPE 
+    & 156480 
+    & 1 
+    & 9 
+    &  1   
+    &  0 \\
+    Tomcat 54703 & \cite{gu2016automatic} 
+    & HTTP
+    & NPE 
+    & 186301 
+    & 10 
+    & 0 
+    &  2   
+    &  1 \\
+    Tomcat 55454 & \cite{gu2016automatic} 
+    & HTTP
+    & NPE 
+    & 193648 
+    & 1 
+    & 0 
+    &  2   
+    &  1 \\
+    Tomcat 56010 & \cite{gu2016automatic} 
+    & HTTP
+    & IAE 
+    & 195130 
+    & 0 
+    & 0 
+    &  0   
+    &  7 \\
+    Tomcat 58232 & \cite{gu2016automatic} 
+    & HTTP
+    & NPE 
+    & 224194 
+    & 3 
+    & 0 
+    &  ?   
+    &  ? \\
+    Webmagic ff2f588 & \cite{long2017automatic} 
+    & Exception
+    & NPE 
+    & 9239 
+    & 2 
+    & 49 
+    &  0   
+    &  10 \\
+    \hline
+    \multicolumn{4}{|c|}{34 bugs from 14 software applications} 
+    & 2622172 
+    & 23113 
+    & 31052 
+    & 198 
+    & 592 \\
+    \hline
+  \end{tabular}
+\end{table*}

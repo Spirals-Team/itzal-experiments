@@ -1,0 +1,5 @@
+2016-01-19 15:20:54,547 INFO  [main] o.a.q.t.u.QpidTestCase ========== start ExchangeMessagesTest.testExchangeCreated_Transient ==========
+2016-01-19 15:20:54,547 INFO  [main] o.a.q.t.u.QpidTestCase ========== run ExchangeMessagesTest.testExchangeCreated_Transient ==========
+2016-01-19 15:20:54,549 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:20:54,549 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown ExchangeMessagesTest.testExchangeCreated_Transient ==========
+2016-01-19 15:20:54,550 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

@@ -1,0 +1,2 @@
+counterInstrumentation	counterCheckNull	counterCheckNotNull
+0	0	0

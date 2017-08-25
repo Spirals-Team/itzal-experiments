@@ -1,0 +1,7 @@
+2016-01-19 15:19:28,665 INFO  [main] o.a.q.t.u.QpidTestCase ========== start BrokerOptionsTest.testSetDefaultConfigProperties ==========
+2016-01-19 15:19:28,665 INFO  [main] o.a.q.t.u.QpidTestCase ========== run BrokerOptionsTest.testSetDefaultConfigProperties ==========
+2016-01-19 15:19:28,665 INFO  [main] o.a.q.t.u.QpidTestCase Set system property "QPID_WORK" to: "null"
+2016-01-19 15:19:28,665 INFO  [main] o.a.q.t.u.QpidTestCase Set system property "QPID_HOME" to: "null"
+2016-01-19 15:19:28,666 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown BrokerOptionsTest.testSetDefaultConfigProperties ==========
+2016-01-19 15:19:28,666 DEBUG [main] o.a.q.t.u.QpidTestCase reverting 2 test properties
+2016-01-19 15:19:28,666 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

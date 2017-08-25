@@ -1,0 +1,422 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FasterXML-jackson-databind 195433804-20170126-065819</title>
+    <link rel="stylesheet" type="text/css" href="../../../css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1>FasterXML-jackson-databind 195433804-20170126-065819</h1>
+    <table class="summary pure-table">
+      <tr class="pure-table-odd">
+        <td class="label">Nb decision seq.</td> <td>12</td>
+      </tr>
+      <tr>
+        <td class="label">Nb valid correct patches</td> <td>0</td>
+      </tr>
+    </table>
+    <ul class="executions">
+        <li class="execution ">
+          <h2>Execution 1</h2>
+          <span class="decision">Strat3 </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/BasicDeserializerFactory.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="1832"></td><td class="line" data-line-number="1832"></td><td class="code"><span></span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="1833"></td><td class="line" data-line-number=""></td><td class="code"><span>        if (type.isMapLikeType()) {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="1834"></td><td class="line" data-line-number=""></td><td class="code"><span>            JavaType keyType = type.getKeyType();</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="1835"></td><td class="line" data-line-number=""></td><td class="code"><span>            if (keyType != null) {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="1836"></td><td class="line" data-line-number=""></td><td class="code"><span>                Object kdDef = intr.findKeyDeserializer(member);</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="1837"></td><td class="line" data-line-number=""></td><td class="code"><span>                KeyDeserializer kd = ctxt.keyDeserializerInstance(member, kdDef);</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="1838"></td><td class="line" data-line-number=""></td><td class="code"><span>                if (kd != null) {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="1839"></td><td class="line" data-line-number=""></td><td class="code"><span>                    type = ((MapLikeType) type).withKeyValueHandler(kd);</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="1840"></td><td class="line" data-line-number=""></td><td class="code"><span>                    keyType = type.getKeyType(); // just in case it's used below</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1833"></td><td class="code"><span>        if (type != null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1834"></td><td class="code"><span>            if (type.isMapLikeType()) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1835"></td><td class="code"><span>                JavaType keyType = type.getKeyType();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1836"></td><td class="code"><span>                if (keyType != null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1837"></td><td class="code"><span>                    Object kdDef = intr.findKeyDeserializer(member);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1838"></td><td class="code"><span>                    KeyDeserializer kd = ctxt.keyDeserializerInstance(member, kdDef);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1839"></td><td class="code"><span>                    if (kd != null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1840"></td><td class="code"><span>                        type = ((MapLikeType) type).withKeyValueHandler(kd);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1841"></td><td class="code"><span>                        keyType = type.getKeyType(); // just in case it's used below</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1842"></td><td class="code"><span>                    }</span></td></tr>
+<tr class=""><td class="line" data-line-number="1841"></td><td class="line" data-line-number="1843"></td><td class="code"><span>                }</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution ">
+          <h2>Execution 2</h2>
+          <span class="decision">Strat4 NULL </span><span class="decision">Strat3 </span><span class="decision">Strat3 </span><span class="decision">Strat3 </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/BasicDeserializerFactory.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="858"></td><td class="line" data-line-number="858"></td><td class="code"><span>        // Type deserializer: either comes from property (and already resolved)</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="859"></td><td class="line" data-line-number=""></td><td class="code"><span>        TypeDeserializer typeDeser = (TypeDeserializer) type.getTypeHandler();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="859"></td><td class="code"><span>        if (type != null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="860"></td><td class="code"><span>            TypeDeserializer typeDeser = (TypeDeserializer) type.getTypeHandler();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="861"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="860"></td><td class="line" data-line-number="862"></td><td class="code"><span>        // or if not, based on type being referenced:</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="1347"></td><td class="line" data-line-number="1349"></td><td class="code"><span>    {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="1348"></td><td class="line" data-line-number=""></td><td class="code"><span>        BeanDescription bean = config.introspectClassAnnotations(baseType.getRawClass());</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="1349"></td><td class="line" data-line-number=""></td><td class="code"><span>        AnnotatedClass ac = bean.getClassInfo();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1350"></td><td class="code"><span>        if (baseType != null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1351"></td><td class="code"><span>            BeanDescription bean = config.introspectClassAnnotations(baseType.getRawClass());</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1352"></td><td class="code"><span>        }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1353"></td><td class="code"><span>        if (bean != null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1354"></td><td class="code"><span>            AnnotatedClass ac = bean.getClassInfo();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1355"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="1350"></td><td class="line" data-line-number="1356"></td><td class="code"><span>        AnnotationIntrospector ai = config.getAnnotationIntrospector();</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="1832"></td><td class="line" data-line-number="1838"></td><td class="code"><span></span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1839"></td><td class="code"><span>        if (type == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1840"></td><td class="code"><span>            return null;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1841"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="1833"></td><td class="line" data-line-number="1842"></td><td class="code"><span>        if (type.isMapLikeType()) {</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution ">
+          <h2>Execution 3</h2>
+          <span class="decision">Strat4 NULL </span><span class="decision">Strat3 </span><span class="decision">Strat3 </span><span class="decision">Strat4 NULL </span><span class="decision">Strat3 </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/BasicDeserializerFactory.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="858"></td><td class="line" data-line-number="858"></td><td class="code"><span>        // Type deserializer: either comes from property (and already resolved)</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="859"></td><td class="line" data-line-number=""></td><td class="code"><span>        TypeDeserializer typeDeser = (TypeDeserializer) type.getTypeHandler();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="859"></td><td class="code"><span>        if (type != null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="860"></td><td class="code"><span>            TypeDeserializer typeDeser = (TypeDeserializer) type.getTypeHandler();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="861"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="860"></td><td class="line" data-line-number="862"></td><td class="code"><span>        // or if not, based on type being referenced:</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="870"></td><td class="line" data-line-number="872"></td><td class="code"><span>        if (deser == null) {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="871"></td><td class="line" data-line-number=""></td><td class="code"><span>            deser = type.getValueHandler();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="873"></td><td class="code"><span>            } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="874"></td><td class="code"><span>                if (type != null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="875"></td><td class="code"><span>                    deser = type.getValueHandler();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="876"></td><td class="code"><span>                }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="877"></td><td class="code"><span>            }</span></td></tr>
+<tr class=""><td class="line" data-line-number="872"></td><td class="line" data-line-number="878"></td><td class="code"><span>        }</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="1347"></td><td class="line" data-line-number="1353"></td><td class="code"><span>    {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="1348"></td><td class="line" data-line-number=""></td><td class="code"><span>        BeanDescription bean = config.introspectClassAnnotations(baseType.getRawClass());</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1354"></td><td class="code"><span>        if (baseType != null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1355"></td><td class="code"><span>            BeanDescription bean = config.introspectClassAnnotations(baseType.getRawClass());</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1356"></td><td class="code"><span>        }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1357"></td><td class="code"><span>        if (bean == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1358"></td><td class="code"><span>            return null;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1359"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="1349"></td><td class="line" data-line-number="1360"></td><td class="code"><span>        AnnotatedClass ac = bean.getClassInfo();</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="1832"></td><td class="line" data-line-number="1843"></td><td class="code"><span></span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1844"></td><td class="code"><span>        if (type == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1845"></td><td class="code"><span>            return null;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1846"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="1833"></td><td class="line" data-line-number="1847"></td><td class="code"><span>        if (type.isMapLikeType()) {</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution ">
+          <h2>Execution 4</h2>
+          <span class="decision">Strat4 NULL </span><span class="decision">Strat3 </span><span class="decision">Strat3 </span><span class="decision">Strat4 NULL </span><span class="decision">Strat4 NULL </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/BasicDeserializerFactory.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="858"></td><td class="line" data-line-number="858"></td><td class="code"><span>        // Type deserializer: either comes from property (and already resolved)</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="859"></td><td class="line" data-line-number=""></td><td class="code"><span>        TypeDeserializer typeDeser = (TypeDeserializer) type.getTypeHandler();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="859"></td><td class="code"><span>        if (type != null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="860"></td><td class="code"><span>            TypeDeserializer typeDeser = (TypeDeserializer) type.getTypeHandler();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="861"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="860"></td><td class="line" data-line-number="862"></td><td class="code"><span>        // or if not, based on type being referenced:</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="870"></td><td class="line" data-line-number="872"></td><td class="code"><span>        if (deser == null) {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="871"></td><td class="line" data-line-number=""></td><td class="code"><span>            deser = type.getValueHandler();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="873"></td><td class="code"><span>            } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="874"></td><td class="code"><span>                if (type == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="875"></td><td class="code"><span>                    return null;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="876"></td><td class="code"><span>                }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="877"></td><td class="code"><span>                deser = type.getValueHandler();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="878"></td><td class="code"><span>            }</span></td></tr>
+<tr class=""><td class="line" data-line-number="872"></td><td class="line" data-line-number="879"></td><td class="code"><span>        }</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="1347"></td><td class="line" data-line-number="1354"></td><td class="code"><span>    {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="1348"></td><td class="line" data-line-number=""></td><td class="code"><span>        BeanDescription bean = config.introspectClassAnnotations(baseType.getRawClass());</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1355"></td><td class="code"><span>        if (baseType != null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1356"></td><td class="code"><span>            BeanDescription bean = config.introspectClassAnnotations(baseType.getRawClass());</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1357"></td><td class="code"><span>        }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1358"></td><td class="code"><span>        if (bean == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1359"></td><td class="code"><span>            return null;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1360"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="1349"></td><td class="line" data-line-number="1361"></td><td class="code"><span>        AnnotatedClass ac = bean.getClassInfo();</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="1832"></td><td class="line" data-line-number="1844"></td><td class="code"><span></span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1845"></td><td class="code"><span>        if (type == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1846"></td><td class="code"><span>            return null;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1847"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="1833"></td><td class="line" data-line-number="1848"></td><td class="code"><span>        if (type.isMapLikeType()) {</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution ">
+          <h2>Execution 5</h2>
+          <span class="decision">Strat4 NULL </span><span class="decision">Strat3 </span><span class="decision">Strat3 </span><span class="decision">Strat4 NULL </span><span class="decision">Strat4 VAR </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/BasicDeserializerFactory.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="858"></td><td class="line" data-line-number="858"></td><td class="code"><span>        // Type deserializer: either comes from property (and already resolved)</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="859"></td><td class="line" data-line-number=""></td><td class="code"><span>        TypeDeserializer typeDeser = (TypeDeserializer) type.getTypeHandler();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="859"></td><td class="code"><span>        if (type != null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="860"></td><td class="code"><span>            TypeDeserializer typeDeser = (TypeDeserializer) type.getTypeHandler();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="861"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="860"></td><td class="line" data-line-number="862"></td><td class="code"><span>        // or if not, based on type being referenced:</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="870"></td><td class="line" data-line-number="872"></td><td class="code"><span>        if (deser == null) {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="871"></td><td class="line" data-line-number=""></td><td class="code"><span>            deser = type.getValueHandler();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="873"></td><td class="code"><span>            } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="874"></td><td class="code"><span>                if (type == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="875"></td><td class="code"><span>                    return prop;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="876"></td><td class="code"><span>                }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="877"></td><td class="code"><span>                deser = type.getValueHandler();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="878"></td><td class="code"><span>            }</span></td></tr>
+<tr class=""><td class="line" data-line-number="872"></td><td class="line" data-line-number="879"></td><td class="code"><span>        }</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="1347"></td><td class="line" data-line-number="1354"></td><td class="code"><span>    {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="1348"></td><td class="line" data-line-number=""></td><td class="code"><span>        BeanDescription bean = config.introspectClassAnnotations(baseType.getRawClass());</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1355"></td><td class="code"><span>        if (baseType != null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1356"></td><td class="code"><span>            BeanDescription bean = config.introspectClassAnnotations(baseType.getRawClass());</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1357"></td><td class="code"><span>        }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1358"></td><td class="code"><span>        if (bean == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1359"></td><td class="code"><span>            return null;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1360"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="1349"></td><td class="line" data-line-number="1361"></td><td class="code"><span>        AnnotatedClass ac = bean.getClassInfo();</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="1832"></td><td class="line" data-line-number="1844"></td><td class="code"><span></span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1845"></td><td class="code"><span>        if (type == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1846"></td><td class="code"><span>            return null;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1847"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="1833"></td><td class="line" data-line-number="1848"></td><td class="code"><span>        if (type.isMapLikeType()) {</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution ">
+          <h2>Execution 6</h2>
+          <span class="decision">Strat4 NULL </span><span class="decision">Strat3 </span><span class="decision">Strat3 </span><span class="decision">Strat4 NULL </span><span class="decision">Strat4 NEW </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/BasicDeserializerFactory.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="858"></td><td class="line" data-line-number="858"></td><td class="code"><span>        // Type deserializer: either comes from property (and already resolved)</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="859"></td><td class="line" data-line-number=""></td><td class="code"><span>        TypeDeserializer typeDeser = (TypeDeserializer) type.getTypeHandler();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="859"></td><td class="code"><span>        if (type != null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="860"></td><td class="code"><span>            TypeDeserializer typeDeser = (TypeDeserializer) type.getTypeHandler();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="861"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="860"></td><td class="line" data-line-number="862"></td><td class="code"><span>        // or if not, based on type being referenced:</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="870"></td><td class="line" data-line-number="872"></td><td class="code"><span>        if (deser == null) {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="871"></td><td class="line" data-line-number=""></td><td class="code"><span>            deser = type.getValueHandler();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="873"></td><td class="code"><span>            } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="874"></td><td class="code"><span>                if (type == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="875"></td><td class="code"><span>                    return new CreatorProperty(null, null, null, null, null, null, 0, null, null);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="876"></td><td class="code"><span>                }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="877"></td><td class="code"><span>                deser = type.getValueHandler();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="878"></td><td class="code"><span>            }</span></td></tr>
+<tr class=""><td class="line" data-line-number="872"></td><td class="line" data-line-number="879"></td><td class="code"><span>        }</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="1347"></td><td class="line" data-line-number="1354"></td><td class="code"><span>    {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="1348"></td><td class="line" data-line-number=""></td><td class="code"><span>        BeanDescription bean = config.introspectClassAnnotations(baseType.getRawClass());</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1355"></td><td class="code"><span>        if (baseType != null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1356"></td><td class="code"><span>            BeanDescription bean = config.introspectClassAnnotations(baseType.getRawClass());</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1357"></td><td class="code"><span>        }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1358"></td><td class="code"><span>        if (bean == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1359"></td><td class="code"><span>            return null;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1360"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="1349"></td><td class="line" data-line-number="1361"></td><td class="code"><span>        AnnotatedClass ac = bean.getClassInfo();</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="1832"></td><td class="line" data-line-number="1844"></td><td class="code"><span></span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1845"></td><td class="code"><span>        if (type == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1846"></td><td class="code"><span>            return null;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1847"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="1833"></td><td class="line" data-line-number="1848"></td><td class="code"><span>        if (type.isMapLikeType()) {</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution ">
+          <h2>Execution 7</h2>
+          <span class="decision">Strat4 NULL </span><span class="decision">Strat3 </span><span class="decision">Strat4 NULL </span><span class="decision">Strat3 </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/BasicDeserializerFactory.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="858"></td><td class="line" data-line-number="858"></td><td class="code"><span>        // Type deserializer: either comes from property (and already resolved)</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="859"></td><td class="line" data-line-number=""></td><td class="code"><span>        TypeDeserializer typeDeser = (TypeDeserializer) type.getTypeHandler();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="859"></td><td class="code"><span>        if (type != null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="860"></td><td class="code"><span>            TypeDeserializer typeDeser = (TypeDeserializer) type.getTypeHandler();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="861"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="860"></td><td class="line" data-line-number="862"></td><td class="code"><span>        // or if not, based on type being referenced:</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="870"></td><td class="line" data-line-number="872"></td><td class="code"><span>        if (deser == null) {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="871"></td><td class="line" data-line-number=""></td><td class="code"><span>            deser = type.getValueHandler();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="873"></td><td class="code"><span>            } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="874"></td><td class="code"><span>                if (type != null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="875"></td><td class="code"><span>                    deser = type.getValueHandler();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="876"></td><td class="code"><span>                }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="877"></td><td class="code"><span>            }</span></td></tr>
+<tr class=""><td class="line" data-line-number="872"></td><td class="line" data-line-number="878"></td><td class="code"><span>        }</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="1347"></td><td class="line" data-line-number="1353"></td><td class="code"><span>    {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1354"></td><td class="code"><span>        if (baseType == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1355"></td><td class="code"><span>            return null;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1356"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="1348"></td><td class="line" data-line-number="1357"></td><td class="code"><span>        BeanDescription bean = config.introspectClassAnnotations(baseType.getRawClass());</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="1832"></td><td class="line" data-line-number="1841"></td><td class="code"><span></span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1842"></td><td class="code"><span>        if (type == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1843"></td><td class="code"><span>            return null;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1844"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="1833"></td><td class="line" data-line-number="1845"></td><td class="code"><span>        if (type.isMapLikeType()) {</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution ">
+          <h2>Execution 8</h2>
+          <span class="decision">Strat4 NULL </span><span class="decision">Strat3 </span><span class="decision">Strat4 NULL </span><span class="decision">Strat4 NULL </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/BasicDeserializerFactory.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="858"></td><td class="line" data-line-number="858"></td><td class="code"><span>        // Type deserializer: either comes from property (and already resolved)</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="859"></td><td class="line" data-line-number=""></td><td class="code"><span>        TypeDeserializer typeDeser = (TypeDeserializer) type.getTypeHandler();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="859"></td><td class="code"><span>        if (type != null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="860"></td><td class="code"><span>            TypeDeserializer typeDeser = (TypeDeserializer) type.getTypeHandler();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="861"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="860"></td><td class="line" data-line-number="862"></td><td class="code"><span>        // or if not, based on type being referenced:</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="870"></td><td class="line" data-line-number="872"></td><td class="code"><span>        if (deser == null) {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="871"></td><td class="line" data-line-number=""></td><td class="code"><span>            deser = type.getValueHandler();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="873"></td><td class="code"><span>            } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="874"></td><td class="code"><span>                if (type == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="875"></td><td class="code"><span>                    return null;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="876"></td><td class="code"><span>                }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="877"></td><td class="code"><span>                deser = type.getValueHandler();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="878"></td><td class="code"><span>            }</span></td></tr>
+<tr class=""><td class="line" data-line-number="872"></td><td class="line" data-line-number="879"></td><td class="code"><span>        }</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="1347"></td><td class="line" data-line-number="1354"></td><td class="code"><span>    {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1355"></td><td class="code"><span>        if (baseType == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1356"></td><td class="code"><span>            return null;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1357"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="1348"></td><td class="line" data-line-number="1358"></td><td class="code"><span>        BeanDescription bean = config.introspectClassAnnotations(baseType.getRawClass());</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="1832"></td><td class="line" data-line-number="1842"></td><td class="code"><span></span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1843"></td><td class="code"><span>        if (type == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1844"></td><td class="code"><span>            return null;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1845"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="1833"></td><td class="line" data-line-number="1846"></td><td class="code"><span>        if (type.isMapLikeType()) {</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution ">
+          <h2>Execution 9</h2>
+          <span class="decision">Strat4 NULL </span><span class="decision">Strat3 </span><span class="decision">Strat4 NULL </span><span class="decision">Strat4 VAR </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/BasicDeserializerFactory.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="858"></td><td class="line" data-line-number="858"></td><td class="code"><span>        // Type deserializer: either comes from property (and already resolved)</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="859"></td><td class="line" data-line-number=""></td><td class="code"><span>        TypeDeserializer typeDeser = (TypeDeserializer) type.getTypeHandler();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="859"></td><td class="code"><span>        if (type != null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="860"></td><td class="code"><span>            TypeDeserializer typeDeser = (TypeDeserializer) type.getTypeHandler();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="861"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="860"></td><td class="line" data-line-number="862"></td><td class="code"><span>        // or if not, based on type being referenced:</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="870"></td><td class="line" data-line-number="872"></td><td class="code"><span>        if (deser == null) {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="871"></td><td class="line" data-line-number=""></td><td class="code"><span>            deser = type.getValueHandler();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="873"></td><td class="code"><span>            } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="874"></td><td class="code"><span>                if (type == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="875"></td><td class="code"><span>                    return prop;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="876"></td><td class="code"><span>                }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="877"></td><td class="code"><span>                deser = type.getValueHandler();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="878"></td><td class="code"><span>            }</span></td></tr>
+<tr class=""><td class="line" data-line-number="872"></td><td class="line" data-line-number="879"></td><td class="code"><span>        }</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="1347"></td><td class="line" data-line-number="1354"></td><td class="code"><span>    {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1355"></td><td class="code"><span>        if (baseType == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1356"></td><td class="code"><span>            return null;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1357"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="1348"></td><td class="line" data-line-number="1358"></td><td class="code"><span>        BeanDescription bean = config.introspectClassAnnotations(baseType.getRawClass());</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="1832"></td><td class="line" data-line-number="1842"></td><td class="code"><span></span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1843"></td><td class="code"><span>        if (type == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1844"></td><td class="code"><span>            return null;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1845"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="1833"></td><td class="line" data-line-number="1846"></td><td class="code"><span>        if (type.isMapLikeType()) {</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution ">
+          <h2>Execution 10</h2>
+          <span class="decision">Strat4 NULL </span><span class="decision">Strat3 </span><span class="decision">Strat4 NULL </span><span class="decision">Strat4 NEW </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/BasicDeserializerFactory.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="858"></td><td class="line" data-line-number="858"></td><td class="code"><span>        // Type deserializer: either comes from property (and already resolved)</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="859"></td><td class="line" data-line-number=""></td><td class="code"><span>        TypeDeserializer typeDeser = (TypeDeserializer) type.getTypeHandler();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="859"></td><td class="code"><span>        if (type != null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="860"></td><td class="code"><span>            TypeDeserializer typeDeser = (TypeDeserializer) type.getTypeHandler();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="861"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="860"></td><td class="line" data-line-number="862"></td><td class="code"><span>        // or if not, based on type being referenced:</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="870"></td><td class="line" data-line-number="872"></td><td class="code"><span>        if (deser == null) {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="871"></td><td class="line" data-line-number=""></td><td class="code"><span>            deser = type.getValueHandler();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="873"></td><td class="code"><span>            } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="874"></td><td class="code"><span>                if (type == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="875"></td><td class="code"><span>                    return new CreatorProperty(null, null, null, null, null, null, 0, null, null);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="876"></td><td class="code"><span>                }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="877"></td><td class="code"><span>                deser = type.getValueHandler();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="878"></td><td class="code"><span>            }</span></td></tr>
+<tr class=""><td class="line" data-line-number="872"></td><td class="line" data-line-number="879"></td><td class="code"><span>        }</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="1347"></td><td class="line" data-line-number="1354"></td><td class="code"><span>    {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1355"></td><td class="code"><span>        if (baseType == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1356"></td><td class="code"><span>            return null;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1357"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="1348"></td><td class="line" data-line-number="1358"></td><td class="code"><span>        BeanDescription bean = config.introspectClassAnnotations(baseType.getRawClass());</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="1832"></td><td class="line" data-line-number="1842"></td><td class="code"><span></span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1843"></td><td class="code"><span>        if (type == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1844"></td><td class="code"><span>            return null;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1845"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="1833"></td><td class="line" data-line-number="1846"></td><td class="code"><span>        if (type.isMapLikeType()) {</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution ">
+          <h2>Execution 11</h2>
+          <span class="decision">Strat4 NULL </span><span class="decision">Strat4 NULL </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/BasicDeserializerFactory.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="858"></td><td class="line" data-line-number="858"></td><td class="code"><span>        // Type deserializer: either comes from property (and already resolved)</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="859"></td><td class="code"><span>        if (type == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="860"></td><td class="code"><span>            return null;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="861"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="859"></td><td class="line" data-line-number="862"></td><td class="code"><span>        TypeDeserializer typeDeser = (TypeDeserializer) type.getTypeHandler();</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="1832"></td><td class="line" data-line-number="1835"></td><td class="code"><span></span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1836"></td><td class="code"><span>        if (type == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1837"></td><td class="code"><span>            return null;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1838"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="1833"></td><td class="line" data-line-number="1839"></td><td class="code"><span>        if (type.isMapLikeType()) {</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution ">
+          <h2>Execution 12</h2>
+          <span class="decision">Strat4 NULL </span><span class="decision">Strat4 NEW </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/BasicDeserializerFactory.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="858"></td><td class="line" data-line-number="858"></td><td class="code"><span>        // Type deserializer: either comes from property (and already resolved)</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="859"></td><td class="code"><span>        if (type == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="860"></td><td class="code"><span>            return new CreatorProperty(null, null, null, null, null, null, 0, null, null);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="861"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="859"></td><td class="line" data-line-number="862"></td><td class="code"><span>        TypeDeserializer typeDeser = (TypeDeserializer) type.getTypeHandler();</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="1832"></td><td class="line" data-line-number="1835"></td><td class="code"><span></span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1836"></td><td class="code"><span>        if (type == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1837"></td><td class="code"><span>            return null;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="1838"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="1833"></td><td class="line" data-line-number="1839"></td><td class="code"><span>        if (type.isMapLikeType()) {</span></td></tr>
+</tbody></table>
+
+        </li>
+    </ul>
+  </body>
+</html>

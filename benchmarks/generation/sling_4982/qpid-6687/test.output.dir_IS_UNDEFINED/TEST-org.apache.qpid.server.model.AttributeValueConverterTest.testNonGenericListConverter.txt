@@ -1,0 +1,4 @@
+2016-01-19 15:20:56,350 INFO  [main] o.a.q.t.u.QpidTestCase ========== start AttributeValueConverterTest.testNonGenericListConverter ==========
+2016-01-19 15:20:56,351 INFO  [main] o.a.q.t.u.QpidTestCase ========== run AttributeValueConverterTest.testNonGenericListConverter ==========
+2016-01-19 15:20:56,353 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown AttributeValueConverterTest.testNonGenericListConverter ==========
+2016-01-19 15:20:56,354 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

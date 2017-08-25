@@ -1,0 +1,4 @@
+2016-01-19 15:20:56,348 INFO  [main] o.a.q.t.u.QpidTestCase ========== start MemoryMessageStoreTest.testAddAndRemoveMessageWithoutContent ==========
+2016-01-19 15:20:56,349 INFO  [main] o.a.q.t.u.QpidTestCase ========== run MemoryMessageStoreTest.testAddAndRemoveMessageWithoutContent ==========
+2016-01-19 15:20:56,350 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown MemoryMessageStoreTest.testAddAndRemoveMessageWithoutContent ==========
+2016-01-19 15:20:56,350 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

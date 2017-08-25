@@ -1,0 +1,8 @@
+{
+   "name": "Collection 360",
+   "benchmark": "NPEFix",
+   "oracle": "Test based",
+   "type": "NPE",
+   "application": "library",
+   "loc": 21650
+}

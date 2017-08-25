@@ -1,0 +1,5 @@
+org/apache/sling/security/impl/ContentDispositionFilter.class
+org/apache/sling/security/impl/ReferrerFilter$HostInfo.class
+org/apache/sling/security/impl/ReferrerFilter.class
+org/apache/sling/security/impl/ContentDispositionFilter$RewriterResponse.class
+org/apache/sling/security/impl/ReferrerFilter$ConfigurationPrinter.class

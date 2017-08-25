@@ -1,0 +1,13 @@
+2016-01-19 15:20:30,712 INFO  [main] o.a.q.t.u.QpidTestCase ========== start AbstractVirtualHostTest.testValidateOnCreateSucceeds ==========
+2016-01-19 15:20:30,713 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Starting task executor Broker-Config
+2016-01-19 15:20:30,713 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Task executor is started
+2016-01-19 15:20:30,713 INFO  [main] o.a.q.t.u.QpidTestCase ========== run AbstractVirtualHostTest.testValidateOnCreateSucceeds ==========
+2016-01-19 15:20:30,714 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Submitting task org.apache.qpid.server.model.AbstractConfiguredObject$2@253d9f73 to executor Broker-Config
+2016-01-19 15:20:30,715 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Performing task org.apache.qpid.server.model.AbstractConfiguredObject$2@253d9f73
+2016-01-19 15:20:30,715 DEBUG [Broker-Config] o.a.q.s.m.AbstractConfiguredObject Closing  : AbstractVirtualHostTest.testValidateOnCreateSucceeds
+2016-01-19 15:20:30,715 DEBUG [Broker-Config] o.a.q.s.m.AbstractConfiguredObject Closed  : AbstractVirtualHostTest.testValidateOnCreateSucceeds
+2016-01-19 15:20:30,715 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Task org.apache.qpid.server.model.AbstractConfiguredObject$2@253d9f73 is performed successfully with result: null
+2016-01-19 15:20:30,715 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Stopping task executor Broker-Config
+2016-01-19 15:20:30,715 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Task executor is stopped
+2016-01-19 15:20:30,715 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown AbstractVirtualHostTest.testValidateOnCreateSucceeds ==========
+2016-01-19 15:20:30,716 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

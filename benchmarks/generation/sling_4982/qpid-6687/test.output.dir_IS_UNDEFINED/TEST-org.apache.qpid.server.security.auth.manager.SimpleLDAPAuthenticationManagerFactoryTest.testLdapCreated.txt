@@ -1,0 +1,4 @@
+2016-01-19 15:19:27,976 INFO  [main] o.a.q.t.u.QpidTestCase ========== start SimpleLDAPAuthenticationManagerFactoryTest.testLdapCreated ==========
+2016-01-19 15:19:27,977 INFO  [main] o.a.q.t.u.QpidTestCase ========== run SimpleLDAPAuthenticationManagerFactoryTest.testLdapCreated ==========
+2016-01-19 15:19:27,998 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown SimpleLDAPAuthenticationManagerFactoryTest.testLdapCreated ==========
+2016-01-19 15:19:27,998 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

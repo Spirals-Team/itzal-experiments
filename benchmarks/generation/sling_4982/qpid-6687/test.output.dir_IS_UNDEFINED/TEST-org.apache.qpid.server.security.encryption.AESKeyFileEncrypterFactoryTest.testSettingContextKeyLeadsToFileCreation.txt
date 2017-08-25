@@ -1,0 +1,5 @@
+2016-01-19 15:19:48,340 INFO  [main] o.a.q.t.u.QpidTestCase ========== start AESKeyFileEncrypterFactoryTest.testSettingContextKeyLeadsToFileCreation ==========
+2016-01-19 15:19:48,341 INFO  [main] o.a.q.t.u.QpidTestCase ========== run AESKeyFileEncrypterFactoryTest.testSettingContextKeyLeadsToFileCreation ==========
+2016-01-19 15:19:48,342 WARN  [main] o.a.q.s.s.e.AESKeyFileEncrypterFactory Configuration encryption is enabled, but no configuration secret was found. A new configuration secret will be created at '/tmp/AESKeyFileEncrypterFactoryTest.testSettingContextKeyLeadsToFileCreation134371810574646196/AESKeyFileEncrypterFactoryTest.testSettingContextKeyLeadsToFileCreation/test/1de2cbf9-4787-4827-8e1f-2c1fabac9264.key'.
+2016-01-19 15:19:48,344 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown AESKeyFileEncrypterFactoryTest.testSettingContextKeyLeadsToFileCreation ==========
+2016-01-19 15:19:48,345 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

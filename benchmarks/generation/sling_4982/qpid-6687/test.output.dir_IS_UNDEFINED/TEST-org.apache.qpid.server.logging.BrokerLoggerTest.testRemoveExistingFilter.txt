@@ -1,0 +1,37 @@
+2016-01-19 15:19:47,842 INFO  [main] o.a.q.t.u.QpidTestCase ========== start BrokerLoggerTest.testRemoveExistingFilter ==========
+2016-01-19 15:19:47,843 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Starting task executor Broker-Config
+2016-01-19 15:19:47,843 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Task executor is started
+2016-01-19 15:19:47,843 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Submitting task org.apache.qpid.server.model.AbstractConfiguredObject$2@727eb8cb to executor Broker-Config
+2016-01-19 15:19:47,850 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Performing task org.apache.qpid.server.model.AbstractConfiguredObject$2@727eb8cb
+2016-01-19 15:19:47,852 INFO  [main] o.a.q.t.u.QpidTestCase ========== run BrokerLoggerTest.testRemoveExistingFilter ==========
+2016-01-19 15:19:47,852 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Submitting task org.apache.qpid.server.model.AbstractConfiguredObject$2@b978d10 to executor Broker-Config
+2016-01-19 15:19:47,852 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Task org.apache.qpid.server.model.AbstractConfiguredObject$2@727eb8cb is performed successfully with result: null
+2016-01-19 15:19:47,852 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Performing task org.apache.qpid.server.model.AbstractConfiguredObject$2@b978d10
+2016-01-19 15:19:47,852 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Running task org.apache.qpid.server.model.AbstractConfiguredObject$2@2009a250 immediately
+2016-01-19 15:19:47,852 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Performing task org.apache.qpid.server.model.AbstractConfiguredObject$2@2009a250
+2016-01-19 15:19:47,865 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Task org.apache.qpid.server.model.AbstractConfiguredObject$2@2009a250 is performed successfully with result: null
+2016-01-19 15:19:47,875 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Task org.apache.qpid.server.model.AbstractConfiguredObject$2@b978d10 is performed successfully with result: null
+2016-01-19 15:19:47,875 INFO  [main] o.a.qpid Test1
+2016-01-19 15:19:47,875 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Submitting task org.apache.qpid.server.model.AbstractConfiguredObject$2@5c45d770 to executor Broker-Config
+2016-01-19 15:19:47,876 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Performing task org.apache.qpid.server.model.AbstractConfiguredObject$2@5c45d770
+2016-01-19 15:19:47,876 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Running task org.apache.qpid.server.model.AbstractConfiguredObject$2@2af1c920 immediately
+2016-01-19 15:19:47,877 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Performing task org.apache.qpid.server.model.AbstractConfiguredObject$2@2af1c920
+2016-01-19 15:19:47,878 DEBUG [Broker-Config] o.a.q.s.m.AbstractConfiguredObject Closing BrokerNameAndLevelFilterImpl : test
+2016-01-19 15:19:47,879 DEBUG [Broker-Config] o.a.q.s.m.AbstractConfiguredObject All children closed BrokerNameAndLevelFilterImpl : test
+2016-01-19 15:19:47,879 DEBUG [Broker-Config] o.a.q.s.m.AbstractConfiguredObject Closed BrokerNameAndLevelFilterImpl : test
+2016-01-19 15:19:47,879 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Task org.apache.qpid.server.model.AbstractConfiguredObject$2@2af1c920 is performed successfully with result: null
+2016-01-19 15:19:47,880 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Task org.apache.qpid.server.model.AbstractConfiguredObject$2@5c45d770 is performed successfully with result: null
+2016-01-19 15:19:47,880 INFO  [main] o.a.qpid Test2
+2016-01-19 15:19:47,880 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Submitting task org.apache.qpid.server.model.AbstractConfiguredObject$2@2ce6c6ec to executor Broker-Config
+2016-01-19 15:19:47,880 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Performing task org.apache.qpid.server.model.AbstractConfiguredObject$2@2ce6c6ec
+2016-01-19 15:19:47,880 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Running task org.apache.qpid.server.model.AbstractConfiguredObject$2@6ff3521a immediately
+2016-01-19 15:19:47,880 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Performing task org.apache.qpid.server.model.AbstractConfiguredObject$2@6ff3521a
+2016-01-19 15:19:47,880 DEBUG [Broker-Config] o.a.q.s.m.AbstractConfiguredObject Closing  : test
+2016-01-19 15:19:47,880 DEBUG [Broker-Config] o.a.q.s.m.AbstractConfiguredObject All children closed  : test
+2016-01-19 15:19:47,880 DEBUG [Broker-Config] o.a.q.s.m.AbstractConfiguredObject Closed  : test
+2016-01-19 15:19:47,880 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Task org.apache.qpid.server.model.AbstractConfiguredObject$2@6ff3521a is performed successfully with result: null
+2016-01-19 15:19:47,881 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Task org.apache.qpid.server.model.AbstractConfiguredObject$2@2ce6c6ec is performed successfully with result: null
+2016-01-19 15:19:47,881 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Stopping task executor Broker-Config immediately
+2016-01-19 15:19:47,881 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Task executor was stopped immediately. Number of unfinished tasks: 0
+2016-01-19 15:19:47,881 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown BrokerLoggerTest.testRemoveExistingFilter ==========
+2016-01-19 15:19:47,881 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

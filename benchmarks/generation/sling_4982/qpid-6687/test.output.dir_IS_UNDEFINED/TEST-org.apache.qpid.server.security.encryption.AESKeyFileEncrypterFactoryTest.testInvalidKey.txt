@@ -1,0 +1,4 @@
+2016-01-19 15:19:48,345 INFO  [main] o.a.q.t.u.QpidTestCase ========== start AESKeyFileEncrypterFactoryTest.testInvalidKey ==========
+2016-01-19 15:19:48,346 INFO  [main] o.a.q.t.u.QpidTestCase ========== run AESKeyFileEncrypterFactoryTest.testInvalidKey ==========
+2016-01-19 15:19:48,348 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown AESKeyFileEncrypterFactoryTest.testInvalidKey ==========
+2016-01-19 15:19:48,348 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

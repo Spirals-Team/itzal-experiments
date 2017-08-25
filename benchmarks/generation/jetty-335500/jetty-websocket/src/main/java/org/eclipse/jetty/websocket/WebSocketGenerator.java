@@ -1,0 +1,31 @@
+// ========================================================================
+// Copyright (c) 2010 Mort Bay Consulting Pty. Ltd.
+// ------------------------------------------------------------------------
+// All rights reserved. This program and the accompanying materials
+// are made available under the terms of the Eclipse Public License v1.0
+// and Apache License v2.0 which accompanies this distribution.
+// The Eclipse Public License is available at 
+// http://www.eclipse.org/legal/epl-v10.html
+// The Apache License v2.0 is available at
+// http://www.opensource.org/licenses/apache2.0.php
+// You may elect to redistribute this code under either of these licenses. 
+// ========================================================================
+
+package org.eclipse.jetty.websocket;
+
+import java.io.IOException;
+
+
+
+/* ------------------------------------------------------------ */
+/** WebSocketGenerator.
+ */
+public interface WebSocketGenerator
+{
+    int flush() throws IOException;
+    boolean isBufferEmpty();
+    void addFrame(byte opcode, String content, int maxIdleTime) throws IOException;
+    void addFrame(byte opcode, byte[] content, int offset, int length, int maxIdleTime) throws IOException;
+    void addFragment(boolean more,byte opcode, byte[] content, int offset, int length, int maxIdleTime) throws IOException;
+    int flush(int maxIdleTime) throws IOException;
+}

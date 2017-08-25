@@ -1,0 +1,1 @@
+{"date":1503428424309,"request":{"method":"POST","parameters":"------WebKitFormBoundaryGNq0ZLqMDbXLroRd\r\nContent-Disposition: form-data; name=\"product\"\r\n\r\ntest\r\n------WebKitFormBoundaryGNq0ZLqMDbXLroRd--\r\n","url":"http://localhost:8080/cart/add"},"blockCoverage":{},"response":{"status":400},"methodCoverage":{},"executedIf":{},"contentType":"text/html"}

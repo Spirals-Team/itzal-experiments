@@ -1,0 +1,5 @@
+2016-01-19 15:13:13,653 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:13:13,654 INFO  [main] o.a.q.t.u.QpidTestCase ========== start SortedQueueEntryListTest.testEntryDeleted ==========
+2016-01-19 15:13:13,689 INFO  [main] o.a.q.t.u.QpidTestCase ========== run SortedQueueEntryListTest.testEntryDeleted ==========
+2016-01-19 15:13:13,689 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown SortedQueueEntryListTest.testEntryDeleted ==========
+2016-01-19 15:13:13,689 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

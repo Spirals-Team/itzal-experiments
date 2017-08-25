@@ -1,0 +1,6 @@
+2016-01-19 15:20:30,634 INFO  [main] o.a.q.t.u.QpidTestCase ========== start CRAMMD5HexInitialiserTest.testHashedHex ==========
+2016-01-19 15:20:30,635 INFO  [main] o.a.q.t.u.QpidTestCase ========== run CRAMMD5HexInitialiserTest.testHashedHex ==========
+2016-01-19 15:20:30,637 INFO  [main] o.a.q.s.s.a.d.Base64MD5PasswordFilePrincipalDatabase PasswordFile using file /tmp/CRAMMD5HexInitialiserTest-testHashedHex21544099338122928password-file
+2016-01-19 15:20:30,637 INFO  [main] o.a.q.s.s.a.d.Base64MD5PasswordFilePrincipalDatabase Created user:testUser
+2016-01-19 15:20:30,638 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown CRAMMD5HexInitialiserTest.testHashedHex ==========
+2016-01-19 15:20:30,638 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

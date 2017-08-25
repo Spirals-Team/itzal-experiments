@@ -1,0 +1,6 @@
+2016-01-19 15:19:28,802 INFO  [main] o.a.q.t.u.QpidTestCase ========== start JsonFileConfigStoreTest.testTwoObjectsWithSameId ==========
+2016-01-19 15:19:28,804 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:19:28,805 INFO  [main] o.a.q.t.u.QpidTestCase ========== run JsonFileConfigStoreTest.testTwoObjectsWithSameId ==========
+2016-01-19 15:19:28,817 ERROR [main] o.a.q.s.u.ServerScopedRuntimeException Object with id f1b6e640-b2e7-432a-84a8-4a568f7a579e already exists
+2016-01-19 15:19:28,817 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown JsonFileConfigStoreTest.testTwoObjectsWithSameId ==========
+2016-01-19 15:19:28,817 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

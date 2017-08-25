@@ -1,0 +1,4 @@
+2016-01-19 15:20:05,454 INFO  [main] o.a.q.t.u.QpidTestCase ========== start TransactionTimeoutHelperTest.testOpenTransactionProducesWarningOnly ==========
+2016-01-19 15:20:05,455 INFO  [main] o.a.q.t.u.QpidTestCase ========== run TransactionTimeoutHelperTest.testOpenTransactionProducesWarningOnly ==========
+2016-01-19 15:20:05,456 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown TransactionTimeoutHelperTest.testOpenTransactionProducesWarningOnly ==========
+2016-01-19 15:20:05,456 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

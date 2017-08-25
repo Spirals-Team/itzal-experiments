@@ -1,0 +1,4 @@
+2017-07-20 09:13:08,047 INFO  [main] o.a.q.t.u.QpidTestCase ========== start AbstractConfiguredObjectTest.testDefaultContextVariableWhichRefersToThis ==========
+2017-07-20 09:13:08,056 INFO  [main] o.a.q.t.u.QpidTestCase ========== run AbstractConfiguredObjectTest.testDefaultContextVariableWhichRefersToThis ==========
+2017-07-20 09:13:08,058 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown AbstractConfiguredObjectTest.testDefaultContextVariableWhichRefersToThis ==========
+2017-07-20 09:13:08,058 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

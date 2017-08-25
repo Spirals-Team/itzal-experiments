@@ -1,0 +1,4 @@
+2016-01-19 15:14:17,359 INFO  [main] o.a.q.t.u.QpidTestCase ========== start FileTrustStoreTest.testDeleteTrustStore_TrustManagerInUseByPort ==========
+2016-01-19 15:14:17,361 INFO  [main] o.a.q.t.u.QpidTestCase ========== run FileTrustStoreTest.testDeleteTrustStore_TrustManagerInUseByPort ==========
+2016-01-19 15:14:17,398 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown FileTrustStoreTest.testDeleteTrustStore_TrustManagerInUseByPort ==========
+2016-01-19 15:14:17,404 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

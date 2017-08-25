@@ -1,0 +1,54 @@
+2016-01-19 15:20:51,328 INFO  [main] o.a.q.t.u.QpidTestCase ========== start VirtualHostStoreUpgraderAndRecovererTest.testRecoverQueueWithDLQEnabled ==========
+2016-01-19 15:20:51,333 INFO  [main] o.a.q.t.u.QpidTestCase ========== run VirtualHostStoreUpgraderAndRecovererTest.testRecoverQueueWithDLQEnabled ==========
+2016-01-19 15:20:51,335 INFO  [main] o.a.q.s.s.GenericStoreUpgrader VirtualHost store has model version 0.0. Number of record(s) 6
+2016-01-19 15:20:51,335 DEBUG [main] o.a.q.s.s.GenericStoreUpgrader Adding VirtualHost store upgrader from model version: 0.0
+2016-01-19 15:20:51,335 DEBUG [main] o.a.q.s.s.GenericStoreUpgrader Adding VirtualHost store upgrader from model version: 0.1
+2016-01-19 15:20:51,335 DEBUG [main] o.a.q.s.s.GenericStoreUpgrader Adding VirtualHost store upgrader from model version: 0.2
+2016-01-19 15:20:51,335 DEBUG [main] o.a.q.s.s.GenericStoreUpgrader Adding VirtualHost store upgrader from model version: 0.3
+2016-01-19 15:20:51,335 DEBUG [main] o.a.q.s.s.GenericStoreUpgrader Adding VirtualHost store upgrader from model version: 0.4
+2016-01-19 15:20:51,335 DEBUG [main] o.a.q.s.s.GenericStoreUpgrader Adding VirtualHost store upgrader from model version: 2.0
+2016-01-19 15:20:51,335 DEBUG [main] o.a.q.s.s.GenericStoreUpgrader Adding VirtualHost store upgrader from model version: 3.0
+2016-01-19 15:20:51,338 DEBUG [main] o.a.q.s.s.GenericStoreUpgrader VirtualHost store upgrade is about to complete. 6 total record(s). Records to update 10 Records to delete 0
+2016-01-19 15:20:51,338 DEBUG [main] o.a.q.s.s.GenericRecoverer Recovering the children of TestVirtualHostNode[id=27339d46-1591-4aec-abbd-0d9d558f8ba3, name=test, state=UNINITIALIZED]
+2016-01-19 15:20:51,356 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 2 implementations of interface org.apache.qpid.server.plugin.SystemNodeCreator
+2016-01-19 15:20:51,356 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 1 implementations of interface org.apache.qpid.server.plugin.ConnectionValidator
+2016-01-19 15:20:51,357 DEBUG [main] o.a.q.s.e.FanoutExchange Binding queue test_DLQ with routing key dlq to exchange FanoutExchange[test_DLE]
+2016-01-19 15:20:51,368 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing TestMemoryVirtualHost : test
+2016-01-19 15:20:51,368 DEBUG [main] o.a.q.s.v.AbstractVirtualHost Closing connection registry :0 connections.
+2016-01-19 15:20:51,368 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing FanoutExchange : test_DLE
+2016-01-19 15:20:51,368 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing BindingImpl : dlq
+2016-01-19 15:20:51,368 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed BindingImpl : dlq
+2016-01-19 15:20:51,368 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed BindingImpl : dlq
+2016-01-19 15:20:51,368 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed FanoutExchange : test_DLE
+2016-01-19 15:20:51,368 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed FanoutExchange : test_DLE
+2016-01-19 15:20:51,368 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing FanoutExchange : amq.fanout
+2016-01-19 15:20:51,368 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed FanoutExchange : amq.fanout
+2016-01-19 15:20:51,368 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed FanoutExchange : amq.fanout
+2016-01-19 15:20:51,368 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing HeadersExchange : amq.match
+2016-01-19 15:20:51,368 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed HeadersExchange : amq.match
+2016-01-19 15:20:51,368 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed HeadersExchange : amq.match
+2016-01-19 15:20:51,368 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing DirectExchange : amq.direct
+2016-01-19 15:20:51,368 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing BindingImpl : test
+2016-01-19 15:20:51,368 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed BindingImpl : test
+2016-01-19 15:20:51,368 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed BindingImpl : test
+2016-01-19 15:20:51,368 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed DirectExchange : amq.direct
+2016-01-19 15:20:51,368 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed DirectExchange : amq.direct
+2016-01-19 15:20:51,368 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing TopicExchange : amq.topic
+2016-01-19 15:20:51,368 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed TopicExchange : amq.topic
+2016-01-19 15:20:51,368 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed TopicExchange : amq.topic
+2016-01-19 15:20:51,368 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing StandardQueueImpl : test_DLQ
+2016-01-19 15:20:51,368 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing BindingImpl : dlq
+2016-01-19 15:20:51,368 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed BindingImpl : dlq
+2016-01-19 15:20:51,368 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed StandardQueueImpl : test_DLQ
+2016-01-19 15:20:51,368 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed StandardQueueImpl : test_DLQ
+2016-01-19 15:20:51,368 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing StandardQueueImpl : test
+2016-01-19 15:20:51,368 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing BindingImpl : test
+2016-01-19 15:20:51,368 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed BindingImpl : test
+2016-01-19 15:20:51,368 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed StandardQueueImpl : test
+2016-01-19 15:20:51,368 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed StandardQueueImpl : test
+2016-01-19 15:20:51,368 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed TestMemoryVirtualHost : test
+2016-01-19 15:20:51,368 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed TestMemoryVirtualHost : test
+2016-01-19 15:20:51,368 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing TestVirtualHostNode : test
+2016-01-19 15:20:51,368 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed TestVirtualHostNode : test
+2016-01-19 15:20:51,368 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown VirtualHostStoreUpgraderAndRecovererTest.testRecoverQueueWithDLQEnabled ==========
+2016-01-19 15:20:51,369 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

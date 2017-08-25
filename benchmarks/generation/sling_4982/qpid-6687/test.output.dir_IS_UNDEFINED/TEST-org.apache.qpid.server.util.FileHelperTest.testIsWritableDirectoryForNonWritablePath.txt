@@ -1,0 +1,4 @@
+2016-01-19 15:20:53,946 INFO  [main] o.a.q.t.u.QpidTestCase ========== start FileHelperTest.testIsWritableDirectoryForNonWritablePath ==========
+2016-01-19 15:20:53,947 INFO  [main] o.a.q.t.u.QpidTestCase ========== run FileHelperTest.testIsWritableDirectoryForNonWritablePath ==========
+2016-01-19 15:20:53,948 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown FileHelperTest.testIsWritableDirectoryForNonWritablePath ==========
+2016-01-19 15:20:53,948 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

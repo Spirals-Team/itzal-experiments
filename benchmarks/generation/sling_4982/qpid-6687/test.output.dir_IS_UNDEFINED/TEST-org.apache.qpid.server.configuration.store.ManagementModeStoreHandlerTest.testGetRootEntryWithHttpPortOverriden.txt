@@ -1,0 +1,14 @@
+2016-01-19 15:20:56,541 INFO  [main] o.a.q.t.u.QpidTestCase ========== start ManagementModeStoreHandlerTest.testGetRootEntryWithHttpPortOverriden ==========
+2016-01-19 15:20:56,543 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Management mode quiescing entry Mock for ConfiguredObjectRecord, hashCode: 913242382
+2016-01-19 15:20:56,543 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Management mode quiescing entry Mock for ConfiguredObjectRecord, hashCode: 913242382
+2016-01-19 15:20:56,543 INFO  [main] o.a.q.t.u.QpidTestCase ========== run ManagementModeStoreHandlerTest.testGetRootEntryWithHttpPortOverriden ==========
+2016-01-19 15:20:56,543 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing JsonSystemConfigImpl : System
+2016-01-19 15:20:56,543 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed JsonSystemConfigImpl : System
+2016-01-19 15:20:56,544 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Management mode quiescing entry Mock for ConfiguredObjectRecord, hashCode: 913242382
+2016-01-19 15:20:56,544 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Management mode quiescing entry Mock for ConfiguredObjectRecord, hashCode: 913242382
+2016-01-19 15:20:56,544 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Add management mode port configuration ConfiguredObjectRecord [id=a4af3480-dfff-488e-b2f4-4fd179716ec1, type=Port, attributes={authenticationProvider=MANAGEMENT_MODE_AUTHENTICATION, port=9090, name=MANAGEMENT-MODE-PORT-HTTP, protocols=[HTTP]}, parents={Broker=7e42c1e1-42f6-4894-8118-20d04af7b750}] for port 9090 and protocol HTTP
+2016-01-19 15:20:56,544 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing  : System
+2016-01-19 15:20:56,544 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed  : System
+2016-01-19 15:20:56,544 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed  : System
+2016-01-19 15:20:56,544 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown ManagementModeStoreHandlerTest.testGetRootEntryWithHttpPortOverriden ==========
+2016-01-19 15:20:56,544 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

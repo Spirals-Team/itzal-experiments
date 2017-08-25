@@ -1,0 +1,4 @@
+2016-01-19 15:20:54,209 INFO  [main] o.a.q.t.u.QpidTestCase ========== start AppenderUtilsTest.testMaxFileSizeLimit ==========
+2016-01-19 15:20:54,210 INFO  [main] o.a.q.t.u.QpidTestCase ========== run AppenderUtilsTest.testMaxFileSizeLimit ==========
+2016-01-19 15:20:54,211 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown AppenderUtilsTest.testMaxFileSizeLimit ==========
+2016-01-19 15:20:54,211 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

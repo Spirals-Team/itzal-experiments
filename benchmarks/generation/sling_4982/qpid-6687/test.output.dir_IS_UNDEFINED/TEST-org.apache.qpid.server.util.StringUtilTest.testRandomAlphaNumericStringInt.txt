@@ -1,0 +1,4 @@
+2016-01-19 15:12:12,005 INFO  [main] o.a.q.t.u.QpidTestCase ========== start StringUtilTest.testRandomAlphaNumericStringInt ==========
+2016-01-19 15:12:12,007 INFO  [main] o.a.q.t.u.QpidTestCase ========== run StringUtilTest.testRandomAlphaNumericStringInt ==========
+2016-01-19 15:12:12,007 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown StringUtilTest.testRandomAlphaNumericStringInt ==========
+2016-01-19 15:12:12,007 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

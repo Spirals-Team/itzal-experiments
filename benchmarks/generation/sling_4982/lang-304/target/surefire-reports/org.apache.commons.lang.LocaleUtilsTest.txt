@@ -1,0 +1,59 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.commons.lang.LocaleUtilsTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 11, Skipped: 0, Time elapsed: 0.073 sec <<< FAILURE! - in org.apache.commons.lang.LocaleUtilsTest
+testConstructor(org.apache.commons.lang.LocaleUtilsTest)  Time elapsed: 0.034 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.lang.LocaleUtils.isAvailableLocale(LocaleUtils.java:223)
+	at org.apache.commons.lang.LocaleUtilsTest.setUp(LocaleUtilsTest.java:87)
+
+testToLocale_1Part(org.apache.commons.lang.LocaleUtilsTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.lang.LocaleUtils.isAvailableLocale(LocaleUtils.java:223)
+	at org.apache.commons.lang.LocaleUtilsTest.setUp(LocaleUtilsTest.java:87)
+
+testToLocale_2Part(org.apache.commons.lang.LocaleUtilsTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.lang.LocaleUtils.isAvailableLocale(LocaleUtils.java:223)
+	at org.apache.commons.lang.LocaleUtilsTest.setUp(LocaleUtilsTest.java:87)
+
+testToLocale_3Part(org.apache.commons.lang.LocaleUtilsTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.lang.LocaleUtils.isAvailableLocale(LocaleUtils.java:223)
+	at org.apache.commons.lang.LocaleUtilsTest.setUp(LocaleUtilsTest.java:87)
+
+testLocaleLookupList_Locale(org.apache.commons.lang.LocaleUtilsTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.lang.LocaleUtils.isAvailableLocale(LocaleUtils.java:223)
+	at org.apache.commons.lang.LocaleUtilsTest.setUp(LocaleUtilsTest.java:87)
+
+testLocaleLookupList_LocaleLocale(org.apache.commons.lang.LocaleUtilsTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.lang.LocaleUtils.isAvailableLocale(LocaleUtils.java:223)
+	at org.apache.commons.lang.LocaleUtilsTest.setUp(LocaleUtilsTest.java:87)
+
+testAvailableLocaleList(org.apache.commons.lang.LocaleUtilsTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.lang.LocaleUtils.isAvailableLocale(LocaleUtils.java:223)
+	at org.apache.commons.lang.LocaleUtilsTest.setUp(LocaleUtilsTest.java:87)
+
+testAvailableLocaleSet(org.apache.commons.lang.LocaleUtilsTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.lang.LocaleUtils.isAvailableLocale(LocaleUtils.java:223)
+	at org.apache.commons.lang.LocaleUtilsTest.setUp(LocaleUtilsTest.java:87)
+
+testIsAvailableLocale(org.apache.commons.lang.LocaleUtilsTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.lang.LocaleUtils.isAvailableLocale(LocaleUtils.java:223)
+	at org.apache.commons.lang.LocaleUtilsTest.setUp(LocaleUtilsTest.java:87)
+
+testLanguagesByCountry(org.apache.commons.lang.LocaleUtilsTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.lang.LocaleUtils.isAvailableLocale(LocaleUtils.java:223)
+	at org.apache.commons.lang.LocaleUtilsTest.setUp(LocaleUtilsTest.java:87)
+
+testCountriesByLanguage(org.apache.commons.lang.LocaleUtilsTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.lang.LocaleUtils.isAvailableLocale(LocaleUtils.java:223)
+	at org.apache.commons.lang.LocaleUtilsTest.setUp(LocaleUtilsTest.java:87)
+

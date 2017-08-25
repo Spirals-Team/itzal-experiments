@@ -1,0 +1,3 @@
+2016-01-19 15:19:26,178 INFO  [main] o.a.q.t.u.QpidTestCase ========== run HeadersBindingTest.testAll_3 ==========
+2016-01-19 15:19:26,180 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown HeadersBindingTest.testAll_3 ==========
+2016-01-19 15:19:26,181 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

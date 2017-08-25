@@ -1,0 +1,5 @@
+2016-01-19 15:19:48,333 INFO  [main] o.a.q.t.u.QpidTestCase ========== start AESKeyFileEncrypterFactoryTest.testCreateKeyInDefaultLocation ==========
+2016-01-19 15:19:48,334 INFO  [main] o.a.q.t.u.QpidTestCase ========== run AESKeyFileEncrypterFactoryTest.testCreateKeyInDefaultLocation ==========
+2016-01-19 15:19:48,334 WARN  [main] o.a.q.s.s.e.AESKeyFileEncrypterFactory Configuration encryption is enabled, but no configuration secret was found. A new configuration secret will be created at '/tmp/AESKeyFileEncrypterFactoryTest.testCreateKeyInDefaultLocation3243278198558322659/.keys/Broker_testCreateKeyInDefaultLocation.key'.
+2016-01-19 15:19:48,340 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown AESKeyFileEncrypterFactoryTest.testCreateKeyInDefaultLocation ==========
+2016-01-19 15:19:48,340 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

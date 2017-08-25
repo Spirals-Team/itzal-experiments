@@ -1,0 +1,18 @@
+2016-01-19 15:36:54,009 INFO  [main] o.a.q.t.u.QpidTestCase ========== start AbstractStandardVirtualHostNodeTest.testStopStartVHN ==========
+2016-01-19 15:36:54,012 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:36:54,015 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:36:54,015 INFO  [main] o.a.q.t.u.QpidTestCase ========== run AbstractStandardVirtualHostNodeTest.testStopStartVHN ==========
+2016-01-19 15:36:54,017 DEBUG [main] o.a.q.s.v.AbstractStandardVirtualHostNode Activating virtualhost node TestVirtualHostNode[id=8eaac184-e7e4-4cf6-9c69-9f38e06fec20, name=testNode, state=UNINITIALIZED]
+2016-01-19 15:36:54,023 INFO  [main] o.a.q.s.s.GenericStoreUpgrader VirtualHost store has model version 3.1. Number of record(s) 0
+2016-01-19 15:36:54,023 DEBUG [main] o.a.q.s.s.GenericStoreUpgrader VirtualHost store upgrade is about to complete. 0 total record(s). Records to update 0 Records to delete 0
+2016-01-19 15:36:54,023 DEBUG [main] o.a.q.s.s.GenericRecoverer Recovering the children of TestVirtualHostNode[id=8eaac184-e7e4-4cf6-9c69-9f38e06fec20, name=testNode, state=UNINITIALIZED]
+2016-01-19 15:36:54,024 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed TestVirtualHostNode : testNode
+2016-01-19 15:36:54,025 DEBUG [main] o.a.q.s.v.AbstractStandardVirtualHostNode Activating virtualhost node TestVirtualHostNode[id=8eaac184-e7e4-4cf6-9c69-9f38e06fec20, name=testNode, state=STOPPED]
+2016-01-19 15:36:54,027 INFO  [main] o.a.q.s.s.GenericStoreUpgrader VirtualHost store has model version 3.1. Number of record(s) 0
+2016-01-19 15:36:54,027 DEBUG [main] o.a.q.s.s.GenericStoreUpgrader VirtualHost store upgrade is about to complete. 0 total record(s). Records to update 0 Records to delete 0
+2016-01-19 15:36:54,027 DEBUG [main] o.a.q.s.s.GenericRecoverer Recovering the children of TestVirtualHostNode[id=8eaac184-e7e4-4cf6-9c69-9f38e06fec20, name=testNode, state=STOPPED]
+2016-01-19 15:36:54,027 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing TestVirtualHostNode : testNode
+2016-01-19 15:36:54,027 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed TestVirtualHostNode : testNode
+2016-01-19 15:36:54,027 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed TestVirtualHostNode : testNode
+2016-01-19 15:36:54,027 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown AbstractStandardVirtualHostNodeTest.testStopStartVHN ==========
+2016-01-19 15:36:54,028 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

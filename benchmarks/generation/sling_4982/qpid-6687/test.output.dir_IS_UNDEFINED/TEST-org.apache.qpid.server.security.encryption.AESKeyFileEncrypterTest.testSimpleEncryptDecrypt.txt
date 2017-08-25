@@ -1,0 +1,4 @@
+2016-01-19 15:20:18,374 INFO  [main] o.a.q.t.u.QpidTestCase ========== start AESKeyFileEncrypterTest.testSimpleEncryptDecrypt ==========
+2016-01-19 15:20:18,375 INFO  [main] o.a.q.t.u.QpidTestCase ========== run AESKeyFileEncrypterTest.testSimpleEncryptDecrypt ==========
+2016-01-19 15:20:18,375 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown AESKeyFileEncrypterTest.testSimpleEncryptDecrypt ==========
+2016-01-19 15:20:18,376 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

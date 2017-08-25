@@ -1,0 +1,4 @@
+2016-01-19 15:19:48,308 INFO  [main] o.a.q.t.u.QpidTestCase ========== start LoggerNameAndLevelFilterTest.testDecideForEmptyLoggerName ==========
+2016-01-19 15:19:48,309 INFO  [main] o.a.q.t.u.QpidTestCase ========== run LoggerNameAndLevelFilterTest.testDecideForEmptyLoggerName ==========
+2016-01-19 15:19:48,309 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown LoggerNameAndLevelFilterTest.testDecideForEmptyLoggerName ==========
+2016-01-19 15:19:48,310 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

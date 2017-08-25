@@ -1,0 +1,4 @@
+2016-01-19 15:20:54,214 INFO  [main] o.a.q.t.u.QpidTestCase ========== start AppenderUtilsTest.testUnwritableLogDirectoryTarget ==========
+2016-01-19 15:20:54,215 INFO  [main] o.a.q.t.u.QpidTestCase ========== run AppenderUtilsTest.testUnwritableLogDirectoryTarget ==========
+2016-01-19 15:20:54,215 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown AppenderUtilsTest.testUnwritableLogDirectoryTarget ==========
+2016-01-19 15:20:54,215 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

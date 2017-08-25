@@ -1,0 +1,4 @@
+2016-01-19 15:19:28,171 INFO  [main] o.a.q.t.u.QpidTestCase ========== start BrokerMessagesTest.testBrokerListening ==========
+2016-01-19 15:19:28,175 INFO  [main] o.a.q.t.u.QpidTestCase ========== run BrokerMessagesTest.testBrokerListening ==========
+2016-01-19 15:19:28,175 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown BrokerMessagesTest.testBrokerListening ==========
+2016-01-19 15:19:28,175 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

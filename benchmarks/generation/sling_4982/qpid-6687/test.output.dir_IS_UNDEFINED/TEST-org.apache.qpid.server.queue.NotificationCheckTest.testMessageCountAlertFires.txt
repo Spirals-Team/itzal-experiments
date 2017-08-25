@@ -1,0 +1,6 @@
+2016-01-19 15:19:48,320 INFO  [main] o.a.q.t.u.QpidTestCase ========== start NotificationCheckTest.testMessageCountAlertFires ==========
+2016-01-19 15:19:48,321 INFO  [main] o.a.q.t.u.QpidTestCase ========== run NotificationCheckTest.testMessageCountAlertFires ==========
+2016-01-19 15:19:48,322 INFO  [main] o.a.q.s.q.NotificationCheck MESSAGE_COUNT_ALERT On Queue null - 1000: Maximum count on queue threshold (1000) breached.
+2016-01-19 15:19:48,322 INFO  [main] o.a.q.s.q.NotificationCheck MESSAGE_COUNT_ALERT On Queue null - 1001: Maximum count on queue threshold (1000) breached.
+2016-01-19 15:19:48,322 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown NotificationCheckTest.testMessageCountAlertFires ==========
+2016-01-19 15:19:48,322 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

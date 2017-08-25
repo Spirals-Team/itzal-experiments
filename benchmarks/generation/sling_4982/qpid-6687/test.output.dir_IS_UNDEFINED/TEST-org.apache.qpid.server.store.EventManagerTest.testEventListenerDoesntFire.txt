@@ -1,0 +1,4 @@
+2016-01-19 15:20:56,673 INFO  [main] o.a.q.t.u.QpidTestCase ========== start EventManagerTest.testEventListenerDoesntFire ==========
+2016-01-19 15:20:56,674 INFO  [main] o.a.q.t.u.QpidTestCase ========== run EventManagerTest.testEventListenerDoesntFire ==========
+2016-01-19 15:20:56,674 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown EventManagerTest.testEventListenerDoesntFire ==========
+2016-01-19 15:20:56,674 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

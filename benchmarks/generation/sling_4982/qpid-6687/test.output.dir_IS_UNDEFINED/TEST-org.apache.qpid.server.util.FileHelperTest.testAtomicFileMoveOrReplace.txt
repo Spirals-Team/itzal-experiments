@@ -1,0 +1,4 @@
+2016-01-19 15:20:53,949 INFO  [main] o.a.q.t.u.QpidTestCase ========== start FileHelperTest.testAtomicFileMoveOrReplace ==========
+2016-01-19 15:20:53,950 INFO  [main] o.a.q.t.u.QpidTestCase ========== run FileHelperTest.testAtomicFileMoveOrReplace ==========
+2016-01-19 15:20:53,951 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown FileHelperTest.testAtomicFileMoveOrReplace ==========
+2016-01-19 15:20:53,951 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

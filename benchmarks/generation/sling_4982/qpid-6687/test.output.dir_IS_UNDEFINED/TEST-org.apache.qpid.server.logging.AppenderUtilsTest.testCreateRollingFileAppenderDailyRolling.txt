@@ -1,0 +1,4 @@
+2016-01-19 15:20:54,215 INFO  [main] o.a.q.t.u.QpidTestCase ========== start AppenderUtilsTest.testCreateRollingFileAppenderDailyRolling ==========
+2016-01-19 15:20:54,216 INFO  [main] o.a.q.t.u.QpidTestCase ========== run AppenderUtilsTest.testCreateRollingFileAppenderDailyRolling ==========
+2016-01-19 15:20:54,222 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown AppenderUtilsTest.testCreateRollingFileAppenderDailyRolling ==========
+2016-01-19 15:20:54,222 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

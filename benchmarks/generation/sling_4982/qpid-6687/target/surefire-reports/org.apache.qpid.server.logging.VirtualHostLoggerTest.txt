@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.qpid.server.logging.VirtualHostLoggerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.269 sec <<< FAILURE! - in org.apache.qpid.server.logging.VirtualHostLoggerTest
+testStopLoggingLoggerInErroredState(org.apache.qpid.server.logging.VirtualHostLoggerTest)  Time elapsed: 0.922 sec  <<< ERROR!
+java.lang.ExceptionInInitializerError: null
+	at java.util.ResourceBundle.throwMissingResourceException(ResourceBundle.java:1499)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1322)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.qpid.server.logging.messages.VirtualHostMessages.<clinit>(VirtualHostMessages.java:67)
+	at org.apache.qpid.server.virtualhost.AbstractVirtualHost.<init>(AbstractVirtualHost.java:210)
+	at org.apache.qpid.server.virtualhost.TestMemoryVirtualHost.<init>(TestMemoryVirtualHost.java:40)
+	at org.apache.qpid.server.logging.VirtualHostLoggerTest.setUp(VirtualHostLoggerTest.java:91)
+

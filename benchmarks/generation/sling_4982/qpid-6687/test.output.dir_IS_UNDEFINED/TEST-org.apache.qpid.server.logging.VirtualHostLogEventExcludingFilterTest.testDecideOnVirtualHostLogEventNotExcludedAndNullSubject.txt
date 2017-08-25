@@ -1,0 +1,4 @@
+2016-01-19 15:20:54,559 INFO  [main] o.a.q.t.u.QpidTestCase ========== start VirtualHostLogEventExcludingFilterTest.testDecideOnVirtualHostLogEventNotExcludedAndNullSubject ==========
+2016-01-19 15:20:54,560 INFO  [main] o.a.q.t.u.QpidTestCase ========== run VirtualHostLogEventExcludingFilterTest.testDecideOnVirtualHostLogEventNotExcludedAndNullSubject ==========
+2016-01-19 15:20:54,560 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown VirtualHostLogEventExcludingFilterTest.testDecideOnVirtualHostLogEventNotExcludedAndNullSubject ==========
+2016-01-19 15:20:54,560 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

@@ -1,0 +1,10 @@
+2016-01-19 15:20:51,547 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:20:51,549 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:20:51,550 INFO  [main] o.a.q.t.u.QpidTestCase ========== run PortFactoryTest.testCreateAmqpPortWantingClientAuthFailsWithoutTrustStore ==========
+2016-01-19 15:20:51,553 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 0 implementations of interface org.apache.qpid.server.plugin.ProtocolEngineCreator
+2016-01-19 15:20:51,553 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 0 implementations of interface org.apache.qpid.server.plugin.ProtocolEngineCreator
+2016-01-19 15:20:51,554 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 1 implementations of interface org.apache.qpid.server.plugin.TransportProviderFactory
+2016-01-19 15:20:51,554 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 1 implementations of interface org.apache.qpid.server.plugin.TransportProviderFactory
+2016-01-19 15:20:51,555 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 1 implementations of interface org.apache.qpid.server.plugin.TransportProviderFactory
+2016-01-19 15:20:51,556 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown PortFactoryTest.testCreateAmqpPortWantingClientAuthFailsWithoutTrustStore ==========
+2016-01-19 15:20:51,556 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

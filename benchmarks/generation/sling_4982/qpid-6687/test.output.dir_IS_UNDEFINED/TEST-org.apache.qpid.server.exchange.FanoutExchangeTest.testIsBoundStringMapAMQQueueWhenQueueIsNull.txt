@@ -1,0 +1,3 @@
+2016-01-19 15:20:54,503 INFO  [main] o.a.q.t.u.QpidTestCase ========== run FanoutExchangeTest.testIsBoundStringMapAMQQueueWhenQueueIsNull ==========
+2016-01-19 15:20:54,504 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown FanoutExchangeTest.testIsBoundStringMapAMQQueueWhenQueueIsNull ==========
+2016-01-19 15:20:54,504 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

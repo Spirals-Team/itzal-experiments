@@ -1,0 +1,13 @@
+2016-01-19 15:36:54,104 INFO  [main] o.a.q.t.u.QpidTestCase ========== start AbstractStandardVirtualHostNodeTest.testActivateVHNWithVHBlueprintUsed_StoreHasNoVH ==========
+2016-01-19 15:36:54,109 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:36:54,111 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:36:54,112 INFO  [main] o.a.q.t.u.QpidTestCase ========== run AbstractStandardVirtualHostNodeTest.testActivateVHNWithVHBlueprintUsed_StoreHasNoVH ==========
+2016-01-19 15:36:54,116 DEBUG [main] o.a.q.s.v.AbstractStandardVirtualHostNode Activating virtualhost node TestVirtualHostNode[id=2332e1d7-386a-4eb9-9aeb-c7ec3f370b6f, name=testNode, state=UNINITIALIZED]
+2016-01-19 15:36:54,117 INFO  [main] o.a.q.s.s.GenericStoreUpgrader VirtualHost store has model version 3.1. Number of record(s) 0
+2016-01-19 15:36:54,118 DEBUG [main] o.a.q.s.s.GenericStoreUpgrader VirtualHost store upgrade is about to complete. 0 total record(s). Records to update 0 Records to delete 0
+2016-01-19 15:36:54,118 DEBUG [main] o.a.q.s.s.GenericRecoverer Recovering the children of TestVirtualHostNode[id=2332e1d7-386a-4eb9-9aeb-c7ec3f370b6f, name=testNode, state=UNINITIALIZED]
+2016-01-19 15:36:54,119 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing TestVirtualHostNode : testNode
+2016-01-19 15:36:54,119 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed TestVirtualHostNode : testNode
+2016-01-19 15:36:54,119 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed TestVirtualHostNode : testNode
+2016-01-19 15:36:54,119 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown AbstractStandardVirtualHostNodeTest.testActivateVHNWithVHBlueprintUsed_StoreHasNoVH ==========
+2016-01-19 15:36:54,119 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

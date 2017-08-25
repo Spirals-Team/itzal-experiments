@@ -1,0 +1,4 @@
+2016-01-19 15:12:58,492 INFO  [main] o.a.q.t.u.QpidTestCase ========== start FileGroupDatabaseTest.testGetGroupPrincipalsForUserWhenUserBelongsToTwoGroup ==========
+2016-01-19 15:12:58,494 INFO  [main] o.a.q.t.u.QpidTestCase ========== run FileGroupDatabaseTest.testGetGroupPrincipalsForUserWhenUserBelongsToTwoGroup ==========
+2016-01-19 15:12:58,494 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown FileGroupDatabaseTest.testGetGroupPrincipalsForUserWhenUserBelongsToTwoGroup ==========
+2016-01-19 15:12:58,494 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

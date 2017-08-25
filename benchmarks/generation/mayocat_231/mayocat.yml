@@ -1,0 +1,97 @@
+
+# Environment settings
+# --------------------
+
+logging:
+  level: INFO
+  loggers:
+    net.sf.jmimemagic.MagicParser: WARN
+    # org.mayocat.shop: DEBUG
+  appenders:
+    - type: console
+      threshold: ALL
+      timeZone: UTC
+      target: stdout
+    - type: file
+      threshold: ALL
+      currentLogFilename: ../logs/mayocat.log
+      archivedLogFilenamePattern: ../logs/mayocat-%d.log.gz
+      archivedFileCount: 5
+      timeZone: UTC
+
+database:
+  driverClass: org.postgresql.Driver
+  user: postgres
+  password: postgres 
+  url: jdbc:postgresql://127.0.0.1/shop
+  properties:
+    charSet: UTF-8
+  maxWaitForConnection: 1s
+  validationQuery: "/* MayocatShop Health Check */ SELECT 1"
+  minSize: 8
+  maxSize: 32
+  checkConnectionWhileIdle: true
+
+files:
+  permanentDirectory: data
+  temporaryDirectory: tmp
+
+multitenancy:
+  activated: false
+  defaultTenant: shop
+
+security:
+  encryptionKey: Please change me!
+  signingKey: Me too, me too :)
+  passwordSaltLogRounds: 10
+
+# Application settings
+# --------------------
+
+platform:
+  images:
+    small:
+      name: Small
+      width: 100
+      height: 100
+
+general:
+  locales:
+    main:
+      default: en
+      configurable: true
+      visible: true
+    others:
+      default: []
+      configurable: true
+  time:
+    timeZone:
+      default: Europe/Paris
+      configurable: true
+      visible: true
+
+theme:
+  active:
+    default: default
+    configurable: true
+
+catalog:
+  currencies:
+    main:
+      default: EUR
+      visible: true
+      configurable: false
+    others:
+      default: [USD, JPY]
+      visible: true
+      configurable: true
+  products:
+    stock:
+      default: true
+    collections:
+      default: true
+      configurable: true
+      visible: true
+
+checkout:
+  defaultPaymentGateway: paypaladaptivepayments

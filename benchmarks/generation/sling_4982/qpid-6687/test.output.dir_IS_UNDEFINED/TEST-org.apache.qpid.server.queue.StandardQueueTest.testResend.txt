@@ -1,0 +1,37 @@
+2016-01-19 15:20:46,098 INFO  [main] o.a.q.t.u.QpidTestCase ========== start StandardQueueTest.testResend ==========
+2016-01-19 15:20:46,099 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:20:46,105 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 2 implementations of interface org.apache.qpid.server.plugin.SystemNodeCreator
+2016-01-19 15:20:46,105 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 1 implementations of interface org.apache.qpid.server.plugin.ConnectionValidator
+2016-01-19 15:20:46,122 DEBUG [main] o.a.q.s.q.AbstractQueue Queue 'qname' target size : 1048576
+2016-01-19 15:20:46,123 INFO  [main] o.a.q.t.u.QpidTestCase ========== run StandardQueueTest.testResend ==========
+2016-01-19 15:20:46,123 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:20:46,124 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:20:46,126 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing StandardQueueImpl : qname
+2016-01-19 15:20:46,126 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing QueueConsumerImpl : test
+2016-01-19 15:20:46,126 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed QueueConsumerImpl : test
+2016-01-19 15:20:46,127 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:20:46,127 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing QueueConsumerImpl : test
+2016-01-19 15:20:46,127 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed QueueConsumerImpl : test
+2016-01-19 15:20:46,127 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed QueueConsumerImpl : test
+2016-01-19 15:20:46,127 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed StandardQueueImpl : qname
+2016-01-19 15:20:46,127 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed StandardQueueImpl : qname
+2016-01-19 15:20:46,127 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing TestMemoryVirtualHost : org.apache.qpid.server.queue.StandardQueueTest
+2016-01-19 15:20:46,127 DEBUG [main] o.a.q.s.v.AbstractVirtualHost Closing connection registry :0 connections.
+2016-01-19 15:20:46,127 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing DirectExchange : amq.direct
+2016-01-19 15:20:46,127 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed DirectExchange : amq.direct
+2016-01-19 15:20:46,127 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed DirectExchange : amq.direct
+2016-01-19 15:20:46,127 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing TopicExchange : amq.topic
+2016-01-19 15:20:46,128 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed TopicExchange : amq.topic
+2016-01-19 15:20:46,128 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed TopicExchange : amq.topic
+2016-01-19 15:20:46,128 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing HeadersExchange : amq.match
+2016-01-19 15:20:46,128 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed HeadersExchange : amq.match
+2016-01-19 15:20:46,128 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed HeadersExchange : amq.match
+2016-01-19 15:20:46,128 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing FanoutExchange : amq.fanout
+2016-01-19 15:20:46,128 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed FanoutExchange : amq.fanout
+2016-01-19 15:20:46,128 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed FanoutExchange : amq.fanout
+2016-01-19 15:20:46,128 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed TestMemoryVirtualHost : org.apache.qpid.server.queue.StandardQueueTest
+2016-01-19 15:20:46,128 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed TestMemoryVirtualHost : org.apache.qpid.server.queue.StandardQueueTest
+2016-01-19 15:20:46,129 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown StandardQueueTest.testResend ==========
+2016-01-19 15:20:46,129 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing TestMemoryVirtualHost : org.apache.qpid.server.queue.StandardQueueTest
+2016-01-19 15:20:46,129 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed TestMemoryVirtualHost : org.apache.qpid.server.queue.StandardQueueTest
+2016-01-19 15:20:46,129 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

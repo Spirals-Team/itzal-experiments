@@ -1,0 +1,4 @@
+2016-01-19 15:20:54,298 INFO  [main] o.a.q.t.u.QpidTestCase ========== start AuthenticationResultTest.testConstructWithAuthenticationStatusContinue ==========
+2016-01-19 15:20:54,298 INFO  [main] o.a.q.t.u.QpidTestCase ========== run AuthenticationResultTest.testConstructWithAuthenticationStatusContinue ==========
+2016-01-19 15:20:54,298 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown AuthenticationResultTest.testConstructWithAuthenticationStatusContinue ==========
+2016-01-19 15:20:54,298 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.commons.collections.iterators.TestCollatingIterator
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.017 sec <<< FAILURE! - in org.apache.commons.collections.iterators.TestCollatingIterator
+testNullComparator(org.apache.commons.collections.iterators.TestCollatingIterator)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.collections.iterators.TestCollatingIterator.testNullComparator(TestCollatingIterator.java:250)
+

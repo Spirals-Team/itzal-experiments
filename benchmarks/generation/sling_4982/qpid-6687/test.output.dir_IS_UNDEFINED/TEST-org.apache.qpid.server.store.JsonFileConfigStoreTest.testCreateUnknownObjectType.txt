@@ -1,0 +1,6 @@
+2016-01-19 15:19:28,909 INFO  [main] o.a.q.t.u.QpidTestCase ========== start JsonFileConfigStoreTest.testCreateUnknownObjectType ==========
+2016-01-19 15:19:28,911 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:19:28,912 INFO  [main] o.a.q.t.u.QpidTestCase ========== run JsonFileConfigStoreTest.testCreateUnknownObjectType ==========
+2016-01-19 15:19:28,920 ERROR [main] o.a.q.s.u.ServerScopedRuntimeException Cannot create object of unknown type wibble
+2016-01-19 15:19:28,920 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown JsonFileConfigStoreTest.testCreateUnknownObjectType ==========
+2016-01-19 15:19:28,920 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

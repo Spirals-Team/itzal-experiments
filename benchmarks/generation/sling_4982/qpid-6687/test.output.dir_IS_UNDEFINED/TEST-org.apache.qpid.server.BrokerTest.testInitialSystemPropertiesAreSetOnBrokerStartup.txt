@@ -1,0 +1,47 @@
+2016-01-19 15:19:28,099 INFO  [main] o.a.q.t.u.QpidTestCase ========== start BrokerTest.testInitialSystemPropertiesAreSetOnBrokerStartup ==========
+2016-01-19 15:19:28,100 INFO  [main] o.a.q.t.u.QpidTestCase Set system property "QPID_WORK" to: "/tmp/qpid-work-1453213168100"
+2016-01-19 15:19:28,100 INFO  [main] o.a.q.t.u.QpidTestCase ========== run BrokerTest.testInitialSystemPropertiesAreSetOnBrokerStartup ==========
+2016-01-19 15:19:28,101 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 1 implementations of interface org.apache.qpid.server.plugin.SystemConfigFactory
+2016-01-19 15:19:28,101 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Starting task executor Broker-Config
+2016-01-19 15:19:28,101 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Task executor is started
+2016-01-19 15:19:28,101 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Submitting task org.apache.qpid.server.model.AbstractConfiguredObject$2@5745ca0e to executor Broker-Config
+2016-01-19 15:19:28,120 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Performing task org.apache.qpid.server.model.AbstractConfiguredObject$2@5745ca0e
+2016-01-19 15:19:28,148 INFO  [Broker-Config] o.a.q.s.s.GenericStoreUpgrader Broker store has model version 3.1. Number of record(s) 1
+2016-01-19 15:19:28,148 DEBUG [Broker-Config] o.a.q.s.s.GenericStoreUpgrader Broker store upgrade is about to complete. 1 total record(s). Records to update 0 Records to delete 0
+2016-01-19 15:19:28,148 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Running task org.apache.qpid.server.configuration.updater.TaskExecutorImpl$2@7a4191bd immediately
+2016-01-19 15:19:28,148 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Performing task org.apache.qpid.server.configuration.updater.TaskExecutorImpl$2@7a4191bd
+2016-01-19 15:19:28,149 DEBUG [Broker-Config] o.a.q.s.s.GenericRecoverer Recovering the children of JsonSystemConfigImpl [id=00000000-0000-0000-0000-000000000000, name=System]
+2016-01-19 15:19:28,149 DEBUG [Broker-Config] o.a.q.s.p.QpidServiceLoader Found 2 implementations of interface org.apache.qpid.server.plugin.SystemNodeCreator
+2016-01-19 15:19:28,149 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Task org.apache.qpid.server.configuration.updater.TaskExecutorImpl$2@7a4191bd is performed successfully with result: null
+2016-01-19 15:19:28,149 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Running task org.apache.qpid.server.model.AbstractConfiguredObject$2@70b9facd immediately
+2016-01-19 15:19:28,150 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Performing task org.apache.qpid.server.model.AbstractConfiguredObject$2@70b9facd
+2016-01-19 15:19:28,150 INFO  [Broker-Config] q.m.b.config [Broker] BRK-1006 : Using configuration : /tmp/qpid-work-1453213168100/config.json
+2016-01-19 15:19:28,150 DEBUG [Broker-Config] o.a.q.s.p.QpidServiceLoader Found 1 implementations of interface org.apache.qpid.server.plugin.ConfigurationSecretEncrypterFactory
+2016-01-19 15:19:28,152 DEBUG [Broker-Config] o.a.q.s.p.QpidServiceLoader Found 1 implementations of interface org.apache.qpid.server.plugin.ConfigurationSecretEncrypterFactory
+2016-01-19 15:19:28,152 INFO  [Broker-Config] q.m.b.platform [Broker] BRK-1010 : Platform : JVM : Oracle Corporation version: 1.8.0_66-internal-b17 OS : Linux version: 4.2.0-23-generic arch: amd64
+2016-01-19 15:19:28,152 INFO  [Broker-Config] q.m.b.max_memory [Broker] BRK-1011 : Maximum Memory : 3,659,530,240 bytes
+2016-01-19 15:19:28,153 INFO  [Broker-Config] q.m.b.process [Broker] BRK-1017 : Process : PID : 13753
+2016-01-19 15:19:28,154 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Task org.apache.qpid.server.model.AbstractConfiguredObject$2@70b9facd is performed successfully with result: null
+2016-01-19 15:19:28,154 INFO  [Broker-Config] q.m.b.ready [Broker] BRK-1004 : Qpid Broker Ready
+2016-01-19 15:19:28,154 DEBUG [main] o.a.q.s.Broker Added shutdown hook
+2016-01-19 15:19:28,154 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown BrokerTest.testInitialSystemPropertiesAreSetOnBrokerStartup ==========
+2016-01-19 15:19:28,154 DEBUG [main] o.a.q.t.u.QpidTestCase reverting 1 test properties
+2016-01-19 15:19:28,154 DEBUG [main] o.a.q.s.Broker Removing shutdown hook
+2016-01-19 15:19:28,154 DEBUG [main] o.a.q.s.Broker Removed shutdown hook: true
+2016-01-19 15:19:28,154 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Submitting task org.apache.qpid.server.model.AbstractConfiguredObject$2@17bffc17 to executor Broker-Config
+2016-01-19 15:19:28,154 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Task org.apache.qpid.server.model.AbstractConfiguredObject$2@5745ca0e is performed successfully with result: null
+2016-01-19 15:19:28,154 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Performing task org.apache.qpid.server.model.AbstractConfiguredObject$2@17bffc17
+2016-01-19 15:19:28,154 DEBUG [Broker-Config] o.a.q.s.m.AbstractConfiguredObject Closing JsonSystemConfigImpl : System
+2016-01-19 15:19:28,154 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Running task org.apache.qpid.server.model.AbstractConfiguredObject$2@4381c9cd immediately
+2016-01-19 15:19:28,155 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Performing task org.apache.qpid.server.model.AbstractConfiguredObject$2@4381c9cd
+2016-01-19 15:19:28,155 DEBUG [Broker-Config] o.a.q.s.m.AbstractConfiguredObject Closing BrokerAdapter : test
+2016-01-19 15:19:28,155 DEBUG [Broker-Config] o.a.q.s.m.AbstractConfiguredObject All children closed BrokerAdapter : test
+2016-01-19 15:19:28,156 INFO  [Broker-Config] q.m.b.stopped <<UNKNOWN>> BRK-1005 : Stopped
+2016-01-19 15:19:28,156 DEBUG [Broker-Config] o.a.q.s.m.AbstractConfiguredObject Closed BrokerAdapter : test
+2016-01-19 15:19:28,156 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Task org.apache.qpid.server.model.AbstractConfiguredObject$2@4381c9cd is performed successfully with result: null
+2016-01-19 15:19:28,156 DEBUG [Broker-Config] o.a.q.s.m.AbstractConfiguredObject All children closed JsonSystemConfigImpl : System
+2016-01-19 15:19:28,156 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Stopping task executor Broker-Config
+2016-01-19 15:19:28,156 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Task executor is stopped
+2016-01-19 15:19:28,156 DEBUG [Broker-Config] o.a.q.s.m.AbstractConfiguredObject Closed JsonSystemConfigImpl : System
+2016-01-19 15:19:28,158 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender
+2016-01-19 15:19:28,176 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Task org.apache.qpid.server.model.AbstractConfiguredObject$2@17bffc17 is performed successfully with result: null

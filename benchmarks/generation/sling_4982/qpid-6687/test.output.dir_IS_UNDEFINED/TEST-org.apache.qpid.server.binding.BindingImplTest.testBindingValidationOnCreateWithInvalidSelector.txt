@@ -1,0 +1,4 @@
+2016-01-19 15:20:56,360 INFO  [main] o.a.q.t.u.QpidTestCase ========== start BindingImplTest.testBindingValidationOnCreateWithInvalidSelector ==========
+2016-01-19 15:20:56,361 INFO  [main] o.a.q.t.u.QpidTestCase ========== run BindingImplTest.testBindingValidationOnCreateWithInvalidSelector ==========
+2016-01-19 15:20:56,362 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown BindingImplTest.testBindingValidationOnCreateWithInvalidSelector ==========
+2016-01-19 15:20:56,362 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

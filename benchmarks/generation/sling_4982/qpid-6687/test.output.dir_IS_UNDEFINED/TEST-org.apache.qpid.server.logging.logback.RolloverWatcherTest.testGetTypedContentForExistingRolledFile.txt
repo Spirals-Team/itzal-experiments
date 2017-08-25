@@ -1,0 +1,4 @@
+2016-01-19 15:12:12,307 INFO  [main] o.a.q.t.u.QpidTestCase ========== start RolloverWatcherTest.testGetTypedContentForExistingRolledFile ==========
+2016-01-19 15:12:12,309 INFO  [main] o.a.q.t.u.QpidTestCase ========== run RolloverWatcherTest.testGetTypedContentForExistingRolledFile ==========
+2016-01-19 15:12:12,309 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown RolloverWatcherTest.testGetTypedContentForExistingRolledFile ==========
+2016-01-19 15:12:12,309 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

@@ -1,0 +1,6 @@
+2016-01-19 15:19:28,657 INFO  [main] o.a.q.t.u.QpidTestCase ========== start BrokerOptionsTest.testDefaultWorkDirWithoutQpidWork ==========
+2016-01-19 15:19:28,658 INFO  [main] o.a.q.t.u.QpidTestCase ========== run BrokerOptionsTest.testDefaultWorkDirWithoutQpidWork ==========
+2016-01-19 15:19:28,658 INFO  [main] o.a.q.t.u.QpidTestCase Set system property "QPID_WORK" to: "null"
+2016-01-19 15:19:28,658 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown BrokerOptionsTest.testDefaultWorkDirWithoutQpidWork ==========
+2016-01-19 15:19:28,658 DEBUG [main] o.a.q.t.u.QpidTestCase reverting 1 test properties
+2016-01-19 15:19:28,658 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

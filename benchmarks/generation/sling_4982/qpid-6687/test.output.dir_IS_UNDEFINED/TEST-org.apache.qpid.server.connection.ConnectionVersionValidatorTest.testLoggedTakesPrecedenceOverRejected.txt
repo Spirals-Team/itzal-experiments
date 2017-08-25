@@ -1,0 +1,4 @@
+2016-01-19 15:20:51,299 INFO  [main] o.a.q.t.u.QpidTestCase ========== start ConnectionVersionValidatorTest.testLoggedTakesPrecedenceOverRejected ==========
+2016-01-19 15:20:51,299 INFO  [main] o.a.q.t.u.QpidTestCase ========== run ConnectionVersionValidatorTest.testLoggedTakesPrecedenceOverRejected ==========
+2016-01-19 15:20:51,300 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown ConnectionVersionValidatorTest.testLoggedTakesPrecedenceOverRejected ==========
+2016-01-19 15:20:51,300 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

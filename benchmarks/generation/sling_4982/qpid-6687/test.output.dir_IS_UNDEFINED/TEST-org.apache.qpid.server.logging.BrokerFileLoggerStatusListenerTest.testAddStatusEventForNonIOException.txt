@@ -1,0 +1,4 @@
+2016-01-19 15:20:54,520 INFO  [main] o.a.q.t.u.QpidTestCase ========== start BrokerFileLoggerStatusListenerTest.testAddStatusEventForNonIOException ==========
+2016-01-19 15:20:54,521 INFO  [main] o.a.q.t.u.QpidTestCase ========== run BrokerFileLoggerStatusListenerTest.testAddStatusEventForNonIOException ==========
+2016-01-19 15:20:54,521 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown BrokerFileLoggerStatusListenerTest.testAddStatusEventForNonIOException ==========
+2016-01-19 15:20:54,521 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

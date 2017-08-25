@@ -1,0 +1,11 @@
+2016-01-19 15:39:23,579 INFO  [main] o.a.q.t.u.QpidTestCase ========== start BrokerRecovererTest.testCreateBrokerAttributes ==========
+2016-01-19 15:39:23,856 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:39:23,886 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 14 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectRegistration
+2016-01-19 15:39:24,129 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 0 implementations of interface org.apache.qpid.server.plugin.ProtocolEngineCreator
+2016-01-19 15:39:24,483 INFO  [main] o.a.q.t.u.QpidTestCase ========== run BrokerRecovererTest.testCreateBrokerAttributes ==========
+2016-01-19 15:39:24,486 DEBUG [main] o.a.q.s.s.GenericRecoverer Recovering the children of JsonSystemConfigImpl [id=00000000-0000-0000-0000-000000000000, name=System]
+2016-01-19 15:39:24,492 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 2 implementations of interface org.apache.qpid.server.plugin.SystemNodeCreator
+2016-01-19 15:39:24,509 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 1 implementations of interface org.apache.qpid.server.plugin.ConfigurationSecretEncrypterFactory
+2016-01-19 15:39:24,510 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 1 implementations of interface org.apache.qpid.server.plugin.ConfigurationSecretEncrypterFactory
+2016-01-19 15:39:24,551 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown BrokerRecovererTest.testCreateBrokerAttributes ==========
+2016-01-19 15:39:24,555 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

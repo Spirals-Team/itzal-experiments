@@ -1,0 +1,5 @@
+2016-01-19 15:34:31,353 INFO  [main] o.a.q.t.u.QpidTestCase ========== start ScramSHA1AuthenticationManagerTest.testMechanisms ==========
+2016-01-19 15:34:31,358 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:34:31,367 INFO  [main] o.a.q.t.u.QpidTestCase ========== run ScramSHA1AuthenticationManagerTest.testMechanisms ==========
+2016-01-19 15:34:31,367 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown ScramSHA1AuthenticationManagerTest.testMechanisms ==========
+2016-01-19 15:34:31,367 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

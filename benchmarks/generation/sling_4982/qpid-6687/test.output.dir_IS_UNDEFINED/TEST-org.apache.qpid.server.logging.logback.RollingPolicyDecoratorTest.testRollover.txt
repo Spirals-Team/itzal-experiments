@@ -1,0 +1,4 @@
+2016-01-19 15:20:54,392 INFO  [main] o.a.q.t.u.QpidTestCase ========== start RollingPolicyDecoratorTest.testRollover ==========
+2016-01-19 15:20:54,393 INFO  [main] o.a.q.t.u.QpidTestCase ========== run RollingPolicyDecoratorTest.testRollover ==========
+2016-01-19 15:20:54,403 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown RollingPolicyDecoratorTest.testRollover ==========
+2016-01-19 15:20:54,403 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

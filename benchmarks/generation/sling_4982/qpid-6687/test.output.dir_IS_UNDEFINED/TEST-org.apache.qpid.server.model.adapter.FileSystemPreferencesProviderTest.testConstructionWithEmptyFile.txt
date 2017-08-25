@@ -1,0 +1,7 @@
+2016-01-19 15:20:54,086 INFO  [main] o.a.q.t.u.QpidTestCase ========== start FileSystemPreferencesProviderTest.testConstructionWithEmptyFile ==========
+2016-01-19 15:20:54,088 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:20:54,089 INFO  [main] o.a.q.t.u.QpidTestCase ========== run FileSystemPreferencesProviderTest.testConstructionWithEmptyFile ==========
+2016-01-19 15:20:54,089 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing FileSystemPreferencesProviderImpl : FileSystemPreferencesProviderTest.testConstructionWithEmptyFile
+2016-01-19 15:20:54,089 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed FileSystemPreferencesProviderImpl : FileSystemPreferencesProviderTest.testConstructionWithEmptyFile
+2016-01-19 15:20:54,089 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown FileSystemPreferencesProviderTest.testConstructionWithEmptyFile ==========
+2016-01-19 15:20:54,089 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

@@ -1,0 +1,146 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>oVirt-engine 206553844-20170301-160826</title>
+    <link rel="stylesheet" type="text/css" href="../../../css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1>oVirt-engine 206553844-20170301-160826</h1>
+    <table class="summary pure-table">
+      <tr class="pure-table-odd">
+        <td class="label">Nb decision seq.</td> <td>7</td>
+      </tr>
+      <tr>
+        <td class="label">Nb valid correct patches</td> <td>2</td>
+      </tr>
+    </table>
+    <ul class="executions">
+        <li class="execution success">
+          <h2>Execution 1</h2>
+          <span class="decision">Strat4 NULL </span><span class="decision">Strat3 </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/GlusterDBUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="32"></td><td class="line" data-line-number="32"></td><td class="code"><span>    private GlusterBrickDao getGlusterBrickDao() {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="33"></td><td class="code"><span>        if (getDbFacade() == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="34"></td><td class="code"><span>            return null;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="35"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="33"></td><td class="line" data-line-number="36"></td><td class="code"><span>        return getDbFacade().getGlusterBrickDao();</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="132"></td><td class="line" data-line-number="135"></td><td class="code"><span>            int volumeReplicaCount) {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="133"></td><td class="line" data-line-number=""></td><td class="code"><span>        getGlusterBrickDao().removeAllInBatch(brickList);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="136"></td><td class="code"><span>        if (getGlusterBrickDao() != null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="137"></td><td class="code"><span>            getGlusterBrickDao().removeAllInBatch(brickList);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="138"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="134"></td><td class="line" data-line-number="139"></td><td class="code"><span></span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 2</h2>
+          <span class="decision">Strat4 NULL </span><span class="decision">Strat4 VOID </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/GlusterDBUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="32"></td><td class="line" data-line-number="32"></td><td class="code"><span>    private GlusterBrickDao getGlusterBrickDao() {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="33"></td><td class="code"><span>        if (getDbFacade() == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="34"></td><td class="code"><span>            return null;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="35"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="33"></td><td class="line" data-line-number="36"></td><td class="code"><span>        return getDbFacade().getGlusterBrickDao();</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="132"></td><td class="line" data-line-number="135"></td><td class="code"><span>            int volumeReplicaCount) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="136"></td><td class="code"><span>        if (getGlusterBrickDao() == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="137"></td><td class="code"><span>            return null;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="138"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="133"></td><td class="line" data-line-number="139"></td><td class="code"><span>        getGlusterBrickDao().removeAllInBatch(brickList);</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution ">
+          <h2>Execution 3</h2>
+          <span class="decision">Strat3 </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/GlusterDBUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="32"></td><td class="line" data-line-number="32"></td><td class="code"><span>    private GlusterBrickDao getGlusterBrickDao() {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="33"></td><td class="line" data-line-number=""></td><td class="code"><span>        return getDbFacade().getGlusterBrickDao();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="33"></td><td class="code"><span>        if (getDbFacade() != null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="34"></td><td class="code"><span>            return getDbFacade().getGlusterBrickDao();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="35"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="34"></td><td class="line" data-line-number="36"></td><td class="code"><span>    }</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution ">
+          <h2>Execution 4</h2>
+          <span class="decision">Strat4 NULL </span><span class="decision">Strat2A </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/GlusterDBUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="32"></td><td class="line" data-line-number="32"></td><td class="code"><span>    private GlusterBrickDao getGlusterBrickDao() {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="33"></td><td class="code"><span>        if (getDbFacade() == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="34"></td><td class="code"><span>            return null;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="35"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="33"></td><td class="line" data-line-number="36"></td><td class="code"><span>        return getDbFacade().getGlusterBrickDao();</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="132"></td><td class="line" data-line-number="135"></td><td class="code"><span>            int volumeReplicaCount) {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="133"></td><td class="line" data-line-number=""></td><td class="code"><span>        getGlusterBrickDao().removeAllInBatch(brickList);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="136"></td><td class="code"><span>        if (getGlusterBrickDao() == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="137"></td><td class="code"><span>             new GlusterBrickDaoImpl().removeAllInBatch(brickList);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="138"></td><td class="code"><span>        } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="139"></td><td class="code"><span>            getGlusterBrickDao().removeAllInBatch(brickList);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="140"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="134"></td><td class="line" data-line-number="141"></td><td class="code"><span></span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution ">
+          <h2>Execution 5</h2>
+          <span class="decision">Strat4 NULL </span><span class="decision">Strat2B </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/GlusterDBUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="32"></td><td class="line" data-line-number="32"></td><td class="code"><span>    private GlusterBrickDao getGlusterBrickDao() {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="33"></td><td class="code"><span>        if (getDbFacade() == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="34"></td><td class="code"><span>            return null;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="35"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="33"></td><td class="line" data-line-number="36"></td><td class="code"><span>        return getDbFacade().getGlusterBrickDao();</span></td></tr>
+<tr class="chuck"><td colspan="4"></td><td>
+<tr class=""><td class="line" data-line-number="132"></td><td class="line" data-line-number="135"></td><td class="code"><span>            int volumeReplicaCount) {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="133"></td><td class="line" data-line-number=""></td><td class="code"><span>        getGlusterBrickDao().removeAllInBatch(brickList);</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="136"></td><td class="code"><span>        org.ovirt.engine.core.dao.gluster.GlusterBrickDao glusterBrickDao = getGlusterBrickDao();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="137"></td><td class="code"><span>        if (glusterBrickDao == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="138"></td><td class="code"><span>            glusterBrickDao = new GlusterBrickDaoImpl();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="139"></td><td class="code"><span>        }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="140"></td><td class="code"><span>        glusterBrickDao.removeAllInBatch(brickList);</span></td></tr>
+<tr class=""><td class="line" data-line-number="134"></td><td class="line" data-line-number="141"></td><td class="code"><span></span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution ">
+          <h2>Execution 6</h2>
+          <span class="decision">Strat4 NULL </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/GlusterDBUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="32"></td><td class="line" data-line-number="32"></td><td class="code"><span>    private GlusterBrickDao getGlusterBrickDao() {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="33"></td><td class="code"><span>        if (getDbFacade() == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="34"></td><td class="code"><span>            return null;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="35"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="33"></td><td class="line" data-line-number="36"></td><td class="code"><span>        return getDbFacade().getGlusterBrickDao();</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution ">
+          <h2>Execution 7</h2>
+          <span class="decision">Strat4 NEW </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/GlusterDBUtils.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="32"></td><td class="line" data-line-number="32"></td><td class="code"><span>    private GlusterBrickDao getGlusterBrickDao() {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="33"></td><td class="code"><span>        if (getDbFacade() == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="34"></td><td class="code"><span>            return new GlusterBrickDaoImpl();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="35"></td><td class="code"><span>        }</span></td></tr>
+<tr class=""><td class="line" data-line-number="33"></td><td class="line" data-line-number="36"></td><td class="code"><span>        return getDbFacade().getGlusterBrickDao();</span></td></tr>
+</tbody></table>
+
+        </li>
+    </ul>
+  </body>
+</html>

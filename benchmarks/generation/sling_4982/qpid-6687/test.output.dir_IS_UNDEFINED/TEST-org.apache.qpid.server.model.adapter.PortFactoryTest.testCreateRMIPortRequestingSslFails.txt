@@ -1,0 +1,5 @@
+2016-01-19 15:20:51,557 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:20:51,559 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:20:51,560 INFO  [main] o.a.q.t.u.QpidTestCase ========== run PortFactoryTest.testCreateRMIPortRequestingSslFails ==========
+2016-01-19 15:20:51,562 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown PortFactoryTest.testCreateRMIPortRequestingSslFails ==========
+2016-01-19 15:20:51,562 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

@@ -1,0 +1,5 @@
+2016-01-19 15:12:12,358 INFO  [main] o.a.q.t.u.QpidTestCase ========== start TCPandSSLTransportTest.testNoSSLv3SupportOnSharedPort ==========
+2016-01-19 15:12:12,359 INFO  [main] o.a.q.t.u.QpidTestCase ========== run TCPandSSLTransportTest.testNoSSLv3SupportOnSharedPort ==========
+2016-01-19 15:12:12,467 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 0 implementations of interface org.apache.qpid.server.plugin.ProtocolEngineCreator
+2016-01-19 15:12:12,488 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown TCPandSSLTransportTest.testNoSSLv3SupportOnSharedPort ==========
+2016-01-19 15:12:12,488 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

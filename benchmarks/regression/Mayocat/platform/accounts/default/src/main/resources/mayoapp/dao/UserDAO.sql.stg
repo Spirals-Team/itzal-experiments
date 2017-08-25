@@ -1,0 +1,135 @@
+group UserDAO;
+
+create() ::= <<
+    INSERT INTO agent
+                (entity_id,
+                 email,
+                 password,
+                 active,
+                 validation_key)
+    VALUES      (:user.id,
+                 :user.email,
+                 :user.password,
+                 :user.active,
+                 :user.validationKey)
+>>
+
+update() ::= <<
+    UPDATE agent
+    SET    email = :u.email,
+           active = :u.active,
+           validation_key = :u.validationKey
+    WHERE  entity_id = :u.id
+>>
+
+changePassword() ::= <<
+    UPDATE agent
+    SET    password = :hash
+    WHERE  entity_id = :user.id
+>>
+
+createPasswordResetRequest() ::= <<
+    INSERT INTO password_reset_request
+                (agent_id,
+                 reset_key)
+    VALUES      (:user.id,
+                 :resetKey)
+>>
+
+deletePasswordResetRequest() ::= <<
+    DELETE
+    FROM    password_reset_request
+    WHERE   reset_key =:resetKey
+>>
+
+findUserIdForPasswordResetKey() ::= <<
+    SELECT  agent_id
+    FROM    password_reset_request
+    WHERE   reset_key = :resetKey
+>>
+
+addRoleToUser() ::= <<
+    INSERT INTO agent_role
+                (agent_id,
+                 role)
+    VALUES      (:userId,
+                 :role)
+>>
+
+findGlobalUserByEmailOrUserName() ::= <<
+    SELECT *
+    FROM   entity
+           INNER JOIN agent
+                   ON entity.id = agent.entity_id
+    WHERE  ( agent.email = :userNameOrEmail
+              OR entity.slug = :userNameOrEmail )
+           AND entity.tenant_id is null
+           AND entity.type = 'user'
+>>
+
+findByEmailOrUserNameAndTenant() ::= <<
+    SELECT *
+    FROM   entity
+           INNER JOIN agent
+                   ON entity.id = agent.entity_id
+    WHERE  ( agent.email = :userNameOrEmail
+              OR entity.slug = :userNameOrEmail )
+           AND entity.tenant_id IS NOT DISTINCT FROM :tenantId
+           AND entity.type = 'user'
+>>
+
+findRolesForUser() ::= <<
+    SELECT *
+    FROM   agent_role
+    WHERE  agent_id = :user.id
+>>
+
+findAllUsers() ::= <<
+    SELECT *
+    FROM   entity
+           INNER JOIN agent
+                   ON entity.id = agent.entity_id
+    WHERE  entity.type = 'user'
+           AND entity.tenant_id IS NOT DISTINCT FROM :tenantId
+    LIMIT  :number
+    OFFSET :offset
+>>
+
+findAllGlobalUsers() ::= <<
+    SELECT *
+    FROM   entity
+           INNER JOIN agent
+                   ON entity.id = agent.entity_id
+    WHERE  entity.type = 'user'
+           AND entity.tenant_id is null
+    LIMIT  :number
+    OFFSET :offset
+>>
+
+findUserBySlug() ::= <<
+    SELECT *
+    FROM   entity
+           INNER JOIN agent
+                   ON entity.id = agent.entity_id
+    WHERE entity.slug = :slug
+           AND entity.type = 'user'
+           AND entity.tenant_id IS NOT DISTINCT FROM :tenantId
+>>
+
+findGlobalUserBySlug() ::= <<
+    SELECT *
+    FROM   entity
+           INNER JOIN agent
+                   ON entity.id = agent.entity_id
+    WHERE entity.slug = :slug
+           AND entity.type = 'user'
+           AND entity.tenant_id IS NULL
+>>
+
+findByValidationKey() ::= <<
+    SELECT *
+    FROM   entity
+           INNER JOIN agent
+                   ON entity.id = agent.entity_id
+    WHERE validation_key = :validationKey
+>>

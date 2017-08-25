@@ -1,0 +1,4 @@
+2016-01-19 15:19:28,676 INFO  [main] o.a.q.t.u.QpidTestCase ========== start BrokerOptionsTest.testDefaultManagementModeRmiPortOverride ==========
+2016-01-19 15:19:28,677 INFO  [main] o.a.q.t.u.QpidTestCase ========== run BrokerOptionsTest.testDefaultManagementModeRmiPortOverride ==========
+2016-01-19 15:19:28,677 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown BrokerOptionsTest.testDefaultManagementModeRmiPortOverride ==========
+2016-01-19 15:19:28,677 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

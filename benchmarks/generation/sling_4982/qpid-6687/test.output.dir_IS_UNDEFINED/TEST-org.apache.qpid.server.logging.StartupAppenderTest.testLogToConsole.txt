@@ -1,0 +1,4 @@
+2016-01-19 15:20:51,281 INFO  [main] o.a.q.t.u.QpidTestCase ========== start StartupAppenderTest.testLogToConsole ==========
+2016-01-19 15:20:51,285 INFO  [main] o.a.q.t.u.QpidTestCase ========== run StartupAppenderTest.testLogToConsole ==========
+2016-01-19 15:20:51,286 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown StartupAppenderTest.testLogToConsole ==========
+2016-01-19 15:20:51,286 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

@@ -1,0 +1,14 @@
+2016-01-19 15:20:56,545 INFO  [main] o.a.q.t.u.QpidTestCase ========== start ManagementModeStoreHandlerTest.testRemove ==========
+2016-01-19 15:20:56,546 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Management mode quiescing entry Mock for ConfiguredObjectRecord, hashCode: 870322840
+2016-01-19 15:20:56,546 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Management mode quiescing entry Mock for ConfiguredObjectRecord, hashCode: 870322840
+2016-01-19 15:20:56,546 INFO  [main] o.a.q.t.u.QpidTestCase ========== run ManagementModeStoreHandlerTest.testRemove ==========
+2016-01-19 15:20:56,546 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing JsonSystemConfigImpl : System
+2016-01-19 15:20:56,546 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed JsonSystemConfigImpl : System
+2016-01-19 15:20:56,547 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Management mode quiescing entry Mock for ConfiguredObjectRecord, hashCode: 870322840
+2016-01-19 15:20:56,547 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Management mode quiescing entry Mock for ConfiguredObjectRecord, hashCode: 870322840
+2016-01-19 15:20:56,547 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Add management mode port configuration ConfiguredObjectRecord [id=e097dd20-0f45-441a-926b-69119490ca41, type=Port, attributes={authenticationProvider=MANAGEMENT_MODE_AUTHENTICATION, port=1000, name=MANAGEMENT-MODE-PORT-HTTP, protocols=[HTTP]}, parents={Broker=f1ba7c3c-8f2d-4f13-878d-9154de627f4b}] for port 1000 and protocol HTTP
+2016-01-19 15:20:56,548 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing  : System
+2016-01-19 15:20:56,548 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed  : System
+2016-01-19 15:20:56,548 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed  : System
+2016-01-19 15:20:56,549 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown ManagementModeStoreHandlerTest.testRemove ==========
+2016-01-19 15:20:56,559 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

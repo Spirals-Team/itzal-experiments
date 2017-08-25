@@ -1,0 +1,16 @@
+2016-01-19 15:20:56,486 INFO  [main] o.a.q.t.u.QpidTestCase ========== start ManagementModeStoreHandlerTest.testSaveRoot ==========
+2016-01-19 15:20:56,487 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Management mode quiescing entry Mock for ConfiguredObjectRecord, hashCode: 1648582256
+2016-01-19 15:20:56,487 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Management mode quiescing entry Mock for ConfiguredObjectRecord, hashCode: 1648582256
+2016-01-19 15:20:56,487 INFO  [main] o.a.q.t.u.QpidTestCase ========== run ManagementModeStoreHandlerTest.testSaveRoot ==========
+2016-01-19 15:20:56,487 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing JsonSystemConfigImpl : System
+2016-01-19 15:20:56,487 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed JsonSystemConfigImpl : System
+2016-01-19 15:20:56,488 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Management mode quiescing entry Mock for ConfiguredObjectRecord, hashCode: 1648582256
+2016-01-19 15:20:56,488 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Management mode quiescing entry Mock for ConfiguredObjectRecord, hashCode: 1648582256
+2016-01-19 15:20:56,488 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Add management mode port configuration ConfiguredObjectRecord [id=0be82191-9335-49fb-aca4-6cc90c11b33e, type=Port, attributes={port=2000, name=MANAGEMENT-MODE-PORT-RMI, protocols=[RMI]}, parents={Broker=379017cd-9a8b-476e-851e-ca3cf108ecc0}] for port 2000 and protocol RMI
+2016-01-19 15:20:56,488 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Add management mode port configuration ConfiguredObjectRecord [id=c47832c7-7b83-4b20-84a5-948f470bec1e, type=Port, attributes={authenticationProvider=MANAGEMENT_MODE_AUTHENTICATION, port=3000, name=MANAGEMENT-MODE-PORT-JMX_RMI, protocols=[JMX_RMI]}, parents={Broker=379017cd-9a8b-476e-851e-ca3cf108ecc0}] for port 3000 and protocol JMX_RMI
+2016-01-19 15:20:56,488 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Add management mode port configuration ConfiguredObjectRecord [id=ed335b68-394e-475a-8b84-aafe29626c06, type=Port, attributes={authenticationProvider=MANAGEMENT_MODE_AUTHENTICATION, port=1000, name=MANAGEMENT-MODE-PORT-HTTP, protocols=[HTTP]}, parents={Broker=379017cd-9a8b-476e-851e-ca3cf108ecc0}] for port 1000 and protocol HTTP
+2016-01-19 15:20:56,488 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing  : System
+2016-01-19 15:20:56,488 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed  : System
+2016-01-19 15:20:56,488 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed  : System
+2016-01-19 15:20:56,488 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown ManagementModeStoreHandlerTest.testSaveRoot ==========
+2016-01-19 15:20:56,489 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

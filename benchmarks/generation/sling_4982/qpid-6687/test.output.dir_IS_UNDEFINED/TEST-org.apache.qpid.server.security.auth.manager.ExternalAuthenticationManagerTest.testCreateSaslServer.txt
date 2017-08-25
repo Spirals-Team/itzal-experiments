@@ -1,0 +1,6 @@
+2016-01-19 15:20:55,431 INFO  [main] o.a.q.t.u.QpidTestCase ========== start ExternalAuthenticationManagerTest.testCreateSaslServer ==========
+2016-01-19 15:20:55,434 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:20:55,441 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:20:55,448 INFO  [main] o.a.q.t.u.QpidTestCase ========== run ExternalAuthenticationManagerTest.testCreateSaslServer ==========
+2016-01-19 15:20:55,448 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown ExternalAuthenticationManagerTest.testCreateSaslServer ==========
+2016-01-19 15:20:55,448 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

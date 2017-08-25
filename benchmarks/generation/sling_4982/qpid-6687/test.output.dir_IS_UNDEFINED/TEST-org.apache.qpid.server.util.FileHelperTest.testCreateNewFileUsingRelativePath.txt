@@ -1,0 +1,4 @@
+2016-01-19 15:20:53,944 INFO  [main] o.a.q.t.u.QpidTestCase ========== start FileHelperTest.testCreateNewFileUsingRelativePath ==========
+2016-01-19 15:20:53,945 INFO  [main] o.a.q.t.u.QpidTestCase ========== run FileHelperTest.testCreateNewFileUsingRelativePath ==========
+2016-01-19 15:20:53,946 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown FileHelperTest.testCreateNewFileUsingRelativePath ==========
+2016-01-19 15:20:53,946 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

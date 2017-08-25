@@ -1,0 +1,7 @@
+2016-01-19 15:19:28,739 INFO  [main] o.a.q.t.u.QpidTestCase ========== start LastValueQueueListTest.testConflationMapMaintainedWithDifferentConflationKeyValue ==========
+2016-01-19 15:19:28,741 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:19:28,743 INFO  [main] o.a.q.t.u.QpidTestCase ========== run LastValueQueueListTest.testConflationMapMaintainedWithDifferentConflationKeyValue ==========
+2016-01-19 15:19:28,744 DEBUG [main] o.a.q.s.q.LastValueQueueList Adding entry QueueEntryImpl{_entryId=-9223372036854775807, _state=AVAILABLE} for message 0 with conflation key testKeyValue1
+2016-01-19 15:19:28,744 DEBUG [main] o.a.q.s.q.LastValueQueueList Adding entry QueueEntryImpl{_entryId=-9223372036854775806, _state=AVAILABLE} for message 0 with conflation key testKeyValue2
+2016-01-19 15:19:28,745 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown LastValueQueueListTest.testConflationMapMaintainedWithDifferentConflationKeyValue ==========
+2016-01-19 15:19:28,745 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

@@ -1,0 +1,4 @@
+2016-01-19 15:20:56,344 INFO  [main] o.a.q.t.u.QpidTestCase ========== start MemoryMessageStoreTest.testStoreIgnoresTransientMessage ==========
+2016-01-19 15:20:56,344 INFO  [main] o.a.q.t.u.QpidTestCase ========== run MemoryMessageStoreTest.testStoreIgnoresTransientMessage ==========
+2016-01-19 15:20:56,344 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown MemoryMessageStoreTest.testStoreIgnoresTransientMessage ==========
+2016-01-19 15:20:56,344 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

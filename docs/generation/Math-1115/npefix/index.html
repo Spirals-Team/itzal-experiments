@@ -1,0 +1,108 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Math 1115</title>
+    <link rel="stylesheet" type="text/css" href="../../../../css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1>Math 1115</h1>
+    <table class="summary pure-table">
+      <tr class="pure-table-odd">
+        <td class="label">Nb candidate patch</td> <td>11</td>
+      </tr>
+      <tr>
+        <td class="label">Nb patch</td> <td>5</td>
+      </tr>
+    </table>
+    <ul class="executions">
+        <li class="execution success">
+          <h2>Execution 1</h2>
+          <span class="decision">Strat1A </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/BSPTree.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="300"></td><td class="line" data-line-number="300"></td><td class="code"><span>            } else {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="301"></td><td class="line" data-line-number=""></td><td class="code"><span>                s = s.split(tree.parent.cut.getHyperplane()).getMinus();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="301"></td><td class="code"><span>                } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="302"></td><td class="code"><span>                    if (s == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="303"></td><td class="code"><span>                        s = sub.split(tree.parent.cut.getHyperplane()).getMinus();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="304"></td><td class="code"><span>                    } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="305"></td><td class="code"><span>                        s = s.split(tree.parent.cut.getHyperplane()).getMinus();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="306"></td><td class="code"><span>                    }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="307"></td><td class="code"><span>                }</span></td></tr>
+<tr class=""><td class="line" data-line-number="302"></td><td class="line" data-line-number="308"></td><td class="code"><span>            }</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 2</h2>
+          <span class="decision">Strat1B </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/BSPTree.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="300"></td><td class="line" data-line-number="300"></td><td class="code"><span>            } else {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="301"></td><td class="line" data-line-number=""></td><td class="code"><span>                s = s.split(tree.parent.cut.getHyperplane()).getMinus();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="301"></td><td class="code"><span>                } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="302"></td><td class="code"><span>                    if (s == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="303"></td><td class="code"><span>                        s = sub;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="304"></td><td class="code"><span>                    }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="305"></td><td class="code"><span>                    s = s.split(tree.parent.cut.getHyperplane()).getMinus();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="306"></td><td class="code"><span>                }</span></td></tr>
+<tr class=""><td class="line" data-line-number="302"></td><td class="line" data-line-number="307"></td><td class="code"><span>            }</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 3</h2>
+          <span class="decision">Strat3 </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/BSPTree.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="300"></td><td class="line" data-line-number="300"></td><td class="code"><span>            } else {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="301"></td><td class="line" data-line-number=""></td><td class="code"><span>                s = s.split(tree.parent.cut.getHyperplane()).getMinus();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="301"></td><td class="code"><span>                } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="302"></td><td class="code"><span>                    if (s != null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="303"></td><td class="code"><span>                        s = s.split(tree.parent.cut.getHyperplane()).getMinus();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="304"></td><td class="code"><span>                    }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="305"></td><td class="code"><span>                }</span></td></tr>
+<tr class=""><td class="line" data-line-number="302"></td><td class="line" data-line-number="306"></td><td class="code"><span>            }</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 4</h2>
+          <span class="decision">Strat4 NULL </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/BSPTree.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="300"></td><td class="line" data-line-number="300"></td><td class="code"><span>            } else {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="301"></td><td class="line" data-line-number=""></td><td class="code"><span>                s = s.split(tree.parent.cut.getHyperplane()).getMinus();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="301"></td><td class="code"><span>                } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="302"></td><td class="code"><span>                    if (s == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="303"></td><td class="code"><span>                        return null;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="304"></td><td class="code"><span>                    }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="305"></td><td class="code"><span>                    s = s.split(tree.parent.cut.getHyperplane()).getMinus();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="306"></td><td class="code"><span>                }</span></td></tr>
+<tr class=""><td class="line" data-line-number="302"></td><td class="line" data-line-number="307"></td><td class="code"><span>            }</span></td></tr>
+</tbody></table>
+
+        </li>
+        <li class="execution success">
+          <h2>Execution 5</h2>
+          <span class="decision">Strat4 VAR </span><br>
+        <table class="diff" cellpadding="0" cellspacing="0">
+<thead><th><td colspan="4">/BSPTree.java</td></th></thead><tbody>
+<tr class=""><td class="line" data-line-number="300"></td><td class="line" data-line-number="300"></td><td class="code"><span>            } else {</span></td></tr>
+<tr class="deletation"><td class="line" data-line-number="301"></td><td class="line" data-line-number=""></td><td class="code"><span>                s = s.split(tree.parent.cut.getHyperplane()).getMinus();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="301"></td><td class="code"><span>                } else {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="302"></td><td class="code"><span>                    if (s == null) {</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="303"></td><td class="code"><span>                        return sub;</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="304"></td><td class="code"><span>                    }</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="305"></td><td class="code"><span>                    s = s.split(tree.parent.cut.getHyperplane()).getMinus();</span></td></tr>
+<tr class="addition"><td class="line" data-line-number=""></td><td class="line" data-line-number="306"></td><td class="code"><span>                }</span></td></tr>
+<tr class=""><td class="line" data-line-number="302"></td><td class="line" data-line-number="307"></td><td class="code"><span>            }</span></td></tr>
+</tbody></table>
+
+        </li>
+    </ul>
+  </body>
+</html>

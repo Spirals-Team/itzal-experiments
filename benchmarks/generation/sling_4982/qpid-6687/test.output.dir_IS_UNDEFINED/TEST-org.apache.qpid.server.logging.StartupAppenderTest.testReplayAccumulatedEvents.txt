@@ -1,0 +1,4 @@
+2016-01-19 15:20:51,286 INFO  [main] o.a.q.t.u.QpidTestCase ========== start StartupAppenderTest.testReplayAccumulatedEvents ==========
+2016-01-19 15:20:51,287 INFO  [main] o.a.q.t.u.QpidTestCase ========== run StartupAppenderTest.testReplayAccumulatedEvents ==========
+2016-01-19 15:20:51,291 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown StartupAppenderTest.testReplayAccumulatedEvents ==========
+2016-01-19 15:20:51,291 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

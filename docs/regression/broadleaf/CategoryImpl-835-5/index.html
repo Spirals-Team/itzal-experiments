@@ -1,0 +1,2621 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Broadleaf - CategoryImpl-835-5</title>
+    <link rel="stylesheet" type="text/css" href="../../../../css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1>Broadleaf - CategoryImpl-835-5</h1>
+    <table class="summary pure-table">
+      <tr class="pure-table-odd">
+        <td class="label"># Request</td> <td>124</td>
+      </tr>
+      <tr>
+        <td class="label"># Location</td> <td>365</td>
+      </tr>
+      <tr>
+        <td class="label"># Expression</td> <td>276</td>
+      </tr>
+      <tr>
+        <td class="label"># HTTP status</td> <td> 0%</td>
+      </tr>
+      <tr>
+        <td class="label"># HTTP content</td> <td> 20%</td>
+      </tr>
+      <tr>
+        <td class="label"># Method Coverage</td> <td> 55%</td>
+      </tr>
+      <tr>
+        <td class="label"># Block Coverage</td> <td> 59%</td>
+      </tr>
+      <tr>
+        <td class="label"># True</td> <td>39093</td>
+      </tr>
+      <tr>
+        <td class="label"># False</td> <td>30649</td>
+      </tr>
+    </table>
+
+    <table class="summary pure-table">
+      <thead>
+        <tr>
+          <td>#</td>
+          <td>Location</td>
+          <td>Expression</td>
+          <td># True</td>
+          <td># False</td>
+        </tr>
+      </thead>
+      <tbody>
+        
+        <tr class="reponse pure-table-odd">
+          <td>1</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.CategoryImpl:46997-47016</td>
+          <td>parentFacets != null</td>
+          <td>8</td>
+          <td>84</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>2</td> 
+          <td>org.broadleafcommerce.core.catalog.service.RelatedProductsServiceImpl:9636-9676</td>
+          <td>(relatedProductDTO.getCategoryId()) != null</td>
+          <td>33</td>
+          <td>20</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>3</td> 
+          <td>org.broadleafcommerce.core.catalog.service.RelatedProductsServiceImpl:8323-8333</td>
+          <td>(qty != null)</td>
+          <td>46</td>
+          <td>7</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>4</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.SkuImpl:25973-25991</td>
+          <td>returnPrice == null</td>
+          <td>1862</td>
+          <td>88</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>5</td> 
+          <td>org.broadleafcommerce.core.order.domain.OrderItemImpl:13352-13368</td>
+          <td>((salePrice) == null)</td>
+          <td>8</td>
+          <td>88</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>6</td> 
+          <td>org.broadleafcommerce.core.web.catalog.ProductHandlerMapping:3084-3098</td>
+          <td>product != null</td>
+          <td>7</td>
+          <td>52</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>7</td> 
+          <td>org.broadleafcommerce.core.web.service.UpdateCartServiceImpl:6765-6780</td>
+          <td>(saveCart != null)</td>
+          <td>1</td>
+          <td>14</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>8</td> 
+          <td>org.broadleafcommerce.core.search.service.solr.SolrHelperServiceImpl:31334-31348</td>
+          <td>solrKey != null</td>
+          <td>6</td>
+          <td>7</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>9</td> 
+          <td>org.broadleafcommerce.core.catalog.service.RelatedProductsServiceImpl:3353-3367</td>
+          <td>product != null</td>
+          <td>20</td>
+          <td>33</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>10</td> 
+          <td>org.broadleafcommerce.core.web.processor.RelatedProductProcessor:8329-8349</td>
+          <td>categoryIdStr != null</td>
+          <td>33</td>
+          <td>20</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>11</td> 
+          <td>org.broadleafcommerce.core.web.order.security.CartStateRequestProcessor:5565-5576</td>
+          <td>cart == null</td>
+          <td>87</td>
+          <td>15</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>12</td> 
+          <td>org.broadleafcommerce.core.catalog.service.RelatedProductsServiceImpl:5013-5027</td>
+          <td>(product != null)</td>
+          <td>20</td>
+          <td>33</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>13</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.SkuImpl:25774-25792</td>
+          <td>(returnPrice == null)</td>
+          <td>1862</td>
+          <td>88</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>14</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.CategoryImpl:46441-46474</td>
+          <td>(getDefaultParentCategory()) != null</td>
+          <td>8</td>
+          <td>84</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>15</td> 
+          <td>org.broadleafcommerce.core.order.service.OrderServiceImpl:23495-23506</td>
+          <td>item != null</td>
+          <td>1</td>
+          <td>8</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>16</td> 
+          <td>org.broadleafcommerce.profile.web.core.security.CustomerStateRequestProcessor:15046-15070</td>
+          <td>anonymousCustomer == null</td>
+          <td>55</td>
+          <td>149</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>17</td> 
+          <td>org.broadleafcommerce.core.search.service.solr.SolrSearchServiceImpl:25111-25131</td>
+          <td>filterQueries != null</td>
+          <td>42</td>
+          <td>20</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>18</td> 
+          <td>org.broadleafcommerce.core.search.service.solr.SolrHelperServiceImpl:19094-19109</td>
+          <td>maxValue != null</td>
+          <td>129</td>
+          <td>43</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>19</td> 
+          <td>org.broadleafcommerce.core.web.processor.ProductOptionsProcessor:5628-5644</td>
+          <td>jsonValue == null</td>
+          <td>14</td>
+          <td>868</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>20</td> 
+          <td>org.broadleafcommerce.core.search.service.solr.SolrHelperServiceImpl:9659-9675</td>
+          <td>fieldType == null</td>
+          <td>124</td>
+          <td>460</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>21</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.SkuImpl:23765-23779</td>
+          <td>((product) != null)</td>
+          <td>2016</td>
+          <td>475</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>22</td> 
+          <td>org.broadleafcommerce.core.web.processor.RelatedProductProcessor:8887-8905</td>
+          <td>quantityStr != null</td>
+          <td>46</td>
+          <td>7</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>23</td> 
+          <td>org.broadleafcommerce.core.offer.service.discount.domain.PromotableOrderImpl:4382-4411</td>
+          <td>((discountableOrderItems) == null)</td>
+          <td>9</td>
+          <td>63</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>24</td> 
+          <td>org.broadleafcommerce.profile.web.core.security.CustomerStateRequestProcessor:15405-15422</td>
+          <td>customerId != null</td>
+          <td>30</td>
+          <td>25</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>25</td> 
+          <td>org.broadleafcommerce.core.web.order.OrderState:1806-1818</td>
+          <td>(order != null)</td>
+          <td>15</td>
+          <td>87</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>26</td> 
+          <td>org.broadleafcommerce.core.order.domain.OrderItemImpl:13373-13391</td>
+          <td>((retailPrice) == null)</td>
+          <td>8</td>
+          <td>88</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>27</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.SkuImpl:25556-25572</td>
+          <td>(salePrice) != null</td>
+          <td>88</td>
+          <td>1862</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>28</td> 
+          <td>org.broadleafcommerce.core.order.strategy.FulfillmentGroupItemStrategyImpl:7488-7511</td>
+          <td>fulfillmentGroup == null</td>
+          <td>7</td>
+          <td>1</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>29</td> 
+          <td>org.broadleafcommerce.profile.web.core.security.CustomerStateRequestProcessor:13679-13694</td>
+          <td>customer == null</td>
+          <td>25</td>
+          <td>77</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>30</td> 
+          <td>org.broadleafcommerce.core.order.service.workflow.CheckAvailabilityActivity:2956-2974</td>
+          <td>orderItemId != null</td>
+          <td>1</td>
+          <td>8</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>31</td> 
+          <td>org.broadleafcommerce.core.offer.service.discount.domain.PromotableOrderImpl:3775-3795</td>
+          <td>(allOrderItems) == null</td>
+          <td>9</td>
+          <td>36</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>32</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.CategoryImpl:29938-29953</td>
+          <td>response == null</td>
+          <td>168</td>
+          <td>24</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>33</td> 
+          <td>org.broadleafcommerce.core.search.domain.SearchFacetResultDTO:2065-2077</td>
+          <td>value == null</td>
+          <td>483</td>
+          <td>655</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>34</td> 
+          <td>org.broadleafcommerce.core.web.catalog.ProductHandlerMapping:4161-4175</td>
+          <td>(product != null)</td>
+          <td>7</td>
+          <td>52</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>35</td> 
+          <td>org.broadleafcommerce.core.web.processor.RelatedProductProcessor:7788-7807</td>
+          <td>productIdStr != null</td>
+          <td>20</td>
+          <td>33</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>36</td> 
+          <td>org.broadleafcommerce.core.search.service.solr.SolrSearchServiceImpl:32970-32985</td>
+          <td>products != null</td>
+          <td>55</td>
+          <td>7</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>37</td> 
+          <td>com.mycompany.sample.vendor.nullPaymentGateway.web.processor.NullPaymentGatewayHostedActionProcessor:3126-3143</td>
+          <td>requestDTO != null</td>
+          <td>2</td>
+          <td>12</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>38</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.ProductImpl:22550-22583</td>
+          <td>((xref.getDefaultReference()) != null)</td>
+          <td>1477</td>
+          <td>998</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>39</td> 
+          <td>org.broadleafcommerce.core.order.service.OrderServiceImpl:37447-37467</td>
+          <td>((order.getId()) == null)</td>
+          <td>7</td>
+          <td>2</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>40</td> 
+          <td>org.broadleafcommerce.core.web.controller.catalog.BroadleafSearchController:6808-6835</td>
+          <td>(result.getProducts()) != null</td>
+          <td>13</td>
+          <td>7</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>41</td> 
+          <td>org.broadleafcommerce.core.search.service.solr.SolrHelperServiceImpl:19506-19518</td>
+          <td>range != null</td>
+          <td>172</td>
+          <td>45</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>42</td> 
+          <td>org.broadleafcommerce.core.web.catalog.CategoryHandlerMapping:2833-2848</td>
+          <td>category == null</td>
+          <td>42</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>43</td> 
+          <td>org.broadleafcommerce.core.catalog.dao.CategoryDaoImpl:9864-9887</td>
+          <td>(extensionManager) != null</td>
+          <td>414</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>44</td> 
+          <td>org.broadleafcommerce.core.offer.service.discount.domain.PromotableOrderImpl:6719-6743</td>
+          <td>(fulfillmentGroups) == null</td>
+          <td>9</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>45</td> 
+          <td>org.broadleafcommerce.core.web.processor.ProductOptionsProcessor:6328-6354</td>
+          <td>(brc.getJavaLocale()) != null</td>
+          <td>504</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>46</td> 
+          <td>org.broadleafcommerce.core.web.processor.RelatedProductProcessor:9582-9596</td>
+          <td>typeStr != null</td>
+          <td>0</td>
+          <td>53</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>47</td> 
+          <td>org.broadleafcommerce.core.web.catalog.CategoryHandlerMapping:4261-4276</td>
+          <td>(category != null)</td>
+          <td>42</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>48</td> 
+          <td>org.broadleafcommerce.core.offer.service.OfferServiceImpl:14297-14325</td>
+          <td>(order.getOrderItems()) == null</td>
+          <td>0</td>
+          <td>18</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>49</td> 
+          <td>org.broadleafcommerce.core.web.order.security.CartStateRequestProcessor:4563-4578</td>
+          <td>customer == null</td>
+          <td>0</td>
+          <td>102</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>50</td> 
+          <td>org.broadleafcommerce.core.search.service.solr.SolrHelperServiceImpl:8175-8207</td>
+          <td>(field.getFacetFieldType()) == null</td>
+          <td>0</td>
+          <td>460</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>51</td> 
+          <td>org.broadleafcommerce.core.order.domain.OrderItemImpl:22664-22683</td>
+          <td>priceDetails != null</td>
+          <td>4</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>52</td> 
+          <td>org.broadleafcommerce.core.catalog.service.CatalogServiceImpl:11470-11493</td>
+          <td>(extensionManager) != null</td>
+          <td>59</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>53</td> 
+          <td>org.broadleafcommerce.core.web.order.OrderState:1534-1569</td>
+          <td>(orders.get(customer.getId())) == null</td>
+          <td>102</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>54</td> 
+          <td>org.broadleafcommerce.core.order.strategy.FulfillmentGroupItemStrategyImpl:15286-15322</td>
+          <td>((fg.getFulfillmentGroupItems()) == null)</td>
+          <td>0</td>
+          <td>9</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>55</td> 
+          <td>org.broadleafcommerce.core.web.processor.RelatedProductProcessor:7248-7264</td>
+          <td>resultVar == null</td>
+          <td>53</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>56</td> 
+          <td>org.broadleafcommerce.core.workflow.SequenceProcessor:5721-5746</td>
+          <td>(rollbackStateLocal != null)</td>
+          <td>18</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>57</td> 
+          <td>org.broadleafcommerce.core.order.strategy.FulfillmentGroupItemStrategyImpl:9100-9130</td>
+          <td>((sku.getDefaultProduct()) != null)</td>
+          <td>8</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>58</td> 
+          <td>org.broadleafcommerce.core.order.service.workflow.update.UpdateOrderItemActivity:2047-2063</td>
+          <td>(orderItem == null)</td>
+          <td>0</td>
+          <td>1</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>59</td> 
+          <td>org.broadleafcommerce.core.order.domain.DiscreteOrderItemImpl:6766-6788</td>
+          <td>(bundleOrderItem != null)</td>
+          <td>0</td>
+          <td>8</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>60</td> 
+          <td>org.broadleafcommerce.core.pricing.service.workflow.OfferActivity:1697-1714</td>
+          <td>(offerCodes != null)</td>
+          <td>9</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>61</td> 
+          <td>org.broadleafcommerce.core.order.service.workflow.add.ValidateAddRequestActivity:8446-8460</td>
+          <td>(product != null)</td>
+          <td>8</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>62</td> 
+          <td>org.broadleafcommerce.core.web.processor.ProductOptionsProcessor$ProductOptionPricingDTO:9742-9759</td>
+          <td>(that.price) != null</td>
+          <td>336</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>63</td> 
+          <td>org.broadleafcommerce.core.order.domain.DiscreteOrderItemImpl:11436-11452</td>
+          <td>((salePrice) != null)</td>
+          <td>8</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>64</td> 
+          <td>org.broadleafcommerce.core.offer.service.OfferServiceImpl:14619-14665</td>
+          <td>(pd.getOrderItemPriceDetailAdjustments()) == null</td>
+          <td>0</td>
+          <td>20</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>65</td> 
+          <td>org.broadleafcommerce.core.offer.service.processor.AbstractBaseProcessor:20416-20441</td>
+          <td>((offer.getEndDate()) != null)</td>
+          <td>9</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>66</td> 
+          <td>org.broadleafcommerce.core.order.domain.DiscreteOrderItemImpl:10856-10894</td>
+          <td>(getDiscreteOrderItemFeePrices()) != null</td>
+          <td>8</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>67</td> 
+          <td>org.broadleafcommerce.core.catalog.dao.ProductDaoImpl:23122-23145</td>
+          <td>(extensionManager) != null</td>
+          <td>59</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>68</td> 
+          <td>org.broadleafcommerce.core.order.service.workflow.add.ValidateAddRequestActivity:7796-7830</td>
+          <td>((product.getAdditionalSkus()) != null)</td>
+          <td>8</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>69</td> 
+          <td>org.broadleafcommerce.core.web.order.security.CartStateRequestProcessor:7439-7465</td>
+          <td>((crossAppAuthService) != null)</td>
+          <td>0</td>
+          <td>102</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>70</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.SkuImpl:30908-30930</td>
+          <td>((longDescription) == null)</td>
+          <td>0</td>
+          <td>441</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>71</td> 
+          <td>org.broadleafcommerce.core.order.strategy.FulfillmentGroupItemStrategyImpl:3370-3392</td>
+          <td>(group.getType()) == null</td>
+          <td>1</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>72</td> 
+          <td>org.broadleafcommerce.core.web.catalog.CategoryHandlerMapping:2626-2640</td>
+          <td>context != null</td>
+          <td>42</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>73</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.SkuImpl:23784-23814</td>
+          <td>((product.getDefaultSku()) != null)</td>
+          <td>2016</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>74</td> 
+          <td>org.broadleafcommerce.core.order.service.workflow.update.ValidateUpdateRequestActivity:2812-2843</td>
+          <td>(doi.getBundleOrderItem()) != null</td>
+          <td>0</td>
+          <td>1</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>75</td> 
+          <td>org.broadleafcommerce.core.catalog.service.RelatedProductsServiceImpl:3456-3471</td>
+          <td>category != null</td>
+          <td>53</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>76</td> 
+          <td>org.broadleafcommerce.core.pricing.service.workflow.TaxActivity:1502-1519</td>
+          <td>(taxService) != null</td>
+          <td>9</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>77</td> 
+          <td>org.broadleafcommerce.core.order.service.workflow.update.ValidateUpdateRequestActivity:2301-2326</td>
+          <td>(request.getOrder()) == null</td>
+          <td>0</td>
+          <td>1</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>78</td> 
+          <td>org.broadleafcommerce.core.workflow.SequenceProcessor:6386-6400</td>
+          <td>(context == null)</td>
+          <td>0</td>
+          <td>136</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>79</td> 
+          <td>org.broadleafcommerce.core.order.domain.OrderItemImpl:30925-30934</td>
+          <td>((id) != null)</td>
+          <td>3</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>80</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.SkuImpl:26052-26081</td>
+          <td>optionValueAdjustments != null</td>
+          <td>0</td>
+          <td>88</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>81</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.SkuImpl:24180-24213</td>
+          <td>(value.getPriceAdjustment()) != null</td>
+          <td>0</td>
+          <td>1008</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>82</td> 
+          <td>org.broadleafcommerce.core.offer.service.OfferServiceImpl:14441-14477</td>
+          <td>(oi.getOrderItemPriceDetails()) == null</td>
+          <td>0</td>
+          <td>20</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>83</td> 
+          <td>org.broadleafcommerce.core.search.service.solr.SolrHelperServiceImpl$1:26227-26250</td>
+          <td>((o1.getMinValue()) != null)</td>
+          <td>129</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>84</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.SkuImpl:35365-35385</td>
+          <td>((activeEndDate) == null)</td>
+          <td>512</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>85</td> 
+          <td>org.broadleafcommerce.core.order.service.OrderServiceImpl:40122-40147</td>
+          <td>(erh.getThrowable()) != null</td>
+          <td>0</td>
+          <td>1</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>86</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.ProductImpl:21930-21952</td>
+          <td>(defaultCategory) != null</td>
+          <td>0</td>
+          <td>1477</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>87</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.SkuImpl:44589-44598</td>
+          <td>((id) != null)</td>
+          <td>37</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>88</td> 
+          <td>org.broadleafcommerce.core.web.service.UpdateCartServiceImpl:5945-5968</td>
+          <td>(extensionManager) != null</td>
+          <td>15</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>89</td> 
+          <td>org.broadleafcommerce.core.order.service.workflow.add.ValidateAddRequestActivity:4311-4325</td>
+          <td>product == null</td>
+          <td>0</td>
+          <td>8</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>90</td> 
+          <td>org.broadleafcommerce.core.order.service.PageCartRuleProcessor:1553-1573</td>
+          <td>(itemCriterias != null)</td>
+          <td>0</td>
+          <td>10</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>91</td> 
+          <td>org.broadleafcommerce.core.pricing.service.workflow.FulfillmentGroupPricingActivity:2678-2723</td>
+          <td>(fulfillmentGroup.getFulfillmentPrice()) != null</td>
+          <td>9</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>92</td> 
+          <td>org.broadleafcommerce.core.offer.service.processor.AbstractBaseProcessor:22409-22420</td>
+          <td>rule != null</td>
+          <td>0</td>
+          <td>9</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>93</td> 
+          <td>org.broadleafcommerce.core.web.controller.catalog.BroadleafSearchController:3827-3839</td>
+          <td>(query == null)</td>
+          <td>0</td>
+          <td>20</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>94</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.SkuImpl:35338-35360</td>
+          <td>((activeStartDate) == null)</td>
+          <td>0</td>
+          <td>512</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>95</td> 
+          <td>org.broadleafcommerce.core.web.service.UpdateCartServiceImpl:6620-6638</td>
+          <td>(repriceCart != null)</td>
+          <td>0</td>
+          <td>15</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>96</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.SkuImpl:30186-30197</td>
+          <td>((name) == null)</td>
+          <td>0</td>
+          <td>1329</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>97</td> 
+          <td>org.broadleafcommerce.core.web.order.security.CartStateRequestProcessor:6745-6759</td>
+          <td>orderId != null</td>
+          <td>0</td>
+          <td>102</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>98</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.ProductImpl:31235-31245</td>
+          <td>(url) == null</td>
+          <td>0</td>
+          <td>436</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>99</td> 
+          <td>org.broadleafcommerce.core.web.processor.ProductOptionValueProcessor:2328-2374</td>
+          <td>(productOptionValue.getPriceAdjustment()) != null</td>
+          <td>0</td>
+          <td>294</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>100</td> 
+          <td>org.broadleafcommerce.core.offer.service.processor.ItemOfferProcessorImpl:28647-28670</td>
+          <td>(extensionManager) != null</td>
+          <td>9</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>101</td> 
+          <td>org.broadleafcommerce.core.order.service.workflow.add.AddOrderItemActivity:5782-5831</td>
+          <td>(orderItemRequestDTO.getParentOrderItemId()) != null</td>
+          <td>0</td>
+          <td>8</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>102</td> 
+          <td>org.broadleafcommerce.profile.web.core.CustomerState:2002-2077</td>
+          <td>((org.broadleafcommerce.common.web.BroadleafRequestContext.getBroadleafRequestContext().getWebRequest()) == null)</td>
+          <td>0</td>
+          <td>161</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>103</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.SkuImpl:29265-29283</td>
+          <td>(retailPrice) != null</td>
+          <td>8</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>104</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.SkuImpl:31903-31922</td>
+          <td>(discountable) == null</td>
+          <td>0</td>
+          <td>10</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>105</td> 
+          <td>org.broadleafcommerce.core.offer.service.processor.OrderOfferProcessorImpl:17593-17616</td>
+          <td>promotableDetail != null</td>
+          <td>2</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>106</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.SkuImpl:43126-43166</td>
+          <td>((getProduct().getDefaultCategory()) != null)</td>
+          <td>16</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>107</td> 
+          <td>org.broadleafcommerce.core.order.dao.OrderDaoImpl:9301-9324</td>
+          <td>(extensionManager) != null</td>
+          <td>7</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>108</td> 
+          <td>org.broadleafcommerce.profile.web.core.security.CustomerStateRequestProcessor:8133-8147</td>
+          <td>ruleMap == null</td>
+          <td>0</td>
+          <td>102</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>109</td> 
+          <td>org.broadleafcommerce.core.order.domain.OrderItemImpl:13555-13573</td>
+          <td>((retailPrice) != null)</td>
+          <td>96</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>110</td> 
+          <td>org.broadleafcommerce.core.order.domain.DiscreteOrderItemImpl:8153-8165</td>
+          <td>(order) == null</td>
+          <td>0</td>
+          <td>406</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>111</td> 
+          <td>org.broadleafcommerce.core.web.controller.catalog.BroadleafCategoryController:7268-7291</td>
+          <td>(result.getSkus()) != null</td>
+          <td>0</td>
+          <td>42</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>112</td> 
+          <td>org.broadleafcommerce.core.order.service.StructuredContentCartRuleProcessor:1606-1626</td>
+          <td>(itemCriterias != null)</td>
+          <td>0</td>
+          <td>117</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>113</td> 
+          <td>org.broadleafcommerce.core.pricing.service.workflow.FulfillmentGroupPricingActivity:2432-2455</td>
+          <td>fulfillmentGroup != null</td>
+          <td>9</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>114</td> 
+          <td>org.broadleafcommerce.core.web.catalog.ProductHandlerMapping:2684-2698</td>
+          <td>context != null</td>
+          <td>59</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>115</td> 
+          <td>org.broadleafcommerce.core.order.service.workflow.add.ValidateAddRequestActivity:6387-6426</td>
+          <td>((request.getOrder().getCurrency()) != null)</td>
+          <td>8</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>116</td> 
+          <td>org.broadleafcommerce.core.web.processor.ProductOptionsProcessor$ProductOptionDTO:8108-8128</td>
+          <td>(selectedValue) != null</td>
+          <td>0</td>
+          <td>93</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>117</td> 
+          <td>org.broadleafcommerce.core.order.strategy.FulfillmentGroupItemStrategyImpl:9135-9186</td>
+          <td>((sku.getDefaultProduct().getDefaultCategory()) != null)</td>
+          <td>8</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>118</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.SkuImpl:37271-37286</td>
+          <td>((skuMedia) == null)</td>
+          <td>0</td>
+          <td>360</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>119</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.CategoryImpl:29738-29771</td>
+          <td>((xref.getDefaultReference()) != null)</td>
+          <td>24</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>120</td> 
+          <td>org.broadleafcommerce.profile.web.core.security.CustomerStateRequestProcessor:3809-3826</td>
+          <td>overrideId != null</td>
+          <td>0</td>
+          <td>102</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>121</td> 
+          <td>org.broadleafcommerce.core.pricing.service.workflow.TotalActivity:5516-5538</td>
+          <td>(item.getTaxes()) != null</td>
+          <td>10</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>122</td> 
+          <td>org.broadleafcommerce.core.offer.service.processor.AbstractBaseProcessor:16683-16698</td>
+          <td>(ruleXref != null)</td>
+          <td>0</td>
+          <td>9</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>123</td> 
+          <td>org.broadleafcommerce.core.web.processor.ProductOptionsProcessor$ProductOptionDTO:8026-8035</td>
+          <td>(id) != null</td>
+          <td>93</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>124</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.CategoryImpl:25999-26009</td>
+          <td>((url) == null)</td>
+          <td>0</td>
+          <td>558</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>125</td> 
+          <td>org.broadleafcommerce.core.order.domain.DiscreteOrderItemImpl:6744-6761</td>
+          <td>((this.order) != null)</td>
+          <td>8</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>126</td> 
+          <td>org.broadleafcommerce.core.search.service.solr.SolrHelperServiceImpl:30776-30817</td>
+          <td>(searchCriteria.getFilterCriteria()) != null</td>
+          <td>62</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>127</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.SkuImpl:34284-34304</td>
+          <td>((activeEndDate) == null)</td>
+          <td>1016</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>128</td> 
+          <td>org.broadleafcommerce.core.order.domain.OrderItemImpl:30939-30954</td>
+          <td>((other.id) != null)</td>
+          <td>3</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>129</td> 
+          <td>org.broadleafcommerce.core.offer.service.discount.domain.PromotableOrderItemImpl:5487-5525</td>
+          <td>((getSalePriceBeforeAdjustments()) != null)</td>
+          <td>2</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>130</td> 
+          <td>org.broadleafcommerce.core.offer.service.processor.OrderOfferProcessorImpl:7565-7602</td>
+          <td>((offer.getAppliesToOrderRules()) != null)</td>
+          <td>0</td>
+          <td>9</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>131</td> 
+          <td>org.broadleafcommerce.core.pricing.service.TaxServiceImpl:2263-2276</td>
+          <td>(config == null)</td>
+          <td>9</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>132</td> 
+          <td>org.broadleafcommerce.core.offer.service.processor.AbstractBaseProcessor:14138-14197</td>
+          <td>(org.broadleafcommerce.common.web.BroadleafRequestContext.getBroadleafRequestContext()) != null</td>
+          <td>9</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>133</td> 
+          <td>org.broadleafcommerce.core.pricing.service.workflow.FulfillmentItemPricingActivity:10673-10699</td>
+          <td>proratedOrderAdjAmt != null</td>
+          <td>10</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>134</td> 
+          <td>org.broadleafcommerce.core.payment.service.OrderToPaymentRequestDTOServiceImpl:4824-4855</td>
+          <td>(order.getTotalShipping()) != null</td>
+          <td>2</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>135</td> 
+          <td>org.broadleafcommerce.core.search.service.solr.SolrHelperServiceImpl:22375-22406</td>
+          <td>(response.getFacetQuery()) != null</td>
+          <td>62</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>136</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.ProductImpl:33961-33976</td>
+          <td>((other.id) != null)</td>
+          <td>1711</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>137</td> 
+          <td>org.broadleafcommerce.core.web.order.security.CartStateFilter:6429-6468</td>
+          <td>((excludedOrderLockRequestPatterns) != null)</td>
+          <td>0</td>
+          <td>9</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>138</td> 
+          <td>org.broadleafcommerce.core.payment.service.OrderToPaymentRequestDTOServiceImpl:2079-2091</td>
+          <td>order != null</td>
+          <td>2</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>139</td> 
+          <td>org.broadleafcommerce.core.order.domain.OrderLockImpl:1968-1981</td>
+          <td>(locked == null)</td>
+          <td>0</td>
+          <td>2</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>140</td> 
+          <td>org.broadleafcommerce.core.order.strategy.FulfillmentGroupItemStrategyImpl:3236-3271</td>
+          <td>(order.getFulfillmentGroups()) != null</td>
+          <td>8</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>141</td> 
+          <td>org.broadleafcommerce.core.web.controller.cart.BroadleafCartController:3218-3229</td>
+          <td>(cart != null)</td>
+          <td>14</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>142</td> 
+          <td>org.broadleafcommerce.profile.web.core.CustomerStateRefresher:2827-2841</td>
+          <td>request != null</td>
+          <td>7</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>143</td> 
+          <td>org.broadleafcommerce.core.order.domain.OrderItemPriceDetailImpl:6815-6834</td>
+          <td>(useSalePrice) == null</td>
+          <td>0</td>
+          <td>88</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>144</td> 
+          <td>org.broadleafcommerce.core.order.service.workflow.update.ValidateUpdateRequestActivity:2666-2682</td>
+          <td>(orderItem != null)</td>
+          <td>1</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>145</td> 
+          <td>org.broadleafcommerce.core.order.domain.DiscreteOrderItemImpl:9658-9696</td>
+          <td>(getDiscreteOrderItemFeePrices()) != null</td>
+          <td>8</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>146</td> 
+          <td>org.broadleafcommerce.core.catalog.service.dynamic.DynamicSkuPrices:2318-2339</td>
+          <td>(getSalePrice()) == null</td>
+          <td>8</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>147</td> 
+          <td>org.broadleafcommerce.core.offer.service.processor.AbstractBaseProcessor:16820-16831</td>
+          <td>rule != null</td>
+          <td>0</td>
+          <td>9</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>148</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.SkuImpl:44603-44618</td>
+          <td>((other.id) != null)</td>
+          <td>37</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>149</td> 
+          <td>org.broadleafcommerce.core.web.service.SearchFacetDTOServiceImpl:3260-3273</td>
+          <td>facets != null</td>
+          <td>62</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>150</td> 
+          <td>org.broadleafcommerce.core.web.order.OrderStateAOP:1641-1653</td>
+          <td>order != null</td>
+          <td>0</td>
+          <td>102</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>151</td> 
+          <td>org.broadleafcommerce.core.order.service.workflow.add.AddOrderItemActivity:3431-3446</td>
+          <td>(category == null)</td>
+          <td>8</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>152</td> 
+          <td>org.broadleafcommerce.core.order.service.OrderServiceImpl:35589-35601</td>
+          <td>order == null</td>
+          <td>0</td>
+          <td>9</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>153</td> 
+          <td>org.broadleafcommerce.profile.core.service.CustomerServiceImpl:12488-12505</td>
+          <td>customerId != null</td>
+          <td>0</td>
+          <td>25</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>154</td> 
+          <td>org.broadleafcommerce.core.order.strategy.FulfillmentGroupItemStrategyImpl:3421-3452</td>
+          <td>nullFulfillmentTypeGroup == null</td>
+          <td>1</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>155</td> 
+          <td>org.broadleafcommerce.core.web.processor.ProductOptionsProcessor$ProductOptionPricingDTO:9698-9710</td>
+          <td>(price) != null</td>
+          <td>336</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>156</td> 
+          <td>org.broadleafcommerce.core.order.service.OrderServiceImpl:35219-35238</td>
+          <td>(item1Product != null)</td>
+          <td>2</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>157</td> 
+          <td>org.broadleafcommerce.core.order.service.workflow.add.AddOrderItemActivity:3066-3107</td>
+          <td>(orderItemRequestDTO.getProductId()) != null</td>
+          <td>8</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>158</td> 
+          <td>org.broadleafcommerce.core.offer.service.OfferServiceImpl:7276-7299</td>
+          <td>(extensionManager) != null</td>
+          <td>9</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>159</td> 
+          <td>org.broadleafcommerce.core.web.processor.PriceTextDisplayProcessor:2713-2739</td>
+          <td>(brc.getJavaLocale()) != null</td>
+          <td>805</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>160</td> 
+          <td>org.broadleafcommerce.core.web.processor.ProductOptionsProcessor$ProductOptionDTO:8291-8307</td>
+          <td>(that.type) != null</td>
+          <td>93</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>161</td> 
+          <td>org.broadleafcommerce.core.order.domain.OrderItemImpl:24301-24325</td>
+          <td>(salePriceOverride) == null</td>
+          <td>16</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>162</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.ProductImpl:33764-33774</td>
+          <td>obj == null</td>
+          <td>0</td>
+          <td>1711</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>163</td> 
+          <td>org.broadleafcommerce.core.order.service.workflow.add.ValidateAddRequestActivity:6448-6472</td>
+          <td>((sku.getCurrency()) != null)</td>
+          <td>0</td>
+          <td>8</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>164</td> 
+          <td>org.broadleafcommerce.core.order.dao.OrderDaoImpl:7793-7804</td>
+          <td>(temp != null)</td>
+          <td>102</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>165</td> 
+          <td>org.broadleafcommerce.core.search.service.solr.SolrHelperServiceImpl:26977-27000</td>
+          <td>(extensionManager) != null</td>
+          <td>88</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>166</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.ProductImpl:22750-22765</td>
+          <td>response == null</td>
+          <td>0</td>
+          <td>1477</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>167</td> 
+          <td>org.broadleafcommerce.core.web.processor.RelatedProductProcessor:6334-6356</td>
+          <td>relatedProducts != null</td>
+          <td>53</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>168</td> 
+          <td>org.broadleafcommerce.core.web.controller.cart.BroadleafCartController:4335-4346</td>
+          <td>(cart == null)</td>
+          <td>0</td>
+          <td>9</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>169</td> 
+          <td>org.broadleafcommerce.core.web.order.security.CartStateRequestProcessor:5166-5177</td>
+          <td>(cart == null)</td>
+          <td>102</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>170</td> 
+          <td>org.broadleafcommerce.core.search.service.solr.SolrHelperServiceImpl:18667-18682</td>
+          <td>maxValue == null</td>
+          <td>0</td>
+          <td>6</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>171</td> 
+          <td>org.broadleafcommerce.core.offer.service.OfferServiceImpl:12164-12183</td>
+          <td>(offerContext == null)</td>
+          <td>0</td>
+          <td>9</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>172</td> 
+          <td>org.broadleafcommerce.core.pricing.service.FulfillmentPricingServiceImpl:2116-2162</td>
+          <td>(fulfillmentGroup.getFulfillmentOption()) == null</td>
+          <td>9</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>173</td> 
+          <td>org.broadleafcommerce.core.web.order.security.CartStateFilter:5377-5394</td>
+          <td>lockObject != null</td>
+          <td>9</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>174</td> 
+          <td>org.broadleafcommerce.core.workflow.SequenceProcessor:1852-1879</td>
+          <td>activityStateManager == null</td>
+          <td>0</td>
+          <td>18</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>175</td> 
+          <td>org.broadleafcommerce.core.offer.domain.OfferImpl:30996-31016</td>
+          <td>(archiveStatus) == null</td>
+          <td>45</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>176</td> 
+          <td>org.broadleafcommerce.core.web.processor.ProductOptionsProcessor$ProductOptionDTO:7851-7859</td>
+          <td>o == null</td>
+          <td>0</td>
+          <td>93</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>177</td> 
+          <td>org.broadleafcommerce.core.web.order.security.CartStateRequestProcessor:5024-5046</td>
+          <td>(erh.getResult()) != null</td>
+          <td>0</td>
+          <td>102</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>178</td> 
+          <td>org.broadleafcommerce.core.catalog.dao.ProductDaoImpl:4567-4584</td>
+          <td>(productIds == null)</td>
+          <td>0</td>
+          <td>62</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>179</td> 
+          <td>org.broadleafcommerce.core.order.domain.FulfillmentGroupImpl:20563-20596</td>
+          <td>(this.fulfillmentGroupItems) == null</td>
+          <td>0</td>
+          <td>8</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>180</td> 
+          <td>org.broadleafcommerce.core.web.processor.ProductOptionsProcessor$ProductOptionDTO:8340-8353</td>
+          <td>(values) != null</td>
+          <td>93</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>181</td> 
+          <td>org.broadleafcommerce.core.order.service.FulfillmentGroupServiceImpl:23749-23773</td>
+          <td>fulfillmentGroups != null</td>
+          <td>2</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>182</td> 
+          <td>org.broadleafcommerce.core.order.domain.DiscreteOrderItemImpl:8818-8838</td>
+          <td>(skuBundleItem) != null</td>
+          <td>0</td>
+          <td>8</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>183</td> 
+          <td>org.broadleafcommerce.core.offer.service.processor.AbstractBaseProcessor:18313-18340</td>
+          <td>(offer.getStartDate()) != null</td>
+          <td>9</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>184</td> 
+          <td>org.broadleafcommerce.profile.web.core.security.CustomerStateRequestProcessor:7267-7282</td>
+          <td>customer == null</td>
+          <td>102</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>185</td> 
+          <td>org.broadleafcommerce.core.workflow.SequenceProcessor:5116-5152</td>
+          <td>((activity.getRollbackHandler()) != null)</td>
+          <td>0</td>
+          <td>136</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>186</td> 
+          <td>org.broadleafcommerce.core.order.strategy.FulfillmentGroupItemStrategyImpl:8997-9028</td>
+          <td>(sku.getFulfillmentType()) != null</td>
+          <td>0</td>
+          <td>8</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>187</td> 
+          <td>org.broadleafcommerce.core.offer.service.processor.AbstractBaseProcessor:13640-13653</td>
+          <td>(offers != null)</td>
+          <td>18</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>188</td> 
+          <td>org.broadleafcommerce.core.web.order.CartState:1335-1410</td>
+          <td>((org.broadleafcommerce.common.web.BroadleafRequestContext.getBroadleafRequestContext().getWebRequest()) == null)</td>
+          <td>0</td>
+          <td>124</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>189</td> 
+          <td>org.broadleafcommerce.core.offer.service.processor.ItemOfferProcessorImpl:10688-10711</td>
+          <td>(extensionManager) != null</td>
+          <td>9</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>190</td> 
+          <td>org.broadleafcommerce.profile.web.core.CustomerStateRefresher:3436-3458</td>
+          <td>(sessionCustomer != null)</td>
+          <td>7</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>191</td> 
+          <td>org.broadleafcommerce.profile.web.core.security.SessionFixationProtectionFilter:3013-3054</td>
+          <td>(org.springframework.security.core.context.SecurityContextHolder.getContext()) == null</td>
+          <td>0</td>
+          <td>102</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>192</td> 
+          <td>org.broadleafcommerce.core.web.order.CartState:1255-1314</td>
+          <td>((org.broadleafcommerce.common.web.BroadleafRequestContext.getBroadleafRequestContext()) == null)</td>
+          <td>0</td>
+          <td>124</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>193</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.SkuImpl:28116-28134</td>
+          <td>(returnPrice != null)</td>
+          <td>2385</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>194</td> 
+          <td>org.broadleafcommerce.core.web.processor.PriceTextDisplayProcessor:2545-2557</td>
+          <td>price == null</td>
+          <td>0</td>
+          <td>805</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>195</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.SkuImpl:43899-43914</td>
+          <td>((currency) == null)</td>
+          <td>3497</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>196</td> 
+          <td>org.broadleafcommerce.core.web.order.security.CartStateRequestProcessor:5451-5462</td>
+          <td>cart == null</td>
+          <td>102</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>197</td> 
+          <td>org.broadleafcommerce.core.web.processor.RatingsProcessor:3036-3055</td>
+          <td>reviewDetail != null</td>
+          <td>0</td>
+          <td>7</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>198</td> 
+          <td>org.broadleafcommerce.core.order.strategy.FulfillmentGroupItemStrategyImpl:17033-17050</td>
+          <td>oiQuantity == null</td>
+          <td>0</td>
+          <td>10</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>199</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.SkuImpl:31323-31337</td>
+          <td>(taxable) == null</td>
+          <td>0</td>
+          <td>28</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>200</td> 
+          <td>org.broadleafcommerce.core.payment.service.OrderToPaymentRequestDTOServiceImpl:6808-6824</td>
+          <td>(defaultFg != null)</td>
+          <td>2</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>201</td> 
+          <td>org.broadleafcommerce.core.order.strategy.FulfillmentGroupItemStrategyImpl:6611-6622</td>
+          <td>type == null</td>
+          <td>8</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>202</td> 
+          <td>org.broadleafcommerce.core.offer.service.processor.AbstractBaseProcessor:22254-22269</td>
+          <td>(ruleXref != null)</td>
+          <td>0</td>
+          <td>9</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>203</td> 
+          <td>org.broadleafcommerce.core.web.processor.AddSortLinkProcessor:3358-3376</td>
+          <td>(paramValues != null)</td>
+          <td>0</td>
+          <td>86</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>204</td> 
+          <td>org.broadleafcommerce.core.order.service.workflow.add.AddOrderItemActivity:4195-4209</td>
+          <td>(product == null)</td>
+          <td>0</td>
+          <td>8</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>205</td> 
+          <td>org.broadleafcommerce.core.order.service.workflow.add.ValidateAddRequestActivity:3400-3440</td>
+          <td>((orderItemRequestDTO.getQuantity()) == null)</td>
+          <td>0</td>
+          <td>8</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>206</td> 
+          <td>org.broadleafcommerce.profile.core.service.IdGenerationServiceImpl:1756-1765</td>
+          <td>id == null</td>
+          <td>0</td>
+          <td>25</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>207</td> 
+          <td>org.broadleafcommerce.core.offer.service.processor.AbstractBaseProcessor:9851-9875</td>
+          <td>(expressionOutcome != null)</td>
+          <td>10</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>208</td> 
+          <td>org.broadleafcommerce.core.order.service.OrderServiceImpl:35054-35077</td>
+          <td>((item2.getSkuId()) != null)</td>
+          <td>0</td>
+          <td>2</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>209</td> 
+          <td>org.broadleafcommerce.core.order.domain.DiscreteOrderItemImpl:10287-10307</td>
+          <td>(skuBundleItem) != null</td>
+          <td>0</td>
+          <td>8</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>210</td> 
+          <td>org.broadleafcommerce.core.web.order.security.CartStateFilter:3814-3831</td>
+          <td>lockObject == null</td>
+          <td>9</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>211</td> 
+          <td>org.broadleafcommerce.profile.web.core.CustomerStateRefresher:3867-3901</td>
+          <td>((org.broadleafcommerce.profile.web.core.CustomerState.getCustomer()) != null)</td>
+          <td>7</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>212</td> 
+          <td>org.broadleafcommerce.core.order.service.OrderServiceImpl:39592-39617</td>
+          <td>(erh.getThrowable()) != null</td>
+          <td>0</td>
+          <td>10</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>213</td> 
+          <td>org.broadleafcommerce.core.offer.service.discount.domain.PromotableOrderImpl:2716-2750</td>
+          <td>(order.getOrderAdjustments()) != null</td>
+          <td>9</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>214</td> 
+          <td>org.broadleafcommerce.core.web.order.security.CartStateRequestProcessor:6060-6074</td>
+          <td>ruleMap == null</td>
+          <td>0</td>
+          <td>102</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>215</td> 
+          <td>org.broadleafcommerce.core.offer.service.processor.AbstractBaseProcessor:13314-13332</td>
+          <td>splitDetail != null</td>
+          <td>0</td>
+          <td>10</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>216</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.SkuImpl:29085-29100</td>
+          <td>(currency) != null</td>
+          <td>0</td>
+          <td>8</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>217</td> 
+          <td>org.broadleafcommerce.core.payment.service.OrderToPaymentRequestDTOServiceImpl:6666-6676</td>
+          <td>(fgs != null)</td>
+          <td>2</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>218</td> 
+          <td>org.broadleafcommerce.core.order.service.OrderItemServiceImpl:4219-4236</td>
+          <td>(attributes != null)</td>
+          <td>8</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>219</td> 
+          <td>org.broadleafcommerce.core.order.strategy.FulfillmentGroupItemStrategyImpl:16397-16449</td>
+          <td>((((org.broadleafcommerce.core.order.domain.DiscreteOrderItem) (oi)).getBundleOrderItem()) != null)</td>
+          <td>0</td>
+          <td>10</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>220</td> 
+          <td>org.broadleafcommerce.core.offer.service.processor.OrderOfferProcessorImpl:7856-7872</td>
+          <td>(orderRule != null)</td>
+          <td>0</td>
+          <td>9</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>221</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.ProductOptionValueImpl:5220-5242</td>
+          <td>(priceAdjustment) != null</td>
+          <td>0</td>
+          <td>2604</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>222</td> 
+          <td>org.broadleafcommerce.core.search.service.solr.SolrHelperServiceImpl:27123-27141</td>
+          <td>(facetRanges != null)</td>
+          <td>88</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>223</td> 
+          <td>org.broadleafcommerce.core.order.service.workflow.add.ValidateAddRequestActivity:6798-6847</td>
+          <td>(orderItemRequestDTO.getParentOrderItemId()) != null</td>
+          <td>0</td>
+          <td>8</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>224</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.SkuImpl:33569-33591</td>
+          <td>((activeStartDate) == null)</td>
+          <td>0</td>
+          <td>512</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>225</td> 
+          <td>org.broadleafcommerce.core.inventory.service.type.InventoryType:2934-2944</td>
+          <td>obj == null</td>
+          <td>18</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>226</td> 
+          <td>org.broadleafcommerce.core.offer.service.type.OfferType:2818-2829</td>
+          <td>(type) == null</td>
+          <td>0</td>
+          <td>9</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>227</td> 
+          <td>org.broadleafcommerce.core.offer.service.OfferServiceImpl:12457-12480</td>
+          <td>(filteredOffers == null)</td>
+          <td>0</td>
+          <td>9</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>228</td> 
+          <td>org.broadleafcommerce.core.order.strategy.FulfillmentGroupItemStrategyImpl:15037-15072</td>
+          <td>((order.getFulfillmentGroups()) != null)</td>
+          <td>9</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>229</td> 
+          <td>org.broadleafcommerce.core.order.dao.OrderDaoImpl:9478-9501</td>
+          <td>(extensionManager) != null</td>
+          <td>7</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>230</td> 
+          <td>org.broadleafcommerce.core.offer.service.processor.AbstractBaseProcessor:19369-19394</td>
+          <td>(offer.getEndDate()) != null</td>
+          <td>9</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>231</td> 
+          <td>org.broadleafcommerce.core.search.redirect.dao.SearchRedirectDaoImpl:2255-2269</td>
+          <td>(results != null)</td>
+          <td>20</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>232</td> 
+          <td>org.broadleafcommerce.core.order.service.OrderServiceImpl:13363-13386</td>
+          <td>(extensionManager) != null</td>
+          <td>9</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>233</td> 
+          <td>org.broadleafcommerce.core.order.service.OrderServiceImpl:35243-35270</td>
+          <td>((item2.getProductId()) != null)</td>
+          <td>2</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>234</td> 
+          <td>org.broadleafcommerce.core.order.domain.DiscreteOrderItemImpl:9102-9121</td>
+          <td>(skuSalePrice != null)</td>
+          <td>8</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>235</td> 
+          <td>org.broadleafcommerce.core.offer.service.processor.AbstractBaseProcessor:9539-9569</td>
+          <td>((criteria.getMatchRule()) != null)</td>
+          <td>10</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>236</td> 
+          <td>org.broadleafcommerce.core.search.service.solr.SolrHelperServiceImpl:10188-10201</td>
+          <td>(prefix != null)</td>
+          <td>248</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>237</td> 
+          <td>org.broadleafcommerce.core.order.service.type.FulfillmentType:2784-2794</td>
+          <td>obj == null</td>
+          <td>6</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>238</td> 
+          <td>org.broadleafcommerce.core.order.service.workflow.add.ValidateAddRequestActivity:4159-4200</td>
+          <td>(orderItemRequestDTO.getProductId()) != null</td>
+          <td>8</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>239</td> 
+          <td>org.broadleafcommerce.core.order.service.workflow.update.ValidateUpdateRequestActivity:1806-1849</td>
+          <td>(orderItemRequestDTO.getOrderItemId()) == null</td>
+          <td>0</td>
+          <td>1</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>240</td> 
+          <td>org.broadleafcommerce.core.order.service.workflow.add.ValidateAddRequestActivity:7723-7737</td>
+          <td>(product != null)</td>
+          <td>8</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>241</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.SkuImpl:32721-32737</td>
+          <td>(available) == null</td>
+          <td>9</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>242</td> 
+          <td>org.broadleafcommerce.core.catalog.dao.CategoryDaoImpl:10673-10687</td>
+          <td>(results != null)</td>
+          <td>414</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>243</td> 
+          <td>org.broadleafcommerce.core.order.service.workflow.add.ValidateAddRequestActivity:5357-5367</td>
+          <td>sku == null</td>
+          <td>0</td>
+          <td>8</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>244</td> 
+          <td>org.broadleafcommerce.core.pricing.service.workflow.AdjustOrderPaymentsActivity:4171-4211</td>
+          <td>unconfirmedThirdPartyOrCreditCard != null</td>
+          <td>0</td>
+          <td>9</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>245</td> 
+          <td>org.broadleafcommerce.core.offer.service.discount.domain.PromotableOrderItemPriceDetailImpl:6941-6961</td>
+          <td>(adjustedTotal) == null</td>
+          <td>30</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>246</td> 
+          <td>org.broadleafcommerce.core.web.catalog.CategoryHandlerMapping:2942-2957</td>
+          <td>category != null</td>
+          <td>42</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>247</td> 
+          <td>org.broadleafcommerce.core.order.domain.OrderImpl:22206-22239</td>
+          <td>((discreteOrderItem.getSku()) != null)</td>
+          <td>39</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>248</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.SkuImpl:43102-43121</td>
+          <td>((getProduct()) != null)</td>
+          <td>16</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>249</td> 
+          <td>org.broadleafcommerce.core.pricing.service.TaxServiceImpl:1994-2015</td>
+          <td>configurations != null</td>
+          <td>9</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>250</td> 
+          <td>org.broadleafcommerce.core.order.service.workflow.add.AddOrderItemActivity:2883-2920</td>
+          <td>(orderItemRequestDTO.getSkuId()) != null</td>
+          <td>8</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>251</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.SkuImpl:42126-42145</td>
+          <td>((getProduct()) != null)</td>
+          <td>459</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>252</td> 
+          <td>org.broadleafcommerce.core.payment.service.OrderToPaymentRequestDTOServiceImpl:4948-4974</td>
+          <td>(order.getTotalTax()) != null</td>
+          <td>2</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>253</td> 
+          <td>org.broadleafcommerce.core.search.service.solr.SolrHelperServiceImpl:27868-27902</td>
+          <td>(response.getGroupResponse()) == null</td>
+          <td>62</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>254</td> 
+          <td>org.broadleafcommerce.core.search.service.solr.SolrHelperServiceImpl:21684-21716</td>
+          <td>(response.getFacetFields()) != null</td>
+          <td>62</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>255</td> 
+          <td>org.broadleafcommerce.core.offer.service.OfferServiceImpl:16886-16905</td>
+          <td>(offerContext == null)</td>
+          <td>0</td>
+          <td>9</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>256</td> 
+          <td>org.broadleafcommerce.core.web.catalog.ProductHandlerMapping:5109-5188</td>
+          <td>((org.springframework.web.bind.ServletRequestUtils.getLongParameter(context.getRequest(), "categoryId")) != null)</td>
+          <td>0</td>
+          <td>59</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>257</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.CategoryImpl:49816-49836</td>
+          <td>(archiveStatus) == null</td>
+          <td>2685</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>258</td> 
+          <td>org.broadleafcommerce.core.payment.service.OrderToPaymentRequestDTOServiceImpl:13447-13473</td>
+          <td>(order.getSubTotal()) != null</td>
+          <td>2</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>259</td> 
+          <td>org.broadleafcommerce.core.order.service.workflow.add.ValidateAddRequestActivity:8465-8499</td>
+          <td>((product.getProductOptions()) != null)</td>
+          <td>8</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>260</td> 
+          <td>org.broadleafcommerce.core.payment.service.OrderToPaymentRequestDTOServiceImpl:4684-4727</td>
+          <td>(order.getTotalAfterAppliedPayments()) != null</td>
+          <td>2</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>261</td> 
+          <td>org.broadleafcommerce.core.payment.service.OrderToPaymentRequestDTOServiceImpl:2235-2261</td>
+          <td>(order.getCurrency()) != null</td>
+          <td>2</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>262</td> 
+          <td>org.broadleafcommerce.core.order.domain.DiscreteOrderItemImpl:8664-8683</td>
+          <td>skuSalePrice == null</td>
+          <td>0</td>
+          <td>8</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>263</td> 
+          <td>com.mycompany.sample.vendor.nullPaymentGateway.web.processor.NullPaymentGatewayHostedActionProcessor:3165-3218</td>
+          <td>(element.getAttributeValue("complete_checkout")) != null</td>
+          <td>2</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>264</td> 
+          <td>org.broadleafcommerce.core.web.order.OrderState:1786-1801</td>
+          <td>(customer != null)</td>
+          <td>102</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>265</td> 
+          <td>org.broadleafcommerce.core.pricing.service.workflow.TotalActivity:2182-2208</td>
+          <td>(order.getTotalTax()) != null</td>
+          <td>9</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>266</td> 
+          <td>org.broadleafcommerce.core.order.service.workflow.add.AddOrderItemActivity:3451-3465</td>
+          <td>(product != null)</td>
+          <td>8</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>267</td> 
+          <td>org.broadleafcommerce.core.offer.service.processor.AbstractBaseProcessor:15025-15040</td>
+          <td>(ruleXref != null)</td>
+          <td>0</td>
+          <td>9</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>268</td> 
+          <td>org.broadleafcommerce.core.search.service.solr.I18nSolrSearchServiceExtensionHandler:7169-7182</td>
+          <td>locale != null</td>
+          <td>248</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>269</td> 
+          <td>org.broadleafcommerce.core.web.processor.PaginationPageLinkProcessor:2780-2791</td>
+          <td>(page != null)</td>
+          <td>44</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>270</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.SkuImpl:42150-42190</td>
+          <td>((getProduct().getDefaultCategory()) != null)</td>
+          <td>459</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>271</td> 
+          <td>org.broadleafcommerce.core.order.domain.OrderItemImpl:23948-23974</td>
+          <td>(retailPriceOverride) == null</td>
+          <td>16</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>272</td> 
+          <td>org.broadleafcommerce.core.order.service.OrderItemServiceImpl:9020-9063</td>
+          <td>(itemRequest.getRetailPriceOverride()) != null</td>
+          <td>0</td>
+          <td>8</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>273</td> 
+          <td>org.broadleafcommerce.core.workflow.SequenceProcessor:2187-2212</td>
+          <td>rollbackStateLocal == null</td>
+          <td>18</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>274</td> 
+          <td>org.broadleafcommerce.core.order.domain.DiscreteOrderItemImpl:9457-9473</td>
+          <td>((salePrice) != null)</td>
+          <td>8</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>275</td> 
+          <td>org.broadleafcommerce.core.order.domain.DiscreteOrderItemImpl:7065-7077</td>
+          <td>(order != null)</td>
+          <td>8</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>276</td> 
+          <td>org.broadleafcommerce.core.web.controller.catalog.BroadleafSearchController:5667-5681</td>
+          <td>handler != null</td>
+          <td>0</td>
+          <td>20</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>277</td> 
+          <td>org.broadleafcommerce.profile.web.core.CustomerState:1921-1980</td>
+          <td>((org.broadleafcommerce.common.web.BroadleafRequestContext.getBroadleafRequestContext()) == null)</td>
+          <td>0</td>
+          <td>161</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>278</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.SkuImpl:29391-29407</td>
+          <td>(salePrice) != null</td>
+          <td>0</td>
+          <td>8</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>279</td> 
+          <td>org.broadleafcommerce.core.catalog.service.CatalogServiceImpl:10983-11006</td>
+          <td>(extensionManager) != null</td>
+          <td>414</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>280</td> 
+          <td>org.broadleafcommerce.profile.core.service.CustomerServiceImpl:12407-12422</td>
+          <td>customer == null</td>
+          <td>25</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>281</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.SkuImpl:34246-34263</td>
+          <td>returnDate == null</td>
+          <td>1016</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>282</td> 
+          <td>org.broadleafcommerce.core.order.service.OrderServiceImpl:35034-35049</td>
+          <td>(item1Sku != null)</td>
+          <td>2</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>283</td> 
+          <td>org.broadleafcommerce.core.search.service.solr.SolrHelperServiceImpl:18502-18517</td>
+          <td>minValue == null</td>
+          <td>0</td>
+          <td>6</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>284</td> 
+          <td>org.broadleafcommerce.core.catalog.service.RelatedProductsServiceImpl:4334-4365</td>
+          <td>returnPromotableProducts != null</td>
+          <td>53</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>285</td> 
+          <td>org.broadleafcommerce.core.offer.service.processor.OrderOfferProcessorImpl:16742-16763</td>
+          <td>promotableItem == null</td>
+          <td>0</td>
+          <td>10</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>286</td> 
+          <td>org.broadleafcommerce.core.order.service.workflow.add.ValidateAddRequestActivity:7615-7627</td>
+          <td>(skuId != null)</td>
+          <td>0</td>
+          <td>8</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>287</td> 
+          <td>org.broadleafcommerce.core.order.domain.OrderItemImpl:30714-30724</td>
+          <td>obj == null</td>
+          <td>0</td>
+          <td>3</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>288</td> 
+          <td>org.broadleafcommerce.core.web.processor.RelatedProductProcessor:4773-4795</td>
+          <td>relatedProducts != null</td>
+          <td>53</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>289</td> 
+          <td>org.broadleafcommerce.core.order.domain.OrderItemImpl:13459-13475</td>
+          <td>(salePrice) != null</td>
+          <td>96</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>290</td> 
+          <td>org.broadleafcommerce.core.order.dao.OrderDaoImpl:9011-9070</td>
+          <td>(org.broadleafcommerce.common.web.BroadleafRequestContext.getBroadleafRequestContext()) != null</td>
+          <td>7</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>291</td> 
+          <td>org.broadleafcommerce.core.order.service.OrderServiceImpl:37396-37408</td>
+          <td>(order == null)</td>
+          <td>0</td>
+          <td>9</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>292</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.SkuImpl:33531-33548</td>
+          <td>returnDate == null</td>
+          <td>512</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>293</td> 
+          <td>org.broadleafcommerce.core.offer.service.processor.AbstractBaseProcessor:3296-3340</td>
+          <td>((offer.getQualifyingItemCriteriaXref()) == null)</td>
+          <td>0</td>
+          <td>9</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>294</td> 
+          <td>org.broadleafcommerce.core.order.service.workflow.add.ValidateAddRequestActivity:7708-7718</td>
+          <td>(sku == null)</td>
+          <td>8</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>295</td> 
+          <td>org.broadleafcommerce.core.pricing.service.workflow.ConsolidateFulfillmentFeesActivity:2962-2973</td>
+          <td>fees != null</td>
+          <td>10</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>296</td> 
+          <td>org.broadleafcommerce.core.offer.service.processor.AbstractBaseProcessor:10636-10646</td>
+          <td>exp == null</td>
+          <td>0</td>
+          <td>10</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>297</td> 
+          <td>org.broadleafcommerce.core.web.service.i18nUpdateCartServiceExtensionHandler:4788-4823</td>
+          <td>(sku.getProductOptionValues()) != null</td>
+          <td>1</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>298</td> 
+          <td>org.broadleafcommerce.core.web.order.CartStateRefresher:3112-3146</td>
+          <td>((org.broadleafcommerce.profile.web.core.CustomerState.getCustomer()) != null)</td>
+          <td>8</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>299</td> 
+          <td>org.broadleafcommerce.core.web.processor.RelatedProductProcessor:6719-6735</td>
+          <td>resultVar == null</td>
+          <td>53</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>300</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.SkuImpl:44390-44400</td>
+          <td>obj == null</td>
+          <td>0</td>
+          <td>37</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>301</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.SkuImpl:27832-27850</td>
+          <td>(returnPrice == null)</td>
+          <td>0</td>
+          <td>2385</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>302</td> 
+          <td>org.broadleafcommerce.core.order.strategy.FulfillmentGroupItemStrategyImpl:16265-16282</td>
+          <td>oiQuantity == null</td>
+          <td>10</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>303</td> 
+          <td>org.broadleafcommerce.core.order.domain.OrderItemImpl:23065-23093</td>
+          <td>((orderItemPriceDetails) != null)</td>
+          <td>42</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>304</td> 
+          <td>org.broadleafcommerce.profile.web.core.security.SessionFixationProtectionFilter:3940-3954</td>
+          <td>(session != null)</td>
+          <td>102</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>305</td> 
+          <td>org.broadleafcommerce.core.offer.service.processor.ItemOfferProcessorImpl:7998-8053</td>
+          <td>((itemOffer.getOffer().getQualifyingItemSubTotal()) == null)</td>
+          <td>9</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>306</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.CategoryImpl:29084-29112</td>
+          <td>(defaultParentCategory) != null</td>
+          <td>0</td>
+          <td>192</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>307</td> 
+          <td>org.broadleafcommerce.core.catalog.service.RelatedProductsServiceImpl:8338-8357</td>
+          <td>(originalList != null)</td>
+          <td>53</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>308</td> 
+          <td>org.broadleafcommerce.core.web.processor.ProductOptionsProcessor:6173-6185</td>
+          <td>price == null</td>
+          <td>0</td>
+          <td>504</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>309</td> 
+          <td>org.broadleafcommerce.core.order.service.workflow.add.ValidateAddRequestActivity:7600-7610</td>
+          <td>(sku == null)</td>
+          <td>8</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>310</td> 
+          <td>org.broadleafcommerce.core.web.order.CartStateRefresher:2640-2654</td>
+          <td>request != null</td>
+          <td>33</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>311</td> 
+          <td>org.broadleafcommerce.core.order.domain.OrderImpl:29654-29679</td>
+          <td>(this.orderMessages) == null</td>
+          <td>1</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>312</td> 
+          <td>org.broadleafcommerce.core.order.domain.DiscreteOrderItemImpl:9433-9452</td>
+          <td>(skuSalePrice == null)</td>
+          <td>0</td>
+          <td>8</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>313</td> 
+          <td>org.broadleafcommerce.core.order.service.FulfillmentGroupServiceImpl:6628-6651</td>
+          <td>fulfillmentGroup == null</td>
+          <td>0</td>
+          <td>8</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>314</td> 
+          <td>org.broadleafcommerce.core.offer.service.type.OfferType:2640-2650</td>
+          <td>obj == null</td>
+          <td>0</td>
+          <td>9</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>315</td> 
+          <td>org.broadleafcommerce.core.order.dao.OrderDaoImpl:8147-8200</td>
+          <td>(customerDao.readCustomerById(customer.getId())) != null</td>
+          <td>0</td>
+          <td>7</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>316</td> 
+          <td>org.broadleafcommerce.core.offer.service.processor.ItemOfferProcessorImpl:10818-10885</td>
+          <td>(contextMap.get(org.broadleafcommerce.core.offer.service.OfferServiceExtensionManager.STOP_PROCESSING)) != null</td>
+          <td>0</td>
+          <td>9</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>317</td> 
+          <td>org.broadleafcommerce.core.offer.service.processor.OrderOfferProcessorImpl:8014-8025</td>
+          <td>rule != null</td>
+          <td>0</td>
+          <td>9</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>318</td> 
+          <td>org.broadleafcommerce.core.web.controller.catalog.BroadleafCategoryController:7087-7114</td>
+          <td>(result.getProducts()) != null</td>
+          <td>42</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>319</td> 
+          <td>org.broadleafcommerce.core.web.processor.ProductOptionsProcessor$ProductOptionDTO:8250-8261</td>
+          <td>(type) != null</td>
+          <td>93</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>320</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.SkuImpl:24052-24083</td>
+          <td>(getProductOptionValues()) != null</td>
+          <td>504</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>321</td> 
+          <td>org.broadleafcommerce.profile.web.core.security.CustomerStateRequestProcessor:4207-4230</td>
+          <td>(authentication != null)</td>
+          <td>102</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>322</td> 
+          <td>org.broadleafcommerce.core.offer.service.processor.AbstractBaseProcessor:20290-20319</td>
+          <td>((offer.getStartDate()) == null)</td>
+          <td>0</td>
+          <td>9</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>323</td> 
+          <td>org.broadleafcommerce.core.search.service.solr.SolrHelperServiceImpl$1:26255-26278</td>
+          <td>((o2.getMinValue()) != null)</td>
+          <td>129</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>324</td> 
+          <td>org.broadleafcommerce.core.order.dao.OrderDaoImpl:8029-8058</td>
+          <td>(customer.getUsername()) == null</td>
+          <td>7</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>325</td> 
+          <td>org.broadleafcommerce.core.search.redirect.service.SearchRedirectServiceImpl:1598-1619</td>
+          <td>SearchRedirect != null</td>
+          <td>0</td>
+          <td>20</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>326</td> 
+          <td>org.broadleafcommerce.core.web.util.ProcessorUtils:1572-1589</td>
+          <td>(parameters != null)</td>
+          <td>342</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>327</td> 
+          <td>org.broadleafcommerce.core.order.service.OrderItemServiceImpl:8760-8801</td>
+          <td>(itemRequest.getSalePriceOverride()) != null</td>
+          <td>0</td>
+          <td>8</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>328</td> 
+          <td>org.broadleafcommerce.core.offer.service.processor.OrderOfferProcessorImpl:27190-27213</td>
+          <td>(extensionManager) != null</td>
+          <td>9</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>329</td> 
+          <td>org.broadleafcommerce.core.catalog.service.RelatedProductsServiceImpl:5032-5063</td>
+          <td>(returnPromotableProducts != null)</td>
+          <td>53</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>330</td> 
+          <td>org.broadleafcommerce.core.search.service.solr.SolrHelperServiceImpl:29664-29676</td>
+          <td>field != null</td>
+          <td>42</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>331</td> 
+          <td>org.broadleafcommerce.core.order.domain.DiscreteOrderItemImpl:8553-8569</td>
+          <td>priceData != null</td>
+          <td>8</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>332</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.ProductImpl:33947-33956</td>
+          <td>((id) != null)</td>
+          <td>1711</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>333</td> 
+          <td>org.broadleafcommerce.core.offer.service.processor.AbstractBaseProcessor:15162-15173</td>
+          <td>rule != null</td>
+          <td>0</td>
+          <td>9</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>334</td> 
+          <td>org.broadleafcommerce.core.offer.service.processor.AbstractBaseProcessor:3998-4038</td>
+          <td>((offer.getTargetItemCriteriaXref()) != null)</td>
+          <td>9</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>335</td> 
+          <td>org.broadleafcommerce.core.order.domain.OrderItemImpl:12899-12917</td>
+          <td>(retailPrice) == null</td>
+          <td>0</td>
+          <td>148</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>336</td> 
+          <td>org.broadleafcommerce.core.catalog.service.CatalogServiceImpl:11900-11915</td>
+          <td>(products == null)</td>
+          <td>0</td>
+          <td>59</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>337</td> 
+          <td>org.broadleafcommerce.core.web.service.UpdateCartServiceImpl:6374-6390</td>
+          <td>(clearCart != null)</td>
+          <td>0</td>
+          <td>15</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>338</td> 
+          <td>org.broadleafcommerce.core.payment.service.OrderToPaymentRequestDTOServiceImpl:6829-6858</td>
+          <td>((defaultFg.getAddress()) != null)</td>
+          <td>0</td>
+          <td>2</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>339</td> 
+          <td>org.broadleafcommerce.core.web.processor.ProductOptionsProcessor$ProductOptionPricingDTO:9509-9517</td>
+          <td>o == null</td>
+          <td>0</td>
+          <td>336</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>340</td> 
+          <td>org.broadleafcommerce.core.web.processor.ProductOptionsProcessor$ProductOptionDTO:8176-8201</td>
+          <td>(that.selectedValue) != null</td>
+          <td>0</td>
+          <td>93</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>341</td> 
+          <td>org.broadleafcommerce.core.order.domain.OrderImpl:16640-16654</td>
+          <td>myTotal == null</td>
+          <td>0</td>
+          <td>6</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>342</td> 
+          <td>org.broadleafcommerce.core.offer.service.discount.domain.PromotableOrderItemPriceDetailImpl:6982-7015</td>
+          <td>salePriceBeforeAdjustments != null</td>
+          <td>30</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>343</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.SkuImpl:27721-27739</td>
+          <td>(retailPrice) != null</td>
+          <td>2385</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>344</td> 
+          <td>org.broadleafcommerce.core.workflow.state.ActivityStateManagerImpl:5442-5467</td>
+          <td>rollbackStateLocal == null</td>
+          <td>0</td>
+          <td>18</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>345</td> 
+          <td>org.broadleafcommerce.core.order.service.workflow.add.AddOrderItemActivity:3267-3309</td>
+          <td>(orderItemRequestDTO.getCategoryId()) != null</td>
+          <td>0</td>
+          <td>8</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>346</td> 
+          <td>org.broadleafcommerce.core.order.domain.OrderImpl:27065-27093</td>
+          <td>orderAdjustmentsValue != null</td>
+          <td>9</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>347</td> 
+          <td>org.broadleafcommerce.core.web.processor.ProductOptionsProcessor$ProductOptionDTO:8061-8075</td>
+          <td>(that.id) != null</td>
+          <td>93</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>348</td> 
+          <td>org.broadleafcommerce.core.order.service.workflow.add.ValidateAddRequestActivity:4761-4771</td>
+          <td>(sku == null)</td>
+          <td>0</td>
+          <td>8</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>349</td> 
+          <td>org.broadleafcommerce.core.order.domain.DiscreteOrderItemImpl:7082-7104</td>
+          <td>((bundleOrderItem) != null)</td>
+          <td>0</td>
+          <td>8</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>350</td> 
+          <td>org.broadleafcommerce.core.web.service.i18nUpdateCartServiceExtensionHandler:4711-4721</td>
+          <td>sku != null</td>
+          <td>1</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>351</td> 
+          <td>org.broadleafcommerce.core.payment.service.OrderToPaymentRequestDTOServiceImpl:5444-5479</td>
+          <td>((customer.getCustomerPhones()) != null)</td>
+          <td>2</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>352</td> 
+          <td>org.broadleafcommerce.core.web.catalog.ProductHandlerMapping:2978-2992</td>
+          <td>product == null</td>
+          <td>59</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>353</td> 
+          <td>org.broadleafcommerce.core.order.domain.DiscreteOrderItemImpl:15455-15478</td>
+          <td>(discountsAllowed) == null</td>
+          <td>10</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>354</td> 
+          <td>org.broadleafcommerce.core.search.service.solr.I18nSolrSearchServiceExtensionHandler:6987-7046</td>
+          <td>(org.broadleafcommerce.common.web.BroadleafRequestContext.getBroadleafRequestContext()) != null</td>
+          <td>248</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>355</td> 
+          <td>org.broadleafcommerce.core.offer.service.OfferServiceImpl:6953-6976</td>
+          <td>(extensionManager) != null</td>
+          <td>18</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>356</td> 
+          <td>org.broadleafcommerce.core.web.controller.catalog.BroadleafSearchController:6992-7015</td>
+          <td>(result.getSkus()) != null</td>
+          <td>0</td>
+          <td>20</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>357</td> 
+          <td>org.broadleafcommerce.core.catalog.domain.SkuImpl:28139-28168</td>
+          <td>(optionValueAdjustments != null)</td>
+          <td>0</td>
+          <td>2385</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>358</td> 
+          <td>org.broadleafcommerce.core.order.domain.DiscreteOrderItemImpl:14232-14242</td>
+          <td>obj == null</td>
+          <td>0</td>
+          <td>3</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>359</td> 
+          <td>org.broadleafcommerce.core.order.service.FulfillmentGroupServiceImpl:5790-5802</td>
+          <td>order == null</td>
+          <td>0</td>
+          <td>8</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>360</td> 
+          <td>org.broadleafcommerce.core.order.service.workflow.add.ValidateAddRequestActivity:3890-3915</td>
+          <td>(request.getOrder()) == null</td>
+          <td>0</td>
+          <td>8</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>361</td> 
+          <td>org.broadleafcommerce.core.web.processor.ProductOptionsProcessor$ProductOptionDTO:8387-8405</td>
+          <td>(that.values) != null</td>
+          <td>93</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>362</td> 
+          <td>org.broadleafcommerce.core.pricing.service.workflow.TotalActivity:5049-5069</td>
+          <td>(fg.getTaxes()) != null</td>
+          <td>9</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>363</td> 
+          <td>org.broadleafcommerce.core.web.processor.ProductOptionsProcessor:3247-3261</td>
+          <td>product != null</td>
+          <td>441</td>
+          <td>0</td>
+        </tr>
+        <tr class="reponse pure-table-even">
+          <td>364</td> 
+          <td>org.broadleafcommerce.core.web.order.DatabaseOrderLockManager:1801-1813</td>
+          <td>(order == null)</td>
+          <td>0</td>
+          <td>9</td>
+        </tr>
+        <tr class="reponse pure-table-odd">
+          <td>365</td> 
+          <td>org.broadleafcommerce.core.web.processor.RatingsProcessor:2670-2690</td>
+          <td>ratingSummary != null</td>
+          <td>0</td>
+          <td>7</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th></th>
+          <th>365 Locations</th>
+          <th>276 Expressions</th>
+          <th>39093 True</th>
+          <th>30649 False</th>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

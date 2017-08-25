@@ -1,0 +1,6 @@
+2016-01-19 15:36:54,119 INFO  [main] o.a.q.t.u.QpidTestCase ========== start AbstractStandardVirtualHostNodeTest.testValidateOnCreateFails_StoreFails ==========
+2016-01-19 15:36:54,128 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:36:54,130 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:36:54,131 INFO  [main] o.a.q.t.u.QpidTestCase ========== run AbstractStandardVirtualHostNodeTest.testValidateOnCreateFails_StoreFails ==========
+2016-01-19 15:36:54,135 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown AbstractStandardVirtualHostNodeTest.testValidateOnCreateFails_StoreFails ==========
+2016-01-19 15:36:54,135 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

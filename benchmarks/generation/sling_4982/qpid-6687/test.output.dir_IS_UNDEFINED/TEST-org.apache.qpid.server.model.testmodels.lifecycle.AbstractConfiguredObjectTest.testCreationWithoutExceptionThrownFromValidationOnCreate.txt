@@ -1,0 +1,4 @@
+2016-01-19 15:36:53,211 INFO  [main] o.a.q.t.u.QpidTestCase ========== start AbstractConfiguredObjectTest.testCreationWithoutExceptionThrownFromValidationOnCreate ==========
+2016-01-19 15:36:53,213 INFO  [main] o.a.q.t.u.QpidTestCase ========== run AbstractConfiguredObjectTest.testCreationWithoutExceptionThrownFromValidationOnCreate ==========
+2016-01-19 15:36:53,215 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown AbstractConfiguredObjectTest.testCreationWithoutExceptionThrownFromValidationOnCreate ==========
+2016-01-19 15:36:53,215 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

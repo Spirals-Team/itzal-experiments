@@ -1,0 +1,4 @@
+2016-01-19 15:19:28,187 INFO  [main] o.a.q.t.u.QpidTestCase ========== start BrokerMessagesTest.testBrokerMemory ==========
+2016-01-19 15:19:28,191 INFO  [main] o.a.q.t.u.QpidTestCase ========== run BrokerMessagesTest.testBrokerMemory ==========
+2016-01-19 15:19:28,192 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown BrokerMessagesTest.testBrokerMemory ==========
+2016-01-19 15:19:28,194 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

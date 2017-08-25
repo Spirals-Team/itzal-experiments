@@ -1,0 +1,52 @@
+2016-01-19 15:20:30,638 INFO  [main] o.a.q.t.u.QpidTestCase ========== start AbstractVirtualHostTest.testOpenFails ==========
+2016-01-19 15:20:30,639 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Starting task executor Broker-Config
+2016-01-19 15:20:30,639 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Task executor is started
+2016-01-19 15:20:30,639 INFO  [main] o.a.q.t.u.QpidTestCase ========== run AbstractVirtualHostTest.testOpenFails ==========
+2016-01-19 15:20:30,640 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Submitting task org.apache.qpid.server.model.AbstractConfiguredObject$2@2c1156a7 to executor Broker-Config
+2016-01-19 15:20:30,640 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Performing task org.apache.qpid.server.model.AbstractConfiguredObject$2@2c1156a7
+2016-01-19 15:20:30,645 DEBUG [Broker-Config] o.a.q.s.p.QpidServiceLoader Found 2 implementations of interface org.apache.qpid.server.plugin.SystemNodeCreator
+2016-01-19 15:20:30,646 DEBUG [Broker-Config] o.a.q.s.p.QpidServiceLoader Found 1 implementations of interface org.apache.qpid.server.plugin.ConnectionValidator
+2016-01-19 15:20:30,652 ERROR [Broker-Config] o.a.q.s.m.AbstractConfiguredObject Failed to open object with name 'AbstractVirtualHostTest.testOpenFails'.  Object will be put into ERROR state.
+java.lang.RuntimeException: Cannot open store
+	at org.apache.qpid.server.virtualhost.AbstractVirtualHost.onActivate(AbstractVirtualHost.java:1858) ~[classes/:na]
+	at sun.reflect.GeneratedMethodAccessor19.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_66-internal]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_66-internal]
+	at org.apache.qpid.server.model.AbstractConfiguredObject.attainState(AbstractConfiguredObject.java:1168) [classes/:na]
+	at org.apache.qpid.server.model.AbstractConfiguredObject$8.onSuccess(AbstractConfiguredObject.java:801) [classes/:na]
+	at org.apache.qpid.server.model.AbstractConfiguredObject$8.onSuccess(AbstractConfiguredObject.java:795) [classes/:na]
+	at com.google.common.util.concurrent.Futures$6.run(Futures.java:1319) [guava-18.0.jar:na]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:457) [guava-18.0.jar:na]
+	at com.google.common.util.concurrent.ExecutionList.executeListener(ExecutionList.java:156) [guava-18.0.jar:na]
+	at com.google.common.util.concurrent.ExecutionList.add(ExecutionList.java:101) [guava-18.0.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.addListener(AbstractFuture.java:170) [guava-18.0.jar:na]
+	at com.google.common.util.concurrent.Futures.addCallback(Futures.java:1322) [guava-18.0.jar:na]
+	at com.google.common.util.concurrent.Futures.addCallback(Futures.java:1258) [guava-18.0.jar:na]
+	at org.apache.qpid.server.model.AbstractConfiguredObject.doAttainState(AbstractConfiguredObject.java:794) [classes/:na]
+	at org.apache.qpid.server.model.AbstractConfiguredObject.access$300(AbstractConfiguredObject.java:82) [classes/:na]
+	at org.apache.qpid.server.model.AbstractConfiguredObject$1.call(AbstractConfiguredObject.java:476) [classes/:na]
+	at org.apache.qpid.server.model.AbstractConfiguredObject$1.call(AbstractConfiguredObject.java:463) [classes/:na]
+	at org.apache.qpid.server.model.AbstractConfiguredObject$2.execute(AbstractConfiguredObject.java:506) [classes/:na]
+	at org.apache.qpid.server.model.AbstractConfiguredObject$2.execute(AbstractConfiguredObject.java:499) [classes/:na]
+	at org.apache.qpid.server.configuration.updater.TaskExecutorImpl.executeTask(TaskExecutorImpl.java:317) [classes/:na]
+	at org.apache.qpid.server.configuration.updater.TaskExecutorImpl.access$700(TaskExecutorImpl.java:48) [classes/:na]
+	at org.apache.qpid.server.configuration.updater.TaskExecutorImpl$CallableWrapper$1.run(TaskExecutorImpl.java:361) [classes/:na]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.8.0_66-internal]
+	at javax.security.auth.Subject.doAs(Subject.java:360) [na:1.8.0_66-internal]
+	at org.apache.qpid.server.configuration.updater.TaskExecutorImpl$CallableWrapper.call(TaskExecutorImpl.java:356) [classes/:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_66-internal]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_66-internal]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_66-internal]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_66-internal]
+2016-01-19 15:20:30,652 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Task org.apache.qpid.server.model.AbstractConfiguredObject$2@2c1156a7 is performed successfully with result: null
+2016-01-19 15:20:30,652 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Submitting task org.apache.qpid.server.model.AbstractConfiguredObject$2@4982cc36 to executor Broker-Config
+2016-01-19 15:20:30,652 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Performing task org.apache.qpid.server.model.AbstractConfiguredObject$2@4982cc36
+2016-01-19 15:20:30,652 DEBUG [Broker-Config] o.a.q.s.m.AbstractConfiguredObject Closing  : AbstractVirtualHostTest.testOpenFails
+2016-01-19 15:20:30,652 DEBUG [Broker-Config] o.a.q.s.v.AbstractVirtualHost Closing connection registry :0 connections.
+2016-01-19 15:20:30,652 DEBUG [Broker-Config] o.a.q.s.m.AbstractConfiguredObject All children closed  : AbstractVirtualHostTest.testOpenFails
+2016-01-19 15:20:30,652 DEBUG [Broker-Config] o.a.q.s.m.AbstractConfiguredObject Closed  : AbstractVirtualHostTest.testOpenFails
+2016-01-19 15:20:30,652 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Stopping task executor Broker-Config
+2016-01-19 15:20:30,652 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Task executor is stopped
+2016-01-19 15:20:30,652 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown AbstractVirtualHostTest.testOpenFails ==========
+2016-01-19 15:20:30,652 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender
+2016-01-19 15:20:30,654 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Task org.apache.qpid.server.model.AbstractConfiguredObject$2@4982cc36 is performed successfully with result: null

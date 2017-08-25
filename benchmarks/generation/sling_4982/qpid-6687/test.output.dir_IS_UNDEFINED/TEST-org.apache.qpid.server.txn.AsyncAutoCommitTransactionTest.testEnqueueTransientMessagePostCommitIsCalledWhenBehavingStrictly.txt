@@ -1,0 +1,6 @@
+2016-01-19 15:20:54,423 INFO  [main] o.a.q.t.u.QpidTestCase ========== start AsyncAutoCommitTransactionTest.testEnqueueTransientMessagePostCommitIsCalledWhenBehavingStrictly ==========
+2016-01-19 15:20:54,424 INFO  [main] o.a.q.t.u.QpidTestCase ========== run AsyncAutoCommitTransactionTest.testEnqueueTransientMessagePostCommitIsCalledWhenBehavingStrictly ==========
+2016-01-19 15:20:54,424 INFO  [main] o.a.q.t.u.QpidTestCase Set system property "qpid.strict_order_with_mixed_delivery_mode" to: "true"
+2016-01-19 15:20:54,425 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown AsyncAutoCommitTransactionTest.testEnqueueTransientMessagePostCommitIsCalledWhenBehavingStrictly ==========
+2016-01-19 15:20:54,425 DEBUG [main] o.a.q.t.u.QpidTestCase reverting 1 test properties
+2016-01-19 15:20:54,425 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

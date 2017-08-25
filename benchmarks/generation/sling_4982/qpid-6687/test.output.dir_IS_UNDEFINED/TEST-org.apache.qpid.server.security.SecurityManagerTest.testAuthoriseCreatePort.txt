@@ -1,0 +1,4 @@
+2016-01-19 15:19:28,392 INFO  [main] o.a.q.t.u.QpidTestCase ========== start SecurityManagerTest.testAuthoriseCreatePort ==========
+2016-01-19 15:19:28,394 INFO  [main] o.a.q.t.u.QpidTestCase ========== run SecurityManagerTest.testAuthoriseCreatePort ==========
+2016-01-19 15:19:28,395 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown SecurityManagerTest.testAuthoriseCreatePort ==========
+2016-01-19 15:19:28,395 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

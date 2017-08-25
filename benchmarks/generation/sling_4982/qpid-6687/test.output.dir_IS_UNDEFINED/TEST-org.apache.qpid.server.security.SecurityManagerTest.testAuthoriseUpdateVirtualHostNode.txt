@@ -1,0 +1,4 @@
+2016-01-19 15:19:28,622 INFO  [main] o.a.q.t.u.QpidTestCase ========== start SecurityManagerTest.testAuthoriseUpdateVirtualHostNode ==========
+2016-01-19 15:19:28,624 INFO  [main] o.a.q.t.u.QpidTestCase ========== run SecurityManagerTest.testAuthoriseUpdateVirtualHostNode ==========
+2016-01-19 15:19:28,625 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown SecurityManagerTest.testAuthoriseUpdateVirtualHostNode ==========
+2016-01-19 15:19:28,626 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

@@ -1,0 +1,4 @@
+2016-01-19 15:20:56,686 INFO  [main] o.a.q.t.u.QpidTestCase ========== start MessageStoreMessagesTest.testMessageStoreStoreLocation ==========
+2016-01-19 15:20:56,687 INFO  [main] o.a.q.t.u.QpidTestCase ========== run MessageStoreMessagesTest.testMessageStoreStoreLocation ==========
+2016-01-19 15:20:56,687 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown MessageStoreMessagesTest.testMessageStoreStoreLocation ==========
+2016-01-19 15:20:56,687 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

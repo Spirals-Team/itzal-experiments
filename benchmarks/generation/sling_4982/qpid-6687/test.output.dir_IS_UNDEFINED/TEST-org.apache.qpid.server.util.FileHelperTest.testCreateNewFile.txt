@@ -1,0 +1,4 @@
+2016-01-19 15:20:53,955 INFO  [main] o.a.q.t.u.QpidTestCase ========== start FileHelperTest.testCreateNewFile ==========
+2016-01-19 15:20:53,956 INFO  [main] o.a.q.t.u.QpidTestCase ========== run FileHelperTest.testCreateNewFile ==========
+2016-01-19 15:20:53,957 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown FileHelperTest.testCreateNewFile ==========
+2016-01-19 15:20:53,957 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

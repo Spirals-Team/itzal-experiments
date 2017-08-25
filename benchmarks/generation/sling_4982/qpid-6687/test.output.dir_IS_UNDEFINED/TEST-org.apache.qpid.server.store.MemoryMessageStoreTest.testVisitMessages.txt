@@ -1,0 +1,4 @@
+2016-01-19 15:20:56,316 INFO  [main] o.a.q.t.u.QpidTestCase ========== start MemoryMessageStoreTest.testVisitMessages ==========
+2016-01-19 15:20:56,317 INFO  [main] o.a.q.t.u.QpidTestCase ========== run MemoryMessageStoreTest.testVisitMessages ==========
+2016-01-19 15:20:56,321 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown MemoryMessageStoreTest.testVisitMessages ==========
+2016-01-19 15:20:56,321 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

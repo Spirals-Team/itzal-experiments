@@ -1,0 +1,27 @@
+2016-01-19 15:36:53,302 INFO  [main] o.a.q.t.u.QpidTestCase ========== start TaskExecutorTest.testStopImmediately ==========
+2016-01-19 15:36:53,304 INFO  [main] o.a.q.t.u.QpidTestCase ========== run TaskExecutorTest.testStopImmediately ==========
+2016-01-19 15:36:53,304 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Starting task executor Broker-Config
+2016-01-19 15:36:53,304 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Task executor is started
+2016-01-19 15:36:53,306 DEBUG [Thread-2] o.a.q.s.c.u.TaskExecutorImpl Submitting task org.apache.qpid.server.configuration.updater.TaskExecutorTest$NeverEndingCallable@976d61e to executor Broker-Config
+2016-01-19 15:36:53,306 DEBUG [Thread-3] o.a.q.s.c.u.TaskExecutorImpl Submitting task org.apache.qpid.server.configuration.updater.TaskExecutorTest$NeverEndingCallable@5ecb151c to executor Broker-Config
+2016-01-19 15:36:53,313 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Performing task org.apache.qpid.server.configuration.updater.TaskExecutorTest$NeverEndingCallable@976d61e
+2016-01-19 15:36:53,313 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Stopping task executor Broker-Config immediately
+2016-01-19 15:36:53,313 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Task executor was stopped immediately. Number of unfinished tasks: 1
+2016-01-19 15:36:53,314 ERROR [Broker-Config] o.a.q.s.u.ServerScopedRuntimeException Exception occurred
+java.lang.InterruptedException: null
+	at java.lang.Object.wait(Native Method) ~[na:1.8.0_66-internal]
+	at java.lang.Object.wait(Object.java:502) ~[na:1.8.0_66-internal]
+	at org.apache.qpid.server.configuration.updater.TaskExecutorTest$NeverEndingCallable.execute(TaskExecutorTest.java:272) [test-classes/:na]
+	at org.apache.qpid.server.configuration.updater.TaskExecutorTest$NeverEndingCallable.execute(TaskExecutorTest.java:249) [test-classes/:na]
+	at org.apache.qpid.server.configuration.updater.TaskExecutorImpl.executeTask(TaskExecutorImpl.java:317) [classes/:na]
+	at org.apache.qpid.server.configuration.updater.TaskExecutorImpl.access$700(TaskExecutorImpl.java:48) [classes/:na]
+	at org.apache.qpid.server.configuration.updater.TaskExecutorImpl$CallableWrapper$1.run(TaskExecutorImpl.java:361) [classes/:na]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.8.0_66-internal]
+	at javax.security.auth.Subject.doAs(Subject.java:360) [na:1.8.0_66-internal]
+	at org.apache.qpid.server.configuration.updater.TaskExecutorImpl$CallableWrapper.call(TaskExecutorImpl.java:356) [classes/:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_66-internal]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_66-internal]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_66-internal]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_66-internal]
+2016-01-19 15:36:53,315 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown TaskExecutorTest.testStopImmediately ==========
+2016-01-19 15:36:53,315 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

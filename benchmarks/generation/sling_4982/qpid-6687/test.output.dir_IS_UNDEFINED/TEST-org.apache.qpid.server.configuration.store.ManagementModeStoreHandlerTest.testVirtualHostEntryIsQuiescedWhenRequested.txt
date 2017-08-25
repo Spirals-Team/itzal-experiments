@@ -1,0 +1,15 @@
+2016-01-19 15:20:56,538 INFO  [main] o.a.q.t.u.QpidTestCase ========== start ManagementModeStoreHandlerTest.testVirtualHostEntryIsQuiescedWhenRequested ==========
+2016-01-19 15:20:56,539 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Management mode quiescing entry Mock for ConfiguredObjectRecord, hashCode: 2117642238
+2016-01-19 15:20:56,540 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Management mode quiescing entry Mock for ConfiguredObjectRecord, hashCode: 2117642238
+2016-01-19 15:20:56,540 INFO  [main] o.a.q.t.u.QpidTestCase ========== run ManagementModeStoreHandlerTest.testVirtualHostEntryIsQuiescedWhenRequested ==========
+2016-01-19 15:20:56,540 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing JsonSystemConfigImpl : System
+2016-01-19 15:20:56,540 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed JsonSystemConfigImpl : System
+2016-01-19 15:20:56,540 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Management mode quiescing entry Mock for ConfiguredObjectRecord, hashCode: 2117642238
+2016-01-19 15:20:56,541 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Management mode quiescing entry ConfiguredObjectRecord [id=e5ae05cc-a45b-4442-8302-603bf37c59ef, type=VirtualHost, attributes={type=STANDARD}, parents={Broker=d7258b4e-2e3b-40af-92e8-74aa9be9b2db}]
+2016-01-19 15:20:56,541 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Management mode quiescing entry Mock for ConfiguredObjectRecord, hashCode: 2117642238
+2016-01-19 15:20:56,541 DEBUG [main] o.a.q.s.c.s.ManagementModeStoreHandler Management mode quiescing entry ConfiguredObjectRecord [id=e5ae05cc-a45b-4442-8302-603bf37c59ef, type=VirtualHost, attributes={type=STANDARD}, parents={Broker=d7258b4e-2e3b-40af-92e8-74aa9be9b2db}]
+2016-01-19 15:20:56,541 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing  : System
+2016-01-19 15:20:56,541 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed  : System
+2016-01-19 15:20:56,541 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed  : System
+2016-01-19 15:20:56,541 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown ManagementModeStoreHandlerTest.testVirtualHostEntryIsQuiescedWhenRequested ==========
+2016-01-19 15:20:56,541 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

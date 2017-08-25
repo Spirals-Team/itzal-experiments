@@ -1,0 +1,56 @@
+2016-01-19 15:20:30,743 INFO  [main] o.a.q.t.u.QpidTestCase ========== start AbstractVirtualHostTest.testOpenSucceeds ==========
+2016-01-19 15:20:30,744 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Starting task executor Broker-Config
+2016-01-19 15:20:30,744 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Task executor is started
+2016-01-19 15:20:30,744 INFO  [main] o.a.q.t.u.QpidTestCase ========== run AbstractVirtualHostTest.testOpenSucceeds ==========
+2016-01-19 15:20:30,747 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Submitting task org.apache.qpid.server.model.AbstractConfiguredObject$2@5dd1c9f2 to executor Broker-Config
+2016-01-19 15:20:30,755 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Performing task org.apache.qpid.server.model.AbstractConfiguredObject$2@5dd1c9f2
+2016-01-19 15:20:30,759 DEBUG [Broker-Config] o.a.q.s.p.QpidServiceLoader Found 2 implementations of interface org.apache.qpid.server.plugin.SystemNodeCreator
+2016-01-19 15:20:30,760 DEBUG [Broker-Config] o.a.q.s.p.QpidServiceLoader Found 1 implementations of interface org.apache.qpid.server.plugin.ConnectionValidator
+2016-01-19 15:20:30,762 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Running task org.apache.qpid.server.model.AbstractConfiguredObject$2@67b4cba2 immediately
+2016-01-19 15:20:30,763 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Performing task org.apache.qpid.server.model.AbstractConfiguredObject$2@67b4cba2
+2016-01-19 15:20:30,767 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Task org.apache.qpid.server.model.AbstractConfiguredObject$2@67b4cba2 is performed successfully with result: null
+2016-01-19 15:20:30,768 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Running task org.apache.qpid.server.model.AbstractConfiguredObject$2@2bbf7204 immediately
+2016-01-19 15:20:30,768 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Performing task org.apache.qpid.server.model.AbstractConfiguredObject$2@2bbf7204
+2016-01-19 15:20:30,769 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Task org.apache.qpid.server.model.AbstractConfiguredObject$2@2bbf7204 is performed successfully with result: null
+2016-01-19 15:20:30,770 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Running task org.apache.qpid.server.model.AbstractConfiguredObject$2@1f8e0f9e immediately
+2016-01-19 15:20:30,770 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Performing task org.apache.qpid.server.model.AbstractConfiguredObject$2@1f8e0f9e
+2016-01-19 15:20:30,771 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Task org.apache.qpid.server.model.AbstractConfiguredObject$2@1f8e0f9e is performed successfully with result: null
+2016-01-19 15:20:30,771 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Running task org.apache.qpid.server.model.AbstractConfiguredObject$2@7a4017d6 immediately
+2016-01-19 15:20:30,771 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Performing task org.apache.qpid.server.model.AbstractConfiguredObject$2@7a4017d6
+2016-01-19 15:20:30,773 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Task org.apache.qpid.server.model.AbstractConfiguredObject$2@7a4017d6 is performed successfully with result: null
+2016-01-19 15:20:30,773 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Submitting task org.apache.qpid.server.model.AbstractConfiguredObject$2@2e2ff723 to executor Broker-Config
+2016-01-19 15:20:30,773 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Task org.apache.qpid.server.model.AbstractConfiguredObject$2@5dd1c9f2 is performed successfully with result: null
+2016-01-19 15:20:30,773 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Performing task org.apache.qpid.server.model.AbstractConfiguredObject$2@2e2ff723
+2016-01-19 15:20:30,773 DEBUG [Broker-Config] o.a.q.s.m.AbstractConfiguredObject Closing  : AbstractVirtualHostTest.testOpenSucceeds
+2016-01-19 15:20:30,774 DEBUG [Broker-Config] o.a.q.s.v.AbstractVirtualHost Closing connection registry :0 connections.
+2016-01-19 15:20:30,774 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Running task org.apache.qpid.server.model.AbstractConfiguredObject$2@6b9740dc immediately
+2016-01-19 15:20:30,774 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Performing task org.apache.qpid.server.model.AbstractConfiguredObject$2@6b9740dc
+2016-01-19 15:20:30,774 DEBUG [Broker-Config] o.a.q.s.m.AbstractConfiguredObject Closing DirectExchange : amq.direct
+2016-01-19 15:20:30,775 DEBUG [Broker-Config] o.a.q.s.m.AbstractConfiguredObject All children closed DirectExchange : amq.direct
+2016-01-19 15:20:30,775 DEBUG [Broker-Config] o.a.q.s.m.AbstractConfiguredObject Closed DirectExchange : amq.direct
+2016-01-19 15:20:30,775 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Task org.apache.qpid.server.model.AbstractConfiguredObject$2@6b9740dc is performed successfully with result: null
+2016-01-19 15:20:30,775 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Running task org.apache.qpid.server.model.AbstractConfiguredObject$2@48a40cf immediately
+2016-01-19 15:20:30,775 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Performing task org.apache.qpid.server.model.AbstractConfiguredObject$2@48a40cf
+2016-01-19 15:20:30,775 DEBUG [Broker-Config] o.a.q.s.m.AbstractConfiguredObject Closing TopicExchange : amq.topic
+2016-01-19 15:20:30,775 DEBUG [Broker-Config] o.a.q.s.m.AbstractConfiguredObject All children closed TopicExchange : amq.topic
+2016-01-19 15:20:30,775 DEBUG [Broker-Config] o.a.q.s.m.AbstractConfiguredObject Closed TopicExchange : amq.topic
+2016-01-19 15:20:30,775 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Task org.apache.qpid.server.model.AbstractConfiguredObject$2@48a40cf is performed successfully with result: null
+2016-01-19 15:20:30,775 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Running task org.apache.qpid.server.model.AbstractConfiguredObject$2@7e0e092f immediately
+2016-01-19 15:20:30,775 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Performing task org.apache.qpid.server.model.AbstractConfiguredObject$2@7e0e092f
+2016-01-19 15:20:30,775 DEBUG [Broker-Config] o.a.q.s.m.AbstractConfiguredObject Closing HeadersExchange : amq.match
+2016-01-19 15:20:30,775 DEBUG [Broker-Config] o.a.q.s.m.AbstractConfiguredObject All children closed HeadersExchange : amq.match
+2016-01-19 15:20:30,775 DEBUG [Broker-Config] o.a.q.s.m.AbstractConfiguredObject Closed HeadersExchange : amq.match
+2016-01-19 15:20:30,775 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Task org.apache.qpid.server.model.AbstractConfiguredObject$2@7e0e092f is performed successfully with result: null
+2016-01-19 15:20:30,775 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Running task org.apache.qpid.server.model.AbstractConfiguredObject$2@4cb3b1b immediately
+2016-01-19 15:20:30,775 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Performing task org.apache.qpid.server.model.AbstractConfiguredObject$2@4cb3b1b
+2016-01-19 15:20:30,775 DEBUG [Broker-Config] o.a.q.s.m.AbstractConfiguredObject Closing FanoutExchange : amq.fanout
+2016-01-19 15:20:30,775 DEBUG [Broker-Config] o.a.q.s.m.AbstractConfiguredObject All children closed FanoutExchange : amq.fanout
+2016-01-19 15:20:30,775 DEBUG [Broker-Config] o.a.q.s.m.AbstractConfiguredObject Closed FanoutExchange : amq.fanout
+2016-01-19 15:20:30,775 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Task org.apache.qpid.server.model.AbstractConfiguredObject$2@4cb3b1b is performed successfully with result: null
+2016-01-19 15:20:30,775 DEBUG [Broker-Config] o.a.q.s.m.AbstractConfiguredObject All children closed  : AbstractVirtualHostTest.testOpenSucceeds
+2016-01-19 15:20:30,775 DEBUG [Broker-Config] o.a.q.s.m.AbstractConfiguredObject Closed  : AbstractVirtualHostTest.testOpenSucceeds
+2016-01-19 15:20:30,775 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Stopping task executor Broker-Config
+2016-01-19 15:20:30,775 DEBUG [main] o.a.q.s.c.u.TaskExecutorImpl Task executor is stopped
+2016-01-19 15:20:30,775 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown AbstractVirtualHostTest.testOpenSucceeds ==========
+2016-01-19 15:20:30,775 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender
+2016-01-19 15:20:30,780 DEBUG [Broker-Config] o.a.q.s.c.u.TaskExecutorImpl Task org.apache.qpid.server.model.AbstractConfiguredObject$2@2e2ff723 is performed successfully with result: null

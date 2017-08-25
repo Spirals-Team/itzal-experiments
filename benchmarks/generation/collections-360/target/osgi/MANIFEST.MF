@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.commons.collections.iterators;version="4.0.
+ 0.SNAPSHOT",org.apache.commons.collections.keyvalue;version="4.0.0.SN
+ APSHOT",org.apache.commons.collections.splitmap;version="4.0.0.SNAPSH
+ OT",org.apache.commons.collections.comparators;version="4.0.0.SNAPSHO
+ T",org.apache.commons.collections.map;version="4.0.0.SNAPSHOT",org.ap
+ ache.commons.collections.bag;version="4.0.0.SNAPSHOT",org.apache.comm
+ ons.collections;version="4.0.0.SNAPSHOT",org.apache.commons.collectio
+ ns.buffer;version="4.0.0.SNAPSHOT",org.apache.commons.collections.bid
+ imap;version="4.0.0.SNAPSHOT",org.apache.commons.collections.list;ver
+ sion="4.0.0.SNAPSHOT",org.apache.commons.collections.functors;version
+ ="4.0.0.SNAPSHOT",org.apache.commons.collections.collection;version="
+ 4.0.0.SNAPSHOT",org.apache.commons.collections.set;version="4.0.0.SNA
+ PSHOT"
+Tool: Bnd-0.0.255
+Bundle-Name: Commons Collections
+Created-By: 1.7.0_95 (Oracle Corporation)
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 4.0.0.SNAPSHOT
+Bnd-LastModified: 1502903248231
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-Description: Types that extend and augment the Java Collections
+  Framework.
+Bundle-SymbolicName: org.apache.commons.collections
+Bundle-DocURL: http://commons.apache.org/collections/
+

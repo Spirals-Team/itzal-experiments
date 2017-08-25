@@ -1,0 +1,6 @@
+2016-01-19 15:20:51,291 INFO  [main] o.a.q.t.u.QpidTestCase ========== start StartupAppenderTest.testLogToConsoleWithOverriddenLogLevel ==========
+2016-01-19 15:20:51,292 INFO  [main] o.a.q.t.u.QpidTestCase ========== run StartupAppenderTest.testLogToConsoleWithOverriddenLogLevel ==========
+2016-01-19 15:20:51,292 INFO  [main] o.a.q.t.u.QpidTestCase Set system property "qpid.startup_failover_console_log_level" to: "DEBUG"
+2016-01-19 15:20:51,294 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown StartupAppenderTest.testLogToConsoleWithOverriddenLogLevel ==========
+2016-01-19 15:20:51,294 DEBUG [main] o.a.q.t.u.QpidTestCase reverting 1 test properties
+2016-01-19 15:20:51,294 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

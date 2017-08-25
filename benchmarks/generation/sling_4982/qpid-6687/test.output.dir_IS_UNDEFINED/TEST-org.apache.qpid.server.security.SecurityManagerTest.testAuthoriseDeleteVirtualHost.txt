@@ -1,0 +1,4 @@
+2016-01-19 15:19:28,243 INFO  [main] o.a.q.t.u.QpidTestCase ========== start SecurityManagerTest.testAuthoriseDeleteVirtualHost ==========
+2016-01-19 15:19:28,245 INFO  [main] o.a.q.t.u.QpidTestCase ========== run SecurityManagerTest.testAuthoriseDeleteVirtualHost ==========
+2016-01-19 15:19:28,246 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown SecurityManagerTest.testAuthoriseDeleteVirtualHost ==========
+2016-01-19 15:19:28,247 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

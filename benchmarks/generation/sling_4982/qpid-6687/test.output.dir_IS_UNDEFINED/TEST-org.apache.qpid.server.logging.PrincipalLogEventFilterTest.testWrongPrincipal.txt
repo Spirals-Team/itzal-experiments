@@ -1,0 +1,4 @@
+2016-01-19 15:20:53,780 INFO  [main] o.a.q.t.u.QpidTestCase ========== start PrincipalLogEventFilterTest.testWrongPrincipal ==========
+2016-01-19 15:20:53,781 INFO  [main] o.a.q.t.u.QpidTestCase ========== run PrincipalLogEventFilterTest.testWrongPrincipal ==========
+2016-01-19 15:20:53,782 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown PrincipalLogEventFilterTest.testWrongPrincipal ==========
+2016-01-19 15:20:53,782 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

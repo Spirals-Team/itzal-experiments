@@ -1,0 +1,4 @@
+2016-01-19 15:12:58,486 INFO  [main] o.a.q.t.u.QpidTestCase ========== start FileGroupDatabaseTest.testCreateGroupPersistedToFile ==========
+2016-01-19 15:12:58,487 INFO  [main] o.a.q.t.u.QpidTestCase ========== run FileGroupDatabaseTest.testCreateGroupPersistedToFile ==========
+2016-01-19 15:12:58,489 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown FileGroupDatabaseTest.testCreateGroupPersistedToFile ==========
+2016-01-19 15:12:58,489 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

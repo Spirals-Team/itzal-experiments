@@ -1,0 +1,41 @@
+2016-01-19 15:20:54,788 INFO  [main] o.a.q.t.u.QpidTestCase ========== start VirtualHostQueueCreationTest.testDeadLetterQueueEnabled ==========
+2016-01-19 15:20:54,801 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 63 implementations of interface org.apache.qpid.server.plugin.ConfiguredObjectTypeFactory
+2016-01-19 15:20:54,809 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 2 implementations of interface org.apache.qpid.server.plugin.SystemNodeCreator
+2016-01-19 15:20:54,809 DEBUG [main] o.a.q.s.p.QpidServiceLoader Found 1 implementations of interface org.apache.qpid.server.plugin.ConnectionValidator
+2016-01-19 15:20:54,835 INFO  [main] o.a.q.t.u.QpidTestCase ========== run VirtualHostQueueCreationTest.testDeadLetterQueueEnabled ==========
+2016-01-19 15:20:54,849 DEBUG [main] o.a.q.s.q.AbstractQueue Queue 'testDeadLetterQueueEnabled_DLQ' target size : 1048576
+2016-01-19 15:20:54,852 DEBUG [main] o.a.q.s.e.FanoutExchange Binding queue testDeadLetterQueueEnabled_DLQ with routing key dlq to exchange FanoutExchange[testDeadLetterQueueEnabled_DLE]
+2016-01-19 15:20:54,863 DEBUG [main] o.a.q.s.q.AbstractQueue Queue 'testDeadLetterQueueEnabled_DLQ' target size : 524288
+2016-01-19 15:20:54,863 DEBUG [main] o.a.q.s.q.AbstractQueue Queue 'testDeadLetterQueueEnabled' target size : 524288
+2016-01-19 15:20:54,863 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing TestMemoryVirtualHost : testDeadLetterQueueEnabled
+2016-01-19 15:20:54,863 DEBUG [main] o.a.q.s.v.AbstractVirtualHost Closing connection registry :0 connections.
+2016-01-19 15:20:54,863 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing DirectExchange : amq.direct
+2016-01-19 15:20:54,863 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed DirectExchange : amq.direct
+2016-01-19 15:20:54,864 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed DirectExchange : amq.direct
+2016-01-19 15:20:54,864 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing TopicExchange : amq.topic
+2016-01-19 15:20:54,864 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed TopicExchange : amq.topic
+2016-01-19 15:20:54,864 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed TopicExchange : amq.topic
+2016-01-19 15:20:54,864 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing HeadersExchange : amq.match
+2016-01-19 15:20:54,864 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed HeadersExchange : amq.match
+2016-01-19 15:20:54,864 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed HeadersExchange : amq.match
+2016-01-19 15:20:54,864 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing FanoutExchange : amq.fanout
+2016-01-19 15:20:54,864 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed FanoutExchange : amq.fanout
+2016-01-19 15:20:54,864 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed FanoutExchange : amq.fanout
+2016-01-19 15:20:54,864 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing FanoutExchange : testDeadLetterQueueEnabled_DLE
+2016-01-19 15:20:54,864 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing BindingImpl : dlq
+2016-01-19 15:20:54,864 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed BindingImpl : dlq
+2016-01-19 15:20:54,864 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed BindingImpl : dlq
+2016-01-19 15:20:54,864 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed FanoutExchange : testDeadLetterQueueEnabled_DLE
+2016-01-19 15:20:54,864 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed FanoutExchange : testDeadLetterQueueEnabled_DLE
+2016-01-19 15:20:54,864 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing StandardQueueImpl : testDeadLetterQueueEnabled_DLQ
+2016-01-19 15:20:54,864 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing BindingImpl : dlq
+2016-01-19 15:20:54,864 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed BindingImpl : dlq
+2016-01-19 15:20:54,864 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed StandardQueueImpl : testDeadLetterQueueEnabled_DLQ
+2016-01-19 15:20:54,864 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed StandardQueueImpl : testDeadLetterQueueEnabled_DLQ
+2016-01-19 15:20:54,864 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closing StandardQueueImpl : testDeadLetterQueueEnabled
+2016-01-19 15:20:54,864 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed StandardQueueImpl : testDeadLetterQueueEnabled
+2016-01-19 15:20:54,864 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed StandardQueueImpl : testDeadLetterQueueEnabled
+2016-01-19 15:20:54,864 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject All children closed TestMemoryVirtualHost : testDeadLetterQueueEnabled
+2016-01-19 15:20:54,865 DEBUG [main] o.a.q.s.m.AbstractConfiguredObject Closed TestMemoryVirtualHost : testDeadLetterQueueEnabled
+2016-01-19 15:20:54,865 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown VirtualHostQueueCreationTest.testDeadLetterQueueEnabled ==========
+2016-01-19 15:20:54,865 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

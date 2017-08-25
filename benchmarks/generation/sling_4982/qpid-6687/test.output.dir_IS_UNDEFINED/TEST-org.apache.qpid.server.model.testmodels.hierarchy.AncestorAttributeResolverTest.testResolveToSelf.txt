@@ -1,0 +1,4 @@
+2016-01-19 15:20:54,352 INFO  [main] o.a.q.t.u.QpidTestCase ========== start AncestorAttributeResolverTest.testResolveToSelf ==========
+2016-01-19 15:20:54,352 INFO  [main] o.a.q.t.u.QpidTestCase ========== run AncestorAttributeResolverTest.testResolveToSelf ==========
+2016-01-19 15:20:54,353 INFO  [main] o.a.q.t.u.QpidTestCase ========== tearDown AncestorAttributeResolverTest.testResolveToSelf ==========
+2016-01-19 15:20:54,353 INFO  [main] o.a.q.t.u.QpidTestCase Shutting down sub-appender

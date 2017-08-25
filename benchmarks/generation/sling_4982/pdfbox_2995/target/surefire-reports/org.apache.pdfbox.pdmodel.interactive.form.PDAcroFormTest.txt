@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.pdfbox.pdmodel.interactive.form.PDAcroFormTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.08 sec <<< FAILURE! - in org.apache.pdfbox.pdmodel.interactive.form.PDAcroFormTest
+testAcroFormProperties(org.apache.pdfbox.pdmodel.interactive.form.PDAcroFormTest)  Time elapsed: 0.008 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm.getDefaultAppearance(PDAcroForm.java:356)
+	at org.apache.pdfbox.pdmodel.interactive.form.PDAcroFormTest.testAcroFormProperties(PDAcroFormTest.java:48)
+

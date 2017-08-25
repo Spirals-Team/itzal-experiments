@@ -1,0 +1,11 @@
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+ <copy todir="/mnt/secondary/projects/lang/lang_20/target/apidocs/META-INF">
+  <fileset dir="/mnt/secondary/projects/lang/lang_20">
+   <include name="LICENSE.txt"/>
+   <include name="NOTICE.txt"/>
+  </fileset>
+ </copy>
+</target>
+
+</project>
